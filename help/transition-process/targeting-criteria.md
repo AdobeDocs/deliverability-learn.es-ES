@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '208'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ Al enviar nuevo tráfico, diríjase únicamente a los usuarios con mayor partici
 
 ![Fórmula para la participación](../assets/formula-for-enagement.png)
 
-Normalmente, una tasa de participación se basa en un período de tiempo específico. Esta métrica puede variar drásticamente dependiendo de si la fórmula se aplica en un nivel general o para tipos de correo o campañas específicos. Los criterios de objetivo específicos deben proporcionarse trabajando con su consultor de capacidad de envío de Adobe, ya que cada remitente e ISP varía y generalmente requiere un plan personalizado.
+Normalmente, una tasa de participación se basa en un período de tiempo específico. Esta métrica puede variar drásticamente dependiendo de si la fórmula se aplica en un nivel general o para tipos de correo o campañas específicos. Los criterios de objetivo específicos deben proporcionarse trabajando con el consultor de capacidad de envío de Adobe, ya que cada remitente e ISP varía y generalmente requiere un plan personalizado.
 
 ## Recursos específicos de productos
 
@@ -33,9 +33,5 @@ Normalmente, una tasa de participación se basa en un período de tiempo especí
 
 **Campaign Standard**
 
-* [Correos electrónicos con tecnología IA: Puntuación de participación predictiva](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=en#predictive-scoring)
-
-**Campaign Classic**
-
-* [Mejora de la reputación](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/improve-reputation.html)
+* [Correos electrónicos con tecnología IA: Puntuación de participación predictiva](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
 
