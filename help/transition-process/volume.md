@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
@@ -47,9 +47,9 @@ En muchas circunstancias, el correo transaccional no sigue el enfoque tradiciona
 
 **Campaign**
 
-* Obtenga más información sobre la administración de la capacidad de envío al iniciar una nueva plataforma con Adobe Campaign en [esta sección](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Obtenga más información sobre la administración de la capacidad de envío al iniciar una nueva plataforma con Adobe Campaign en [esta sección](/help/additional-resources/ac-starting-new-platform.md).
 * Aprenda a enviar usando múltiples olas con Adobe Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
-* Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/additional-resources/ac-domain-name-setup.md).
 * [Panel de control de Campaign: Delegación de subdominios completa (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) :  *Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Classic.*
 * [Panel de control de Campaign: Delegación de subdominios completa (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) :  *Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Standard.*
 
