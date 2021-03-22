@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 7e9cc30c6d3fb69f557b17f452b43de08ae85a03
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 15%
 
 ---
@@ -39,7 +39,8 @@ Esta Guía de prácticas recomendadas sobre la capacidad de entrega abarca los s
 7. [Permanencia del remitente](/help/sender-permanence.md)
 8. [Detalles del proveedor de servicios de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Seguimiento continuo](/help/ongoing-monitoring.md)
-   [Ponerlo en práctica](/help/putting-it-in-practice.md)
+10. [Ponerlo en práctica](/help/putting-it-in-practice/how-to-reach-success.md)
+11. [Recursos adicionales](/help/additional-resources/general-resources.md)
 
 ## Fuentes
 
