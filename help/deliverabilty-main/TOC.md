@@ -3,10 +3,10 @@ user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a la entrega para permitirle garantizar el éxito de su programa de marketing.
 translation-type: tm+mt
-source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 29%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
 
@@ -40,19 +40,20 @@ ht-degree: 29%
    + [Microsoft (Hotmail, Outlook, Windows Live, etc.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Grupo de medios de Verizon (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Seguimiento continuo](/help/ongoing-monitoring.md)
-+ Ponerlo en práctica {#putting-it-in-practice}
-   + [Información general](/help/putting-it-in-practice/putting-it-in-practice.md)
-   + Campaign {#campaign}
-      + [Configuración del nombre de dominio](/help/putting-it-in-practice/ac-domain-name-setup.md)
-      + [Proceso de solicitud de certificado SSL](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
-      + [Inicio de una nueva plataforma](/help/putting-it-in-practice/ac-starting-new-platform.md)
-      + [Campaign Classic - Recomendaciones técnicas](/help/putting-it-in-practice/acc-technical-recommendations.md)
-+ Recursos adicionales {#additional-resources}
++ [Ponerlo en práctica](/help/putting-it-in-practice.md)
++ Apéndice: Recursos adicionales {#additional-resources}
    + [Información general](/help/additional-resources/general-resources.md)
-   + [Todo acerca de las trampas de correo no deseado](/help/additional-resources/all-about-spam-traps.md)
-   + [Aumente su reputación de correo electrónico con el calentamiento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
-   + [Autenticación](/help/additional-resources/authentication.md)
-   + [Duplicados](/help/additional-resources/duplicates.md)
-   + [Prácticas recomendadas para renovación de participación](/help/additional-resources/re-engagement.md)
-   + [Listas de agujeros negros en tiempo real](/help/additional-resources/blocklist-databases.md)
-   + [Resolución de problemas](/help/additional-resources/troubleshooting.md)
+   + Recursos genéricos {#generic-resources}
+      + [Todo acerca de las trampas de correo no deseado](/help/additional-resources/all-about-spam-traps.md)
+      + [Aumente su reputación de correo electrónico con el calentamiento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
+      + [Autenticación](/help/additional-resources/authentication.md)
+      + [Duplicados](/help/additional-resources/duplicates.md)
+      + [Prácticas recomendadas para renovación de participación](/help/additional-resources/re-engagement.md)
+      + [Listas de agujeros negros en tiempo real](/help/additional-resources/blocklist-databases.md)
+      + [Resolución de problemas](/help/additional-resources/troubleshooting.md)
+   + Recursos específicos del producto {#product-specific-resources}
+      + Campaign {#campaign}
+         + [Configuración del nombre de dominio](/help/additional-resources/ac-domain-name-setup.md)
+         + [Proceso de solicitud de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
+         + [Inicio de una nueva plataforma](/help/additional-resources/ac-starting-new-platform.md)
+         + [Campaign Classic - Recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
