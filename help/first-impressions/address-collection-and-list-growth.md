@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ La forma más común de **registro en el sitio web** es la &quot;inclusión úni
 
 * Las direcciones de correo electrónico no confirmadas pueden tener errores tipográficos o tener un formato incorrecto, ser incorrectas o utilizarse de forma maliciosa. Los errores tipográficos y las direcciones mal formadas provocan altas tasas de devoluciones, lo que puede provocar y no bloques emitidos por ISP o pérdida de reputación de IP.
 
-* El envío malicioso de trampas de correo no deseado conocidas (a veces llamadas &quot;envenenamiento de listas&quot;) puede causar enormes problemas con la entrega y la reputación si el propietario de esa trampa toma medidas. Es imposible saber si el destinatario realmente desea que se añada a una lista de marketing sin una confirmación. Esto hace igualmente imposible establecer las expectativas del destinatario y puede provocar un aumento de las quejas por correo no deseado y, a veces, en las listas negras si el correo recopilado resulta ser una trampa de correo no deseado.
+* El envío malicioso de trampas de correo no deseado conocidas (a veces llamadas &quot;envenenamiento de listas&quot;) puede causar enormes problemas con la entrega y la reputación si el propietario de esa trampa toma medidas. Es imposible saber si el destinatario realmente desea que se añada a una lista de marketing sin una confirmación. Esto hace igualmente imposible establecer las expectativas del destinatario y puede provocar un aumento de las quejas por correo no deseado, y a veces una inclusión en la lista de bloqueados si el correo electrónico recopilado resulta ser una trampa de correo no deseado.
 
 Para obtener instrucciones sobre cómo minimizar los problemas presentados tanto en el almacén físico como en la opción de inclusión única, vaya a la sección [Calidad de los datos e higiene](#data-quality-and-hygiene) en esta guía para conocer los detalles y beneficios de la doble inclusión.
 
@@ -88,5 +88,17 @@ appendSon clientes que han elegido interactuar con su marca, lo que es bueno. Pe
 **Programa comercial u otra**
 colección de eventosLa recopilación de direcciones en una cabina o a través de otro método oficial de marca clara puede ser útil. El riesgo es que muchos eventos como este recopilen todas las direcciones y los distribuyan a través del promotor o host de eventos. Lo que significa que los propietarios de estas direcciones de correo electrónico nunca han solicitado recibir correos electrónicos de su marca. Es probable que estos suscriptores se quejen y marquen su correo como correo no deseado, y es posible que no hayan proporcionado información de contacto precisa.
 
-****
-ApuestasApuestasLas apuestas proporcionan un gran número de direcciones de correo electrónico rápidamente. Pero estos suscriptores quieren el premio, no sus correos electrónicos. Puede que ni siquiera hayan prestado atención al nombre de quién se pondría en contacto con ellos. Es probable que se quejen y marquen su correo como correo no deseado, y es poco probable que se involucren o realicen una compra.
+**Apuestas**
+
+Las apuestas proporcionan un gran número de direcciones de correo electrónico rápidamente. Pero estos suscriptores quieren el premio, no sus correos electrónicos. Puede que ni siquiera hayan prestado atención al nombre de quién se pondría en contacto con ellos. Es probable que se quejen y marquen su correo como correo no deseado, y es poco probable que se involucren o realicen una compra.
+
+## Recursos específicos de productos
+
+**Adobe Campaign Classic**
+
+* [Creación de un formulario de suscripción con doble adhesión](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [Proceso de inclusión doble](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
