@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,23 @@ Esta es una lista de sugerencias y sugerencias para la transición sin problemas
    * Por ejemplo, si el dominio de su empresa es xyz.com, email.xyz.com proporciona más credibilidad a los ISP que xyzemail.com
 * **Transparencia** : los detalles de registro de su dominio de correo electrónico deben estar disponibles para el público y no deben ser privados.
 
-En muchas circunstancias, el correo transaccional no sigue el enfoque tradicional de calentamiento promocional. Obviamente, es difícil controlar el volumen del correo transaccional debido a su naturaleza, ya que generalmente requiere una interacción del usuario para activar el contacto por correo electrónico. En algunos casos, el correo transaccional simplemente se puede transitar sin un plan formal. En otros casos, puede ser mejor realizar la transición de cada tipo de mensaje con el paso del tiempo para aumentar el volumen lentamente. Por ejemplo, es posible que desee realizar la transición de la siguiente manera:
+En muchas circunstancias, el correo transaccional no sigue el enfoque tradicional de calentamiento promocional. Obviamente, es difícil controlar el volumen en el correo transaccional debido a su naturaleza, ya que generalmente requiere una interacción del usuario para almacenar en déclencheur el contacto por correo electrónico. En algunos casos, el correo transaccional simplemente se puede transitar sin un plan formal. En otros casos, puede ser mejor realizar la transición de cada tipo de mensaje con el paso del tiempo para aumentar el volumen lentamente. Por ejemplo, es posible que desee realizar la transición de la siguiente manera:
 
 1. Confirmaciones de compra: alta participación en general
 2. Abandono del carro de compras: participación media y alta en general
 3. Correos electrónicos de bienvenida: alta participación, pero pueden contener direcciones incorrectas en función de los métodos de recopilación de listas
 4. Correos electrónicos de recuperación: menor participación en general
+
+## Recursos específicos de productos
+
+**Campaign**
+
+* Obtenga más información sobre la administración de la capacidad de envío al iniciar una nueva plataforma con Adobe Campaign en [esta sección](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Aprenda a enviar usando múltiples olas con Adobe Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* [Panel de control de Campaign: Delegación de subdominios completa (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) :  *Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Classic.*
+* [Panel de control de Campaign: Delegación de subdominios completa (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) :  *Obtenga información sobre cómo delegar completamente un subdominio a Adobe Campaign Standard.*
+
+## Recursos adicionales
+
+* Obtenga más información sobre cómo aumentar la reputación de su correo electrónico con el calentamiento de IP en [esta sección](/help/additional-resources/increase-reputation-with-ip-warming.md).
