@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Cómo realizar una transición sin problemas al cambiar de plataforma de correo electrónico.
+# Cómo realizar la transición sin problemas al cambiar de plataforma de correo electrónico
 
 Al mover proveedores de servicios de correo electrónico (ESP), no es posible también realizar la transición de las direcciones IP existentes y establecidas. Es importante que siga las prácticas recomendadas para desarrollar una reputación positiva a partir de ahora. Dado que las nuevas direcciones IP que va a utilizar aún no tienen reputación, los ISP no pueden confiar plenamente en el correo que les viene y deben tener cuidado con lo que permiten que se entreguen a sus clientes.
 
