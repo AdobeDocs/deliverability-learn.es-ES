@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ La mayoría de los ISP de nivel 1 y algunos de nivel 2 ofrecen un método de inf
 
 ## Reclamaciones de terceros
 
-Existen varios grupos de correo no deseado que permiten la creación de informes de correo no deseado a un nivel más amplio. Las métricas de quejas utilizadas por estos terceros se utilizan para etiquetar contenido de correo electrónico para identificar el correo electrónico no deseado. Este proceso también se conoce como huella digital. Los usuarios de estos métodos de queja de terceros generalmente son más expertos en el correo electrónico, por lo que pueden tener un mayor impacto que otras quejas si no se les responde.
+Existen varios grupos de correo no deseado que permiten la creación de informes de correo no deseado a un nivel más amplio. Las métricas de quejas utilizadas por estos terceros se utilizan para etiquetar contenido de correo electrónico con el fin de identificar el correo electrónico no deseado. Este proceso también se conoce como huella digital. Los usuarios de estos métodos de queja de terceros generalmente son más conocedores del correo electrónico, por lo que pueden tener un impacto bueno que otras quejas si no se les responde.
 
 >[!NOTE]
 >
@@ -35,6 +35,10 @@ Existen varios grupos de correo no deseado que permiten la creación de informes
 
 ## Recursos específicos de productos
 
+**Adobe Campaign Classic**
+
+* [Indicadores de seguimiento](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#tracking-indicators)
+
 **Adobe Campaign Standard**
 
-* [Reclamaciones](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
+* [Informe de quejas](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
