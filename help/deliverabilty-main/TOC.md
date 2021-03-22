@@ -3,10 +3,10 @@ user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a la entrega para permitirle garantizar el éxito de su programa de marketing.
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 28%
+source-wordcount: '160'
+ht-degree: 29%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 28%
    + [Grupo de medios de Verizon (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Seguimiento continuo](/help/ongoing-monitoring.md)
 + Ponerlo en práctica {#putting-it-in-practice}
-   + [Cómo alcanzar el éxito](/help/putting-it-in-practice/how-to-reach-success.md)
+   + [Información general](/help/putting-it-in-practice/putting-it-in-practice.md)
    + Campaign {#campaign}
       + [Configuración del nombre de dominio](/help/putting-it-in-practice/ac-domain-name-setup.md)
       + [Proceso de solicitud de certificado SSL](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
