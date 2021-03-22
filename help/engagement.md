@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ Los intereses del suscriptor evolucionan constantemente y los especialistas en m
 
 Una **estrategia de recuperación** es cuando se envía regularmente un incentivo especial a una parte específica de una base de datos de marketing en un intento de volver a comprometer una lista que tiene una actividad de apertura y clic baja. Las respuestas positivas se conservan y la parte de la lista que no responde se mueve a un estado inactivo y ya no se envía por correo.
 
-Una **campaña de reactivación** es similar, pero se utiliza para reconfirmar una lista una vez, lo que resulta útil cuando se trata de listas antiguas y antiguas, a las que no se ha enviado por correo durante más de 12 meses o incluso años. Este tipo de campaña también suele ser aplicada por listas de bloqueo para resolver un bloque. Los suscriptores que no hayan vuelto a participar correctamente mediante este proceso deben excluirse de futuras promociones de correo electrónico.
+Una **campaña de reactivación** es similar, pero se utiliza para reconfirmar una lista una vez, lo que resulta útil cuando se trata de listas antiguas y antiguas, a las que no se ha enviado por correo durante más de 12 meses o incluso años. Este tipo de campaña también suele ser aplicada por listas de bloqueados para resolver un bloque. Los suscriptores que no hayan vuelto a participar correctamente mediante este proceso deben excluirse de futuras promociones de correo electrónico.
 
 La mejor manera de implementar una campaña de recuperación o reactivación será única para su programa de correo electrónico y debe personalizarse completamente según sus necesidades y situación empresariales.
 
@@ -57,7 +57,16 @@ Una última parte clave de la estrategia de respuesta es que si tiene una direcc
 
 ## Recursos específicos de productos
 
+**Adobe Campaign Classic**
+
+* [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Reglas de presión](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard**
 
 * [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Reglas de fatiga (documentación del producto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Reglas de fatiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Recursos adicionales
+
+* Obtenga más información sobre las estrategias de renovación de la participación (o recuperación) en [esta sección](/help/additional-resources/re-engagement.md).
