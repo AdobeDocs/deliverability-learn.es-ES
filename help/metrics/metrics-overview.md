@@ -1,6 +1,6 @@
 ---
-title: Métricas para la entrega
-description: Comprender qué métricas clave de capacidad de envío monitorizar y cómo utilizarlas para identificar un problema de reputación.
+title: Métricas de entrega
+description: Comprender las métricas clave de capacidad de entrega que hay que supervisar y cómo utilizarlas para identificar un problema de reputación.
 feature: Métricas
 topics: Deliverability
 kt: 5256
@@ -12,21 +12,21 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 15%
+ht-degree: 62%
 
 ---
 
 
-# Métricas para la entrega
+# Métricas de entrega
 
-Una de las mejores formas de identificar un problema de reputación de envío es a través de las métricas. Veamos algunas métricas clave de capacidad de envío para monitorearlas y cómo utilizarlas para identificar un problema de reputación.
+Una de las mejores formas de identificar un problema de reputación de envío es a través de las métricas. Veamos algunas de las métricas clave de capacidad de entrega que hay que supervisar y cómo utilizarlas para identificar un problema de reputación.
 
 * [Devoluciones](/help/metrics/bounces.md)
-* [Reclamaciones](/help/metrics/complaints.md)
+* [Quejas](/help/metrics/complaints.md)
 * [Trampas de correo no deseado](/help/metrics/spam-traps.md)
-* [Bloqueo y granulación](/help/metrics/bulking-and-blocking.md)
+* [Envío masivo y bloqueo](/help/metrics/bulking-and-blocking.md)
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign Classic**
 
