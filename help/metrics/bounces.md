@@ -1,6 +1,6 @@
 ---
 title: Devoluciones
-description: Obtenga información sobre los distintos tipos de devoluciones.
+description: Obtenga información acerca de los distintos tipos de devoluciones.
 feature: Métricas
 topics: Deliverability
 kt: 7047
@@ -12,44 +12,44 @@ translation-type: tm+mt
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 6%
+ht-degree: 89%
 
 ---
 
 
 # Devoluciones
 
-Las devoluciones son el resultado de un intento de envío y un error en el que el ISP proporciona avisos de error de devolución. El procesamiento de la manipulación de devoluciones es una parte fundamental de la higiene de la lista. Una vez que un correo electrónico determinado ha rebotado varias veces seguidas, este proceso lo marca para su supresión. El número y el tipo de devoluciones necesarios para la supresión del déclencheur varían de un sistema a otro. Este proceso evita que los sistemas continúen enviando direcciones de correo electrónico no válidas. Las devoluciones son uno de los datos clave que los ISP utilizan para determinar la reputación de la IP. Es muy importante vigilar esta métrica. &quot;Entregado&quot; frente a &quot;rechazado&quot; es probablemente la forma más común de medir el envío de mensajes de marketing: cuanto mayor sea el porcentaje entregado, mejor.
+Las devoluciones son el resultado de un intento de entrega y un error en el que el ISP proporciona avisos de error de devolución. El procesamiento de la manipulación de devoluciones es una parte esencial del estado de la lista. Una vez que un correo electrónico determinado ha rebotado varias veces, este proceso indica su supresión. La cantidad y el tipo de devoluciones necesarios para activar la supresión varían de un sistema a otro. Este proceso evita que los sistemas continúen enviando a direcciones de correo electrónico no válidas. Las devoluciones son uno de los datos clave que los ISP utilizan para determinar la reputación de la IP. Es muy importante vigilar esta métrica. &quot;Entregado&quot; frente a &quot;devuelto&quot; es probablemente la forma más común de medir el envío de mensajes de marketing: cuanto mayor sea el porcentaje de entrega, mejor.
 
-Excavaremos en dos tipos diferentes de devoluciones.
+Analizaremos dos tipos de devoluciones.
 
-## Rechazos graves
+## Devoluciones graves
 
-Las devoluciones duras son errores permanentes generados después de que un ISP determine que un intento de envío a una dirección de suscriptor no se puede entregar. En Adobe Campaign, los rechazos graves clasificados como no entregables se añaden a la cuarentena, lo que significa que no se volverían a probar. Hay algunos casos en los que se ignoraría un rechazo grave si se desconoce la causa del error.
-Estos son algunos ejemplos comunes de rechazos graves:
+Las devoluciones graves de mensajes son errores permanentes que se generan después de que un ISP determine que el intento de enviar una campaña de correo a una dirección de un suscriptor no se puede entregar. En Adobe Campaign, las devoluciones graves de mensajes clasificados como no aptos para entrega se añaden a la cuarentena, lo que significa que no se volverán a enviar. Hay algunos casos en los que se ignoran los mensajes devueltos no válidos si se desconoce la causa del error.
+Estos son algunos ejemplos comunes de devoluciones graves:
 
 * La dirección no existe
-* Cuenta deshabilitada
-* Sintaxis incorrecta
-* Dominio incorrecto
+* La cuenta está deshabilitada
+* La sintaxis es incorrecta
+* El dominio es incorrecto
 
-## Rechazos leves
+## Devoluciones leves
 
-Las devoluciones leves son errores temporales que los ISP generan cuando tienen dificultades para enviar correos. Los errores de software se reintentarán varias veces (con variación según el uso de la configuración de envío personalizada o predeterminada) para intentar una entrega correcta. Las direcciones que reboten de forma continua y suave no se añadirán a la cuarentena hasta que se haya intentado el número máximo de reintentos (que de nuevo varía en función de la configuración). Algunas causas comunes de devoluciones leves son las siguientes:
+Las devoluciones leves de mensajes son errores temporales que los ISP generan cuando tienen dificultades para el envío de correos. Los errores de devoluciones leves se reintentarán varias veces (con variación según el uso de la configuración de envío personalizada o predeterminada) para lograr una entrega correcta. Las direcciones de mensajes devueltos no entregados que reboten de forma continua no se añadirán a la cuarentena hasta que se haya intentado el número máximo de reintentos (que varía en función de la configuración). Algunas causas comunes de las devoluciones leves son las siguientes:
 
-* Buzón de correo lleno
-* Recibir servidor de correo electrónico inactivo
-* Problemas de reputación del remitente
+* El buzón está lleno
+* El servidor de recepción de correo electrónico está inactivo
+* Hay problemas con la reputación del remitente
 
-![tipos de devolución](../assets/bounce-types.png)
+![Tipos de devolución](../assets/bounce-types.png)
 
 >[!NOTE]
 >
->Las devoluciones son un indicador clave de un problema de reputación porque pueden resaltar una fuente de datos incorrecta (rechazo grave) o un problema de reputación con un ISP (rechazo suave).
+>Las devoluciones son un indicador clave de un problema de reputación, ya que pueden resaltar una fuente de datos incorrecta (mensajes devueltos no válidos) o un problema de reputación con un ISP (mensajes devueltos no entregados).
 >
->Los rechazos leves suelen producirse como parte del envío de correo electrónico y se debe permitir que se resuelvan durante el procesamiento de reintentos antes de caracterizarse como un problema de entrega real. Si la tasa de devoluciones leves es buena en más del 30 por ciento para un solo ISP y no se resuelve en un plazo de 24 horas, es aconsejable ponerse en contacto con el consultor de entregas de Adobe Campaign.
+>Las devoluciones leves suelen producirse como parte del envío de correo electrónico y se debe permitir que se resuelvan durante el procesamiento de reintentos antes de caracterizarse como un problema de entrega real. Si la tasa de salida hacia otro sitio de los mensajes devueltos no entregados es superior al 30 % en el caso de un solo ISP y no se resuelve en un plazo de 24 horas, es aconsejable hablar con el consultor del equipo de entrega de Adobe Campaign.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign Classic**
 
