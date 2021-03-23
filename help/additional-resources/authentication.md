@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 57%
@@ -56,7 +56,7 @@ El uso de DKIM requiere algunos requisitos previos:
 * **Seguridad**: El cifrado es un elemento clave del DKIM. Para garantizar el nivel de seguridad del DKIM, el tamaño de cifrado recomendado es de 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM inferiores.
 * **Reputación**: La reputación se basa en la dirección IP o en el dominio, pero el selector menos transparente de DKIM también es un elemento clave a tener en cuenta. La elección del selector es importante: evite mantener el &quot;predeterminado&quot; que podría utilizar cualquier persona y, por lo tanto, tiene una reputación débil. Debe implementar un selector diferente para las **retention vs. acquisition communications** y para la autenticación.
 
-Obtenga más información sobre el requisito previo de DKIM al utilizar Campaign Classic en [esta sección](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc).
+Obtenga más información sobre el requisito previo de DKIM al utilizar Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
