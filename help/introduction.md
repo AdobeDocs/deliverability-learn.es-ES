@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 15%
 
 ---
@@ -39,8 +39,11 @@ Esta Guía de prácticas recomendadas sobre la capacidad de entrega abarca los s
 7. [Permanencia del remitente](/help/sender-permanence.md)
 8. [Detalles del proveedor de servicios de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Seguimiento continuo](/help/ongoing-monitoring.md)
-10. [Ponerlo en práctica](/help/putting-it-in-practice/putting-it-in-practice.md)
-11. [Recursos adicionales](/help/additional-resources/general-resources.md)
+10. [Ponerlo en práctica](/help/putting-it-in-practice.md)
+
+>[!NOTE]
+>
+>Descargar [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
 
 ## Fuentes
 
@@ -50,4 +53,4 @@ Esta Guía de prácticas recomendadas sobre la capacidad de entrega abarca los s
 
 ## Recursos adicionales
 
-Descargar [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+[Apéndice: Recursos adicionales](/help/additional-resources/general-resources.md)
