@@ -2,11 +2,11 @@
 user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a las entregas para garantizar el éxito de su programa de marketing.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 86%
       + [Aumente su reputación de correo electrónico con el calentamiento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
       + [Autenticación](/help/additional-resources/authentication.md)
       + [Duplicados](/help/additional-resources/duplicates.md)
-      + [Prácticas recomendadas para renovación de participación](/help/additional-resources/re-engagement.md)
+      + [Prácticas recomendadas para la renovación de participación](/help/additional-resources/re-engagement.md)
       + [Listas de agujeros negros en tiempo real](/help/additional-resources/blocklist-databases.md)
       + [Resolución de problemas](/help/additional-resources/troubleshooting.md)
    + Recursos específicos de los productos {#product-specific-resources}
-      + Campaign {#campaign}
+      + Campaña {#campaign}
          + [Configuración del nombre de dominio](/help/additional-resources/ac-domain-name-setup.md)
          + [Proceso de solicitud de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Inicio de una nueva plataforma](/help/additional-resources/ac-starting-new-platform.md)
-         + [Campaign Classic - Recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
+         + [Campaign Classic: recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
