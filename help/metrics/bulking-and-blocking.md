@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Una inclusión en la lista de bloqueados se produce cuando un administrador de l
 
 ## Recursos adicionales
 
-* Obtenga más información sobre las [Listas de agujeros negros en tiempo real](/help/additional-resources/blocklist-databases.md) que mantienen bases de datos de direcciones IP y dominios que probablemente utilizarán remitentes de correo no deseado.
+* Obtenga más información sobre las [Listas de agujeros negros en tiempo real](/help/additional-resources/blocklist-databases.md) que mantienen bases de datos de direcciones IP y dominios que probablemente utilicen los remitentes de correos no deseados.
