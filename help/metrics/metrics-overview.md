@@ -1,7 +1,7 @@
 ---
 title: Métricas de entrega
 description: Comprender las métricas clave de capacidad de entrega que hay que supervisar y cómo utilizarlas para identificar un problema de reputación.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 5256
 thumbnail: kt5256.jpg

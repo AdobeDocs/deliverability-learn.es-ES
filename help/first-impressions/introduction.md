@@ -1,7 +1,7 @@
 ---
 title: 'Primeras impresiones: recopilación de listas y correos electrónicos de bienvenida'
 description: 'Aprenda cómo puede configurarse para ejecutar un programa de correo electrónico exitoso haciendo una buena primera impresión. '
-feature: Audiencias, Correo electrónico
+feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

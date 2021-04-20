@@ -1,7 +1,7 @@
 ---
 title: Listas de agujeros negros en tiempo real
 description: Obtenga información sobre las organizaciones que mantienen listas de direcciones IP y dominios que probablemente utilizarán remitentes de correo no deseado.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

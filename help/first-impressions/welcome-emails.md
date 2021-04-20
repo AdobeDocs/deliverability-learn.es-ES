@@ -1,7 +1,7 @@
 ---
 title: Correos electrónicos de bienvenida
 description: Comprender qué elementos clave tener en cuenta al crear los correos electrónicos de bienvenida.
-feature: Correo electrónico
+feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg

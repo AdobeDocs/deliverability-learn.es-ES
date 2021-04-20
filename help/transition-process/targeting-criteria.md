@@ -1,7 +1,7 @@
 ---
 title: Criterios de segmentación
 description: Aprenda a establecer una reputación positiva desde el principio para crear confianza de forma eficaz antes de rodar en sus audiencias menos comprometidas.
-feature: Proceso de transición
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

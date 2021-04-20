@@ -1,7 +1,7 @@
 ---
 title: Devoluciones
 description: Obtenga información acerca de los distintos tipos de devoluciones.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7047
 thumbnail: kt7047.jpg

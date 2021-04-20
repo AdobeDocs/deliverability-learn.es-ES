@@ -1,7 +1,7 @@
 ---
 title: Aumente su reputación de correo electrónico con el calentamiento de IP
 description: Descubra por qué es importante mejorar su reputación de correo electrónico con el calentamiento de IP y cómo proceder para una capacidad de envío óptima.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Solución de problemas de envío
 description: Obtenga información sobre cómo identificar y abordar los problemas de envío.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

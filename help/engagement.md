@@ -1,7 +1,7 @@
 ---
 title: Participación
 description: La participación se ha convertido en el factor más importante que afecta a las decisiones de colocación en la bandeja de entrada.
-feature: Participación
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

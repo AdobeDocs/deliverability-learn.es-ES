@@ -1,7 +1,7 @@
 ---
 title: Recopilación de direcciones y crecimiento de listas
 description: 'Conozca cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo garantizar una alta calidad de los datos y la alineación con las directrices legales. '
-feature: Audiencias
+feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg

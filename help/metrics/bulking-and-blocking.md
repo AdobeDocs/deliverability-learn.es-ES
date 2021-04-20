@@ -1,7 +1,7 @@
 ---
 title: Envío masivo y bloqueo de correos electrónicos
 description: Descubra por qué los ISP colocan los mensajes de correo electrónico en carpetas masivas o los bloquean.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7051
 thumbnail: kt7051.jpg

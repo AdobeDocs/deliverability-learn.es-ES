@@ -1,7 +1,7 @@
 ---
 title: Permanencia del remitente
 description: El envío de permanencia es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP.
-feature: Permanencia del remitente
+feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg

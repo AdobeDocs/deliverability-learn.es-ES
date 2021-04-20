@@ -1,7 +1,7 @@
 ---
 title: Recursos adicionales
 description: Esta sección enumera una serie de recursos adicionales sobre la capacidad de envío.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

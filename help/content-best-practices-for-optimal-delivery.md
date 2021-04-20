@@ -1,7 +1,7 @@
 ---
 title: Prácticas recomendadas del contenido para una entrega óptima
 description: El contenido es clave. Ya ha leído nuestra perspectiva de relevancia, pero aquí hay algunas sugerencias adicionales para optimizar su capacidad de envío cuando se trata de contenido.
-feature: Contenido
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg

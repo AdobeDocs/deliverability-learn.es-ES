@@ -1,7 +1,7 @@
 ---
 title: Trampas de correo no deseado
 description: Obtenga información sobre los distintos tipos de trampas de correo no deseado.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7050
 thumbnail: kt7050.jpg

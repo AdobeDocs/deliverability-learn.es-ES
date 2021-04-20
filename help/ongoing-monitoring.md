@@ -1,7 +1,7 @@
 ---
 title: Seguimiento continuo
 description: Qué problemas debe tener en cuenta.
-feature: Monitoreo
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

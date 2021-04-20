@@ -1,7 +1,7 @@
 ---
 title: Ponerlo en práctica
 description: El envío de permanencia es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP.
-feature: Capacidad de entrega
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

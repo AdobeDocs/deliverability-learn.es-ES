@@ -1,7 +1,7 @@
 ---
 title: Introducción a las prácticas recomendadas de capacidad de entrega
 description: Conozca los términos, conceptos y enfoques clave relativos a las entregas para garantizar el éxito de su programa de marketing.
-feature: Capacidad de entrega
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

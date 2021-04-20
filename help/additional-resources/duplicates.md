@@ -1,7 +1,7 @@
 ---
 title: Duplicados
 description: Obtenga información sobre cómo identificar y limitar duplicados para mejorar la capacidad de envío.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

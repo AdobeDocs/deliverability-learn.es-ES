@@ -1,7 +1,7 @@
 ---
 title: Detalles del proveedor de servicios de Internet
 description: Los ISP no son todos iguales. Se centran en diferentes aspectos a la hora de determinar qué correo electrónico se debe permitir a la bandeja de entrada de sus usuarios y qué correo se filtra a la carpeta de correo no deseado o no se transmite en absoluto. Echaremos un vistazo rápido a las importantes diferencias entre un puñado de ISP. No pretende ser una lista completa de todos los ISP ni cubrir todas las posibles diferencias.
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: null
 doc-type: article

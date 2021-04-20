@@ -1,7 +1,7 @@
 ---
 title: Infraestructura
 description: 'Aprenda lo que se necesita para construir correctamente una infraestructura de correo electrónico. '
-feature: Proceso de transición
+feature: Transition Process
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg

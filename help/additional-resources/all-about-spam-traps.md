@@ -1,7 +1,7 @@
 ---
 title: Todo acerca de las trampas de correo no deseado
 description: Aprenda a comprender, identificar y evitar trampas no deseadas al administrar la capacidad de envío.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Inicio de una nueva plataforma
 description: Obtenga más información sobre la administración de la capacidad de envío al iniciar una nueva plataforma con Adobe Campaign.
-feature: Ponerlo en práctica
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

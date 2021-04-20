@@ -1,7 +1,7 @@
 ---
 title: Prácticas recomendadas para renovación de participación
 description: Aprenda a mejorar la capacidad de envío mediante estrategias de renovación de la participación.
-feature: Recursos adicionales
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

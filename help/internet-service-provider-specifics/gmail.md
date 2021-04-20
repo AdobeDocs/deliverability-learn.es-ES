@@ -1,7 +1,7 @@
 ---
 title: Gmail
 description: Gmail constituye la mayor parte de las listas de correo electrónico de la mayoría de los remitentes. También tienden a tratar el correo electrónico de forma un poco diferente a todos los demás.
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: 5262
 doc-type: article
