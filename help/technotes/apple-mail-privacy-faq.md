@@ -5,7 +5,7 @@ feature: Capacidad de entrega
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ El seguimiento de píxeles dentro de Apple Mail se desactivará, lo que signific
 
 ## ¿Hay otros impactos?
 
-Apple, de forma predeterminada, ocultará la información de la dirección IP en su aplicación de correo nativa, el explorador Safari y los servicios de iCloud. La medición de las tasas abiertas no es el único aspecto del marketing por correo electrónico afectado por la protección de privacidad de correo de Apple. Las aperturas de correo electrónico impulsan estrategias de optimización en tiempo de envío, personalización en tiempo real, campañas de renovación de la participación y campañas automatizadas de varias ondas. Estos cambios significan que los especialistas en marketing
-Debe empezar a planificar cómo se verán estas estrategias para los usuarios de Apple una vez que iOS 15 se publique y las funciones de protección de la privacidad se afiancen este otoño. Adobe ayudará a nuestros clientes a navegar por estos cambios con actualizaciones, orientación y liderazgo.
+Apple, de forma predeterminada, ocultará la información de la dirección IP en su aplicación de correo nativa, el explorador Safari y los servicios de iCloud. La medición de las tasas abiertas no es el único aspecto del marketing por correo electrónico afectado por la protección de privacidad de correo de Apple. Las aperturas de correo electrónico impulsan estrategias de optimización en tiempo de envío, personalización en tiempo real, campañas de renovación de la participación y campañas automatizadas de varias ondas. Estos cambios significan que los especialistas en marketing deben empezar a planificar cómo se verán estas estrategias para los usuarios de Apple una vez que iOS 15 se publique y las capacidades de protección de la privacidad se afiancen este otoño. Adobe ayudará a nuestros clientes a navegar por estos cambios con actualizaciones, orientación y liderazgo.
 
 ## ¿Este anuncio pertenece a todos los correos electrónicos abiertos en un dispositivo Apple?
 
