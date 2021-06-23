@@ -2,11 +2,10 @@
 user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a las entregas para garantizar el éxito de su programa de marketing.
-translation-type: ht
-source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -57,3 +56,6 @@ ht-degree: 100%
          + [Proceso de solicitud de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Inicio de una nueva plataforma](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic: recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
++ Notas técnicas (ocultas){#technotes}
+   + [Privacidad de Apple](/help/technotes/apple-mail-privacy-faq.md)
+
