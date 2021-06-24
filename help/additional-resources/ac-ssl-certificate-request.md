@@ -1,21 +1,20 @@
 ---
 title: Proceso de solicitud de certificado SSL
 description: Obtenga información sobre cómo instalar certificados SSL en los subdominios delegados en Adobe.
-feature: Putting it in practice
+feature: Puesta en práctica
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
+source-git-commit: e3caa0e9fae0df983c05c7027406f9874174a8ba
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2270'
 ht-degree: 2%
 
 ---
-
 
 # Proceso de solicitud de certificado SSL
 
@@ -87,7 +86,7 @@ Para obtener un archivo CSR (Solicitud de firma de certificado), siga los pasos 
 Estas son algunas prácticas recomendadas a seguir:
 
 * Recaude una solicitud por subdominio delegado.
-* Es posible combinar varios subdominios en una única solicitud de CSR, pero solo dentro del mismo entorno. Por ejemplo, en Campaign Classic, el servidor de marketing, el [servidor de mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) y la [instancia de ejecución](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) son tres entornos independientes.
+* Es posible combinar varios subdominios en una única solicitud de CSR, pero solo dentro del mismo entorno. Por ejemplo, en Campaign Classic, el servidor de marketing, el [servidor de mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) y la [instancia de ejecución](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) son tres entornos independientes.
 * Debe obtener una CSR nueva antes de cualquier renovación de certificado SSL. No utilice un archivo CSR antiguo de hace un año o más.
 
 Deberá proporcionar la siguiente información.
@@ -218,7 +217,7 @@ Una vez actualizadas las configuraciones, los nuevos correos electrónicos se en
 * Cargue una imagen desde Adobe Campaign. Una vez cargada la imagen, la URL devuelta debe ser HTTPS.
 * Cree una entrega de correo electrónico de prueba que incluya un vínculo de página espejo, algunas imágenes, texto y un vínculo de baja. Envíe el correo electrónico a un ID de correo electrónico externo (como su dirección de Gmail). Una vez recibido, abra el correo electrónico y asegúrese de que todos los vínculos dentro del correo electrónico se abren correctamente en su formulario HTTPS (no HTTP), sin advertencias ni errores de certificados SSL.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Campaign Classic**
 
