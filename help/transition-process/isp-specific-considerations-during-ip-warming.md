@@ -1,20 +1,19 @@
 ---
 title: Consideraciones específicas del ISP durante el calentamiento de la IP
-description: null
+description: Los ISP tienen reglas diferentes y formas diferentes de ver su tráfico. Esto requiere un plan personalizado que se dirija únicamente a los usuarios con mayor participación al principio.
 topics: Deliverability
 kt: 7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
+source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 16%
 
 ---
-
 
 # Consideraciones específicas del ISP durante el calentamiento de la IP
 
@@ -24,7 +23,7 @@ Consulte la sección [Detalles del proveedor de servicios de Internet](/help/int
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, etc.)](/help/internet-service-provider-specifics/microsoft.md)
-* [Grupo de medios de Verizon (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
+* [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 
 ## Recursos adicionales
 
