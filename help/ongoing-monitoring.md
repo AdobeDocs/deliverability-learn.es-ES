@@ -1,23 +1,21 @@
 ---
-title: Seguimiento continuo
+title: Monitorización continua
 description: Qué problemas debe tener en cuenta.
-feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 9%
+source-wordcount: '202'
+ht-degree: 35%
 
 ---
 
-
-# Seguimiento continuo
+# Monitorización continua
 
 Estas son algunas formas de ayudar a identificar un posible problema en el que podría necesitar asistencia técnica de expertos:
 
@@ -26,19 +24,19 @@ Estas son algunas formas de ayudar a identificar un posible problema en el que p
 * Hay un aumento significativo de quejas. Esto puede deberse a un origen de lista de baja calidad.
 * Tiene cualquier iniciativa estratégica que pueda afectar a la capacidad de envío. Estas incluyen, entre otras cosas, adquisición de suscriptores, estrategias de participación, estrategias de temporada o cambios significativos en la frecuencia y el tipo de campaña.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign Classic**
 
-* [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [Informes de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)
-* [Supervisión de la capacidad de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
+* [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es)
+* [Informes de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=es)
+* [Supervisión de la capacidad de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es)
 
 **Adobe Campaign Standard**
 
-* [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)
 * [Resumen de entregas](https://docs-author-stg.corp.adobe.com/content/help/en/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
-* [Supervisión de la capacidad de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
+* [Supervisión de la capacidad de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=es#testing-and-sending)
 
 ## Recursos adicionales
 
