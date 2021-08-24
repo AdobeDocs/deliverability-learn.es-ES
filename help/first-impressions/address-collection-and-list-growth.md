@@ -1,23 +1,21 @@
 ---
-title: Recopilación de direcciones y crecimiento de listas
-description: 'Conozca cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo garantizar una alta calidad de los datos y la alineación con las directrices legales. '
-feature: Audiences
+title: Recopilación de direcciones y aumento de listas
+description: 'Descubra cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo garantizar una alta calidad de los datos y la alineación con las directrices legales. '
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
+exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 4%
 
 ---
 
-
-# Recopilación de direcciones y crecimiento de listas
+# Recopilación de direcciones y aumento de listas
 
 Las mejores fuentes de nuevas direcciones de correo electrónico son fuentes directas como los registros en el sitio web o en tiendas físicas. En estas situaciones, puede controlar la experiencia para asegurarse de que sea positiva y de que el suscriptor esté interesado en recibir correos electrónicos de su marca.
 
@@ -92,13 +90,12 @@ colección de eventosLa recopilación de direcciones en una cabina o a través d
 
 Las apuestas proporcionan un gran número de direcciones de correo electrónico rápidamente. Pero estos suscriptores quieren el premio, no sus correos electrónicos. Puede que ni siquiera hayan prestado atención al nombre de quién se pondría en contacto con ellos. Es probable que se quejen y marquen su correo como correo no deseado, y es poco probable que se involucren o realicen una compra.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign Classic**
 
-* [Creación de un formulario de suscripción con doble adhesión](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Proceso de inclusión doble](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-
+* [Proceso de inclusión doble](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=es#communication-channels)
