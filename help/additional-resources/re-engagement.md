@@ -1,23 +1,21 @@
 ---
-title: Prácticas recomendadas para renovación de participación
+title: Prácticas recomendadas para la renovación de participación
 description: Aprenda a mejorar la capacidad de envío mediante estrategias de renovación de la participación.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '926'
 ht-degree: 62%
 
 ---
 
-
-# Prácticas recomendadas para renovación de participación {#re-engagement}
+# Prácticas recomendadas para la renovación de participación {#re-engagement}
 
 Al implementar la capacidad de envío, algunas de las prácticas recomendadas consisten en tratar de mantener una base de suscriptores saludable y mejorar la capacidad de envío mediante estrategias de renovación de participación (o recuperación).
 
@@ -28,23 +26,23 @@ Al implementar la capacidad de envío, algunas de las prácticas recomendadas co
 >
 >Para obtener más información sobre estrategias de campañas de renovación de la participación y los servicios de capacidad de envío de Adobe, póngase en contacto con el consultor de capacidad de envío o hable con el agente de ventas de Adobe.
 
-## ¿Cómo ven los ISP la actividad sin participación?{#how-do-isps-view-non-engagement-activity-}
+## ¿Cómo ven los ISP la actividad sin participación? {#how-do-isps-view-non-engagement-activity-}
 
 Durante años, los ISP han utilizado métricas de comentarios de participación de sus usuarios para decidir dónde colocar los mensajes o si deben enviarlos siquiera. La [participación](/help/engagement.md) del usuario consiste en comentarios positivos y negativos, y los ISP monitorizan ambos de forma constante. Una actividad sin participación es probablemente una de las principales causas de la participación negativa. Desde la perspectiva de la capacidad de envío, la entrega constante de campañas a usuarios que no muestran ninguna participación puede reducir la reputación general de su dirección IP y sus dominios.
 
 Los ISP como Gmail, Microsoft y OATH consideran la falta de participación como correo electrónico no deseado y empiezan a redirigir los mensajes a la carpeta de correo no deseado. Además, es posible que estos suscriptores ya no sean propietarios de la cuenta de correo electrónico, que puede utilizarse como trampa de correo no deseado &quot;reciclada&quot;. Esto significa que la dirección fue inválida durante un tiempo y que se rechazan todos los mensajes. Si el sistema de administración de suscriptores no elimina las direcciones de &quot;rechazo grave&quot;, es muy probable que envíe a trampas de correo no deseado que puedan provocar problemas de entrega significativos.
 
-## ¿Cómo se debe abordar la inactividad?{#how-should-you-approach-inactivity-}
+## ¿Cómo se debe abordar la inactividad? {#how-should-you-approach-inactivity-}
 
 Los clientes que utilizan la plataforma de Adobe pueden ver la inactividad dentro de su instancia revisando los datos abiertos y haciendo clic en ellos según el segmento. Dado que la falta de participación puede dificultar la entrega, lo primero que se puede hacer es eliminar a los suscriptores de la base de datos. Sin embargo, a veces puede resultar una opción incorrecta. Por lo tanto, una estrategia de renovación de la participación (también conocida como recuperación) es la mejor recomendación para retener a los suscriptores interesados en recibir correo y eliminar gradualmente a aquellos que ya no muestran actividad.
 
-## ¿Las campañas de renovación de la participación realmente funcionan?{#do-re-engagement-campaigns-really-work-}
+## ¿Las campañas de renovación de la participación realmente funcionan? {#do-re-engagement-campaigns-really-work-}
 
 De acuerdo con un estudio de Return Path, este tipo de campañas dieron como resultado un 12 % de tasa de apertura en comparación con un promedio de 14 % de las campañas normales. Aunque solo el 24 % de los suscriptores había leído la campaña de renovación de la participación, alrededor del 45 % de ellos leyó los mensajes subsiguientes.
 
 ![](../../help/assets/deliverability_implementation_1.png)
 
-## ¿Cómo se crea una campaña de renovación de la participación?{#how-do-you-create-a-re-engagement-campaign-}
+## ¿Cómo se crea una campaña de renovación de la participación? {#how-do-you-create-a-re-engagement-campaign-}
 
 ### Fase 1 {#phase-1}
 
@@ -75,7 +73,7 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 
    ![](../../help/assets/deliverability_implementation_4.png)
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign**
 
