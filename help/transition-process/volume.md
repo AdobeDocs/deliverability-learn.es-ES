@@ -1,7 +1,6 @@
 ---
 title: 'Volumen: Sugerencias para la transición sin problemas'
 description: El volumen de correo que envía es fundamental para establecer una reputación positiva. Aprenda lo que puede hacer para realizar la transición sin problemas.
-feature: Proceso de transición
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg
@@ -9,10 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-translation-type: tm+mt
-source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
