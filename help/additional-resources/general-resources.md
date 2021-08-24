@@ -1,21 +1,19 @@
 ---
 title: Recursos adicionales
 description: Esta sección enumera una serie de recursos adicionales sobre la capacidad de envío.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 21%
+source-wordcount: '99'
+ht-degree: 39%
 
 ---
-
 
 # Recursos adicionales: Información general
 
@@ -27,7 +25,7 @@ Esta sección enumera algunos recursos adicionales sobre la capacidad de envío,
 * [Aumente su reputación de correo electrónico con el calentamiento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
 * [Autenticación](../../help/additional-resources/authentication.md)
 * [Duplicados](../../help/additional-resources/duplicates.md)
-* [Prácticas recomendadas para renovación de participación](../../help/additional-resources/re-engagement.md)
+* [Prácticas recomendadas para la renovación de participación](../../help/additional-resources/re-engagement.md)
 * [Listas de agujeros negros en tiempo real](../../help/additional-resources/blocklist-databases.md)
 * [Resolución de problemas](../../help/additional-resources/troubleshooting.md)
 
@@ -35,7 +33,7 @@ Esta sección enumera algunos recursos adicionales sobre la capacidad de envío,
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 Además, esta sección enumera una serie de recursos específicos de productos para ayudarle a implementar la capacidad de envío y alcanzar el éxito con sus soluciones de Adobe.
 
@@ -44,4 +42,4 @@ Además, esta sección enumera una serie de recursos específicos de productos p
 * [Configuración del nombre de dominio](../../help/additional-resources/ac-domain-name-setup.md)
 * [Proceso de solicitud de certificado CSR y SSL](../../help/additional-resources/ac-ssl-certificate-request.md)
 * [Inicio de una nueva plataforma](../../help/additional-resources/ac-starting-new-platform.md)
-* [Campaign Classic - Recomendaciones técnicas](../../help/additional-resources/acc-technical-recommendations.md)
+* [Campaign Classic: recomendaciones técnicas](../../help/additional-resources/acc-technical-recommendations.md)
