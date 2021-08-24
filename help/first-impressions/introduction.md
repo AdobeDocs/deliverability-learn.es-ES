@@ -1,21 +1,19 @@
 ---
 title: 'Primeras impresiones: recopilación de listas y correos electrónicos de bienvenida'
 description: 'Aprenda cómo puede configurarse para ejecutar un programa de correo electrónico exitoso haciendo una buena primera impresión. '
-feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 3dc3528b-13c8-4d18-afe1-b647bc5f8082
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
-
 
 # Primeras impresiones: recopilación de listas y correos electrónicos de bienvenida
 
