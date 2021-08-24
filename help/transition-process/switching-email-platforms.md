@@ -1,21 +1,19 @@
 ---
-title: Cómo realizar una transición sin problemas al cambiar de plataforma de correo electrónico.
+title: Cómo realizar la transición sin problemas al cambiar de plataforma de correo electrónico.
 description: 'Al mover proveedores de servicios de correo electrónico (ESP), no es posible también realizar la transición de las direcciones IP existentes y establecidas. Es importante que siga las prácticas recomendadas para desarrollar una reputación positiva a partir de ahora. '
-feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
+exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
-
 
 # Cómo realizar la transición sin problemas al cambiar de plataforma de correo electrónico
 
