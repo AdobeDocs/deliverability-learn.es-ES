@@ -1,21 +1,19 @@
 ---
 title: Duplicados
 description: Obtenga información sobre cómo identificar y limitar duplicados para mejorar la capacidad de envío.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 59%
+source-wordcount: '386'
+ht-degree: 62%
 
 ---
-
 
 # Duplicados {#duplicates}
 
@@ -35,14 +33,14 @@ Debe ser particularmente prudente al realizar operaciones en la base de datos:
 
 De todas maneras, hay casos en los que los duplicados entre las diferentes particiones son normales. Por ejemplo, cuando se envían para terceros o entidades de empresa diferentes, es lógico que la misma persona sea receptora por diferentes motivos. Sin embargo, rara vez se pueden encontrar duplicados dentro de la misma partición.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 Las direcciones duplicadas protegen su reputación de envío y garantizan una buena gestión de cuarentena. Obtenga más información en las siguientes secciones de documentación del producto:
 
 **Adobe Campaign Classic**
 
 * [Actividad de anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
-* [Uso de la funcionalidad Combinar de la actividad de Anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+* [Uso de la funcionalidad Combinar de la actividad de Anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es)
 
 **Adobe Campaign Standard**
 
