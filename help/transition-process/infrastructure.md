@@ -1,7 +1,6 @@
 ---
 title: Infraestructura
 description: 'Descubra qué se necesita para construir correctamente una infraestructura de correo electrónico. '
-feature: Proceso de transición
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
@@ -9,10 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-translation-type: tm+mt
-source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 2%
 
 ---
