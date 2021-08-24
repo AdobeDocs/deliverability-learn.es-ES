@@ -1,21 +1,19 @@
 ---
 title: Participación
 description: La participación se ha convertido en el factor más importante que afecta a las decisiones de colocación en la bandeja de entrada.
-feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '923'
 ht-degree: 2%
 
 ---
-
 
 # Participación
 
@@ -55,7 +53,7 @@ También es una experiencia de cliente mucho mejor y ayudará a aumentar la perc
 
 Una última parte clave de la estrategia de respuesta es que si tiene una dirección de correo electrónico real a la que pueden responder, asegúrese de que alguien la esté monitorizando y no sea solo una respuesta automática. Si no se supervisa, las expectativas perdidas pueden frustrar al cliente y provocar quejas o una participación menor.
 
-## Recursos específicos de productos
+## Recursos específicos de los productos
 
 **Adobe Campaign Classic**
 
