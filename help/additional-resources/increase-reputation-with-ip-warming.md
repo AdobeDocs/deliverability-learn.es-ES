@@ -1,21 +1,19 @@
 ---
 title: Aumente su reputación de correo electrónico con el calentamiento de IP
 description: Descubra por qué es importante mejorar su reputación de correo electrónico con el calentamiento de IP y cómo proceder para una capacidad de envío óptima.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: b553a13e-2055-4abc-b784-fd52792380d0
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 2%
+source-wordcount: '1600'
+ht-degree: 3%
 
 ---
-
 
 # Aumente su reputación de correo electrónico con el calentamiento de IP
 
@@ -87,7 +85,7 @@ En casos excepcionales, el ISP bloquea el nuevo remitente. El Adobe está monito
 
 Recuerde que la coherencia es clave aquí. Los patrones de volumen de envío irregulares y los patrones de envío poco frecuentes causarán algunos desafíos de envío a lo largo del camino.
 
-### Reclamaciones
+### Quejas
 
 [](/help/metrics/complaints.md) Se queja cuando un suscriptor etiqueta un correo electrónico como correo no deseado a través de su programa de correo electrónico. Esto envía un aviso al ISP sobre la actividad de queja. Si hay suficientes de estas quejas que llegan al ISP, ese ISP actuará para proteger a sus clientes, posiblemente impida que muchos correos electrónicos lleguen a los suscriptores o dirija una parte de los correos electrónicos a la carpeta masiva en lugar de a las bandejas de entrada de los suscriptores. Si el problema de entrega se debe a quejas, es importante determinar por qué los destinatarios se quejan.
 
