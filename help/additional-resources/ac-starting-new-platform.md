@@ -1,21 +1,19 @@
 ---
 title: Inicio de una nueva plataforma
 description: Obtenga más información sobre la administración de la capacidad de envío al iniciar una nueva plataforma con Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 6c9ade01-3052-4311-af80-888294820024
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 59%
+source-wordcount: '603'
+ht-degree: 65%
 
 ---
-
 
 # Inicio de una nueva plataforma {#starting-new-platform}
 
@@ -61,7 +59,7 @@ Para obtener más información sobre los principios enumerados anteriormente y s
 * [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [Identificar direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
 * [Envío mediante múltiples olas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
-* [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages)
+* [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es)
 
 **Adobe Campaign Standard**
 
