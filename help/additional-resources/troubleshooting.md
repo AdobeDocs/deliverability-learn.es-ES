@@ -1,21 +1,19 @@
 ---
 title: Solución de problemas de envío
 description: Obtenga información sobre cómo identificar y abordar los problemas de envío.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
-
 
 # Solución de problemas de envío {#troubleshooting}
 
@@ -46,7 +44,7 @@ Hágase las siguientes preguntas para identificar las posibles causas del proble
 
 ## Abordar el problema {#address-issue}
 
-### Reclamaciones
+### Quejas
 
 [](/help/metrics/complaints.md)Las quejas las definen los suscriptores que informan del correo electrónico como correo no deseado pulsando el botón correspondiente de su bandeja de entrada.
 
