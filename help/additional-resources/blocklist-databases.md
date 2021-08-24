@@ -1,21 +1,19 @@
 ---
 title: Listas de agujeros negros en tiempo real
 description: Obtenga información sobre las organizaciones que mantienen listas de direcciones IP y dominios que probablemente utilizarán remitentes de correo no deseado.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 90%
+source-wordcount: '407'
+ht-degree: 92%
 
 ---
-
 
 # Listas de agujeros negros en tiempo real
 
