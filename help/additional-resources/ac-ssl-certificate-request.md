@@ -2,15 +2,13 @@
 title: Proceso de solicitud de certificado SSL
 description: Obtenga información sobre cómo instalar certificados SSL en los subdominios delegados en Adobe.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2265'
 ht-degree: 2%
 
 ---
@@ -209,7 +207,7 @@ Una vez que esté seguro de que los certificados SSL solicitados están instalad
 
 >[!NOTE]
 >
->Para el Campaign Classic, las direcciones URL que se van a actualizar se encuentran principalmente en el [Asistente de implementación](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) y en los [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (seguimiento, página espejo y dominios de recursos públicos). Para obtener más información sobre el Campaign Standard, consulte [Configuración de marca](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>Para el Campaign Classic, las direcciones URL que se van a actualizar se encuentran principalmente en el [Asistente de implementación](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) y en los [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (seguimiento, página espejo y dominios de recursos públicos). Para obtener más información sobre el Campaign Standard, consulte [Configuración de marca](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Una vez actualizadas las configuraciones, los nuevos correos electrónicos se enviarán con direcciones URL HTTPS en lugar de HTTP. Para comprobar que las direcciones URL ahora son seguras, puede realizar rápidamente las siguientes pruebas:
 
