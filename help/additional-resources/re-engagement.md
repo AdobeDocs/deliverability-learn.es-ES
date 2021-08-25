@@ -2,16 +2,14 @@
 title: Prácticas recomendadas para la renovación de participación
 description: Aprenda a mejorar la capacidad de envío mediante estrategias de renovación de la participación.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 62%
+source-wordcount: '924'
+ht-degree: 53%
 
 ---
 
@@ -30,7 +28,7 @@ Al implementar la capacidad de envío, algunas de las prácticas recomendadas co
 
 Durante años, los ISP han utilizado métricas de comentarios de participación de sus usuarios para decidir dónde colocar los mensajes o si deben enviarlos siquiera. La [participación](/help/engagement.md) del usuario consiste en comentarios positivos y negativos, y los ISP monitorizan ambos de forma constante. Una actividad sin participación es probablemente una de las principales causas de la participación negativa. Desde la perspectiva de la capacidad de envío, la entrega constante de campañas a usuarios que no muestran ninguna participación puede reducir la reputación general de su dirección IP y sus dominios.
 
-Los ISP como Gmail, Microsoft y OATH consideran la falta de participación como correo electrónico no deseado y empiezan a redirigir los mensajes a la carpeta de correo no deseado. Además, es posible que estos suscriptores ya no sean propietarios de la cuenta de correo electrónico, que puede utilizarse como trampa de correo no deseado &quot;reciclada&quot;. Esto significa que la dirección fue inválida durante un tiempo y que se rechazan todos los mensajes. Si el sistema de administración de suscriptores no elimina las direcciones de &quot;rechazo grave&quot;, es muy probable que envíe a trampas de correo no deseado que puedan provocar problemas de entrega significativos.
+Los ISP como Gmail, Microsoft® y OATH consideran la falta de participación como correo electrónico no deseado y empiezan a redirigir los mensajes a la carpeta de correo no deseado. Además, es posible que estos suscriptores ya no sean propietarios de la cuenta de correo electrónico, que puede utilizarse como trampa de correo no deseado &quot;reciclada&quot;. Esto significa que la dirección no era válida durante algún tiempo y que se rechazan todos los mensajes. Si el sistema de administración de suscriptores no elimina las direcciones de &quot;rechazo grave&quot;, es probable que se envíen correos a trampas de correo no deseado que puedan provocar problemas de entrega significativos.
 
 ## ¿Cómo se debe abordar la inactividad? {#how-should-you-approach-inactivity-}
 
@@ -46,7 +44,7 @@ De acuerdo con un estudio de Return Path, este tipo de campañas dieron como res
 
 ### Fase 1 {#phase-1}
 
-* El primer paso es identificar los suscriptores que tienen muy poco o ninguna actividad de apertura o de hacer clic y, segmentar el grupo en función de un intervalo de tiempo determinado. La regla general es revisar los suscriptores que no han abierto o hecho clic en un correo electrónico en los últimos 90 días. Sin embargo, esto varía según la naturaleza del negocio (por ejemplo, envíos estacionales).
+* El primer paso es identificar a los suscriptores que tienen poca o ninguna actividad de apertura o de clic y, en consecuencia, segmentar este grupo en función de un intervalo de tiempo establecido. La regla general es revisar los suscriptores que no han abierto o hecho clic en un correo electrónico en los últimos 90 días. Sin embargo, esto varía según la naturaleza del negocio (por ejemplo, envíos estacionales).
 * Otro punto a tener en cuenta al definir los marcos de tiempo es que los ISP y las empresas responsables de las listas de bloqueados consideran que la participación dura entre 1,5 y 1,8 años. Además, las actividades de comportamiento como compras y actividad en el sitio web u otros puntos de contacto, como las preferencias durante la fase de registro o el primer punto de contacto.
 
 ### Fase 2 {#phase-2}
@@ -64,16 +62,16 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 
 ### Fase 4 {#phase-4}
 
-* La siguiente fase es identificar a los suscriptores que de forma constante no muestran ninguna actividad y reducir de forma gradual los correos electrónicos que se les envía durante un periodo. Si no hay actividad durante el año anterior, es bueno poner el correo electrónico de los suscriptores en espera. Aunque no hayan mostrado interés en el contenido del correo electrónico, siempre existe una última oportunidad de que vuelvan a activar su suscripción enviando una única campaña de reconfirmación.
-* Las campañas de reconfirmación son una buena forma de preguntar a los suscriptores que lleven mucho tiempo inactivos si desean permanecer en la lista de suscripción. Al crear la campaña, es preferible añadir un vínculo de “haga clic aquí” para que puedan confirmar la acción y verificar su dirección. De este modo, la acción se puede registrar en la base de datos. A continuación se muestra un ejemplo de un correo electrónico de reconfirmación:
+* La siguiente fase es identificar a los suscriptores que de forma constante no muestran ninguna actividad y reducir de forma gradual los correos electrónicos que se les envía durante un periodo. Si no hay actividad durante el año anterior, es bueno poner el correo electrónico de los suscriptores en espera. Aunque no hayan mostrado interés en el contenido del correo electrónico, siempre existe una última oportunidad de que reactiven su suscripción enviando una campaña única de reconfirmación.
+* Las campañas de reafirmación son una buena forma de preguntar a los suscriptores que lleven mucho tiempo inactivos si desean permanecer en la lista de suscripción. Al crear la campaña, es preferible añadir un vínculo de “haga clic aquí” para que puedan confirmar la acción y verificar su dirección. De este modo, la acción se puede registrar en la base de datos. A continuación se muestra un ejemplo de un correo electrónico de reconfirmación:
 
    ![](../../help/assets/deliverability_implementation_3.png)
 
-   Una vez que el suscriptor ha realizado una acción, se puede ofrecer una página de destino con la confirmación de su suscripción. A continuación se muestra un ejemplo de página de destino:
+   Una vez que el suscriptor ha realizado una acción, se puede ofrecer una página de aterrizaje con la confirmación de su suscripción. A continuación se muestra un ejemplo de página de destino:
 
    ![](../../help/assets/deliverability_implementation_4.png)
 
-## Recursos específicos de los productos
+## Recursos específicos de productos
 
 **Adobe Campaign**
 
@@ -82,4 +80,4 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 
 **Adobe Administración de Recorridos de Clientes**
 
-* [Seguimiento de mensajes](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [Seguimiento de mensajes](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=es)
