@@ -2,13 +2,11 @@
 title: Solución de problemas de envío
 description: Obtenga información sobre cómo identificar y abordar los problemas de envío.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 91%
