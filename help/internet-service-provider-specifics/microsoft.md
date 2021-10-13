@@ -1,6 +1,6 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live, etc.)
-description: Por lo general, Microsoft es el segundo o tercer proveedor más grande en función de la configuración de la lista y gestiona el tráfico ligeramente diferente de otros ISP.
+description: Microsoft es generalmente el segundo o tercer proveedor más grande en función de la configuración de la lista y gestiona el tráfico ligeramente diferente a otros ISP.
 topics: Deliverability
 kt: 5319
 doc-type: article

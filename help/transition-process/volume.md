@@ -23,7 +23,7 @@ Los umbrales de volumen varían según el ISP y también pueden variar según la
 
 Esta es una lista de sugerencias y sugerencias para la transición sin problemas:
 
-* **** El permiso es la base de cualquier programa de correo electrónico que tenga éxito.
+* **** El permiso es la base de cualquier programa de correo electrónico exitoso.
 * **Bajo y lento** : empiece con volúmenes de envío bajos y, a continuación, aumente a medida que establezca la reputación del remitente.
 * Una **estrategia de envío en tándem** le permite aumentar el volumen en Campaign mientras avanza con su ESP actual, sin interrumpir su calendario de correo electrónico.
 * **La participación importa** : comience con los suscriptores que abren y hagan clic en sus correos electrónicos regularmente.

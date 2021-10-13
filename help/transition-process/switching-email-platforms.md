@@ -23,7 +23,7 @@ Establecer una reputación positiva es un proceso. Pero una vez establecido, los
 
 ![Proceso de transición](../assets/transition-process.png)
 
-La cantidad de tiempo para calentar sus direcciones IP y dominios puede variar, pero hasta un punto de referencia de ocho semanas es común para remitentes típicos para establecer una reputación en la mayoría de los ISP de nivel 1 (Gmail, Microsoft, Verizon/Yahoo/AOL, etc.).
+La cantidad de tiempo para calentar sus direcciones IP y dominios puede variar, pero hasta un punto de referencia de ocho semanas es común para los remitentes típicos para establecer una reputación en la mayoría de los ISP de nivel 1 (Gmail, Microsoft, Verizon/Yahoo/AOL, etc.).
 
 En las siguientes secciones, investigaremos algunas áreas clave en las que centrarnos adecuadamente:
 
