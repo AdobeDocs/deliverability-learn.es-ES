@@ -3,9 +3,9 @@ user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a las entregas para garantizar el éxito de su programa de marketing.
 source-git-commit: 3e933104107cd4f62eab99c66957ccd9acb51409
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 95%
       + [Inicio de una nueva plataforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
    + Notas técnicas{#technotes}
-      + [Preguntas frecuentes sobre la privacidad de Apple](/help/technotes/apple-mail-privacy-faq.md)
+      + [Preguntas frecuentes acerca de la privacidad de Apple](/help/technotes/apple-mail-privacy-faq.md)
       + [Implementación de BIMI](/help/technotes/implement-bimi.md)
