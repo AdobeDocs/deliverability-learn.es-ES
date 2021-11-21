@@ -30,7 +30,7 @@ VMG tiene un FBL utilizado para transmitir información de quejas a los remitent
 
 ## Conocimiento del remitente
 
-La reputación de un remitente está formada por una combinación de dirección IP, dominio y dirección de origen. La reputación se calcula mediante los componentes tradicionales, incluidas las quejas, las trampas no deseadas, las direcciones inactivas o mal formadas y la participación. VMG utiliza la limitación de velocidad (también conocida como restricción) junto con el procesamiento masivo de carpetas para defenderse contra el spam. Completan sus sistemas de filtrado internos con algunas [!DNL Spamhaus] listas negras, incluyendo PBL, SBL y XBL para proteger a sus usuarios.
+La reputación de un remitente está formada por una combinación de dirección IP, dominio y dirección de origen. La reputación se calcula mediante los componentes tradicionales, incluidas las quejas, las trampas no deseadas, las direcciones inactivas o mal formadas y la participación. VMG utiliza la limitación de velocidad (también conocida como restricción) junto con el procesamiento masivo de carpetas para defenderse contra el spam. Complementan sus sistemas de filtrado internos con algunos [!DNL Spamhaus] listas negras, incluidas PBL, SBL y XBL para proteger a sus usuarios.
 
 ## Perspectivas
 

@@ -21,11 +21,11 @@ SPF (Entorno de políticas de remitentes) es un estándar de autenticación de c
 
 >[!NOTE]
 >
->Puede utilizar [esta herramienta externa](https://www.kitterman.com/spf/validate.html) para verificar un registro SPF.
+>Puede usar [esta herramienta externa](https://www.kitterman.com/spf/validate.html) para verificar un registro SPF.
 
 El SPF es una técnica que, a su vez, permite asegurarse de que el nombre de dominio utilizado en un mensaje de correo electrónico no sea falso. Cuando se recibe un mensaje de un dominio, se consulta el servidor DNS del dominio. La respuesta es un breve registro (el registro SPF) que muestra los servidores autorizados para enviar correos electrónicos desde este dominio. Si asumimos que solo el propietario del dominio tiene la posibilidad de cambiar este registro, podemos considerar que esta técnica no permite que la dirección del remitente sea falsa, al menos no la parte a la derecha de la “@”.
 
-En la especificación final [RFC 4408](https://www.rfc-editor.org/info/rfc4408), se utilizan dos elementos del mensaje para determinar el dominio considerado como remitente: el dominio especificado por el comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) y el dominio especificado por la dirección del encabezado &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), que también es la dirección de rechazo. Las diferentes consideraciones permiten tener en cuenta solo uno de estos valores; se recomienda que ambos orígenes especifiquen el mismo dominio.
+En el [Especificación RFC 4408](https://www.rfc-editor.org/info/rfc4408), se utilizan dos elementos del mensaje para determinar el dominio considerado como remitente: el dominio especificado por el comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) y el dominio especificado por la dirección del encabezado &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), que también es la dirección de rechazo. Las diferentes consideraciones permiten tener en cuenta solo uno de estos valores; se recomienda que ambos orígenes especifiquen el mismo dominio.
 
 La comprobación del SPF ofrece una evaluación de la validez del dominio del remitente:
 
@@ -33,7 +33,7 @@ La comprobación del SPF ofrece una evaluación de la validez del dominio del re
 * **Neutral**: El dominio que se consulta no activa la evaluación.
 * **Pass**: El dominio se considera auténtico.
 * **Fail**: El dominio es falso y el mensaje se debe rechazar.
-* **Fallo** leve: Es probable que el dominio sea falso, pero el mensaje no se debe rechazar únicamente en función de este resultado.
+* **SoftFail**: Es probable que el dominio sea falso, pero el mensaje no se debe rechazar únicamente en función de este resultado.
 * **TempError**: Un error temporal detuvo la evaluación. El mensaje se puede rechazar.
 * **PermError**: Los registros del SPF del dominio no son válidos.
 

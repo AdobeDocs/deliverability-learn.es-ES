@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Todo acerca de las trampas de correo no deseado
 
-Una [trampa de correo no deseado](/help/metrics/spam-traps.md) es una dirección válida, sin mensaje de error cuando se envían correos electrónicos a. Una trampa de correo no deseado tiene una misión principal: identificar remitentes o remitentes de spam sin proceso de higiene de datos.
+A [trampa de correo no deseado](/help/metrics/spam-traps.md) es una dirección válida, sin mensaje de error cuando se envían correos electrónicos a. Una trampa de correo no deseado tiene una misión principal: identificar remitentes o remitentes de spam sin proceso de higiene de datos.
 
 ## ¿Quién administra estas direcciones de trampa de correo no deseado?
 
@@ -25,7 +25,7 @@ El segundo tipo de trampa de correo no deseado se basa en las antiguas direccion
 
 ## ¿Cómo funciona?
 
-**Una dirección de correo electrónico sin usuario** final: Estas direcciones no tienen y nunca tendrán un usuario final que pueda registrarse en boletines informativos o en cualquier otro tipo de comunicaciones.
+**Una dirección de correo electrónico sin usuario final**: Estas direcciones no tienen y nunca tendrán un usuario final que pueda registrarse en boletines informativos o en cualquier otro tipo de comunicaciones.
 
 **Una dirección de correo electrónico abandonada por un usuario**: Tras un periodo de inactividad, los ISP desactivan las direcciones. Los mensajes de devoluciones se envían a los remitentes para informarles sobre este nuevo estado. Los remitentes deben poner en cuarentena estas direcciones o eliminarlas de futuras comunicaciones. Los ISP utilizan estas direcciones transformadas en &quot;trampa de correo no deseado&quot; para supervisar a los remitentes con prácticas incorrectas.
 

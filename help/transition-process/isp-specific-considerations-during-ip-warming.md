@@ -19,7 +19,7 @@ ht-degree: 16%
 
 Los ISP tienen reglas diferentes y formas diferentes de ver su tráfico. Por ejemplo, Gmail es uno de los ISP más sofisticados porque observa la participación muy estrictamente (aperturas y clics) además de todas las demás medidas de reputación. Esto requiere un plan personalizado que solo se dirija a los usuarios con mayor participación al principio. Otros ISP también pueden requerir lo mismo. Póngase en contacto con el consultor de capacidad de envío de Adobes para un plan específico.
 
-Consulte la sección [Detalles del proveedor de servicios de Internet](/help/internet-service-provider-specifics/overview.md) para obtener más información sobre las diferencias importantes entre el siguiente grupo seleccionado de proveedores:
+Consulte la [Detalles del proveedor de servicios de Internet](/help/internet-service-provider-specifics/overview.md) para obtener más información sobre las diferencias importantes entre el siguiente grupo seleccionado de proveedores:
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, etc.)](/help/internet-service-provider-specifics/microsoft.md)

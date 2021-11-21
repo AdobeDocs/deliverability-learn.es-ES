@@ -27,7 +27,7 @@ Normalmente, una tasa de participación se basa en un período de tiempo especí
 
 **Analytics**
 
-* [Cómo aumentar las tasas de participación y retención (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifique las audiencias que participan a través de su comportamiento mediante cohortes y conozca las causas subyacentes que impulsan la permanencia en las aplicaciones móviles. Utilice algoritmos de ciencia de datos en Segment IQ para conocer las diferencias y similitudes entre los segmentos.*
+* [Cómo aumentar las tasas de participación y retención (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique las audiencias que participan a través de su comportamiento mediante cohortes y conozca las causas subyacentes que impulsan la permanencia en las aplicaciones móviles. Utilice algoritmos de ciencia de datos en Segment IQ para conocer las diferencias y similitudes entre los segmentos.*
 
 **Campaign Standard**
 

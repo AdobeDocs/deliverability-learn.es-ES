@@ -19,7 +19,7 @@ A continuación se describen algunas prácticas recomendadas que pueden ayudar a
 
 ## Identificar un problema de envío {#identify-deliverability-issue}
 
-Para identificar un posible problema, los elementos enumerados en [esa página](/help/ongoing-monitoring.md) pueden llamar su atención.
+Para identificar un posible problema, los elementos enumerados en [esa página](/help/ongoing-monitoring.md) puede llamar su atención.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.

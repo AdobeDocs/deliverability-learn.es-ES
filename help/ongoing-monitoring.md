@@ -40,4 +40,4 @@ Estas son algunas formas de ayudar a identificar un posible problema en el que p
 
 ## Recursos adicionales
 
-* Aprenda cómo puede abordar los problemas de envío en [esta sección](/help/additional-resources/troubleshooting.md).
+* Descubra cómo puede abordar los problemas de envío en [esta sección](/help/additional-resources/troubleshooting.md).

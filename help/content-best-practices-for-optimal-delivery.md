@@ -19,8 +19,8 @@ ht-degree: 13%
 
 El contenido es clave. Ya ha leído nuestra perspectiva sobre la relevancia, pero aquí hay algunas sugerencias adicionales para optimizar su capacidad de envío cuando se trata de contenido:
 
-* **Evite un archivo** de HTML demasiado grande. Manténgase por debajo de los 100 KB, pero trate de permanecer entre 60 y 80 KB para evitar entregas lentos.
-* **Use etiquetas alternativas para su beneficio**. Las etiquetas Alt se encuentran dentro del código de imagen del HTML y mostrar texto si la imagen no está visible o cargándose. En lugar de tener una descripción simple como &quot;toma de producto&quot;, quizá quieras decir algo más convincente como &quot;Compra ahora y consigue un 30% de descuento&quot;.
+* **Evitar un archivo de HTML demasiado grande**. Manténgase por debajo de los 100 KB, pero trate de permanecer entre 60 y 80 KB para evitar entregas lentos.
+* **Use etiquetas alt para su beneficio**. Las etiquetas Alt se encuentran dentro del código de imagen del HTML y mostrar texto si la imagen no está visible o cargándose. En lugar de tener una descripción simple como &quot;toma de producto&quot;, quizá quieras decir algo más convincente como &quot;Compra ahora y consigue un 30% de descuento&quot;.
 * **Evite demasiadas imágenes.** La mayoría de los ISP bloquean las imágenes de forma predeterminada. Desea tener una forma de capturar la audiencia sin las imágenes habilitadas para que luego se habiliten.
 
 ## Recursos específicos de los productos

@@ -34,7 +34,7 @@ A continuación se enumeran los principios principales que deben seguirse al ini
 * Si tiene esta información, **importe direcciones no válidas en la tabla de cuarentenas**.
 El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcciones por primera vez y puede que no esté completamente cualificada. Si envía a direcciones no válidas o a direcciones de honeypot, esto contribuye a disminuir la reputación de la plataforma.
 
-   * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de los menús **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
+   * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de la variable **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
 
    * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
 

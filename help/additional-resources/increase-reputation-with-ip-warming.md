@@ -40,7 +40,7 @@ Los ISP examinan cuidadosamente el volumen de envío, la frecuencia de envío, l
 
 Naturalmente, este proceso de examen de estos puntos de datos lleva tiempo y no se puede lograr en uno o dos días. La reputación se construye con el tiempo. Este proceso es como dejar a un extraño en tu casa. ¿Tendrías reservas acerca de tener a alguien que nunca has conocido entrar a tu casa?
 
-Es muy probable que la respuesta sea sí. Desea analizar a esta persona y sus motivos. ¿Significan daño? ¿Son una amenaza? Los ISP hacen lo mismo para proteger su red del tráfico malintencionado o no deseado. Las métricas de reputación positiva le ayudan a avanzar mucho en un proceso exitoso de calentamiento de IP. Es por eso que recalcamos la importancia de empezar por enviar volúmenes de correo electrónico pequeños y empezar a enviar primero a sus clientes altamente comprometidos. Para obtener más información sobre esto, consulte [Criterios de objetivo al enviar nuevo tráfico](/help/transition-process/targeting-criteria.md).
+Es muy probable que la respuesta sea sí. Desea analizar a esta persona y sus motivos. ¿Significan daño? ¿Son una amenaza? Los ISP hacen lo mismo para proteger su red del tráfico malintencionado o no deseado. Las métricas de reputación positiva le ayudan a avanzar mucho en un proceso exitoso de calentamiento de IP. Es por eso que recalcamos la importancia de empezar por enviar volúmenes de correo electrónico pequeños y empezar a enviar primero a sus clientes altamente comprometidos. Para obtener más información, consulte [Criterios de objetivo al enviar nuevo tráfico](/help/transition-process/targeting-criteria.md).
 
 El envío de grandes cantidades de correo electrónico desde una nueva dirección IP o direcciones IP directamente desde la puerta de enlace es una práctica deficiente y probablemente le cause algunas dificultades en la entrega. Es importante tener en cuenta que incluso si comienza a enviar volúmenes pequeños y los aumenta gradualmente según lo recomendado, sigue siendo necesario seguir las prácticas recomendadas relacionadas con el correo electrónico.
 
@@ -50,7 +50,7 @@ El envío de grandes cantidades de correo electrónico desde una nueva direcció
 
 Este es el componente más importante de la gestión y el crecimiento de una lista de correo electrónico de suscriptor. A medida que las leyes contra el correo no deseado crecen y se vuelven más completas a nivel internacional, debería ser un enfoque principal de los especialistas en marketing garantizar que hayan recibido el consentimiento explícito (o explícito) de cada suscriptor en su lista. Es decir, cada suscriptor ha aceptado recibir correos electrónicos de su marca. Esto difiere del consentimiento implícito en el que se añade una persona a una lista de correo electrónico después de realizar una acción que no se estaba registrando explícitamente para un programa de correo electrónico.
 
-Obtenga más información sobre la [Política de uso aceptable del Adobe](https://www.adobe.com/legal/terms/aup.html).
+Más información sobre [Política de uso aceptable del Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputación: ¿Qué buscan los ISP?
 
@@ -63,7 +63,7 @@ Algunos de los puntos de datos examinados son:
 * Rechazos de correo electrónico
 * Participación del suscriptor
 
-Los ISP requieren configuraciones técnicas específicas que se ajusten a sus políticas y prácticas recomendadas. Adobe configura sus IP y subdominios delegados para identificarle como remitente responsable y de confianza. Esto se denomina [autenticación de correo electrónico](/help/transition-process/infrastructure.md#authentication). La autenticación ayuda a los receptores a validar si un remitente tiene los derechos para enviar desde esa IP o dominio.
+Los ISP requieren configuraciones técnicas específicas que se ajusten a sus políticas y prácticas recomendadas. Adobe configura sus IP y subdominios delegados para identificarle como remitente responsable y de confianza. Esto se llama [autenticación por correo electrónico](/help/transition-process/infrastructure.md#authentication). La autenticación ayuda a los receptores a validar si un remitente tiene los derechos para enviar desde esa IP o dominio.
 
 La autenticación permite a los ISP validar que la empresa que envía desde un dominio o IP tiene el derecho de hacerlo. Básicamente se hace para probar tu identidad y para asegurarse de que no estás fingiendo ser alguien más, y que alguien más no pretende ser tú.
 
@@ -85,7 +85,7 @@ Recuerde que la coherencia es clave aquí. Los patrones de volumen de envío irr
 
 ### Quejas
 
-[](/help/metrics/complaints.md) Se queja cuando un suscriptor etiqueta un correo electrónico como correo no deseado a través de su programa de correo electrónico. Esto envía un aviso al ISP sobre la actividad de queja. Si hay suficientes de estas quejas que llegan al ISP, ese ISP actuará para proteger a sus clientes, posiblemente impida que muchos correos electrónicos lleguen a los suscriptores o dirija una parte de los correos electrónicos a la carpeta masiva en lugar de a las bandejas de entrada de los suscriptores. Si el problema de entrega se debe a quejas, es importante determinar por qué los destinatarios se quejan.
+[Reclamaciones](/help/metrics/complaints.md) se produce cuando un suscriptor etiqueta un correo electrónico como correo no deseado a través de su programa de correo electrónico. Esto envía un aviso al ISP sobre la actividad de queja. Si hay suficientes de estas quejas que llegan al ISP, ese ISP actuará para proteger a sus clientes, posiblemente impida que muchos correos electrónicos lleguen a los suscriptores o dirija una parte de los correos electrónicos a la carpeta masiva en lugar de a las bandejas de entrada de los suscriptores. Si el problema de entrega se debe a quejas, es importante determinar por qué los destinatarios se quejan.
 
 Los suscriptores se quejan por varias razones. A veces un suscriptor no quiere recibir más correo electrónico de usted, tal vez porque cree que está recibiendo demasiados mensajes sobre el mismo tema, no esperaba el mensaje o no recuerda registrarse para recibir sus correos electrónicos.
 
@@ -101,13 +101,13 @@ Los ISP buscan un volumen coherente y una buena calidad de datos. El tráfico au
 
 El tráfico de correo electrónico debe implementarse en una progresión lenta y constante, aumentando cada semana hasta que se envíe la lista completa. Además, cada segmento seguirá la programación hasta su finalización. Comience con los suscriptores más recientes primero y termine con los suscriptores menos comprometidos en último lugar. Tenga en cuenta también que algunos ISP pueden requerir un enfoque más personalizado debido a cómo manejan el nuevo tráfico.
 
-Obtenga más información sobre [participación](/help/engagement.md).
+Más información sobre [participación](/help/engagement.md).
 
 ## Mantenga el curso
 
 Es posible que esté tentado de acelerar el proceso de calentamiento de la IP enviando más volumen del recomendado, sin perder tiempo identificando a sus suscriptores más comprometidos y sin enviar un correo a estos suscriptores primero en un esfuerzo por crear una reputación positiva. ¡Por favor, resistan esta urgencia! A largo plazo no le ayudará.
 
-Es muy importante que empiece a enviar por correo a los usuarios más comprometidos (con correo electrónico). suscriptores solo para las etapas iniciales del calentamiento de IP. Estos clientes son sus más valiosos y su propensión a abrir sus correos electrónicos ayudará a empezar a mostrar a los ISP que es un comerciante que envía correos que son interesantes y buscados. También muestra los ISP que siguen las reglas y las prácticas recomendadas.
+Es muy importante que empiece a enviar por correo a los usuarios más comprometidos (con correo electrónico). suscriptores solo para las etapas iniciales del calentamiento de IP. Estos clientes son los más valiosos y su propensión a abrir sus correos electrónicos ayudará a empezar a mostrar a los ISP que es un comerciante que envía correos que son interesantes y buscados. También muestra los ISP que siguen las reglas y las prácticas recomendadas.
 
 ## Conclusión. 
 

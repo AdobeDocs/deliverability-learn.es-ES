@@ -21,15 +21,15 @@ Las mejores fuentes de nuevas direcciones de correo electrónico son fuentes dir
 
 Algunas notas sobre estos métodos de registro:
 
-**La colección de** tiendas físicas puede presentar desafíos debido a las entradas de direcciones verbales o escritas que causan errores ortográficos en las direcciones. Se recomienda enviar un correo electrónico de confirmación lo más rápido posible después de registrarse en la tienda.
+**Almacén físico** la recopilación de listas puede presentar desafíos debido a las entradas de direcciones verbales o escritas que causan errores ortográficos en las direcciones. Se recomienda enviar un correo electrónico de confirmación lo más rápido posible después de registrarse en la tienda.
 
-La forma más común de **registro en el sitio web** es la &quot;inclusión única&quot;. Es el estándar mínimo absoluto que debe utilizarse para adquirir direcciones de correo electrónico. La opción de inclusión única se produce cuando el titular de una dirección de correo electrónico específica concede a un remitente permiso para enviarle correos electrónicos de marketing, normalmente enviando la dirección a través de un formulario web o registros en la tienda. Aunque es posible ejecutar una campaña de correo electrónico con éxito mediante este método, puede ser la causa de algunos problemas.
+La forma más común de **registro en el sitio web** es &quot;inclusión única&quot;. Es el estándar mínimo absoluto que debe utilizarse para adquirir direcciones de correo electrónico. La opción de inclusión única se produce cuando el titular de una dirección de correo electrónico específica concede a un remitente permiso para enviarle correos electrónicos de marketing, normalmente enviando la dirección a través de un formulario web o registros en la tienda. Aunque es posible ejecutar una campaña de correo electrónico con éxito mediante este método, puede ser la causa de algunos problemas.
 
 * Las direcciones de correo electrónico no confirmadas pueden tener errores tipográficos o tener un formato incorrecto, ser incorrectas o utilizarse de forma maliciosa. Los errores tipográficos y las direcciones mal formadas provocan altas tasas de devoluciones, lo que puede provocar y no bloques emitidos por ISP o pérdida de reputación de IP.
 
 * El envío malicioso de trampas de correo no deseado conocidas (a veces llamadas &quot;envenenamiento de listas&quot;) puede causar enormes problemas con la entrega y la reputación si el propietario de esa trampa toma medidas. Es imposible saber si el destinatario realmente desea que se añada a una lista de marketing sin una confirmación. Esto hace igualmente imposible establecer las expectativas del destinatario y puede provocar un aumento de las quejas por correo no deseado, y a veces una inclusión en la lista de bloqueados si el correo electrónico recopilado resulta ser una trampa de correo no deseado.
 
-Para obtener instrucciones sobre cómo minimizar los problemas presentados tanto en el almacén físico como en la opción de inclusión única, vaya a la sección [Calidad de los datos e higiene](#data-quality-and-hygiene) en esta guía para conocer los detalles y beneficios de la doble inclusión.
+Para obtener instrucciones sobre cómo minimizar los problemas presentados tanto en el almacén físico como en la opción de inclusión única, vaya a [Calidad de los datos e higiene](#data-quality-and-hygiene) en esta guía para conocer los detalles y beneficios de la doble inclusión.
 
 >[!NOTE]
 >
@@ -58,10 +58,10 @@ Estas son algunas soluciones a problemas comunes con los que puede encontrar sus
 
 El DOI consiste en enviar un correo electrónico de confirmación a la dirección de correo electrónico del suscriptor que se ha suscrito a su programa de correo electrónico que contiene un vínculo en el que se debe hacer clic para confirmar el consentimiento. Con este método de adquisición, si el suscriptor no confirma, el remitente no les enviaría más correos electrónicos. Haga saber a los nuevos suscriptores que está haciendo esto en el sitio web, animándolos a completar la suscripción antes de continuar. Este método sí observa una reducción en el número de suscripciones, pero las personas que sí se registran tienden a estar muy comprometidas y a quedarse a largo plazo. Normalmente resulta en un ROI mucho más alto para el remitente.
 
-**Campo ocultoLa aplicación de un campo oculto en el formulario de registro es una buena forma de diferenciar los registros de bots automatizados de los suscriptores humanos reales.**
-Como el campo de datos no está visible, oculto en el código del HTML, un bot ingresará datos en los que un ser humano no lo haría. Con este método, puede crear reglas para suprimir cualquier registro que incluya datos rellenados en ese campo oculto.
+**Campo oculto**
+La aplicación de un campo oculto en el formulario de registro es una buena forma de diferenciar los registros de bots automatizados de los suscriptores humanos reales. Como el campo de datos no está visible, oculto en el código del HTML, un bot ingresará datos en los que un ser humano no lo haría. Con este método, puede crear reglas para suprimir cualquier registro que incluya datos rellenados en ese campo oculto.
 
-**[!DNL re-CAPTCHA] es un método de validación que puede utilizar para reducir las probabilidades de que el suscriptor sea un bot y no una persona real. Existen varias versiones, algunas de las cuales contienen identificación de palabras clave o imágenes. Algunas versiones son más efectivas que otras, y lo que se obtiene en la prevención de problemas de seguridad y capacidad de envío es mucho mayor que cualquier impacto negativo en las conversiones.
+**[!DNL re-CAPTCHA] es un método de validación que puede utilizar para reducir las posibilidades de que el suscriptor sea un bot y no una persona real. Existen varias versiones, algunas de las cuales contienen identificación de palabras clave o imágenes. Algunas versiones son más efectivas que otras, y lo que se obtiene en la prevención de problemas de seguridad y capacidad de envío es mucho mayor que cualquier impacto negativo en las conversiones.
 
 ## Directrices legales
 
@@ -75,16 +75,16 @@ Consulte a sus abogados para interpretar las leyes locales y nacionales relativa
 
 Hay muchas otras formas de recopilar direcciones, cada una con sus propias oportunidades, desafíos y desventajas. El Adobe no los recomienda en general, ya que el uso se restringe a través de políticas de uso aceptables para el proveedor. Observaremos algunos ejemplos comunes, para que pueda conocer los peligros que le ayudarán a limitar o evitar los riesgos:
 
-**Comprar o alquilar una**
-listaExisten muchos tipos de direcciones de correo electrónico. Correo electrónico primario, correos electrónicos de trabajo, correos electrónicos escolares, correos electrónicos secundarios y correos electrónicos inactivos, por nombrar algunos. Los tipos de direcciones recopiladas y compartidas a través de listas compradas o alquiladas rara vez son cuentas de correo electrónico principales, que son donde se produce casi toda la actividad de participación y compra.
+**Comprar o alquilar una lista**
+Existen muchos tipos de direcciones de correo electrónico. Correo electrónico primario, correos electrónicos de trabajo, correos electrónicos escolares, correos electrónicos secundarios y correos electrónicos inactivos, por nombrar algunos. Los tipos de direcciones recopiladas y compartidas a través de listas compradas o alquiladas rara vez son cuentas de correo electrónico principales, que son donde se produce casi toda la actividad de participación y compra.
 
 Si tiene suerte, obtendrá cuentas secundarias, en las que las personas buscarán ofertas y ofertas cuando estén listas para comprar algo. Esto generalmente da como resultado niveles de participación bajos, si los hay. Si no tiene suerte, la lista está llena de correos electrónicos inactivos, que ahora podrían ser trampas de correo no deseado. A menudo, se obtiene una combinación de correos electrónicos secundarios e inactivos. En general, la calidad de estos tipos de listas hace más daño que bien a un programa de correo electrónico. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Listas**
-appendSon clientes que han elegido interactuar con su marca, lo que es bueno. Pero optaron por utilizar un método distinto del correo electrónico (en tienda, medios sociales, etc.). No pueden ser receptivos a recibir un correo electrónico no solicitado y también pueden estar preocupados por cómo obtuvo su dirección de correo electrónico, ya que no la proporcionaron. Este método conlleva el riesgo de convertir a un cliente o cliente potencial que se comprometa con su marca en un detractor que ya no confía en su marca y, en su lugar, va a la competencia. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+**Anexar listas**
+Son clientes que han elegido interactuar con su marca, lo que es bueno. Pero optaron por utilizar un método distinto del correo electrónico (en tienda, medios sociales, etc.). No pueden ser receptivos a recibir un correo electrónico no solicitado y también pueden estar preocupados por cómo obtuvo su dirección de correo electrónico, ya que no la proporcionaron. Este método conlleva el riesgo de convertir a un cliente o cliente potencial que se comprometa con su marca en un detractor que ya no confía en su marca y, en su lugar, va a la competencia. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Programa comercial u otra**
-colección de eventosLa recopilación de direcciones en una cabina o a través de otro método oficial de marca clara puede ser útil. El riesgo es que muchos eventos como este recopilen todas las direcciones y los distribuyan a través del promotor o host de eventos. Lo que significa que los propietarios de estas direcciones de correo electrónico nunca han solicitado recibir correos electrónicos de su marca. Es probable que estos suscriptores se quejen y marquen su correo como correo no deseado, y es posible que no hayan proporcionado información de contacto precisa.
+**Programa comercial u otra colección de eventos**
+La recopilación de direcciones en una cabina o a través de otro método oficial de marca clara puede ser útil. El riesgo es que muchos eventos como este recopilen todas las direcciones y los distribuyan a través del promotor o host de eventos. Lo que significa que los propietarios de estas direcciones de correo electrónico nunca han solicitado recibir correos electrónicos de su marca. Es probable que estos suscriptores se quejen y marquen su correo como correo no deseado, y es posible que no hayan proporcionado información de contacto precisa.
 
 **Apuestas**
 

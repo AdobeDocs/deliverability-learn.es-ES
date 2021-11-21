@@ -26,7 +26,7 @@ A continuación se muestran algunos aspectos destacados:
 
 ## Qué datos ponen a disposición
 
-[!DNL Microsoft]La herramienta de informes de remitentes propietaria de ,  [!DNL Smart Network Data Services] (SNDS), le permite ver las métricas sobre la cantidad de correo que envía y la cantidad de correo aceptado, así como las quejas y trampas de correo no deseado. Tenga en cuenta que los datos compartidos son una muestra y no reflejan números exactos, pero representa mejor cómo [!DNL Microsoft] lo ve como remitente. [!DNL Microsoft] no proporciona información sobre su grupo de usuarios de confianza públicamente, pero esos datos están disponibles a través del  [!DNL Return Path Certification] programa por un cargo adicional.
+[!DNL Microsoft]la herramienta de sistema de informes de remitente, [!DNL Smart Network Data Services] (SNDS), le permite ver métricas sobre la cantidad de correo que envía y la cantidad de correo aceptado, así como las quejas y trampas de correo no deseado. Tenga en cuenta que los datos compartidos son una muestra y no reflejan números exactos, pero representan mejor cómo [!DNL Microsoft] lo ve como remitente. [!DNL Microsoft] no proporciona públicamente información sobre su grupo de usuarios de confianza, pero esos datos están disponibles a través de la variable [!DNL Return Path Certification] programa por un suplemento.
 
 ## Conocimiento del remitente
 
@@ -34,6 +34,6 @@ A continuación se muestran algunos aspectos destacados:
 
 ## Perspectivas
 
-[!DNL Microsoft] combina todos los dominios de recepción para establecer y rastrear la reputación de envío. Esto incluye [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live], etc., así como cualquier correo electrónico alojado en Office 365. [!DNL Microsoft] puede ser especialmente sensible a las fluctuaciones en el volumen, por lo que considere la posibilidad de aplicar estrategias específicas para aumentar y reducir desde los envíos grandes en lugar de permitir cambios repentinos basados en el volumen.
+[!DNL Microsoft] combina todos los dominios de recepción para establecer y rastrear la reputación de envío. Esto incluye [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live], etc., así como los correos electrónicos corporativos alojados en Office 365. [!DNL Microsoft] puede ser especialmente sensible a las fluctuaciones en el volumen, por lo que considere la posibilidad de aplicar estrategias específicas para aumentar y reducir desde los envíos grandes en lugar de permitir cambios repentinos basados en el volumen.
 
 [!DNL Microsoft] también es especialmente estricto durante los días iniciales de calentamiento de IP, lo que generalmente significa que la mayoría del correo se filtra inicialmente. La mayoría de los ISP consideran inocentes a los remitentes hasta que se demuestre su culpabilidad. [!DNL Microsoft] es lo contrario y te considera culpable hasta que te pruebes inocente.

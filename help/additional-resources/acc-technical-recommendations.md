@@ -29,7 +29,7 @@ La elección de dominio del DNS inverso influye al tratar con determinados ISP. 
 
 >[!NOTE]
 >
->Puede utilizar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para verificar la configuración de un dominio.
+>Puede usar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para verificar la configuración de un dominio.
 
 ### Reglas MX {#mx-rules}
 
@@ -67,12 +67,12 @@ Actualmente, un registro SPF se puede definir en un servidor DNS como un registr
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~** todo significa que cualquier otra dirección debe interpretarse como un Fallo leve.
+define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~all** significa que cualquier otra dirección debe interpretarse como SoftFail.
 
 Recommendations para definir un registro SPF:
 
-* Agregue **~all** (Fallo leve) o **-all** (Fallo) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán falsificar este dominio (con una evaluación neutra).
-* No agregue **ptr** (openspf.org recomienda no agregar esto, ya que es costoso y poco fiable).
+* Agregar **~all** (Fallo leve) o **-all** (Fallo) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán falsificar este dominio (con una evaluación neutra).
+* No agregue **ptr** (openspf.org recomienda no hacerlo por ser costoso y poco fiable).
 
 >[!NOTE]
 >
@@ -90,9 +90,9 @@ Recommendations para definir un registro SPF:
 >
 >Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
-El uso de [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
+Uso [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
 
-**Declaración** de opciones de Adobe Campaign: en Adobe Campaign, la clave privada DKIM se basa en un dominio y un selector DKIM. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
+**Declaración de opciones de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un dominio y un selector DKIM. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
 
 * Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Si no es así, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys (que reemplazó a DKIM).
 * No es necesario activar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
@@ -163,9 +163,9 @@ List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessa
 
 Gmail, Outlook.com y Microsoft Outlook admiten este método y hay un botón de cancelación de suscripción disponible directamente en su interfaz. Esta técnica reduce las tasas de quejas.
 
-Puede implementar **List-Unsubscribe** mediante:
+Puede implementar la variable **Cancelación de suscripción a una lista** mediante:
 
-* Añadiendo directamente [la línea de comandos en la plantilla de envío](#adding-a-command-line-in-a-delivery-template)
+* Directamente [adición de la línea de comandos en la plantilla de entrega](#adding-a-command-line-in-a-delivery-template)
 * [Crear una regla de tipología](#creating-a-typology-rule)
 
 ### Adición de una línea de comandos en una plantilla de entrega {#adding-a-command-line-in-a-delivery-template}
@@ -196,7 +196,7 @@ La regla debe contener la secuencia que genera la línea de comandos y debe incl
 
 >[!NOTE]
 >
->Aprenda a crear reglas de tipología en Adobe Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## Optimización del correo electrónico {#email-optimization}
 

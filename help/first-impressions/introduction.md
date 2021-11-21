@@ -20,7 +20,7 @@ ht-degree: 4%
 Cuando se busca construir una nueva relación, es crucial dar una buena primera impresión. Sin ella, nada más que digas o hagas puede ser dado una oportunidad. La relación entre una marca y aquellos que eligen interactuar con ellas no es diferente. Todo comienza en algún lugar. Y cuando se trata de ejecutar un programa de correo electrónico, comienza con recopilar direcciones de correo electrónico y dar la bienvenida a los suscriptores a su programa. Veamos cómo puede configurarse para ejecutar un programa de correo electrónico exitoso haciendo una buena primera impresión en esas áreas.
 
 Paso 1:  [Recopilación de direcciones y crecimiento de listas](/help/first-impressions/address-collection-and-list-growth.md):
-*Conozca cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo asegurar la alta calidad de los datos y la alineación con las directrices legales.*
+*Conozca cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo garantizar una alta calidad de los datos y la alineación con las directrices legales.*
 
 Paso 2:  [Correos electrónicos de bienvenida](/help/first-impressions/welcome-emails.md):
 *Comprender qué elementos clave tener en cuenta al crear los correos electrónicos de bienvenida.*
