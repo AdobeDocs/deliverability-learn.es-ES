@@ -1,11 +1,12 @@
 ---
 title: Preguntas frecuentes sobre la protección de privacidad de correo de Apple
 description: Preguntas frecuentes sobre la protección de privacidad de correo de Apple
+KT: 11222
 topics: Deliverability
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
-source-git-commit: 994e31f8038f2a6d9ec986f93dc2640e6a8796d7
+source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -20,9 +21,9 @@ El 7 de junio, en la conferencia anual de desarrolladores mundial de Apple (WWDC
 
 ## ¿Cuándo entrará en vigor?
 
-La versión de iOS 15 estará disponible este otoño, posiblemente a principios de septiembre. Aunque no hay un impacto inmediato en los programas de correo electrónico en este momento, los especialistas en marketing deben comprender qué impacto potencial podría tener este cambio y qué estrategias pueden aumentar los programas de marketing por correo electrónico. El Adobe ayudará a nuestros clientes a comprender el impacto y navegar por estos cambios con actualizaciones y un pensamiento de liderazgo, de modo que sus programas de correo electrónico no omitan un latido.
+La versión de iOS 15 estará disponible este otoño, posiblemente a principios de septiembre. Aunque no hay un impacto inmediato en los programas de correo electrónico en este momento, los especialistas en marketing deben comprender qué impacto potencial podría tener este cambio y qué estrategias pueden aumentar los programas de marketing por correo electrónico. El Adobe ayuda a nuestros clientes a comprender el impacto y navegar por estos cambios con actualizaciones y un pensamiento de liderazgo, de modo que sus programas de correo electrónico no omiten un latido.
 
-## ¿Qué impacto tendrá esto en el seguimiento y la medición de los resultados de las campañas de correo electrónico?
+## ¿Qué impacto tiene esto en el seguimiento y la medición de los resultados de las campañas de correo electrónico?
 
 Los datos del seguimiento de píxeles dentro de Apple Mail ya no serán precisos, lo que significa que los especialistas en marketing ya no podrán saber de forma fiable cuándo se abre un correo electrónico. Aunque la precarga de imágenes y píxeles y el uso de proxies para anonimizar datos no son nuevos, varios proveedores han adoptado medidas similares en el pasado, el alcance, el método y el alcance de la implementación son nuevos.
 
@@ -30,7 +31,7 @@ La aplicación de correo de Apple tiene una amplia variedad de proveedores. Por 
 
 ## ¿Hay otros impactos?
 
-De forma predeterminada, Apple ocultará la información de la dirección IP en su aplicación de correo nativa, en el explorador Safari y en los servicios de iCloud. La medición de las tasas abiertas no es el único aspecto del marketing por correo electrónico afectado por la protección de privacidad de correo de Apple. Las aperturas de correo electrónico impulsan estrategias de optimización en tiempo de envío, personalización en tiempo real, campañas de renovación de la participación y campañas automatizadas de varias ondas. Estos cambios significan que los especialistas en marketing deben empezar a planificar cómo se verán estas estrategias para los usuarios de Apple una vez que iOS 15 se publique y las funciones de protección de la privacidad se afiancen este otoño. Adobe ayudará a nuestros clientes a navegar por estos cambios con actualizaciones, orientación y liderazgo.
+De forma predeterminada, Apple ocultará la información de la dirección IP en su aplicación de correo nativa, en el explorador Safari y en los servicios de iCloud. La medición de las tasas abiertas no es el único aspecto del marketing por correo electrónico afectado por la protección de privacidad de correo de Apple. Las aperturas de correo electrónico impulsan estrategias de optimización en tiempo de envío, personalización en tiempo real, campañas de renovación de la participación y campañas automatizadas de varias ondas. Estos cambios significan que los especialistas en marketing deben empezar a planificar cómo se verán estas estrategias para los usuarios de Apple una vez que iOS 15 se publique y las funciones de protección de la privacidad se afiancen este otoño. Adobe ayuda a nuestros clientes a navegar por estos cambios con actualizaciones, directrices y liderazgo mental.
 
 ## ¿Este anuncio pertenece a todos los correos electrónicos abiertos en un dispositivo Apple?
 
@@ -46,7 +47,7 @@ La medición de las tasas abiertas no es el único aspecto del marketing por cor
 
 ## ¿Qué pueden hacer los especialistas en marketing ahora?
 
-Si los especialistas en marketing aún no lo están haciendo, un buen lugar para centrarse sería la segmentación basada en dispositivos, que se puede realizar en Adobe Campaign, Marketo o Journey Optimizer. Los datos del dispositivo ayudan a los especialistas en marketing a comprender qué dispositivos utilizan los clientes para leer sus correos electrónicos, lo que podría ser un buen punto de partida para determinar el impacto potencial en los programas de correo electrónico. Además, la segmentación por tipo de dispositivo proporciona perspectivas sobre cuánto utiliza una audiencia Apple Mail para leer correos electrónicos. También sería beneficioso para el especialista en marketing comprender otras campañas y estrategias que incorporan las aperturas como déclencheur o métrica (es decir, campañas de renovación de la participación, optimización del tiempo de envío, etc.). Adobe proporcionará más información a medida que se acerque la versión de iOS 15.
+Si los especialistas en marketing ya no lo hacen, un buen lugar para centrarse sería la segmentación basada en dispositivos, que se puede realizar en Adobe Campaign, Marketo o Journey Optimizer. Los datos del dispositivo ayudan a los especialistas en marketing a comprender qué dispositivos utilizan los clientes para leer sus correos electrónicos, lo que podría ser un buen punto de partida para determinar el impacto potencial en los programas de correo electrónico. Además, la segmentación por tipo de dispositivo proporciona perspectivas sobre cuánto utiliza una audiencia Apple Mail para leer correos electrónicos. También sería beneficioso para el especialista en marketing comprender otras campañas y estrategias que incorporan las aperturas como déclencheur o métrica (es decir, campañas de renovación de la participación, optimización del tiempo de envío, etc.). Adobe ofrece más información a medida que se acerca la versión de iOS 15.
 
 ## ¿Hay algún impacto en el seguimiento push móvil?
 
@@ -54,4 +55,4 @@ Actualmente, creemos que esta función de privacidad no afectará al seguimiento
 
 ## ¿Cómo es que Adobe apoya a nuestros clientes?
 
-Publicaremos contenido adicional que describe nuestro PDV y estrategias sugeridas (a corto y largo plazo). Además, los clientes pueden descargar un [Guía de capacidad de entrega](../introduction.md), tome un [curso sobre capacidad de envío](http://bit.ly/Deliverability-Course)y vea un [seminario web reciente](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) sobre la capacidad de envío para mantenerse al día con las últimas tendencias y prácticas recomendadas. Por supuesto, los clientes pueden estar atentos a futuros posts de blogs, seminarios web y actualizaciones con respecto a la capacidad de envío y otras dinámicas cambiantes relacionadas con la privacidad.
+Publicaremos contenido adicional que describe nuestro PDV y estrategias sugeridas (a corto y largo plazo). Además, los clientes pueden descargar un [Guía de capacidad de entrega](../introduction.md), tome un [curso sobre capacidad de envío](https://experienceleague.adobe.com/?lang=es#dashboard/learning)y vea un [seminario web reciente](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) sobre la capacidad de envío para mantenerse al día con las últimas tendencias y prácticas recomendadas. Por supuesto, los clientes pueden estar atentos a futuros posts de blogs, seminarios web y actualizaciones con respecto a la capacidad de envío y otras dinámicas cambiantes relacionadas con la privacidad.

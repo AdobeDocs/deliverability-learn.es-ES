@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
 * **SURBL**
 
-   Consulte [http://www.surbl.org/ ](http://www.surbl.org/)
+   Consulte [https://surbl.org/](https://surbl.org/)
 
    SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
