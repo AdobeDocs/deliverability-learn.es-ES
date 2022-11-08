@@ -3,16 +3,16 @@ title: Implementar los indicadores de marca de Gmail para la identificación de 
 description: Aprenda a implementar BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: a4d2a75e85f37f48aa3246707b98e473682e13f6
+source-git-commit: 683ffd3c87a4849aa9fa48fbf50db9ade97991af
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Implementación de [!DNL Brand Indicators for Message Identification] (BIMI)
 
-Gmail anunció recientemente que sería [desarrollo del apoyo general de BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). Para poder aprovechar esta situación, tendrá que lidiar con varios artículos, entre ellos: Certificados de marca verificados, Logotipos con marca comercial, Logotipos con formato correcto, configuración de DMARC, y finalmente publicar un registro BIMI en su DNS. Revisaremos todos estos pasos en este artículo.
+Gmail anunció recientemente que sería [desarrollo del apoyo general de BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace){target=&quot;_blank&quot;}. Para poder aprovechar esta situación, tendrá que lidiar con varios artículos, entre ellos: Certificados de marca verificados, Logotipos con marca comercial, Logotipos con formato correcto, configuración de DMARC, y finalmente publicar un registro BIMI en su DNS. Revisaremos todos estos pasos en este artículo.
 
 [!DNL Brand Indicators for Message Identification] (BIMI) es un estándar del sector que permite que un logotipo aprobado aparezca junto al correo electrónico de un remitente en las plataformas participantes. Este atractivo no solo puede aumentar la participación, sino que también ayuda a confirmar la autenticidad del remitente, reduciendo el riesgo de phishing y otras tácticas de spam.
 
@@ -41,7 +41,7 @@ Si el logotipo que desea mostrar no está registrado, o no está registrado en u
 
 Este también sería un buen momento para asegurarse de que su logotipo cumplirá los requisitos del logotipo BIMI para el formato.
 
-Debe estar en formato de SVG y cumplir con el perfil portátil/seguro del SVG (SVG-P/S). Puede encontrar sugerencias sobre cómo hacerlo en la [Grupo de trabajo BIMI](https://bimigroup.org/svg-conversion-tools-released).
+Debe estar en formato de SVG y cumplir con el perfil portátil/seguro del SVG (SVG-P/S). Puede encontrar sugerencias sobre cómo hacerlo en la [Grupo de trabajo BIMI](https://bimigroup.org/svg-conversion-tools-released){target=&quot;_blank&quot;}.
 
 ## DMARC
 
@@ -59,12 +59,14 @@ Esta es una entrada simple que debería tener un aspecto similar al siguiente:
 default._bimi.[domain] IN TXT “v=BIMI1; l=[SVG URL] 
 ```
 
-Puede obtener los detalles sobre esa entrada e incluso utilizar un verificador BIMI gratuito en la [Sitio del grupo de trabajo BIMI](https://bimigroup.org/implementation-guide).
+Puede obtener los detalles sobre esa entrada e incluso utilizar un verificador BIMI gratuito en la [Sitio del grupo de trabajo BIMI](https://bimigroup.org/implementation-guide){target=&quot;_blank&quot;}.
 
 
 ## Principales seguimientos
 
-Si es [!DNL Adobe Campaign] Para el cliente de Marketo, Adobe puede ayudarle a crear la actualización de DNS de BIMI: póngase en contacto con el servicio de atención al cliente de Adobe para solicitar una. El Adobe también puede ayudarle a solucionar el problema si BIMI no funciona correctamente para usted.
+Si es [!DNL Adobe Campaign], Adobe puede ayudarle a crear la actualización de DNS de BIMI: póngase en contacto con el servicio de atención al cliente de Adobe para solicitar una. El Adobe también puede ayudarle a solucionar el problema si BIMI no funciona correctamente para usted.
+
+Si es cliente de Marketo, consulte [esta publicación de blog](https://nation.marketo.com/t5/support-blogs/how-to-bimi/ba-p/296966){target=&quot;_blank&quot;} para obtener instrucciones sobre cómo crear su registro BIMI.
 
 Para obtener ayuda con marcas comerciales o certificados de marca verificada, trabaje con su equipo legal y con un proveedor de MVC autorizado.
 
