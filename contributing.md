@@ -1,8 +1,7 @@
 ---
-source-git-commit: 321dc7eb5ec9e3d82d7d133689104282b553efd1
+source-git-commit: 8ccd915f558f3b06e9ac4b97dc45aefd6b27a4f1
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,7 @@ Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. 
 
 ## Documentación de la Guía del colaborador
 
-Consulte la [Guía de colaborador](https://docs.adobe.com/content/help/es-ES/contributor/contributor-guide/introduction.html).
+Consulte la [Guía del colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
 
 ## ¿Tiene alguna pregunta?
 
@@ -31,7 +30,7 @@ para colaboradores firmado, que da permiso a Adobe para redistribuir las contrib
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obtener más información sobre el envío de solicitudes de extracción.
+Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
