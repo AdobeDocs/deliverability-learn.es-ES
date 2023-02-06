@@ -2,10 +2,10 @@
 user-guide-title: Guía de prácticas recomendadas de entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conozca los términos, conceptos y enfoques clave relativos a las entregas para garantizar el éxito de su programa de marketing.
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -57,3 +57,5 @@ ht-degree: 100%
       + [Campaign Classic: recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
    + Notas técnicas {#technotes}
       + [Implementación de BIMI](/help/technotes/implement-bimi.md)
+      + [Actualizar devoluciones después de la interrupción de Italia Online](/help/technotes/update-bounces-after-it-outage.md)
+
