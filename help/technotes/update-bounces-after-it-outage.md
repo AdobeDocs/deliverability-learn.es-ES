@@ -2,9 +2,7 @@
 title: Actualizar la calificación de devoluciones después de la interrupción de Italia Online
 description: Aprenda a actualizar la calificación de devolución después de la interrupción de Italia Online
 feature: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: dfa9b3c9537847c79e612bdcfcacc8e0dccd01ea
+source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 24%
