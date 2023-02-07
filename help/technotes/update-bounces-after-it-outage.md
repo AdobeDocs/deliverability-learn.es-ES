@@ -2,10 +2,11 @@
 title: Actualizar la calificación de devoluciones después de la interrupción de Italia Online
 description: Aprenda a actualizar la calificación de devolución después de la interrupción de Italia Online
 feature: Deliverability
-source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
+source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 24%
+source-wordcount: '415'
+ht-degree: 20%
 
 ---
 
@@ -34,6 +35,8 @@ Los síntomas fueron:
 
 ## Proceso de actualización{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 Por lógica de gestión de devoluciones estándar, Adobe Campaign añadió automáticamente estos destinatarios a la lista de cuarentena con una configuración **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corregir esto, debe actualizar la tabla de cuarentena en Campaign buscando y quitando estos destinatarios o cambiando su **[!UICONTROL Status]** a **[!UICONTROL Valid]** para que el flujo de trabajo de limpieza nocturno los elimine.
 
 Para encontrar los destinatarios afectados por este problema, o en caso de que esto vuelva a suceder con cualquier otro ISP, consulte las instrucciones a continuación:
@@ -41,5 +44,11 @@ Para encontrar los destinatarios afectados por este problema, o en caso de que e
 * Para Campaign Classic v7 y Campaign v8, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * Para obtener más información sobre el Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
+### Adobe Journey Optimizer{#ajo-update}
 
+Por lógica de gestión de devoluciones estándar, Adobe Journey Optimizer ha añadido automáticamente estas direcciones de correo electrónico a la lista de supresión con un **[!UICONTROL Reason]** configuración de **[!UICONTROL Invalid Recipient]**. Para corregir esto, debe actualizar la lista de supresión buscando y eliminando estas direcciones de correo electrónico.
+
+Una vez identificadas, estas direcciones se pueden eliminar manualmente de la lista de supresión mediante la función **[!UICONTROL Delete]** botón. Estas direcciones se pueden incluir en futuras campañas de correo electrónico.
+
+Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
