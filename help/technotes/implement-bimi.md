@@ -3,7 +3,7 @@ title: Implementar los indicadores de marca de Gmail para la identificación de 
 description: Aprenda a implementar BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 05f6cd331f4e610e2442d43405333823644d349e
+source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -22,7 +22,7 @@ BIMI no mejora directamente la capacidad de envío o su reputación. Aunque pued
 
 ## ¿Cómo se ve?
 
-Puede encontrar algunos ejemplos de implementaciones de diferentes proveedores y más detalles sobre los proveedores que sí muestran el logotipo en el [Página del Grupo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
+Puede encontrar algunos ejemplos de implementaciones de diferentes proveedores y más detalles sobre los proveedores que sí muestran el logotipo en el [Página del Grupo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## ¿Quién es el grupo BIMI?
 
@@ -32,7 +32,7 @@ El Grupo BIMI está integrado por varias partes interesadas de diferentes sector
 
 ## ¿Quién apoya a BIMI?
 
-La lista de proveedores de buzones de correo que admiten BIMI está creciendo de manera constante. Se puede encontrar una lista actualizada [here](https://bimigroup.org/bimi-infographic/) tanto para los proveedores de soporte como para los proveedores que consideran BIMI.
+La lista de proveedores de buzones de correo que admiten BIMI está creciendo de manera constante. Se puede encontrar una lista actualizada [here](https://bimigroup.org/bimi-infographic/){target="_blank"} tanto para los proveedores de soporte como para los proveedores que consideran BIMI.
 
 Desde abril de 2023, la lista incluye Gmail, Yahoo, La Poste, Fastmail, Onet.pl y Zone, Proofpoint como dispositivo antispam y Apple Mail (a partir de iOS 16).
 
@@ -65,7 +65,7 @@ Además de DMARC en el dominio de envío, DMARC también debe emplearse a nivel 
 
 ### Creación del logotipo de su marca {#create-brand-logo}
 
-La creación del logotipo debe seguir los requisitos al 100%. Consulte siempre la [Directrices del Grupo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/).
+La creación del logotipo debe seguir los requisitos al 100%. Consulte siempre la [Directrices del Grupo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 Además de los requisitos técnicos, hay algunas recomendaciones prácticas como tener un logotipo cuadrado, con un color sólido como fondo y otras. Estas recomendaciones son para una mejor visualización.
 Tenga en cuenta que el incumplimiento puede llevar a que el logotipo no se muestre.
@@ -102,10 +102,10 @@ Ni siquiera pasar por el esfuerzo y los gastos para una MVC se quita esta parte.
 
 ## Pestaña Sugerencias y trucos
 
-* El grupo BIMI ofrece una útil herramienta de validación para BIMI. Si desea comprobar si todo está configurado y listo, o si solo desea ver si el logotipo es compatible, vaya a [este vínculo](https://bimigroup.org/bimi-generator/). Para esto último, haga clic en **[!UICONTROL Generate BIMI]** e introduzca un dominio de marcador de posición, pero la dirección URL del logotipo correcta. El inspector le indicará si el logotipo es compatible.
+* El grupo BIMI ofrece una útil herramienta de validación para BIMI. Si desea comprobar si todo está configurado y listo, o si solo desea ver si el logotipo es compatible, vaya a [este vínculo](https://bimigroup.org/bimi-generator/){target="_blank"}. Para esto último, haga clic en **[!UICONTROL Generate BIMI]** e introduzca un dominio de marcador de posición, pero la dirección URL del logotipo correcta. El inspector le indicará si el logotipo es compatible.
 
 * Puede empezar sin un MVC con seguridad, no hay daño en su reputación si su registro BIMI no incluye una URL de MVC, pero el logotipo ya se puede mostrar en Yahoo.
 
 * La implementación de la DMARC a nivel organizativo es una gran empresa. Algunas empresas están especializadas para ayudar a las marcas a lograr la adopción completa de DMARC.
 
-* Se publica una extensa lista de preguntas más frecuentes [here](https://bimigroup.org/faqs-for-senders-esps/).
+* Se publica una extensa lista de preguntas más frecuentes [here](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
