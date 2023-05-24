@@ -29,17 +29,17 @@ La elección de dominio del DNS inverso influye al tratar con determinados ISP. 
 
 >[!NOTE]
 >
->Puede usar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para verificar la configuración de un dominio.
+>Puede utilizar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para comprobar la configuración de un dominio.
 
 ### Reglas MX {#mx-rules}
 
 Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación entre un servidor emisor y un servidor receptor.
 
-Más precisamente, se utilizan para controlar la velocidad a la que el MTA de Adobe Campaign (Agente de transferencia de mensajes) envía correos electrónicos a cada dominio de correo electrónico o ISP individual (por ejemplo, hotmail.com, comcast.net). Estas reglas generalmente se basan en los límites publicados por los ISP (por ejemplo, no incluyen más de 20 mensajes por cada conexión SMTP).
+Más concretamente, se utilizan para controlar la velocidad a la que el MTA de Adobe Campaign (Agente de transferencia de mensajes) envía correos electrónicos a cada dominio de correo electrónico o ISP individual (por ejemplo, hotmail.com, comcast.net). Estas reglas generalmente se basan en los límites publicados por los ISP (por ejemplo, no incluir más de 20 mensajes por cada conexión SMTP).
 
 >[!NOTE]
 >
->Para obtener más información sobre la administración MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Para obtener más información sobre la administración de MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -47,7 +47,7 @@ TLS (Transport Layer Security) es un protocolo de codificación que se puede uti
 
 ### Dominio del remitente {#sender-domain}
 
-Para definir el dominio utilizado para el comando HELO, edite el archivo de configuración de la instancia (conf/config-instance.xml) y defina un atributo &quot;localDomain&quot; como se indica a continuación:
+Para definir el dominio utilizado para el comando HELO, edite el archivo de configuración de la instancia (conf/config-instance.xml) y defina un atributo &quot;localDomain&quot; de la siguiente manera:
 
 ```
 <serverConf>
@@ -57,9 +57,9 @@ Para definir el dominio utilizado para el comando HELO, edite el archivo de conf
 </serverConf>
 ```
 
-El dominio MAIL FROM es el dominio utilizado en los mensajes de rechazo técnico. Esta dirección se define en el asistente de implementación o a través de la opción NmsEmail_DefaultErrorAddr .
+El dominio MAIL FROM es el dominio utilizado en los mensajes de devolución técnicos. Esta dirección se define en el asistente de implementación o a través de la opción NmsEmail_DefaultErrorAddress.
 
-### Registro SPF {#dns-configuration}
+### registro SPF {#dns-configuration}
 
 Actualmente, un registro SPF se puede definir en un servidor DNS como un registro de tipo TXT (código 16) o un registro de tipo SPF (código 99). Un registro SPF toma la forma de una cadena de caracteres. Por ejemplo:
 
@@ -67,22 +67,22 @@ Actualmente, un registro SPF se puede definir en un servidor DNS como un registr
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~all** significa que cualquier otra dirección debe interpretarse como SoftFail.
+define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~todos** significa que cualquier otra dirección debe interpretarse como SoftFail.
 
 Recommendations para definir un registro SPF:
 
-* Agregar **~all** (Fallo leve) o **-all** (Fallo) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán falsificar este dominio (con una evaluación neutra).
-* No agregue **ptr** (openspf.org recomienda no hacerlo por ser costoso y poco fiable).
+* Añadir **~todos** (SoftFail) o **-all** (Fallo) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán forjar este dominio (con una evaluación Neutral).
+* No añadir **ptr** (openspf.org recomienda evitar esto por ser costoso y poco fiable).
 
 >[!NOTE]
 >
->Obtenga más información sobre SPF en [esta sección](/help/additional-resources/authentication.md#spf).
+>Obtenga más información sobre el SPF en [esta sección](/help/additional-resources/authentication.md#spf).
 
 ## Autenticación
 
 >[!NOTE]
 >
->Obtenga más información sobre las diferentes formas de autenticación por correo electrónico en [esta sección](/help/additional-resources/authentication.md).
+>Obtenga más información sobre las distintas formas de autenticación por correo electrónico en [esta sección](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
@@ -90,9 +90,9 @@ Recommendations para definir un registro SPF:
 >
 >Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
-Uso [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
+Uso de [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
 
-**Declaración de opciones de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un dominio y un selector DKIM. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
+**declaración de opción de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un selector DKIM y un dominio. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
 
 * Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Si no es así, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys (que reemplazó a DKIM).
 * No es necesario activar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
@@ -100,7 +100,7 @@ Uso [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign
 
 ## Bucle de comentarios {#feedback-loop-acc}
 
-Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Estas quejas se basan en que un ISP agregará una dirección IP a su  de lista de bloqueados. En función del ISP, una tasa de quejas de alrededor del 1 % resulta en el bloqueo de una dirección IP.
+Un bucle de comentarios funciona declarando al nivel del ISP una dirección de correo electrónico determinada para un rango de direcciones IP utilizadas para enviar mensajes. El ISP se envía a este buzón de correo, de manera similar a lo que se hace para los mensajes rechazados, aquellos mensajes cuyos destinatarios notifiquen como correo no deseado. La plataforma debe configurarse para bloquear futuros entregas a los usuarios que envíen quejas. Es importante no volver a ponerse en contacto con ellos aunque no hayan utilizado el vínculo de exclusión adecuado. Estas quejas son el motivo principal por el que un ISP añade una dirección IP a su lista de bloqueados de. En función del ISP, una tasa de quejas de alrededor del 1 % resulta en el bloqueo de una dirección IP.
 
 Actualmente se está elaborando un estándar para definir el formato de los mensajes de bucle de comentarios: el [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -161,11 +161,11 @@ La siguiente línea de comandos se puede utilizar para crear una **List-Unsubscr
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-Gmail, Outlook.com y Microsoft Outlook admiten este método y hay un botón de cancelación de suscripción disponible directamente en su interfaz. Esta técnica reduce las tasas de quejas.
+Gmail, Outlook.com y Microsoft Outlook admiten este método y hay un botón para cancelar la suscripción disponible directamente en su interfaz. Esta técnica reduce las tasas de quejas.
 
-Puede implementar la variable **Cancelación de suscripción a una lista** mediante:
+Puede implementar el **Cancelación de suscripción a lista** mediante:
 
-* Directamente [adición de la línea de comandos en la plantilla de entrega](#adding-a-command-line-in-a-delivery-template)
+* Directamente [adición de la línea de comandos en la plantilla de envíos](#adding-a-command-line-in-a-delivery-template)
 * [Crear una regla de tipología](#creating-a-typology-rule)
 
 ### Adición de una línea de comandos en una plantilla de entrega {#adding-a-command-line-in-a-delivery-template}
@@ -190,7 +190,7 @@ La regla debe contener la secuencia que genera la línea de comandos y debe incl
 
    Al hacer clic en el vínculo **unsubscribe**, se redirige al usuario a su formulario de cancelación de suscripción.
 
-   Ejemplo:
+   Por ejemplo:
 
    ![](../assets/s_tn_del_unsubscribe_param.png)
 

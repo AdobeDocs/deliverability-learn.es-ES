@@ -1,6 +1,6 @@
 ---
 title: Recursos adicionales
-description: Esta sección enumera una serie de recursos adicionales sobre la capacidad de envío.
+description: Esta sección enumera una serie de recursos adicionales sobre la capacidad de entrega.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -13,17 +13,17 @@ ht-degree: 33%
 
 ---
 
-# Recursos adicionales: Información general
+# Recursos adicionales: información general
 
 ## Novedades
 
-Consulte las siguientes notas técnicas para obtener más información sobre las actualizaciones recientes sobre la capacidad de envío.
+Consulte las siguientes notas técnicas para obtener más información sobre las actualizaciones recientes sobre la capacidad de entrega.
 
 * [Implementar los indicadores de marca de Gmail para la identificación de mensajes (BIMI)](../technotes/implement-bimi.md)
 
 ## Recursos genéricos
 
-Esta sección enumera algunos recursos adicionales sobre la capacidad de envío, como recomendaciones específicas y prácticas recomendadas, otras herramientas o procedimientos de solución de problemas.
+En esta sección se enumeran algunos recursos adicionales sobre la capacidad de envío, como recomendaciones específicas y prácticas recomendadas, otras herramientas o procedimientos de resolución de problemas.
 
 * [Todo acerca de las trampas de correo no deseado](../../help/additional-resources/all-about-spam-traps.md)
 * [Aumente su reputación de correo electrónico con el calentamiento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -39,7 +39,7 @@ Esta sección enumera algunos recursos adicionales sobre la capacidad de envío,
 
 ## Recursos específicos de los productos
 
-Además, esta sección enumera una serie de recursos específicos de productos para ayudarle a implementar la capacidad de envío y alcanzar el éxito con sus soluciones de Adobe.
+Además, esta sección enumera una serie de recursos específicos de productos para ayudarle a implementar la capacidad de entrega y alcanzar el éxito con sus soluciones de Adobe.
 
 **[!DNL Adobe Campaign]**
 

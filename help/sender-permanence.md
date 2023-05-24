@@ -1,6 +1,6 @@
 ---
 title: Permanencia del remitente
-description: El envío de permanencia es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP.
+description: La permanencia de envío es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP.
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Permanencia del remitente
 
-El envío de permanencia es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP. Estas son algunas razones por las que la permanencia del remitente es importante:
+La permanencia de envío es el proceso de establecer un volumen de envío y una estrategia coherentes para mantener la reputación del ISP. Estas son algunas razones por las que la permanencia del remitente es importante:
 
-* Los remitentes de spam suelen &quot;saltar a la dirección IP&quot;, lo que significa que desplazan constantemente el tráfico entre muchas direcciones IP para evitar problemas de reputación.
-* La coherencia es clave para probar a los ISP que el remitente es fiable y no intenta evitar los problemas de reputación que se derivan de las malas prácticas de envío.
-* Es necesario mantener estas estrategias consistentes durante un largo periodo de tiempo antes de que algunos ISP consideren al remitente como algo de reputación.
+* Los remitentes de spam generalmente &quot;saltan direcciones IP&quot;, lo que significa que cambian constantemente el tráfico en muchas direcciones IP para evitar problemas de reputación.
+* La coherencia es clave para probar a los ISP que el remitente es respetable y no intenta evitar ningún problema de reputación que sea resultado de malas prácticas de envío.
+* Es necesario mantener estas estrategias coherentes durante un largo periodo de tiempo antes de que algunos ISP consideren siquiera que el remitente tiene la reputación.
 
 **Estos son algunos ejemplos:**
 

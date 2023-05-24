@@ -1,6 +1,6 @@
 ---
 title: Monitorización continua
-description: Qué problemas debe tener en cuenta.
+description: ¿Qué problemas debe tener en cuenta?
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
@@ -17,12 +17,12 @@ ht-degree: 35%
 
 # Monitorización continua
 
-Estas son algunas formas de ayudar a identificar un posible problema en el que podría necesitar asistencia técnica de expertos:
+A continuación se indican algunas formas de identificar un posible problema en el que podría necesitar asistencia de expertos:
 
-* Hay un pico observado en rebotes duros o leves. Esto podría ser indicativo de una lista de bloqueados u otro problema de envío.
-* Hay una disminución notable en las métricas de aperturas y clics, mientras que las tasas entregadas siguen siendo altas. Esto indica la posible colocación de carpetas masivas.
-* Hay un aumento significativo de quejas. Esto puede deberse a un origen de lista de baja calidad.
-* Tiene cualquier iniciativa estratégica que pueda afectar a la capacidad de envío. Estas incluyen, entre otras cosas, adquisición de suscriptores, estrategias de participación, estrategias de temporada o cambios significativos en la frecuencia y el tipo de campaña.
+* Se ha observado un pico en las devoluciones suaves o duras. Esto podría indicar una inclusión en la lista de bloqueados u otro problema de envío.
+* Se ha producido una notable disminución en las métricas de aperturas y clics, mientras que las tasas de entrega siguen siendo altas. Esto indica la posible ubicación masiva de carpetas.
+* Hay un aumento significativo de quejas. Esto puede deberse a un origen de lista de mala calidad.
+* Tiene cualquier iniciativa estratégica que pueda afectar a la capacidad de envío. Entre ellas se incluyen, entre otras, la adquisición de suscriptores, las estrategias de participación, las estrategias de temporada o los cambios significativos en la frecuencia y el tipo de campaña.
 
 ## Recursos específicos de los productos
 

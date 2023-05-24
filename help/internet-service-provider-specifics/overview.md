@@ -1,6 +1,6 @@
 ---
 title: Detalles del proveedor de servicios de Internet
-description: Los ISP no son todos iguales. Se centran en diferentes aspectos a la hora de determinar qué correo electrónico se debe permitir a la bandeja de entrada de sus usuarios y qué correo se filtra a la carpeta de correo no deseado o no se transmite en absoluto. Echaremos un vistazo rápido a las importantes diferencias entre un puñado de ISP. No pretende ser una lista completa de todos los ISP ni cubrir todas las posibles diferencias.
+description: Los ISP no son todos iguales. Se centran en diferentes cosas a la hora de determinar qué correo electrónico permite el acceso a la bandeja de entrada de sus usuarios y qué correo electrónico se filtra en la carpeta de correo no deseado o no se deja pasar en absoluto. Vamos a hacer un recorrido rápido por las diferencias importantes entre un puñado de ISP. No pretende ser una lista completa de todos los ISP ni cubrir todas las diferencias posibles.
 topics: Deliverability
 kt: null
 doc-type: article
@@ -16,9 +16,9 @@ ht-degree: 14%
 
 # Detalles del proveedor de servicios de Internet
 
-Los ISP no son todos iguales. Se centran en diferentes aspectos a la hora de determinar qué correo electrónico se debe permitir a la bandeja de entrada de sus usuarios y qué correo se filtra a la carpeta de correo no deseado o no se transmite en absoluto.
+Los ISP no son todos iguales. Se centran en diferentes cosas a la hora de determinar qué correo electrónico permite el acceso a la bandeja de entrada de sus usuarios y qué correo electrónico se filtra en la carpeta de correo no deseado o no se deja pasar en absoluto.
 
-Echaremos un vistazo rápido a las importantes diferencias entre un puñado de ISP. No pretende ser una lista completa de todos los ISP ni cubrir todas las posibles diferencias.
+Vamos a hacer un recorrido rápido por las diferencias importantes entre un puñado de ISP. No pretende ser una lista completa de todos los ISP ni cubrir todas las diferencias posibles.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, etc.)](./microsoft.md)

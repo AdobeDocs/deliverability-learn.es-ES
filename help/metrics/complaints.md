@@ -1,6 +1,6 @@
 ---
 title: Quejas
-description: 'Obtenga información sobre las quejas que se registran cuando un usuario indica que un correo electrónico es no deseado o inesperado. '
+description: Obtenga información sobre las quejas que se registran cuando un usuario indica que un correo electrónico es no deseado o inesperado.
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg

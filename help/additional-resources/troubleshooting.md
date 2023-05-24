@@ -19,7 +19,7 @@ A continuación se describen algunas prácticas recomendadas que pueden ayudar a
 
 ## Identificar un problema de envío {#identify-deliverability-issue}
 
-Para identificar un posible problema, los elementos enumerados en [esa página](/help/ongoing-monitoring.md) puede llamar su atención.
+Para identificar un posible problema, consulte los elementos enumerados en [esa página](/help/ongoing-monitoring.md) Puede llamar su atención.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -68,7 +68,7 @@ Las quejas también provienen de suscriptores que ya no quieren recibir correos 
 
 ### Participación
 
-Además de las quejas y la validez de los datos, los proveedores de servicios de Internet se concentran más que nunca en la **participación positiva** para tomar decisiones de envío. Están buscando ver si sus suscriptores están abriendo sus correos electrónicos o eliminándolos sin leerlos. Debido a que no comparten estos datos con los remitentes, debemos usar la información que tenemos disponible y traducir aperturas/clics/transacciones como participación.
+Además de las quejas y la validez de los datos, los proveedores de servicios de Internet se concentran más que nunca en la **participación positiva** para tomar decisiones de envío. Están buscando ver si sus suscriptores están abriendo sus correos electrónicos o eliminándolos sin leerlos. Dado que no comparten estos datos con los remitentes, debemos utilizar la información que tenemos disponible y traducir aperturas/clics/transacciones como participación.
 
 Como parte del mantenimiento continuo de la reputación, es importante comprender cómo los suscriptores comprometidos están en su lista y desarrollar una **jerarquía de riesgo de actualización** para los suscriptores de cada archivo. La actualización se define como la última fecha de apertura/clic/transacción o de registro. Este intervalo de tiempo puede variar en función de la vertical. Para ello:
 
