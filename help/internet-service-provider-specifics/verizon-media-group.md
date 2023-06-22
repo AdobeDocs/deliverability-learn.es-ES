@@ -2,12 +2,12 @@
 title: Verizon Media Group (Yahoo, AOL, Verizon, etc.)
 description: '"[!DNL Verizon Media Group] es generalmente uno de los tres dominios principales para la mayoría de las listas B2C. Se comportan de forma exclusiva, ya que generalmente limitan o agrandan el correo electrónico si surgen problemas de reputación".'
 topics: Deliverability
-kt: 5320
+jira: KT-5320
 doc-type: article
 activity: understand
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: a5c86d5e6f310534787f07a04971722dbc9bb33b
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 3%

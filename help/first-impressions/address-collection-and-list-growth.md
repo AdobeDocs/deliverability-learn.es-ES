@@ -2,13 +2,13 @@
 title: Recopilación de direcciones y aumento de listas
 description: Descubra cuáles son las mejores fuentes para las nuevas direcciones de correo electrónico, cómo garantizar una alta calidad de los datos y la alineación con las directrices legales.
 topics: Deliverability
-kt: 7063
+jira: KT-7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 4%
