@@ -2,14 +2,14 @@
 title: ¿Cuál es la estrategia de entrega y cómo definir la capacidad de entrega?
 description: Comprenda cómo se define la capacidad de entrega, por qué importa y las métricas clave de capacidad de entrega.
 topics: Deliverability
-kt: 5255
+jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ La conversión es clave, pero ¿cuál es la alternativa? Su estrategia de entreg
 
 | Enviados | Porcentaje | Entregados | Porcentaje | Bandeja de entrada | Número no presente en la bandeja de entrada | Tasa de conversión | Número de pérdidas | Promedio | Pérdidas |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
-|  | entregados |  | bandeja de entrada |  |  |  | Conversiones | compra | ingresos |
+|      | entregados |           | bandeja de entrada |       |                     |                 | Conversiones | compra | ingresos |
 | 100K | 99 % | 99K | 100 % | 99K | - | 2 % | 0 | 100 $ | $ - |
 | 100K | 99 % | 99K | 90 % | 89,1K | 9900 | 2 % | 198 | 100 $ | 19 800 $ |
 | 100K | 99 % | 99K | 80 % | 79,2K | 19 800 | 2 % | 396 | 100 $ | 39 600 $ |
