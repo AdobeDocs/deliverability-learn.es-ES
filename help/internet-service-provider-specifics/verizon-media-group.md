@@ -1,13 +1,15 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, etc.)
-description: '"[!DNL Verizon Media Group] es generalmente uno de los tres dominios principales para la mayoría de las listas B2C. Se comportan de forma exclusiva, ya que generalmente limitan o agrandan el correo electrónico si surgen problemas de reputación".'
+description: '"[!DNL Verizon Media Group] es generalmente uno de los tres dominios principales para la mayoría de las listas B2C. Se comportan de manera única, ya que generalmente limitan o agrandan el correo si surgen problemas de reputación".'
 topics: Deliverability
 jira: KT-5320
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 3%
@@ -16,7 +18,7 @@ ht-degree: 3%
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon, etc.)
 
-[!DNL Verizon Media Group] es generalmente uno de los tres dominios principales para la mayoría de las listas B2C. Se comportan de forma exclusiva, ya que generalmente limitan o envían correos masivos si surgen problemas de reputación.
+[!DNL Verizon Media Group] es generalmente uno de los tres dominios principales para la mayoría de las listas B2C. Se comportan de forma única, ya que generalmente limitan o envían correos masivos si surgen problemas de reputación.
 
 A continuación se muestran algunos aspectos destacados:
 

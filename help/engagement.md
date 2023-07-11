@@ -6,9 +6,11 @@ jira: KT-5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
+role: Leader, User
+level: Beginner
 team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -27,7 +29,7 @@ Aunque usted, como remitente, no puede rastrear las mismas métricas de particip
 
 ## Calidad sobre cantidad
 
-**Crecimiento de lista orgánica** es la piedra angular de una lista saludable. Muchos especialistas en marketing se centran principalmente en el crecimiento de las listas, pero desde la perspectiva de la capacidad de envío, es importante crear una lista de calidad de suscriptores altamente comprometidos. El envío continuo de correos electrónicos a una audiencia en gran medida no comprometida puede disminuir su reputación de envío y aumentar en gran medida la probabilidad de que su correo electrónico aterrice en la carpeta de correo no deseado.
+**Crecimiento de lista orgánica** es la piedra angular de una lista saludable. Muchos especialistas en marketing se centran principalmente en el crecimiento de listas, pero desde la perspectiva de la capacidad de envío, es importante crear una lista de calidad de suscriptores altamente comprometidos. El envío continuo de correos electrónicos a una audiencia en gran medida no comprometida puede disminuir su reputación de envío y aumentar en gran medida la probabilidad de que su correo electrónico aterrice en la carpeta de correo no deseado.
 
 **Frecuencia de envío** Es importante tener en cuenta al crear y mantener un programa de marketing por correo electrónico. Establecer las expectativas de los destinatarios durante el mensaje de bienvenida es una estrategia muy útil que a la gente le gusta saber qué esperar. Sin embargo, es necesario cumplir estas expectativas: enviar correos electrónicos con demasiada frecuencia puede causar fatiga en los clientes y, en algunos casos, puede provocar un aumento de las quejas y las bajas.
 

@@ -6,9 +6,11 @@ jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader
+level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 2%
@@ -34,14 +36,14 @@ Parte del proceso de incorporación de nuevos remitentes en las plataformas de A
 
 Es importante formar una estrategia de PI bien estructurada que ayude a establecer una reputación positiva. El número de direcciones IP y la configuración varían según el modelo empresarial y los objetivos de marketing. Trabaje con un experto para desarrollar una estrategia clara para comenzar bien. Tenga en cuenta lo siguiente:
 
-* **Demasiadas direcciones IP** puede déclencheur problemas de reputación, ya que es una táctica común de los remitentes de spam **raqueta de nieve**, que es una táctica utilizada por los remitentes de correo no deseado en la que el tráfico se propaga a través de muchas direcciones IP para maximizar el envío de correo no deseado. Aunque no envíe correo no deseado, podría parecer que lo es si utiliza demasiadas direcciones IP, especialmente si esas direcciones IP no han tenido tráfico anterior.
+* **Demasiadas direcciones IP** puede déclencheur problemas de reputación, ya que es una táctica común de los remitentes de spam **raqueta de nieve**, que es una táctica utilizada por los remitentes de correo no deseado en la que el tráfico se propaga a través de muchas direcciones IP para maximizar el envío de correo no deseado. Aunque no sea un remitente de spam, podría parecer uno si utiliza demasiadas direcciones IP, especialmente si esas direcciones IP no han tenido tráfico anterior.
 * **Demasiadas pocas direcciones IP** puede causar problemas de rendimiento y potencialmente problemas de reputación de déclencheur. El rendimiento varía según el ISP. La cantidad y la rapidez con que un ISP está dispuesto a aceptar suelen basarse en su infraestructura y en el envío de umbrales de reputación.
 * La separación del tráfico para los tipos de mensajería es clave. Es importante, como mínimo, separar el marketing y el correo transaccional en grupos de IP independientes.
-* En función de su estrategia de correo electrónico, también puede ser aconsejable separar diferentes productos o flujos de marketing en diferentes grupos de IP si su reputación es drásticamente diferente. Algunos especialistas en marketing también segmentan por región. La separación de la IP para el tráfico con una reputación más baja no corregirá el problema de reputación, pero evitará problemas con las entregas de correo electrónico de &quot;buena&quot; reputación. Después de todo, no quiere sacrificar su buena audiencia por una más riesgosa.
+* En función de su estrategia de correo electrónico, también puede ser aconsejable separar diferentes productos o flujos de marketing en diferentes grupos de IP si su reputación es drásticamente diferente. Algunos especialistas en marketing también segmentan por región. La separación de la IP para el tráfico con una reputación más baja no corregirá el problema de reputación, pero evitará problemas con las entregas de correo electrónico de &quot;buena&quot; reputación. Después de todo, no quieres sacrificar tu buena audiencia por una más riesgosa.
 
 ## Bucles de comentarios {#feedback-loops}
 
-Entre bastidores, las plataformas de Adobe procesan datos sobre devoluciones, quejas, cancelaciones de suscripción y mucho más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante tener en cuenta que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
+Entre bastidores, las plataformas de Adobe procesan datos sobre devoluciones, quejas, cancelaciones de suscripción y mucho más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante señalar que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
 
 ## Autenticación {#authentication}
 

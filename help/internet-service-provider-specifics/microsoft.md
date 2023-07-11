@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 2%
@@ -26,7 +28,7 @@ A continuación se muestran algunos aspectos destacados:
 
 ## ¿Qué datos ponen a disposición?
 
-[!DNL Microsoft]la herramienta de notificación de remitentes registrada de, [!DNL Smart Network Data Services] (SNDS), le permite ver métricas sobre la cantidad de correo que envía y la cantidad de correo aceptado, así como quejas y trampas de correo no deseado. Tenga en cuenta que los datos compartidos son una muestra y no reflejan números exactos, pero representa mejor cómo [!DNL Microsoft] lo ve como un remitente. [!DNL Microsoft] no proporciona información sobre su grupo de usuarios de confianza de forma pública, pero esos datos están disponibles a través del [!DNL Return Path Certification] programa por una tarifa adicional.
+[!DNL Microsoft]herramienta de informe de remitente registrada de, [!DNL Smart Network Data Services] (SNDS), le permite ver métricas sobre la cantidad de correo que envía y la cantidad de correo aceptado, así como quejas y trampas de correo no deseado. Tenga en cuenta que los datos compartidos son una muestra y no reflejan números exactos, pero representa mejor cómo [!DNL Microsoft] lo ve como un remitente. [!DNL Microsoft] no proporciona información sobre su grupo de usuarios de confianza de forma pública, pero esos datos están disponibles a través del [!DNL Return Path Certification] programa por una tarifa adicional.
 
 ## Conocimiento del remitente
 

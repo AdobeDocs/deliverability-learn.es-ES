@@ -6,18 +6,20 @@ jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# Estrategia y definición de entrega
+# Capacidad de entrega estrategia y definición
 
-El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM, por sus siglas en inglés). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
+El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
 
 Estos son algunos ejemplos de objetivos de estrategia de marketing de correo electrónico:
 
@@ -30,13 +32,13 @@ Estos son algunos ejemplos de objetivos de estrategia de marketing de correo ele
 
 ## Capacidad de entrega definida
 
-Existen dos métricas clave que desempeñan un papel en la definición de la capacidad de entrega. La *tasa entregada* es el porcentaje de correos electrónicos que no rebotan y que acepta el ISP. A continuación, la *ubicación de la bandeja de entrada* se aplica a los mensajes que acepta el ISP y determina si el correo electrónico aterriza en la bandeja de entrada o en la carpeta de correo no deseado.
+Existen dos métricas clave que desempeñan un papel en la definición de la capacidad de entrega. El *tasa de entrega* es el porcentaje de correos electrónicos que no rebotan y que acepta el ISP. A continuación, la *ubicación de la bandeja de entrada* se aplica a los mensajes que acepta el ISP y determina si el correo electrónico aterriza en la bandeja de entrada o en la carpeta de correo no deseado.
 
 Es importante comprender tanto la tasa de entrega como la tasa de ubicación de la bandeja de entrada en conjunto al medir el rendimiento del correo electrónico. Una tasa de entrega alta no es la única faceta de la capacidad de entrega. El hecho de que se reciba un mensaje a través del punto de comprobación inicial de un ISP no significa necesariamente que el suscriptor haya visto e interactuado con la comunicación.
 
 ## Por qué importa la capacidad de entrega
 
-Si no sabe si sus correos electrónicos se entregan o si están llegando a la bandeja de entrada en lugar de en la carpeta de correo no deseado, debería saberlo. He aquí la razón.
+Si no sabe si sus correos electrónicos se entregan o si están llegando a la bandeja de entrada en lugar de en la carpeta de correo no deseado, debería saberlo. He aquí por qué.
 
 Se invierten muchas horas en la planificación y producción de sus campañas de correo electrónico. Si los correos electrónicos rebotan o finalmente llegan a la carpeta de correo no deseado de los suscriptores, probablemente los clientes no los lean, no se reconocerá la llamada a la acción y no se cumplirán los objetivos de ingresos debido a la pérdida de conversiones. En pocas palabras, no puede permitirse ignorar la capacidad de entrega. Es crucial para el éxito de sus esfuerzos de marketing por correo electrónico y sus resultados finales.
 
@@ -83,7 +85,7 @@ Estos son algunos factores importantes para la tasa de clics:
 
 * Correo electrónico enviado, aterrizado en la bandeja de entrada y abierto
 * CTA fuerte
-   * Esta es la acción principal que quiere conseguir de su audiencia. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
+   * Esta es la acción principal que quiere conseguir de su audiencia. Normalmente, es un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
 * Relevancia o valor del contenido
 
 ### Paso 5: Conversión
