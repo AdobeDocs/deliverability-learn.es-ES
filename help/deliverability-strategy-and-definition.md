@@ -13,13 +13,13 @@ exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Capacidad de entrega estrategia y definición
+# Estrategia y definición de entregabilidad
 
-El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
+El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM, por sus siglas en inglés). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
 
 Estos son algunos ejemplos de objetivos de estrategia de marketing de correo electrónico:
 
@@ -32,7 +32,7 @@ Estos son algunos ejemplos de objetivos de estrategia de marketing de correo ele
 
 ## Capacidad de entrega definida
 
-Existen dos métricas clave que desempeñan un papel en la definición de la capacidad de entrega. El *tasa de entrega* es el porcentaje de correos electrónicos que no rebotan y que acepta el ISP. A continuación, la *ubicación de la bandeja de entrada* se aplica a los mensajes que acepta el ISP y determina si el correo electrónico aterriza en la bandeja de entrada o en la carpeta de correo no deseado.
+Existen dos métricas clave que desempeñan un papel en la definición de la capacidad de entrega. La *tasa entregada* es el porcentaje de correos electrónicos que no rebotan y que acepta el ISP. A continuación, la *ubicación de la bandeja de entrada* se aplica a los mensajes que acepta el ISP y determina si el correo electrónico aterriza en la bandeja de entrada o en la carpeta de correo no deseado.
 
 Es importante comprender tanto la tasa de entrega como la tasa de ubicación de la bandeja de entrada en conjunto al medir el rendimiento del correo electrónico. Una tasa de entrega alta no es la única faceta de la capacidad de entrega. El hecho de que se reciba un mensaje a través del punto de comprobación inicial de un ISP no significa necesariamente que el suscriptor haya visto e interactuado con la comunicación.
 
@@ -85,7 +85,7 @@ Estos son algunos factores importantes para la tasa de clics:
 
 * Correo electrónico enviado, aterrizado en la bandeja de entrada y abierto
 * CTA fuerte
-   * Esta es la acción principal que quiere conseguir de su audiencia. Normalmente, es un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
+   * Esta es la acción principal que quiere conseguir de su audiencia. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
 * Relevancia o valor del contenido
 
 ### Paso 5: Conversión
