@@ -65,11 +65,11 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 * La siguiente fase es identificar a los suscriptores que de forma constante no muestran ninguna actividad y reducir de forma gradual los correos electrónicos que se les envía durante un periodo. Si no hay actividad durante el año anterior, es bueno poner el correo electrónico de los suscriptores en espera. Aunque no hayan mostrado interés en el contenido del correo electrónico, siempre existe una última oportunidad de que reactiven su suscripción enviando una campaña única de reconfirmación.
 * Las campañas de reconfirmación son una buena manera de preguntar a los suscriptores que lleven mucho tiempo inactivos si desean permanecer en la lista de suscripción. Al crear la campaña, es preferible añadir un vínculo de “haga clic aquí” para que puedan confirmar la acción y verificar su dirección. De este modo, la acción se puede registrar en la base de datos. A continuación se muestra un ejemplo de un correo electrónico de reconfirmación:
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   Una vez que el suscriptor ha realizado una acción, se puede ofrecer una página de aterrizaje con la confirmación de su suscripción. A continuación se muestra un ejemplo de página de destino:
+  Una vez que el suscriptor ha realizado una acción, se puede ofrecer una página de aterrizaje con la confirmación de su suscripción. A continuación se muestra un ejemplo de página de destino:
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## Recursos específicos de los productos
 

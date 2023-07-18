@@ -27,31 +27,31 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
 * **Spamhaus**
 
-   Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
+  Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto ocurre, debe actuar inmediatamente y advertir a los servicios comerciales, a las entregas y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  La base de datos es más importante. En general, encontrarse clasificado en esta lista es una situación muy grave. Si esto ocurre, debe actuar inmediatamente y advertir a los servicios comerciales, a las entregas y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
-   Consulte [https://www.spamcop.net/](https://www.spamcop.net/)
+  Consulte [https://www.spamcop.net/](https://www.spamcop.net/)
 
-   Es una de las bases de datos más interesantes. Si una de las direcciones IP se incluye en esta lista, generalmente significa que los usuarios de SpamCop han declarado sus mensajes como correo no deseado o que usted ha enviado mensajes a una trampa honeypot de SpamCop.
+  Es una de las bases de datos más interesantes. Si una de las direcciones IP se incluye en esta lista, generalmente significa que los usuarios de SpamCop han declarado sus mensajes como correo no deseado o que usted ha enviado mensajes a una trampa honeypot de SpamCop.
 
 * **URIBL**
 
-   Consulte [https://www.uribl.com/](https://www.uribl.com/)
+  Consulte [https://www.uribl.com/](https://www.uribl.com/)
 
-   Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
+  Esta lista identifica los dominios que aparecen con regularidad en los mensajes declarados como correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **SURBL**
 
-   Consulte [https://surbl.org/](https://surbl.org/)
+  Consulte [https://surbl.org/](https://surbl.org/)
 
-   SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
+  SURBL identifica los sitios web que aparecen con regularidad en el correo no deseado. Si su dominio aparece en la lista, puede afectar en gran medida a sus envíos. Debe informar a los servicios de entrega y al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) inmediatamente.
 
 * **iX Manitu**
 
-   Se trata de una lista de IP y se utiliza ampliamente en Alemania. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  Se trata de una lista de IP y se utiliza ampliamente en Alemania. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

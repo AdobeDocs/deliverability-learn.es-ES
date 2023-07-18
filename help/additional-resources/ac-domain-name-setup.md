@@ -116,7 +116,6 @@ Complete la tabla siguiente, la primera línea es solo un ejemplo.
 >* Al enviar correos electrónicos desde Adobe Campaign, el buzón &quot;Dirección de origen&quot; no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón.
 >* La dirección de origen/remitente de la campaña y la dirección de error no pueden ser &quot;abuse&quot; ni &quot;postmaster&quot;.
 
-
 ## Delegación de subdominios
 
 Los subdominios seleccionados para su uso en la plataforma Adobe Campaign deben delegarse creando cuatro registros de servidor de nombres (NS).  Esto permite delegar correctamente el subdominio al Adobe.  A continuación se muestra un ejemplo de una delegación de subdominios y las instrucciones DNS correspondientes.  Sustituya &quot;emails.customer.com&quot; por el subdominio que desee delegar.  Tenga en cuenta que el subdominio debe ser único y no puede estar siendo utilizado por otra parte (por ejemplo, un ESP o MSP existente).

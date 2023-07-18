@@ -33,7 +33,7 @@ En esta sección se enumeran algunos recursos adicionales sobre la capacidad de 
 * [Listas de agujeros negros en tiempo real](../../help/additional-resources/blocklist-databases.md)
 * [Resolución de problemas](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 
