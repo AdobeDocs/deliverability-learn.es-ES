@@ -21,7 +21,7 @@ ht-degree: 3%
 
 In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you’ve never been a part of such a project, you may have a lot of questions about it. Let’s get down to the details!-->
 
-## Primeros pasos
+## Introducción
 
 El Adobe requiere que los clientes compartan su configuración para ayudar al equipo de entrega de Adobe a comprender su programa único. Las preguntas que formulamos están diseñadas para ayudar al equipo de entrega de Adobe a tener una idea de su reputación de envío y su volumen de correo electrónico. Sin una comprensión concreta de su modelo de negocio, objetivos de marketing por correo electrónico y métricas de reputación, no podremos personalizar la estrategia y habrá riesgo de problemas de envío.
 

@@ -43,7 +43,7 @@ Es importante formar una estrategia de PI bien estructurada que ayude a establec
 
 ## Bucles de comentarios {#feedback-loops}
 
-Entre bastidores, las plataformas de Adobe procesan datos sobre devoluciones, quejas, cancelaciones de suscripción y mucho más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante señalar que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
+Entre bastidores, las plataformas de Adobe están procesando datos con respecto a devoluciones, quejas, cancelaciones de suscripción y más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante señalar que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
 
 ## Autenticación {#authentication}
 
