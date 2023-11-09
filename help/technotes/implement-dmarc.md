@@ -4,10 +4,11 @@ description: Aprenda a implementar BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 1%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ DMARC es opcional y, aunque no es obligatoria, es gratuita y permite a los recep
 
 ## Prácticas recomendadas para implementar DMARC {#best-practice}
 
-Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
+Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la directiva de DMARC de p=ninguno a p=cuarentena, a p=rechazar a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
 
 1. Analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
 1. Determine si SPF y DKIM están alineados y pasa la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=quarantine), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado).
-1. Ajustar directiva a (p=reject). La directiva p= reject indica al destinatario que deniegue (devuelva) completamente cualquier correo electrónico del dominio que falle en la autenticación. Con esta directiva habilitada, solo los correos electrónicos verificados como 100 % autenticados por el dominio tendrán la oportunidad de colocar la bandeja de entrada.
+1. Ajustar directiva a (p=reject). La directiva p= rechazar indica al destinatario que deniegue (rechace) completamente cualquier correo electrónico del dominio que falle en la autenticación. Con esta directiva habilitada, solo el correo electrónico verificado como 100 % autenticado por el dominio tendrá la oportunidad de ser ubicado en la bandeja de entrada.
 
    >[!NOTE]
    >
@@ -90,6 +91,10 @@ Los registros DMARC tienen varios componentes llamados etiquetas DMARC. Cada eti
 | aspf | Opcional | Puede ser Estricto (s) o Relajado (r). La alineación relajada significa que el dominio ReturnPath puede ser un subdominio de la dirección remitente. La alineación estricta significa que el dominio Return-Path debe coincidir exactamente con la dirección From. | aspf=r | r |
 
 ## DMARC y ADOBE CAMPAIGN {#campaign}
+
+>[!NOTE]
+>
+>Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Obtenga información sobre cómo implementar registros DMARC mediante Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Un motivo común de los errores de DMARC es la falta de alineación entre las direcciones &quot;De&quot; y &quot;Errores de destino&quot; o &quot;Ruta de retorno&quot;. Para evitarlo, al configurar DMARC, se recomienda comprobar dos veces la configuración de las direcciones &quot;De&quot; y &quot;Errores a&quot; en las plantillas de envío.
 
