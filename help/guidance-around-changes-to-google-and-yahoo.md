@@ -7,9 +7,9 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: d237d0dd921d84461a4edd47d8da501c23576d58
+source-git-commit: 059e57ac5b40c8e7c8562d0dca5c51de01c6b041
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1329'
 ht-degree: 1%
 
 ---
@@ -51,9 +51,16 @@ Es importante tener en cuenta que [!DNL Google] y [!DNL Yahoo] se refieren a la 
 Para Marketo Engage, Adobe ya ha habilitado la opción &quot;mailto&quot; y actualmente no admite la opción &quot;http/URL&quot;. Próximas actualizaciones sobre este tema.
 Para Adobe Campaign y Adobe Journey Optimizer, el Adobe recomienda utilizar las opciones &quot;mailto&quot; y &quot;1 clic&quot;.
 
-Si necesita más información sobre cómo implementar la cancelación de suscripción a una lista, consulte [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=es){target="_blank"} for **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} para **[!DNL Adobe Journey Optimizer]**, o póngase en contacto con el equipo de Asistencia al cliente de Adobe en cualquier momento.
-
 La necesidad de encabezados de cancelación de suscripción a una lista no se aplica a los correos electrónicos transaccionales. Tenga en cuenta que los mensajes activados, como el carro de compras abandonado y las comunicaciones similares no generadas por el suscriptor, se consideran marketing por proveedores de buzones de correo como [!DNL Google] y [!DNL Yahoo] y esos necesitarían cancelar la suscripción a la lista.
+
+>[!INFO]
+> Para obtener más información sobre cómo implementar la cancelación de suscripción a una lista para su solución, consulte:
+> * [!DNL Adobe Campaign Classic]: [Recomendaciones técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
+>* [!DNL Adobe Campaign Standard]: [¿Qué es el encabezado List-Unsubscribe? ¿Y cómo se puede implementar esto en ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=es){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: [Administración de exclusión de correo electrónico](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+>
+> O póngase en contacto con el equipo de Asistencia al cliente de Adobe en cualquier momento.
+
 
 ## Proceso cancela la suscripción en un plazo de 2 días:
 
