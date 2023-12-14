@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
+source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Mantener tasas de quejas bajas por debajo del 0,2% ha sido una práctica recomen
 * El mantenimiento de una tasa baja de spam hace que los remitentes sean más resistentes a los picos ocasionales en los comentarios de los usuarios.
 * Del mismo modo, mantener una alta tasa de spam conducirá a una mayor clasificación de spam. Las mejoras en la tasa de spam pueden tardar un tiempo en reflejarse positivamente en la clasificación de spam.
 
-[!DNL Yahoo] ha declarado que su umbral de quejas también estará en el rango del 0,30 %.
+[!DNL Yahoo] ha declarado que su umbral de quejas también será del 0,30 %.
 
 [!DNL Google] y [!DNL Yahoo]El objetivo de no es castigar a los remitentes por un solo mal día o un error que cause un pico temporal en las quejas. En su lugar, se centran en remitentes que tienen altas tasas de quejas durante un periodo prolongado de tiempo o un patrón de mal comportamiento de envío.
 
