@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
+source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,6 @@ Hoy, Gmail acepta la opción de cancelación de suscripción a la lista &quot;ma
 
 El Adobe recomienda utilizar las opciones &quot;mailto&quot; y &quot;post/1-Click&quot; list-unsubscribe. El Adobe de está trabajando en la habilitación del soporte &quot;post&quot; en todas nuestras plataformas de envío de correo electrónico para apoyar a nuestros usuarios con el cumplimiento de estos requisitos, y futuras actualizaciones en torno a esto.
 
-Para Marketo Engage, Adobe ya ha habilitado la opción &quot;mailto&quot; y actualmente no admite la opción &quot;http/URL&quot;. Próximas actualizaciones sobre este tema.
-Para Adobe Campaign y Adobe Journey Optimizer, el Adobe recomienda utilizar las opciones &quot;mailto&quot; y &quot;1 clic&quot;.
-
 La necesidad de encabezados de cancelación de suscripción a una lista no se aplica a los correos electrónicos transaccionales. Tenga en cuenta que los mensajes activados, como el carro de compras abandonado y las comunicaciones similares no generadas por el suscriptor, se consideran marketing por proveedores de buzones de correo como [!DNL Google] y [!DNL Yahoo] y esos necesitarían cancelar la suscripción a la lista.
 
 [!DNL Google] y [!DNL Yahoo] ambos saben que, en algunos casos, un destinatario cancela la suscripción y, a continuación, vuelve a suscribirse en un momento posterior. Aunque no están dispuestos a compartir la salsa secreta de cómo identifican estas situaciones, están trabajando en métodos para evitar penalizar incorrectamente a los remitentes en estos casos.
@@ -80,6 +77,7 @@ La necesidad de encabezados de cancelación de suscripción a una lista no se ap
 ## Proceso cancela la suscripción en un plazo de 2 días:
 
 Esta ha sido una práctica recomendada durante un tiempo, ya que cada correo electrónico que implementa a alguien que canceló la suscripción generalmente resulta en una queja de correo no deseado, por lo que cuanto antes deje de enviarle correo electrónico, mejor. Nuevamente, los requisitos legales pueden ser mucho más largos en algunos casos, pero [!DNL Google] y [!DNL Yahoo] sabrá que su usuario canceló la suscripción a través de List-Unsubscribe y que aún le está enviando correos electrónicos el día 3, y ha declarado que no permitirá que los remitentes que lo hagan sigan enviando correos electrónicos a CUALQUIERA de sus usuarios.
+
 Este requisito de 2 días es para cualquier cancelación de suscripción a través de los distintos métodos de cancelación de suscripción a listas. En algunos casos (como &quot;mailto&quot;) eso significa que el Adobe los procesará. El Adobe procesa todas las solicitudes de cancelación de suscripción inmediatamente después de recibir la solicitud, dentro del límite de 2 días. En otros casos, es posible que los esté procesando. Si está procesando estas solicitudes, es posible que tenga que realizar cambios en su extremo para cumplir con este cronograma de 2 días.
 
 ## Tasas de quejas:
@@ -90,7 +88,8 @@ Mantener tasas de quejas bajas por debajo del 0,2% ha sido una práctica recomen
 * Evite una tasa de spam del 0,30 % o superior, especialmente durante cualquier periodo de tiempo prolongado.
 * El mantenimiento de una tasa baja de spam hace que los remitentes sean más resistentes a los picos ocasionales en los comentarios de los usuarios.
 * Del mismo modo, mantener una alta tasa de spam conducirá a una mayor clasificación de spam. Las mejoras en la tasa de spam pueden tardar un tiempo en reflejarse positivamente en la clasificación de spam.
-  [!DNL Yahoo] ha declarado que su umbral de quejas también estará en el rango del 0,30 %.
+
+[!DNL Yahoo] ha declarado que su umbral de quejas también estará en el rango del 0,30 %.
 
 [!DNL Google] y [!DNL Yahoo]El objetivo de no es castigar a los remitentes por un solo mal día o un error que cause un pico temporal en las quejas. En su lugar, se centran en remitentes que tienen altas tasas de quejas durante un periodo prolongado de tiempo o un patrón de mal comportamiento de envío.
 
