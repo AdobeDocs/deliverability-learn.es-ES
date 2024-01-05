@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Hoy, Gmail acepta la opción de cancelación de suscripción a la lista &quot;ma
 
 [!DNL Yahoo] ha dicho que seguirán honrando la opción de &quot;mailto&quot;, por ahora, pero que ellos también requerirán &quot;post&quot; en el futuro.
 
-El Adobe recomienda utilizar las opciones &quot;mailto&quot; y &quot;post/1-Click&quot; list-unsubscribe. El Adobe de está trabajando en la habilitación del soporte &quot;post&quot; en todas nuestras plataformas de envío de correo electrónico para apoyar a nuestros usuarios con el cumplimiento de estos requisitos, y futuras actualizaciones en torno a esto.
+El Adobe recomienda utilizar las opciones &quot;mailto&quot; y &quot;post/1-Click&quot; list-unsubscribe. El Adobe de está trabajando en la activación de la compatibilidad de publicación en todas nuestras plataformas de envío de correo electrónico para ayudar a nuestros usuarios a cumplir estos requisitos. Consulte los detalles a continuación.
 
 La necesidad de encabezados de cancelación de suscripción a una lista no se aplica a los correos electrónicos transaccionales. Tenga en cuenta que los mensajes activados, como el carro de compras abandonado y las comunicaciones similares no generadas por el suscriptor, se consideran marketing por proveedores de buzones de correo como [!DNL Google] y [!DNL Yahoo] y esos necesitarían cancelar la suscripción a la lista.
 
