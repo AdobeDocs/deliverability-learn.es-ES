@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 1f3391430fa5a86973b8a1bd811b856dea23402e
+source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 59%
+source-wordcount: '1712'
+ht-degree: 60%
 
 ---
 
@@ -212,8 +212,11 @@ Para configurar la cancelación de la suscripción a una lista de un clic direct
 * Vaya a la sección SMTP de Delivery Properties.
 * En Encabezados SMTP adicionales, introduzca en las líneas de comandos (cada encabezado debe estar en una línea independiente):
 
-,, List-Unsubscribe-Post: List-Unsubscribe=One-Click List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
-,,,
+```
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https//domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
+subject=unsubscribe%=message.mimeMessageId%>
+```
 
 El ejemplo anterior habilita la cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que garantiza que los destinatarios que no admiten la cancelación de la suscripción a una lista de URL puedan solicitar la cancelación de la suscripción por correo electrónico.
 
