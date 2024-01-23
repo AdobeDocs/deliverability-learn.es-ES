@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 60%
+source-wordcount: '1726'
+ht-degree: 59%
 
 ---
 
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 El ejemplo anterior habilita la cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que garantiza que los destinatarios que no admiten la cancelación de la suscripción a una lista de URL puedan solicitar la cancelación de la suscripción por correo electrónico.
 
-Haga clic aquí para ver cómo configurar la cancelación de la suscripción a una lista de un clic mediante Reglas de tipología.
+
+### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
+
+1 * Cree la nueva regla de tipología Desde el árbol de navegación, haga clic en nuevo para crear una nueva tipología
+![imagen](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## Optimización de correo electrónico {#email-optimization}
 
