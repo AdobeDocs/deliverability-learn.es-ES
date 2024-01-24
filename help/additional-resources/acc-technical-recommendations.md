@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 55%
@@ -207,7 +207,7 @@ Para configurar la cancelación de la suscripción a una lista de un clic direct
 
 * Añada la siguiente aplicación web &quot;Cancelar la suscripción de destinatarios sin clic&quot; 
 * Vaya a Recursos -> En línea -> Aplicaciones web
-* Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * Configuración de List-Unsubscribe y List-Unsubscribe-Post
 * Vaya a la sección SMTP de Delivery Properties.
@@ -224,13 +224,13 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 ### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
-Creación de la nueva regla de tipología
+Cree la nueva regla de tipología:
 
-En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
+* En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
-Continúe configurando la regla de tipología
+Continúe con la configuración de la regla de tipología:
 
 * Tipo de regla: control
 * Canal: correo electrónico
@@ -240,7 +240,7 @@ Continúe configurando la regla de tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules2.png)
 
-Codifique el javascript de la regla de tipología.
+Codifique el javascript de la regla de tipología:
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Añada la nueva regla a una tipología a un correo electrónico (la tipología p
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
-Prepare una nueva entrega (compruebe que los encabezados SMTP adicionales de la propiedad de entrega estén vacíos).
+Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
 
