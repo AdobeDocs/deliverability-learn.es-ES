@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
+source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 55%
@@ -245,15 +245,13 @@ Codifique el javascript de la regla de tipología:
 >[!NOTE]
 >
 >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
+>Este ejemplo detalla cómo:
+>* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http://…>
+>* Añadir en el encabezado List-Unsubscribe-Post
+>El ejemplo de la dirección URL de publicación utiliza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
+>* Puede agregar otros parámetros (como &amp;service = ...)
 >
 
-Este ejemplo detalla cómo:
-* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http://…>
-* Añadir en el encabezado List-Unsubscribe-Post
-
-El ejemplo de la dirección URL de publicación utiliza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
-
-Puede agregar otros parámetros (como &amp;service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
