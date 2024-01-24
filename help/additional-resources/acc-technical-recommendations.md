@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0f61e0c36f979372f05772ad5a37114dcb05e8e5
+source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1864'
 ht-degree: 55%
 
 ---
@@ -225,7 +225,7 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 Creación de la nueva regla de tipología
 
-En el árbol de navegación, haga clic en nuevo para crear una nueva tipología
+En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
@@ -237,7 +237,7 @@ Continúe configurando la regla de tipología
 * Nivel : su elección
 * Activo
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
+![Imagen](/help/assets/CreatingTypologyRules2.png)
 
 Codifique el javascript de la regla de tipología.
 
@@ -349,23 +349,23 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
+![Imagen](/help/assets/CreatingTypologyRules3.png)
 
 Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta).
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
+![Imagen](/help/assets/CreatingTypologyRules4.png)
 
 Prepare una nueva entrega (compruebe que los encabezados SMTP adicionales de la propiedad de entrega estén vacíos).
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
+![Imagen](/help/assets/CreatingTypologyRules5.png)
 
 Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![Imagen](/help/assets/CreatingTypologyRules6.png)
 
 Compruebe que la cancelación de la suscripción a una lista esté presente.
 
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![Imagen](/help/assets/CreatingTypologyRules7.png)
 
 ## Optimización de correo electrónico {#email-optimization}
 
