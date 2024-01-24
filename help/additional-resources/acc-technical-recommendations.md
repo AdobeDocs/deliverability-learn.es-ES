@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 55%
@@ -207,7 +207,8 @@ Para configurar la cancelación de la suscripción a una lista de un clic direct
 
 * Añada la siguiente aplicación web &quot;Cancelar la suscripción de destinatarios sin clic&quot; 
 * Vaya a Recursos -> En línea -> Aplicaciones web
-* Cargar el XML de &quot;cancelación de suscripción de destinatarios sin clic&quot;
+* Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * Configuración de List-Unsubscribe y List-Unsubscribe-Post
 * Vaya a la sección SMTP de Delivery Properties.
 * En Encabezados SMTP adicionales, introduzca en las líneas de comandos (cada encabezado debe estar en una línea independiente):
