@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d8cc8e3ee8b1a0fc6beaec1a7bc357f3a9f52e0f
+source-git-commit: acb2f0c5c983445b538381833f3596251938480a
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 55%
@@ -241,7 +241,7 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 >
 
 Este ejemplo detalla cómo:
-* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http:…>
+* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http://…>
 * Añadir en el encabezado List-Unsubscribe-Post
 
 El ejemplo de la dirección URL de publicación utiliza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
