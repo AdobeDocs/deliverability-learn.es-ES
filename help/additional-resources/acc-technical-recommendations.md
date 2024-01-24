@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 4389ac3135223c0d363e67fe7403656a17ee3f6a
+source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 55%
@@ -223,11 +223,11 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 ### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
-# Creación de la nueva regla de tipología
+Creación de la nueva regla de tipología
 * En el árbol de navegación, haga clic en nuevo para crear una nueva tipología
   ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
-# Continúe configurando la regla de tipología
+Continúe configurando la regla de tipología
 * Tipo de regla: control
 * Canal: correo electrónico
 * Fase : al principio de la personalización
@@ -236,7 +236,7 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
-# Codifique el javascript de la regla de tipología.
+Codifique el javascript de la regla de tipología.
 
 >[!NOTE]
 >
@@ -345,19 +345,20 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+
 ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-# Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta).
+Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta).
 ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-# Prepare una nueva entrega (compruebe que los encabezados SMTP adicionales de la propiedad de entrega estén vacíos).
+Prepare una nueva entrega (compruebe que los encabezados SMTP adicionales de la propiedad de entrega estén vacíos).
 ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-# Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.
+Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.
 ![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-# Validar que la cancelación de la suscripción a una lista esté presente.
-![Imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+Validar que la cancelación de la suscripción a una lista esté presente.
+![imagen](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
