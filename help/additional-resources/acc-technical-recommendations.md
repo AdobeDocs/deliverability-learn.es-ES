@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
+source-git-commit: 9175a3ded10ce4ea06712855ae3d2119f945c389
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 55%
@@ -225,8 +225,9 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 Creación de la nueva regla de tipología
 
-* En el árbol de navegación, haga clic en nuevo para crear una nueva tipología
-  ![typologyrues1](/help/assets/CreatingTypologyRules1.png)
+En el árbol de navegación, haga clic en nuevo para crear una nueva tipología
+
+![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Continúe configurando la regla de tipología
 
