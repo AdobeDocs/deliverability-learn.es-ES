@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
+source-git-commit: 097f41c29e189c2a8abf79e65ec322d39a2213db
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1860'
 ht-degree: 55%
 
 ---
@@ -180,7 +180,7 @@ Al hacer clic en el vínculo unsubscribe se abre el cliente de correo electróni
 
 * Cancelación de suscripción a lista: <https://domain.com/unsubscribe.jsp>
 Al hacer clic en el vínculo unsubscribe, se redirige al usuario a su formulario de cancelación de suscripción.
-  ![Imagen](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![Imagen](/help/assets/ListUnsubscribe1.png)
 
 
 ### Creación de una regla de tipología {#creating-a-typology-rule}
@@ -228,7 +228,7 @@ Cree la nueva regla de tipología:
 
 * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
-![Imagen](/help/assets/CreatingTypologyRules1.png)
+![Imagen](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
 
 Continúe con la configuración de la regla de tipología:
 
@@ -248,7 +248,7 @@ Codifique el javascript de la regla de tipología:
 >Este ejemplo detalla cómo:
 >* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http://…>
 >* Añadir en el encabezado List-Unsubscribe-Post
->El ejemplo de la dirección URL de publicación utiliza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
+>El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
 >* Puede agregar otros parámetros (como &amp;service = ...)
 >
 
