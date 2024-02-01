@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
+source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Las reglas para DMARC no cambian, lo que significa que a menos que se configure 
 
 DMARC es totalmente compatible con el Adobe actualmente, pero no es obligatorio. Utilice cualquier verificador DMARC gratuito para ver si ha configurado DMARC para sus subdominios y, si no lo hace, hable con su equipo de soporte de Adobe para ver cuál es la mejor manera de hacerlo.
 
-También puede encontrar más información sobre DMARC y cómo implementarla [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} para el Marketo Engage.
+También puede encontrar más información sobre DMARC y cómo implementarla [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} para el Marketo Engage.
 
 ## 1-Click (Lista) Cancelar Suscripción:
 
@@ -69,9 +69,9 @@ La necesidad de encabezados de cancelación de suscripción a una lista no se ap
 > Adobe está trabajando en la habilitación del soporte &quot;post&quot; en todas nuestras plataformas de envío de correo electrónico para apoyar a nuestros usuarios en el cumplimiento de estos requisitos:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: Totalmente compatible con el POST 1-Click hoy. Se publicarán las actualizaciones de la configuración paso a paso [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} a mediados de enero.
->* [!DNL Adobe Campaign Standard]: se está actualizando para admitir el POST 1-Click. Vuelva pronto para ver las actualizaciones. Se proporcionarán las instrucciones de configuración [aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
->* [!DNL Adobe Journey Optimizer]: Totalmente compatible con el POST 1-Click hoy. Se publicarán las actualizaciones de la configuración paso a paso [aquí](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} a mediados de enero.
+> * [!DNL Adobe Campaign Classic V7/V8]: admite completamente el POST 1-Click hoy, se pueden encontrar las instrucciones [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} a mediados de enero.
+>* [!DNL Adobe Campaign Standard]: se está actualizando para admitir el POST 1-Click a finales de febrero. Se proporcionarán las instrucciones de configuración [aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una vez listo.
+>* [!DNL Adobe Journey Optimizer]: admite el POST 1-Click hoy, pero hay algunas mejoras clave en curso. Se publicarán las actualizaciones de la configuración paso a paso [aquí](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una vez listo.
 > * [!DNL Marketo]: se está actualizando para admitir el POST 1-Click. Una vez listo, se aplicará automáticamente donde sea necesario.
 
 
@@ -110,7 +110,9 @@ Abril de 2024: los bloques comenzarán para los remitentes que no cumplan con to
 
 [!DNL Yahoo]
 
-No ha proporcionado fechas exactas, pero ha dicho que &quot;el despliegue de la aplicación comenzará en febrero de 2024. La aplicación se implantará gradualmente&quot;.
+Febrero de 2024: el despliegue gradual de la aplicación para todos los requisitos que no sean Lista de un clic-Cancelar suscripción comenzará en febrero de 2024.
+
+Junio de 2024: la aplicación de la cancelación de la suscripción a una lista de 1 clic comenzará en junio de 2024.
 
 ## ¿Cómo me afectará esto como experto en marketing?
 
