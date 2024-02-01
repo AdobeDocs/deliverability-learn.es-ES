@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
+source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ La necesidad de encabezados de cancelación de suscripción a una lista no se ap
 > Adobe está trabajando en la habilitación del soporte &quot;post&quot; en todas nuestras plataformas de envío de correo electrónico para apoyar a nuestros usuarios en el cumplimiento de estos requisitos:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: admite completamente el POST 1-Click hoy, se pueden encontrar las instrucciones [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} a mediados de enero.
+> * [!DNL Adobe Campaign Classic V7/V8]: admite completamente el POST 1-Click hoy, se pueden encontrar las instrucciones [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]: se está actualizando para admitir el POST 1-Click a finales de febrero. Se proporcionarán las instrucciones de configuración [aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una vez listo.
 >* [!DNL Adobe Journey Optimizer]: admite el POST 1-Click hoy, pero hay algunas mejoras clave en curso. Se publicarán las actualizaciones de la configuración paso a paso [aquí](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una vez listo.
 > * [!DNL Marketo]: se está actualizando para admitir el POST 1-Click. Una vez listo, se aplicará automáticamente donde sea necesario.
