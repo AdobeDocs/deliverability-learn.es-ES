@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
+source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -51,7 +51,7 @@ También puede encontrar más información sobre DMARC y cómo implementarla [aq
 
 ## 1-Click (Lista) Cancelar Suscripción:
 
-No te asustes. [!DNL Google] y [!DNL Yahoo] no se refiere a los vínculos de cancelación de suscripción del cuerpo del correo electrónico o al pie de página en los que un bot de seguridad podría hacer clic simplemente haciendo su trabajo o por accidente. Lo que significan es la funcionalidad de encabezado List-Unsubscribe para las versiones &quot;mailto&quot; o &quot;http/URL&quot;. Esta es la función dentro de [!DNL Yahoo] y las IU de Gmail donde los usuarios pueden hacer clic en cancelar suscripción. Gmail incluso pregunta a los usuarios que hacen clic en &quot;Informar sobre correo no deseado&quot; si querían cancelar la suscripción, lo que puede reducir el número de quejas que recibe (las quejas dañan su reputación) al convertirlas en cancelaciones de suscripción (no perjudica su reputación).
+No te asustes. [!DNL Google] y [!DNL Yahoo] no se refiere a los vínculos de cancelación de suscripción del cuerpo del correo electrónico o al pie de página en los que un bot de seguridad podría hacer clic simplemente haciendo su trabajo o por accidente. Lo que significan es la funcionalidad de encabezado List-Unsubscribe para las versiones &quot;mailto&quot; o &quot;http/URI&quot;. Esta es la función dentro de [!DNL Yahoo] y las IU de Gmail donde los usuarios pueden hacer clic en cancelar suscripción. Gmail incluso pregunta a los usuarios que hacen clic en &quot;Informar sobre correo no deseado&quot; si querían cancelar la suscripción, lo que puede reducir el número de quejas que recibe (las quejas dañan su reputación) al convertirlas en cancelaciones de suscripción (no perjudica su reputación).
 
 Es importante tener en cuenta que [!DNL Google] y [!DNL Yahoo] Ambos hacen referencia a la opción &quot;http/URI&quot; con el nombre &quot;1-Click&quot;, y esto es intencional. Técnicamente, la opción original &quot;http/URI&quot; le permitía redirigir destinatarios a un sitio web. Ese no es el enfoque de [!DNL Yahoo] y [!DNL Google], que hacen referencia al actualizado [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} que se centra en procesar la cancelación de la suscripción mediante una solicitud de POST HTTPS en lugar de un sitio web, lo que lo convierte en &quot;1 clic&quot;.
 
