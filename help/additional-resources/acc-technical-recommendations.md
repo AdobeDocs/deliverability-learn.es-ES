@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
+source-git-commit: 8fe2a9de16a7856c66a643ce7aaf22bae016246e
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1861'
 ht-degree: 55%
 
 ---
@@ -175,11 +175,9 @@ La línea de comandos debe añadirse en la sección adicional del encabezado SMT
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
-    1. Cancelación de suscripción a una lista: mailto:unsubscribe@domain.com
-Al hacer clic en el vínculo unsubscribe se abre el cliente de correo electrónico predeterminado del usuario. Esta regla de tipología debe añadirse en una tipología utilizada para crear correo electrónico.
+1.Cancelación de suscripción a una lista: mailto:unsubscribe@domain.com Al hacer clic en el vínculo de cancelación de suscripción, se abre el cliente de correo electrónico predeterminado del usuario. Esta regla de tipología debe añadirse en una tipología utilizada para crear correo electrónico.
 
-    2. Cancelación de suscripción a una lista: https://domain.com/unsubscribe.jsp
-Al hacer clic en el vínculo unsubscribe, se redirige al usuario a su formulario de cancelación de suscripción.
+2.Cancelación de suscripción a una lista: https://domain.com/unsubscribe.jsp Al hacer clic en el vínculo de cancelación de suscripción, se redirige al usuario al formulario de cancelación de suscripción.
 
 ![Imagen](/help/assets/UTF-8-1.png)
 
