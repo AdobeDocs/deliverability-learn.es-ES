@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 66526ebad0914ef9afa995f7d826e644c0350182
+source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 55%
 
 ---
@@ -146,7 +146,7 @@ Este encabezado puede utilizarse como alternativa al icono “Notificar como cor
 
 El uso de esta funcionalidad ayuda a proteger la reputación, y los comentarios se ejecutan como una cancelación de suscripción.
 
-Para utilizar la cancelación de la suscripción a una lista, debe introducir una línea de comandos similar a la siguiente:
+Para utilizar Cancelación de suscripción a una lista, debe introducir una línea de comandos similar a:
 
 ```
 List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -180,7 +180,7 @@ Al hacer clic en el vínculo unsubscribe se abre el cliente de correo electróni
 
 * Cancelación de suscripción a lista: <https://domain.com/unsubscribe.jsp>
 Al hacer clic en el vínculo unsubscribe, se redirige al usuario a su formulario de cancelación de suscripción.
-  ![Imagen](/help/assets/ListUnsubscribe1.png)
+  ![Imagen](/help/assets/UTF-8-1.png)
 
 
 ### Creación de una regla de tipología {#creating-a-typology-rule}
@@ -206,12 +206,11 @@ A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cu
 Para configurar la cancelación de la suscripción a una lista de un clic directamente:
 
 * Añada la siguiente aplicación web &quot;Cancelar la suscripción de destinatarios sin clic&quot; 
-* Vaya a Recursos -> En línea -> Aplicaciones web
-* Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-
+   1. Vaya a Recursos -> En línea -> Aplicaciones web
+   2. Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configuración de List-Unsubscribe y List-Unsubscribe-Post
-* Vaya a la sección SMTP de Delivery Properties.
-* En Encabezados SMTP adicionales, introduzca en las líneas de comandos (cada encabezado debe estar en una línea independiente):
+   1. Vaya a la sección SMTP de Delivery Properties.
+   2. En Encabezados SMTP adicionales, introduzca en las líneas de comandos (cada encabezado debe estar en una línea independiente):
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
