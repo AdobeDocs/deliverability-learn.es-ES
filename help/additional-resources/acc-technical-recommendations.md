@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
+source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1863'
 ht-degree: 55%
 
 ---
@@ -175,10 +175,10 @@ La línea de comandos debe añadirse en la sección adicional del encabezado SMT
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
-1. Cancelación de suscripción a lista: <mailto:unsubscribe@domain.com>
+    1. Cancelación de suscripción a una lista: mailto:unsubscribe@domain.com
 Al hacer clic en el vínculo unsubscribe se abre el cliente de correo electrónico predeterminado del usuario. Esta regla de tipología debe añadirse en una tipología utilizada para crear correo electrónico.
 
-2. Cancelación de suscripción a lista: <https://domain.com/unsubscribe.jsp>
+    2. Cancelación de suscripción a una lista: https://domain.com/unsubscribe.jsp
 Al hacer clic en el vínculo unsubscribe, se redirige al usuario a su formulario de cancelación de suscripción.
 
 ![Imagen](/help/assets/UTF-8-1.png)
@@ -246,7 +246,7 @@ Codifique el javascript de la regla de tipología:
 >
 >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
 >Este ejemplo detalla cómo:
->* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, <http://…>
+>* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>>, http://...
 >* Añadir en el encabezado List-Unsubscribe-Post
 >El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
 >* Puede agregar otros parámetros (como &amp;service = ...)
