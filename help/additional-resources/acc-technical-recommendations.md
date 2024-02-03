@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d9b3505de11cc7c50db2a318274b73a758348578
+source-git-commit: 5cd9a1d2296041b11c966cafdfd6b75a71286c3f
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 55%
@@ -224,31 +224,33 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 ### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
-Cree la nueva regla de tipología:
+1. **Cree la nueva regla de tipología:**
 
-* En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
+   * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
-Continúe con la configuración de la regla de tipología:
 
-* Tipo de regla: control
-* Canal: correo electrónico
-* Fase : al principio de la personalización
-* Nivel : su elección
-* Activo
+2. **Continúe con la configuración de la regla de tipología:**
+
+   * Tipo de regla: control
+   * Canal: correo electrónico
+   * Fase: al inicio de la personalización
+   * Nivel: su elección
+   * Activo
 
 ![Imagen](/help/assets/CreatingTypologyRules2.png)
 
-Codifique el javascript de la regla de tipología:
+
+**Codifique el javascript de la regla de tipología:**
 
 >[!NOTE]
 >
 >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
 >Este ejemplo detalla cómo:
->* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>>, http://...
+>* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>>, https://...
 >* Añadir en el encabezado List-Unsubscribe-Post
->El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
+>El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
 >* Puede agregar otros parámetros (como &amp;service = ...)
 >
 
@@ -319,7 +321,7 @@ function getHeader(headers, header) {
   
   
 // Define the unsubscribe URL 
-var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
   
 // Get the value of the List-Unsubscribe header 
 var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
@@ -350,21 +352,26 @@ return true;
 
 ![Imagen](/help/assets/CreatingTypologyRules3.png)
 
-Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta).
+
+3. **Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
-Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)
+
+4. **Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
 
-Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.
+
+5. **Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
 
 ![Imagen](/help/assets/CreatingTypologyRules6.png)
 
-Compruebe que la cancelación de la suscripción a una lista esté presente.
+
+6. **Compruebe que la cancelación de la suscripción a una lista esté presente.**
 
 ![Imagen](/help/assets/CreatingTypologyRules7.png)
+
 
 ## Optimización de correo electrónico {#email-optimization}
 
