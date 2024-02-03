@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
+source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1867'
 ht-degree: 55%
 
 ---
@@ -228,7 +228,9 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
     * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
+
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2. **Continúe con la configuración de la regla de tipología:**
@@ -239,10 +241,12 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
     * Nivel: Su elección
     * Activo
 
+
 ![Imagen](/help/assets/CreatingTypologyRules2.png)
 
 
 **Codifique el javascript de la regla de tipología:**
+
 
 >[!NOTE]
 >
@@ -350,25 +354,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![Imagen](/help/assets/CreatingTypologyRules3.png)
 
 
-* **Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
+
+**3. Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
 
-* **Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
+
+**4. Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
 
 
-* **Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
+
+**5. Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
 
 ![Imagen](/help/assets/CreatingTypologyRules6.png)
 
 
-* **Compruebe que la cancelación de la suscripción a una lista esté presente.**
+
+**6. Compruebe que la cancelación de la suscripción a una lista esté presente.**
 
 ![Imagen](/help/assets/CreatingTypologyRules7.png)
 
