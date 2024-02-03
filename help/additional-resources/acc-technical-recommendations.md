@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5cd9a1d2296041b11c966cafdfd6b75a71286c3f
+source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 55%
@@ -224,14 +224,14 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 ### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
-1. **Cree la nueva regla de tipología:**
+* **Cree la nueva regla de tipología:**
 
    * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
 
-2. **Continúe con la configuración de la regla de tipología:**
+* **Continúe con la configuración de la regla de tipología:**
 
    * Tipo de regla: control
    * Canal: correo electrónico
@@ -353,22 +353,22 @@ return true;
 ![Imagen](/help/assets/CreatingTypologyRules3.png)
 
 
-3. **Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
+* **Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
 
-4. **Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
+* **Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
 
 
-5. **Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
+* **Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
 
 ![Imagen](/help/assets/CreatingTypologyRules6.png)
 
 
-6. **Compruebe que la cancelación de la suscripción a una lista esté presente.**
+* **Compruebe que la cancelación de la suscripción a una lista esté presente.**
 
 ![Imagen](/help/assets/CreatingTypologyRules7.png)
 
