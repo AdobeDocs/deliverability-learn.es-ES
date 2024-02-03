@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
+source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Si es un cliente de Adobe, la mayor parte de lo que necesita ya forma parte de s
 
 Las reglas para DMARC no cambian, lo que significa que a menos que se configure para evitarlo, se heredará un registro DMARC en el dominio principal (adobe.com, por ejemplo) y abarcará cualquier subdominio (como email.adobe.com). No necesita registros DMARC diferentes para los subdominios, a menos que desee o necesite agregarlos por varios motivos comerciales.
 
-DMARC es totalmente compatible con el Adobe actualmente, pero no es obligatorio. Utilice cualquier verificador DMARC gratuito para ver si ha configurado DMARC para sus subdominios y, si no lo hace, hable con su equipo de soporte de Adobe para ver cuál es la mejor manera de hacerlo.
+Actualmente, la configuración de los registros TXT de DMARC es totalmente compatible con el Adobe de Campaign y AJO, pero no es obligatoria. Utilice cualquier verificador DMARC gratuito para ver si ha configurado DMARC para sus subdominios y, si no lo hace, hable con su equipo de soporte de Adobe para ver cuál es la mejor manera de hacerlo.
 
 También puede encontrar más información sobre DMARC y cómo implementarla [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} para el Marketo Engage.
 
@@ -53,7 +53,7 @@ También puede encontrar más información sobre DMARC y cómo implementarla [aq
 
 No te asustes. [!DNL Google] y [!DNL Yahoo] no se refiere a los vínculos de cancelación de suscripción del cuerpo del correo electrónico o al pie de página en los que un bot de seguridad podría hacer clic simplemente haciendo su trabajo o por accidente. Lo que significan es la funcionalidad de encabezado List-Unsubscribe para las versiones &quot;mailto&quot; o &quot;http/URL&quot;. Esta es la función dentro de [!DNL Yahoo] y las IU de Gmail donde los usuarios pueden hacer clic en cancelar suscripción. Gmail incluso pregunta a los usuarios que hacen clic en &quot;Informar sobre correo no deseado&quot; si querían cancelar la suscripción, lo que puede reducir el número de quejas que recibe (las quejas dañan su reputación) al convertirlas en cancelaciones de suscripción (no perjudica su reputación).
 
-Es importante tener en cuenta que [!DNL Google] y [!DNL Yahoo] se refieren a la opción &quot;http/URL&quot; con el nombre &quot;1-Click&quot;, y esto es intencional. Técnicamente, la opción &quot;http/URL&quot; original le permitía redirigir a los destinatarios a un sitio web. Ese no es el enfoque de [!DNL Yahoo] y [!DNL Google], que hacen referencia al actualizado [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} que se centra en procesar la cancelación de la suscripción mediante una solicitud de POST HTTPS en lugar de un sitio web, lo que lo convierte en &quot;1 clic&quot;.
+Es importante tener en cuenta que [!DNL Google] y [!DNL Yahoo] Ambos hacen referencia a la opción &quot;http/URI&quot; con el nombre &quot;1-Click&quot;, y esto es intencional. Técnicamente, la opción original &quot;http/URI&quot; le permitía redirigir destinatarios a un sitio web. Ese no es el enfoque de [!DNL Yahoo] y [!DNL Google], que hacen referencia al actualizado [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} que se centra en procesar la cancelación de la suscripción mediante una solicitud de POST HTTPS en lugar de un sitio web, lo que lo convierte en &quot;1 clic&quot;.
 
 Hoy, Gmail acepta la opción de cancelación de suscripción a la lista &quot;mailto&quot;. Gmail ha dicho que &quot;mailto&quot; no cumple con sus expectativas a partir de ahora, y los remitentes necesitarán tener activada la opción &quot;post&quot; list-unsubscribe. Aquellos remitentes que ya tengan la cancelación de la suscripción a una lista de algún tipo tendrán hasta el 1 de junio de 2024 para tener la cancelación de la suscripción a una lista de 1 clic.
 
@@ -71,8 +71,8 @@ La necesidad de encabezados de cancelación de suscripción a una lista no se ap
 > 
 > * [!DNL Adobe Campaign Classic V7/V8]: admite completamente el POST 1-Click hoy, se pueden encontrar las instrucciones [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]: se está actualizando para admitir el POST 1-Click a finales de febrero. Se proporcionarán las instrucciones de configuración [aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una vez listo.
->* [!DNL Adobe Journey Optimizer]: admite el POST 1-Click hoy, pero hay algunas mejoras clave en curso. Se publicarán las actualizaciones de la configuración paso a paso [aquí](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una vez listo.
-> * [!DNL Marketo]: se está actualizando para admitir el POST 1-Click. Una vez listo, se aplicará automáticamente donde sea necesario.
+>* [!DNL Adobe Journey Optimizer]: admite el POST 1-Click hoy, pero algunas mejoras clave están en marcha y se espera que tengan lugar en marzo de 2024. Se publicarán las actualizaciones de la documentación [aquí](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una vez listo.
+> * [!DNL Marketo]: A partir del 31 de enero de 2024 es totalmente compatible con el POST 1-Click-List-Unsubscribe. El usuario no requiere ninguna acción.
 
 
 ## Proceso cancela la suscripción en un plazo de 2 días:
