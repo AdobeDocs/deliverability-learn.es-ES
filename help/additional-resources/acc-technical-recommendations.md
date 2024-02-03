@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
+source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 55%
@@ -149,7 +149,7 @@ El uso de esta funcionalidad ayuda a proteger la reputación, y los comentarios 
 Para utilizar Cancelación de suscripción a una lista, debe introducir una línea de comandos similar a:
 
 ```
-List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
+List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?bod
 La siguiente línea de comandos se puede utilizar para crear una **List-Unsubscribe** dinámica:
 
 ```
-List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com y Microsoft Outlook admiten este método y hay un botón para cancelar la suscripción disponible directamente en su interfaz. Esta técnica reduce las tasas de quejas.
@@ -175,12 +175,13 @@ La línea de comandos debe añadirse en la sección adicional del encabezado SMT
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
-* Cancelación de suscripción a lista: <mailto:unsubscribe@domain.com>
+1. Cancelación de suscripción a lista: <mailto:unsubscribe@domain.com>
 Al hacer clic en el vínculo unsubscribe se abre el cliente de correo electrónico predeterminado del usuario. Esta regla de tipología debe añadirse en una tipología utilizada para crear correo electrónico.
 
-* Cancelación de suscripción a lista: <https://domain.com/unsubscribe.jsp>
+2. Cancelación de suscripción a lista: <https://domain.com/unsubscribe.jsp>
 Al hacer clic en el vínculo unsubscribe, se redirige al usuario a su formulario de cancelación de suscripción.
-  ![Imagen](/help/assets/UTF-8-1.png)
+
+![Imagen](/help/assets/UTF-8-1.png)
 
 
 ### Creación de una regla de tipología {#creating-a-typology-rule}
@@ -199,9 +200,9 @@ La regla debe contener la secuencia que genera la línea de comandos y debe incl
 
 A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. Para cumplir con el requisito de cancelación de suscripción a una lista de un clic, los remitentes deben:
 
-* Agregar en un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-* Incluir un vínculo de cancelación de suscripción de URI
-* Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign.
+1. Agregar en un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+2. Incluir un vínculo de cancelación de suscripción de URI
+3. Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign.
 
 Para configurar la cancelación de la suscripción a una lista de un clic directamente:
 
