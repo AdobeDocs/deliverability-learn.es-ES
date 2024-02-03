@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
+source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 55%
@@ -226,20 +226,20 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 **1. Cree la nueva regla de tipología:**
 
-    * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
+* En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
 
 
-**2. **Continúe con la configuración de la regla de tipología:**
+**2. Continúe con la configuración de la regla de tipología:**
 
-    * Tipo de regla: control
-    * Canal: correo electrónico
-    * Fase: al principio de la personalización
-    * Nivel: Su elección
-    * Activo
+* Tipo de regla: control
+* Canal: correo electrónico
+* Fase: al inicio de la personalización
+* Nivel: su elección
+* Activo
 
 
 ![Imagen](/help/assets/CreatingTypologyRules2.png)
