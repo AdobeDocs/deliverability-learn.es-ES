@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 55%
@@ -235,9 +235,9 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 **2. Continúe con la configuración de la regla de tipología:**
 
-* Tipo de regla: control
+* Tipo de regla: Control
+* Fase: al principio del objetivo
 * Canal: correo electrónico
-* Fase: al inicio de la personalización
 * Nivel: su elección
 * Activo
 
