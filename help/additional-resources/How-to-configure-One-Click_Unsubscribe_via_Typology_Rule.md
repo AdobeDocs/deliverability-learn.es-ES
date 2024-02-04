@@ -1,23 +1,18 @@
 ---
-source-git-commit: 5de602d6b75e524dac8688e40db0e96bdbafceba
+source-git-commit: 945a7ba5e3c3ac9544199e1bb62273933a82f04a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 8%
 
 ---
-### Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
+# Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
 **1. Cree la nueva regla de tipología:**
-
 * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
-
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. Continúe con la configuración de la regla de tipología:**
-
 * Tipo de regla: Control
 * Fase: al principio del objetivo
 * Canal: correo electrónico
@@ -140,19 +135,13 @@ return true;
 
 ![Imagen](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3. Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4. Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5. Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
 
