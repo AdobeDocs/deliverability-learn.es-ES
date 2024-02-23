@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 55%
 
 ---
@@ -139,7 +139,7 @@ El servicio de capacidad de entregas de Adobe Campaign administra la suscripció
 
 ### Acerca de Cancelación de suscripción a lista {#about-list-unsubscribe}
 
-Añadir un encabezado SMTP llamado **Cancelación de suscripción a lista** es obligatorio para garantizar una administración óptima de la capacidad de entrega.A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a la lista de un clic. Para comprender cómo configurar la cancelación de la suscripción a una lista de un clic, consulte a continuación.
+Añadir un encabezado SMTP llamado **Cancelación de suscripción a lista** es obligatorio para garantizar una administración óptima de la entrega. A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. Para obtener información sobre cómo configurar la cancelación de la suscripción a una lista de un clic, consulte [esta sección](#one-click-list-unsubscribe).
 
 
 Este encabezado puede utilizarse como alternativa al icono “Notificar como correo no deseado”. Se muestra como un vínculo para cancelar la suscripción en la interfaz de correo electrónico.
@@ -181,7 +181,7 @@ Cancelación de suscripción a una lista: mailto:unsubscribe@domain.com
 Cancelación de suscripción a una lista: https://domain.com/unsubscribe.jsp
 * Haciendo clic en **cancelar suscripción** El vínculo redirige al usuario a su formulario de cancelación de suscripción.
 
-![Imagen](/help/assets/UTF-8-1.png)
+![Imagen](../assets/UTF-8-1.png)
 
 
 ### Creación de una regla de tipología {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ La regla debe contener la secuencia que genera la línea de comandos y debe incl
 >
 >Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign Classic en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### Cancelación de suscripción a lista de un clic
+### Cancelación de suscripción a lista de un clic {#one-click-list-unsubscribe}
 
 A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. Para cumplir con el requisito de cancelación de suscripción a una lista de un clic, los remitentes deben:
 
@@ -215,7 +215,7 @@ Para configurar la cancelación de la suscripción a una lista de un clic direct
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 El ejemplo anterior habilita la cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que garantiza que los destinatarios que no admiten la cancelación de la suscripción a una lista de URL puedan solicitar la cancelación de la suscripción por correo electrónico.
@@ -227,9 +227,7 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 
 * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
-
-![Imagen](/help/assets/CreatingTypologyRules1.png)
-
+![Imagen](../assets/CreatingTypologyRules1.png)
 
 
 **2. Continúe con la configuración de la regla de tipología:**
@@ -241,7 +239,7 @@ El ejemplo anterior habilita la cancelación de suscripción a una lista de un c
 * Activo
 
 
-![Imagen](/help/assets/CreatingTypologyRules2.png)
+![Imagen](../assets/CreatingTypologyRules2.png)
 
 
 **Codifique el javascript de la regla de tipología:**
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![Imagen](/help/assets/CreatingTypologyRules3.png)
+![Imagen](../assets/CreatingTypologyRules3.png)
 
 
 
 **3. Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
-![Imagen](/help/assets/CreatingTypologyRules4.png)
+![Imagen](../assets/CreatingTypologyRules4.png)
 
 
 
 **4. Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
 
-![Imagen](/help/assets/CreatingTypologyRules5.png)
+![Imagen](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
 
-![Imagen](/help/assets/CreatingTypologyRules6.png)
+![Imagen](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. Compruebe que la cancelación de la suscripción a una lista esté presente.**
 
-![Imagen](/help/assets/CreatingTypologyRules7.png)
+![Imagen](../assets/CreatingTypologyRules7.png)
 
 
 ## Optimización de correo electrónico {#email-optimization}
