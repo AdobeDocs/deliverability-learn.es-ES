@@ -1,17 +1,16 @@
 ---
-source-git-commit: 73776a83c10a1c871ffaae38371fa2c48b5bf308
+source-git-commit: 0357162ff3a1ce6e1165f9298e69db152f530ab3
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
-### Cancelar la suscripción a tareas pendientes y tareas pendientes
-###
-
-
+# Cancelar la suscripción a tareas pendientes y tareas pendientes
+#
 El propósito de este documento es revisar las prácticas recomendadas en la gestión de cancelación de suscripción de correo electrónico.
 
 Las cancelaciones de suscripción son una parte natural del ciclo vital del correo electrónico. Pero a veces es difícil para los especialistas en marketing decir adiós. Trabajas muy duro para crear los correos electrónicos más atractivos y presentar las mejores ofertas en productos y servicios que ofrece tu marca. Sin embargo, es completamente normal, y debería esperarse, que algunos suscriptores decidan seguir adelante. Esto podría deberse a varias razones, pero en definitiva, ya no están interesados en saber de usted.
+
 Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las cancelaciones de suscripción a sus listas de correo electrónico. Siga leyendo para obtener más información.
 
 Tareas pendientes
@@ -51,8 +50,7 @@ DO: Utilice el encabezado Cancelar la suscripción a una lista en las plantillas
 
 + Haga clic aquí (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
 
-# El documento Do Not’s
-#
+El documento Do Not’s
 
 
 NO: Entierre el vínculo de cancelación de suscripción en su contenido con la esperanza de que los suscriptores &quot;se den por vencidos&quot; por frustración.
@@ -86,4 +84,3 @@ NO: Obligue a los usuarios a que le indiquen el motivo por el que cancelaron la 
 + Un mejor enfoque sería informarles de que se han dado de baja con éxito y luego permitirles un espacio para que opcionalmente ofrezcan los motivos.
 
 Recuerde que las cancelaciones de suscripción son mejores que las quejas. Las personas que no participan positivamente en su programa de correo electrónico pueden tener un efecto negativo en su reputación de capacidad de entrega, así como en sus métricas. Ahora es el momento de que se centre en cultivar relaciones más profundas con sus suscriptores actuales tratándolos con mensajes comprometidos y relevantes que no pueden esperar para abrir, hacer clic y realizar una compra.
-
