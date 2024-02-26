@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DO: Permita que sus suscriptores dicten la relación.
 
 DO: Utilice el encabezado Cancelar la suscripción a una lista en las plantillas de correo electrónico para que los clientes de correo electrónico (por ejemplo: gmail.com) que muestran vínculos de cancelación de suscripción en la parte superior del correo electrónico se encuentren fácilmente donde el usuario está acostumbrado a buscar cancelaciones de suscripción.
 
-+ Haga clic aquí (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
++ Clic [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
 
 El documento Do Not’s
 
