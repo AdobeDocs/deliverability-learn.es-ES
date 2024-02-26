@@ -1,5 +1,5 @@
 ---
-source-git-commit: 73e77e853082dec2afd5906f3933e96be549d34c
+source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -26,9 +26,9 @@ HACER: Hacer que el vínculo de cancelación de suscripción dirija a una págin
 
 DO: Hacer que el proceso sea fácil y transparente. Por ejemplo:
 
-+ Haga clic en esta opción para cancelar la suscripción a todos los correos electrónicos de marketing. Esta debe ser la primera opción proporcionada al usuario.
++ &quot;Haga clic aquí para cancelar la suscripción a todos los correos electrónicos de marketing&quot;. Esta debe ser la primera opción proporcionada al usuario.
 
-+ Haga clic aquí para cambiar sus preferencias.
++ &quot;Haga clic aquí para cambiar sus preferencias&quot;.
 
 DO: incluir la dirección de correo electrónico en la página de aterrizaje de cancelación de suscripción.
 
