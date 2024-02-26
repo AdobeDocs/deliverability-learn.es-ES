@@ -1,12 +1,12 @@
 ---
-source-git-commit: 0357162ff3a1ce6e1165f9298e69db152f530ab3
+source-git-commit: 73e77e853082dec2afd5906f3933e96be549d34c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
 # Cancelar la suscripción a tareas pendientes y tareas pendientes
-#
+
 El propósito de este documento es revisar las prácticas recomendadas en la gestión de cancelación de suscripción de correo electrónico.
 
 Las cancelaciones de suscripción son una parte natural del ciclo vital del correo electrónico. Pero a veces es difícil para los especialistas en marketing decir adiós. Trabajas muy duro para crear los correos electrónicos más atractivos y presentar las mejores ofertas en productos y servicios que ofrece tu marca. Sin embargo, es completamente normal, y debería esperarse, que algunos suscriptores decidan seguir adelante. Esto podría deberse a varias razones, pero en definitiva, ya no están interesados en saber de usted.
@@ -26,9 +26,9 @@ HACER: Hacer que el vínculo de cancelación de suscripción dirija a una págin
 
 DO: Hacer que el proceso sea fácil y transparente. Por ejemplo:
 
-+ &quot;Haga clic aquí para cancelar la suscripción a todos los correos electrónicos de marketing&quot;. Esta debe ser la primera opción proporcionada al usuario.
++ Haga clic en esta opción para cancelar la suscripción a todos los correos electrónicos de marketing. Esta debe ser la primera opción proporcionada al usuario.
 
-+ &quot;Haga clic aquí para cambiar sus preferencias.&quot;
++ Haga clic aquí para cambiar sus preferencias.
 
 DO: incluir la dirección de correo electrónico en la página de aterrizaje de cancelación de suscripción.
 
