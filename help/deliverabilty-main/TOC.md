@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: c1f5d0f8ba021d200e547d47ca9298b58146c25e
+source-git-commit: 8603a2facb100a1d1bb8b8ed0a39f4eb6666bb48
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 94%
+source-wordcount: '183'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 + Apéndice: Recursos adicionales {#additional-resources}
    + [Información general](/help/additional-resources/general-resources.md)
    + [Actualizaciones de Yahoo y Gmail](/help/guidance-around-changes-to-google-and-yahoo.md)
-   + [Cancelar la suscripción de tareas pendientes y tareas pendientes](/help/Cancelar suscripción a Do&#39;s &amp; Do Not&#39;s.md) {#unsubscribe-dos-and-do-nots}
+   + [Cancelar la suscripción de tareas pendientes y tareas pendientes](/help/Unsubscribe-Do's-&-Do-Not's.md) {#unsubscribe-dos-and-do-nots}
    + Recursos genéricos {#generic-resources}
       + [Todo acerca de las trampas de correo no deseado](/help/additional-resources/all-about-spam-traps.md)
       + [Aumente su reputación de correo electrónico con el calentamiento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
