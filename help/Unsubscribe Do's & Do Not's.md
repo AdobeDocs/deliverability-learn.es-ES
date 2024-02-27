@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
+source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -13,7 +13,7 @@ Las cancelaciones de suscripción son una parte natural del ciclo vital del corr
 
 Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las cancelaciones de suscripción a sus listas de correo electrónico. Siga leyendo para obtener más información.
 
-Tareas pendientes
+## Tareas pendientes
 
 DO: Tener un vínculo de cancelación de suscripción colocado de forma destacada. Esto puede ayudar a evitar que los usuarios hagan clic en la queja &quot;esto es spam&quot; (también denominada bucle de comentarios)
 
@@ -34,51 +34,51 @@ DO: incluir la dirección de correo electrónico en la página de aterrizaje de 
 
 + Importante: Según la ubicación o la jurisdicción de los usuarios, puede haber problemas de privacidad acerca de la inclusión de la dirección de correo electrónico completa; es posible que tenga que rellenar previamente una versión con hash de la dirección de correo electrónico. Esto se debe a que el correo electrónico puede haberse reenviado desde la dirección suscrita originalmente. Consulte con su grupo legal para comprender sus requisitos específicos.
 
-DO: Confirme que la cancelación de la suscripción se ha enviado correctamente y confirme cuándo puede esperar que dejen de recibir correos electrónicos.
+**HAGA:** Confirme que la cancelación de la suscripción se ha enviado correctamente y confirme cuándo puede esperar que dejen de recibir correos electrónicos.
 
 + Si ya se han dado de baja e intentan nuevamente, infórmeles que ya se han dado de baja y cuándo (Fecha/Hora)
 
-DO: Respete la cancelación de la suscripción y elimine la dirección de forma oportuna.
+**HAGA:** Respete la cancelación de la suscripción y elimine la dirección de forma oportuna.
 
 + La puntualidad dependerá de las leyes y la jurisdicción locales, por lo que consulte con un asesor legal sobre lo que se aplica a su negocio.
 
-DO: Permita que sus suscriptores dicten la relación.
+**HAGA:** Permita que sus suscriptores dicten la relación.
 
 + Está bien ofrecer a sus suscriptores opciones, que se pueden administrar a través de una iniciativa de centro de preferencias/exclusión.
 
-DO: Utilice el encabezado Cancelar la suscripción a una lista en las plantillas de correo electrónico para que los clientes de correo electrónico (por ejemplo: gmail.com) que muestran vínculos de cancelación de suscripción en la parte superior del correo electrónico se encuentren fácilmente donde el usuario está acostumbrado a buscar cancelaciones de suscripción.
+**HAGA:** Utilice el encabezado Cancelación de suscripción a una lista en las plantillas de correo electrónico para que los clientes de correo electrónico (por ejemplo: gmail.com) que muestran vínculos de cancelación de suscripción en la parte superior del correo electrónico se encuentren fácilmente donde el usuario está acostumbrado a buscar cancelaciones de suscripción.
 
 + Clic [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
 
-El documento Do Not’s
+## El documento Do Not’s
 
 
-NO: Entierre el vínculo de cancelación de suscripción en su contenido con la esperanza de que los suscriptores &quot;se den por vencidos&quot; por frustración.
+**NO HACER:** Enterrar el enlace de cancelación de suscripción en su contenido con la esperanza de que los suscriptores &quot;renunciar&quot; a la frustración.
 
 + Se trata de una mala experiencia para el usuario final y podría provocar un aumento de las quejas, lo que puede afectar negativamente a su capacidad de entrega y reputación.
 
-NO: dificulte la cancelación de la suscripción una vez que el cliente haya llegado al formulario. El engaño es molesto -y en algunos casos- ilegal.
+**NO HACER:** Dificulte la cancelación de la suscripción una vez que el cliente haya llegado al formulario. El engaño es molesto -y en algunos casos- ilegal.
 
 + Sea directo y evite confundir al usuario final.
 
-NO: haga que el usuario añada manualmente una dirección de correo electrónico en el formulario de cancelación de suscripción.
+**NO HACER:** Hacer que el usuario añada manualmente una dirección de correo electrónico en el formulario de cancelación de suscripción.
 
 + La dirección a la que se suscribió puede ser diferente a la dirección en la que el usuario inició sesión por correo electrónico (por ejemplo, reenviado).  Es posible que no conozcan la dirección de correo electrónico que se utilizó para la suscripción original.
 
-NO: haga que el usuario inicie sesión en su cuenta para cancelar la suscripción.
+**NO HACER:** Haga que el usuario inicie sesión en su cuenta para cancelar la suscripción.
 
 + Es posible que esté enviando el correo electrónico a una dirección incorrecta y que el propietario de la dirección no tenga acceso a la cuenta.  Si recibe el correo electrónico, se le debe permitir cancelar la suscripción al vínculo solo en el correo electrónico; no se debe requerir ninguna otra acción o información.
 + Cuantos menos pasos necesite seguir un cliente, mejor.
 
-NO: envíe un correo electrónico que confirme que la persona ha cancelado la suscripción.
+**NO HACER:** Enviar un correo electrónico que confirme que la persona ha cancelado la suscripción.
 
 + Si lo hace, ya ha roto su promesa de no enviarles más correo.
 
-NO: Sé sarcástico en tu verborrea. &quot;No me gusta saber de grandes ofertas, ¡cancele la suscripción!&quot;
+**NO HACER:** Sé sarcástico en tu verborrea. &quot;No me gusta saber de grandes ofertas, ¡cancele la suscripción!&quot;
 
 + Esto puede parecer grosero. Evite un tono negativo.
 
-NO: Obligue a los usuarios a que le indiquen el motivo por el que cancelaron la suscripción antes de procesar la solicitud.
+**NO HACER:** Obligue a los usuarios a que le indiquen el motivo por el que cancelaron la suscripción antes de procesar la solicitud.
 
 + Permitir al cliente un lugar donde añadir esta información puede ser útil para usted en cuanto a perspectivas futuras, pero hágalo un campo opcional en la página de aterrizaje de cancelación de suscripción.
 + Un mejor enfoque sería informarles de que se han dado de baja con éxito y luego permitirles un espacio para que opcionalmente ofrezcan los motivos.
