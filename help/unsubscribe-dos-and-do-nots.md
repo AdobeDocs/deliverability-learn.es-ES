@@ -1,10 +1,21 @@
 ---
-source-git-commit: 68580661062e1e323ff728c09ebf3a5103544fff
+title: Cancelar la suscripción de tareas pendientes y tareas pendientes
+description: Utilice una lista de cosas que hacer y cosas que evitar al administrar las cancelaciones de suscripción.
+feature: Deliverability
+role: Admin
+level: Beginner
+doc-type: Feature Video
+duration: 0
+last-substantial-update: 2024-02-27T00:00:00Z
+jira: KT-15029
+source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
+
+
 # Cancelar la suscripción a tareas pendientes y tareas pendientes
 
 Las cancelaciones de suscripción son una parte natural del ciclo vital del correo electrónico. Pero a veces es difícil para los especialistas en marketing decir adiós. Trabajas muy duro para crear los correos electrónicos más atractivos y presentar las mejores ofertas en productos y servicios que ofrece tu marca. Sin embargo, es completamente normal, y debería esperarse, que algunos suscriptores decidan seguir adelante. Esto podría deberse a varias razones, pero en definitiva, ya no están interesados en saber de usted.
