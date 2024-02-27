@@ -1,5 +1,5 @@
 ---
-source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
+source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,22 +15,22 @@ Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las 
 
 ## Tareas pendientes
 
-DO: Tener un vínculo de cancelación de suscripción colocado de forma destacada. Esto puede ayudar a evitar que los usuarios hagan clic en la queja &quot;esto es spam&quot; (también denominada bucle de comentarios)
+**HAGA:** Tener un vínculo de cancelación de suscripción colocado de forma destacada. Esto puede ayudar a evitar que los usuarios hagan clic en la queja &quot;esto es spam&quot; (también denominada bucle de comentarios)
 
 + Algunas ideas sobre cómo resaltar el vínculo de cancelación de suscripción: Centrarlo, subrayarlo y ponerlo en negrita, colocarlo en la parte superior o en la parte inferior del correo electrónico, hacer que tenga un color de fuente diferente. Utilice la palabra &quot;CANCELAR SUSCRIPCIÓN&quot; en la preferencia de idioma del usuario. No use verborrea florida o excesiva.
 
-HACER: Hacer que el vínculo de cancelación de suscripción dirija a una página de aterrizaje en la que el usuario pueda confirmar que desea que se le elimine de la lista
+**HAGA:** Haga que el vínculo de cancelación de suscripción dirija a una página de aterrizaje en la que el usuario pueda confirmar que desea que se le elimine de la lista
 
 + La expresión en la página de aterrizaje debe incluir un vínculo a un clic que diga &quot;Confirmar mi cancelación de suscripción&quot; y tal vez otro vínculo que diga &quot;Permítanme rechazar y reducir la frecuencia del correo que recibo de usted&quot;. Aunque no se trata de un método de cancelación de suscripción de un clic, ayudará a evitar clics en bots que resulten en una cancelación de suscripción errónea.
 + Si la cancelación de la suscripción lleva a un usuario a una página de aterrizaje, asegúrese de que la página de aterrizaje ofrezca la cancelación de la suscripción con un solo clic una vez que el usuario aterrice en la página.
 
-DO: Hacer que el proceso sea fácil y transparente. Por ejemplo:
+**HAGA:** Hacer que el proceso sea fácil y transparente. Por ejemplo:
 
 + &quot;Haga clic aquí para cancelar la suscripción a todos los correos electrónicos de marketing&quot;. Esta debe ser la primera opción proporcionada al usuario.
 
 + &quot;Haga clic aquí para cambiar sus preferencias&quot;.
 
-DO: incluir la dirección de correo electrónico en la página de aterrizaje de cancelación de suscripción.
+**HAGA:** Incluya la dirección de correo electrónico en la página de aterrizaje de cancelación de suscripción.
 
 + Importante: Según la ubicación o la jurisdicción de los usuarios, puede haber problemas de privacidad acerca de la inclusión de la dirección de correo electrónico completa; es posible que tenga que rellenar previamente una versión con hash de la dirección de correo electrónico. Esto se debe a que el correo electrónico puede haberse reenviado desde la dirección suscrita originalmente. Consulte con su grupo legal para comprender sus requisitos específicos.
 
