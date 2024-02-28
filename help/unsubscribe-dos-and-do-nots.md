@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
+source-git-commit: 7f1e756683bfc5c8587101fcbf86db010a5b6a7e
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ La expresión en la página de aterrizaje debe incluir un vínculo a un clic que
 
 **HAGA:** Utilice el encabezado Cancelación de suscripción a una lista en las plantillas de correo electrónico para que los clientes de correo electrónico (por ejemplo: gmail.com) que muestran vínculos de cancelación de suscripción en la parte superior del correo electrónico se encuentren fácilmente donde el usuario está acostumbrado a buscar cancelaciones de suscripción.
 
-Clic [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
 
 ## El documento Do Not’s
 
