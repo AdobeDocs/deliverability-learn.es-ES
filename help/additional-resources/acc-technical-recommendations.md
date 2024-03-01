@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: dd2de465850181cf72085328352c38bcefd59458
+source-git-commit: ea91b7285814eca254590f2aff128fb6e5f77520
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 49%
+source-wordcount: '2060'
+ht-degree: 48%
 
 ---
 
@@ -139,11 +139,11 @@ El servicio de capacidad de entregas de Adobe Campaign administra la suscripció
 
 La adición de un encabezado SMTP denominado **List-Unsubscribe** es obligatoria para garantizar una gestión óptima de la entrega.
 
-Este encabezado puede utilizarse como alternativa al icono “Notificar como correo no deseado”. Se muestra como un vínculo &quot;Cancelar la suscripción&quot; en las interfaces de correo electrónico de los ISP. Por ejemplo:
+Este encabezado puede utilizarse como alternativa al icono “Notificar como correo no deseado”. Se muestra como un vínculo &quot;Cancelar la suscripción&quot; en las interfaces de correo electrónico de los ISP.
+
+Gmail, Outlook.com, Yahoo! y Microsoft Outlook admiten este método. Un vínculo &quot;Cancelar la suscripción&quot; está disponible directamente en su interfaz. Por ejemplo:
 
 ![Imagen](../assets/List-Unsubscribe-example-Gmail.png)
-
-Gmail, Outlook.com, Yahoo! y Microsoft Outlook admiten este método. Un vínculo &quot;Cancelar la suscripción&quot; está disponible directamente en su interfaz.
 
 >[!NOTE]
 >
@@ -161,7 +161,6 @@ Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
 
 <!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
 
-y
 * **Cancelación de suscripción a una lista con un clic** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela directamente la suscripción del usuario. [Más información](#one-click-list-unsubscribe)
 
 >[!CAUTION]
@@ -172,23 +171,17 @@ y
 
 ### Cancelación de suscripción a lista &quot;mailto&quot; {#mailto-list-unsubscribe}
 
-Para utilizar &quot;mailto&quot; List-Unsubscribe, debe introducir una línea de comandos similar a:
+Con este método, haga clic en el botón **Cancelar suscripción** El vínculo envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico.
 
-```
-List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
-```
+Para utilizar &quot;mailto&quot; List-Unsubscribe, debe introducir una línea de comandos donde especifique una dirección de correo electrónico, como: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
 
 >[!CAUTION]
 >
 >El ejemplo anterior se basa en la tabla de destinatarios. Si la implementación de la base de datos se realiza desde otra tabla, asegúrese de volver a redactar la línea de comandos con la información correcta.
 
-También puede crear una List-Unsubscribe &quot;mailto&quot; dinámica mediante una línea de comandos como:
+También puede crear una List-Unsubscribe &quot;mailto&quot; dinámica mediante una línea de comandos como: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
-```
-List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
-```
-
-Para implementar **Cancelación de suscripción a lista &quot;mailto&quot;**, puede hacer lo siguiente:
+Para implementar **Cancelación de suscripción a lista &quot;mailto&quot;** en Campaign, puede:
 
 * Añada directamente la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#adding-a-command-line-in-a-delivery-template)
 
@@ -200,7 +193,7 @@ La línea de comandos debe añadirse a **[!UICONTROL Additional SMTP headers]** 
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
-Por ejemplo, introduzca la siguiente secuencia de comandos en la **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
+Por ejemplo, introduzca la siguiente secuencia de comandos en la **[!UICONTROL Additional SMTP headers]** campo: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
 Haciendo clic en **cancelar suscripción** Este vínculo envía un correo electrónico a la dirección unsubscribe@domain.com.
 
@@ -229,7 +222,9 @@ Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7
 >
 >Se recomienda crear una regla de tipología: la funcionalidad List-Unsubscribe se añade automáticamente en cada correo electrónico que utilice esta regla de tipología.
 
-### Cancelación de suscripción a lista de un clic {#one-click-list-unsubscribe}
+### Cancelación de suscripción a una lista con un clic {#one-click-list-unsubscribe}
+
+Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela la suscripción directamente del usuario y solo requiere una única acción para cancelar la suscripción.
 
 A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. [Obtenga más información sobre este cambio](../guidance-around-changes-to-google-and-yahoo.md)
 
@@ -245,7 +240,7 @@ Para admitir la respuesta POST Cancelar la suscripción a una lista de un clic d
 
 1. Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip) archivo.
 
-Para configurar **Cancelación de suscripción a una lista con un clic**, puede hacer lo siguiente:
+Para configurar **Cancelación de suscripción a una lista con un clic** en Campaign, puede:
 
 * Añada la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#one-click-delivery-template)
 * Creación de una regla de tipología: [Descubra cómo](#one-click-typology-rule)
@@ -265,7 +260,7 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 
 ![Imagen](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
-El ejemplo anterior habilitará Cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que se asegura de que los receptores que no admiten cancelación de suscripción a una lista de &quot;mailto&quot; puedan solicitar la cancelación de la suscripción por correo electrónico.
+El ejemplo anterior habilitará la cancelación de la suscripción a una lista de un clic para los ISP que admiten un clic, al tiempo que se garantiza que los receptores que no admiten &quot;mailto&quot; puedan solicitar la cancelación de la suscripción por correo electrónico.
 
 #### Creación de una regla de tipología para admitir la cancelación de suscripción a una lista de un clic {#one-click-typology-rule}
 
