@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 56a8bb69be854ede21385ef35179b90f95cb1f6e
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 49%
@@ -166,7 +166,7 @@ y
 
 >[!CAUTION]
 >
->A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**. [Obtenga más información sobre este cambio](guidance-around-changes-to-google-and-yahoo.md)
+>A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**. [Obtenga más información sobre este cambio](../guidance-around-changes-to-google-and-yahoo.md)
 >
 >Obtenga información sobre cómo configurar la cancelación de suscripción a una lista de un clic en [esta sección](#one-click-list-unsubscribe).
 
@@ -231,7 +231,7 @@ Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7
 
 ### Cancelación de suscripción a lista de un clic {#one-click-list-unsubscribe}
 
-A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. [Obtenga más información sobre este cambio](guidance-around-changes-to-google-and-yahoo.md)
+A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. [Obtenga más información sobre este cambio](../guidance-around-changes-to-google-and-yahoo.md)
 
 Para cumplir con este requisito, los remitentes deben:
 
@@ -262,6 +262,7 @@ Por ejemplo:
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+
 ![Imagen](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
 El ejemplo anterior habilitará Cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que se asegura de que los receptores que no admiten cancelación de suscripción a una lista de &quot;mailto&quot; puedan solicitar la cancelación de la suscripción por correo electrónico.
