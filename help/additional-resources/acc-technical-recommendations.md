@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 570f64fee87db7df8be8dfdd0ae1c6e6101058f7
+source-git-commit: 56a8bb69be854ede21385ef35179b90f95cb1f6e
 workflow-type: tm+mt
-source-wordcount: '1925'
-ht-degree: 52%
+source-wordcount: '2014'
+ht-degree: 49%
 
 ---
 
@@ -139,17 +139,40 @@ El servicio de capacidad de entregas de Adobe Campaign administra la suscripció
 
 La adición de un encabezado SMTP denominado **List-Unsubscribe** es obligatoria para garantizar una gestión óptima de la entrega.
 
+Este encabezado puede utilizarse como alternativa al icono “Notificar como correo no deseado”. Se muestra como un vínculo &quot;Cancelar la suscripción&quot; en las interfaces de correo electrónico de los ISP. Por ejemplo:
+
+![Imagen](../assets/List-Unsubscribe-example-Gmail.png)
+
+Gmail, Outlook.com, Yahoo! y Microsoft Outlook admiten este método. Un vínculo &quot;Cancelar la suscripción&quot; está disponible directamente en su interfaz.
+
+>[!NOTE]
+>
+>El vínculo &quot;Cancelar la suscripción&quot; puede no mostrarse siempre. De hecho, puede depender de los criterios y políticas específicos de cada ISP. Por lo tanto, asegúrese de que los mensajes los envía un remitente:
+>
+>* Con buena reputación
+>* Por debajo del umbral de quejas de correo no deseado de los ISP
+>* Completamente autenticado
+
+El uso de esta funcionalidad reduce las tasas de quejas y ayuda a proteger la reputación. Los comentarios se ejecutarán como una cancelación de la suscripción.
+
+Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
+
+* **Cancelación de suscripción a lista &quot;mailto&quot;** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico. [Más información](#mailto-list-unsubscribe)
+
+<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
+
+y
+* **Cancelación de suscripción a una lista con un clic** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela directamente la suscripción del usuario. [Más información](#one-click-list-unsubscribe)
+
 >[!CAUTION]
 >
->A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**. Para obtener información sobre cómo configurar la cancelación de la suscripción a una lista de un clic, consulte [esta sección](#one-click-list-unsubscribe).
+>A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**. [Obtenga más información sobre este cambio](guidance-around-changes-to-google-and-yahoo.md)
+>
+>Obtenga información sobre cómo configurar la cancelación de suscripción a una lista de un clic en [esta sección](#one-click-list-unsubscribe).
 
-### Acerca de Cancelación de suscripción a lista {#about-list-unsubscribe}
+### Cancelación de suscripción a lista &quot;mailto&quot; {#mailto-list-unsubscribe}
 
-Este encabezado puede utilizarse como alternativa al icono “Notificar como correo no deseado”. Se muestra como un vínculo para cancelar la suscripción en la interfaz de correo electrónico.
-
-El uso de esta funcionalidad ayuda a proteger la reputación, y los comentarios se ejecutan como una cancelación de suscripción.
-
-Para utilizar Cancelación de suscripción a una lista, debe introducir una línea de comandos similar a:
+Para utilizar &quot;mailto&quot; List-Unsubscribe, debe introducir una línea de comandos similar a:
 
 ```
 List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -159,40 +182,31 @@ List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body
 >
 >El ejemplo anterior se basa en la tabla de destinatarios. Si la implementación de la base de datos se realiza desde otra tabla, asegúrese de volver a redactar la línea de comandos con la información correcta.
 
-La siguiente línea de comandos se puede utilizar para crear una **List-Unsubscribe** dinámica:
+También puede crear una List-Unsubscribe &quot;mailto&quot; dinámica mediante una línea de comandos como:
 
 ```
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
-<!--This example uses the error address.-->
+Para implementar **Cancelación de suscripción a lista &quot;mailto&quot;**, puede hacer lo siguiente:
 
-Gmail, Outlook.com y Microsoft Outlook admiten este método y hay un botón para cancelar la suscripción disponible directamente en su interfaz. Esta técnica reduce las tasas de quejas.
+* Añada directamente la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#adding-a-command-line-in-a-delivery-template)
 
->[!NOTE]
->
->El botón Cancelar la suscripción de los ISP no siempre se muestra. De hecho, puede depender de los criterios y políticas específicos de cada ISP. Por lo tanto, asegúrese de que sus mensajes los envíe un IP/remitente:
->
->* Con buena reputación
->* Por debajo del umbral de quejas de spam de los ISP
->* Completamente autenticado
+* Creación de una regla de tipología: [Descubra cómo](#creating-a-typology-rule)
 
-Puede implementar el **Cancelación de suscripción a lista** mediante:
+#### Adición de una línea de comandos en una entrega o plantilla {#adding-a-command-line-in-a-delivery-template}
 
-* Directamente [adición de la línea de comandos en la plantilla de envíos](#adding-a-command-line-in-a-delivery-template)
-* [Creación de una regla de tipología](#creating-a-typology-rule)
-
-### Adición de una línea de comandos en una plantilla de envíos {#adding-a-command-line-in-a-delivery-template}
-
-La línea de comandos debe añadirse en **[!UICONTROL Additional SMTP headers]** del encabezado SMTP del correo electrónico.
+La línea de comandos debe añadirse a **[!UICONTROL Additional SMTP headers]** del encabezado SMTP del correo electrónico.
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
 Por ejemplo, introduzca la siguiente secuencia de comandos en la **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
-![Imagen](../assets/List-Unsubscribe-template-SMTP.png)
-
 Haciendo clic en **cancelar suscripción** Este vínculo envía un correo electrónico a la dirección unsubscribe@domain.com.
+
+También puede utilizar una dirección dinámica. Por ejemplo, para enviar un correo electrónico a la dirección de error definida para la plataforma, puede utilizar la siguiente secuencia de comandos: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
+
+![Imagen](../assets/List-Unsubscribe-template-SMTP.png)
 
 <!--
 List-Unsubscribe: mailto:unsubscribe@domain.com 
@@ -205,208 +219,206 @@ List-Unsubscribe: https://domain.com/unsubscribe.jsp
   ![image](../assets/UTF-8-1.png)
 -->
 
-### Creación de una regla de tipología {#creating-a-typology-rule}
+#### Creación de una regla de tipología {#creating-a-typology-rule}
 
 La regla debe contener la secuencia que genera la línea de comandos y debe incluirse en el encabezado del correo electrónico.
 
+Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+
 >[!NOTE]
 >
->Se recomienda crear una regla de tipología: la funcionalidad List-Unsubscribe se añade automáticamente en cada correo electrónico.
->
->Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
-
-<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+>Se recomienda crear una regla de tipología: la funcionalidad List-Unsubscribe se añade automáticamente en cada correo electrónico que utilice esta regla de tipología.
 
 ### Cancelación de suscripción a lista de un clic {#one-click-list-unsubscribe}
 
-A partir del 1 de junio de 2024, Yahoo y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. Para cumplir con este requisito, los remitentes deben:
+A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. [Obtenga más información sobre este cambio](guidance-around-changes-to-google-and-yahoo.md)
 
-1. Agregue la siguiente línea de comandos:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
-1. Incluir un vínculo de cancelación de suscripción de URI.
-1. Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign. También puede utilizar un servicio externo.
+Para cumplir con este requisito, los remitentes deben:
 
-Para configurar la cancelación de la suscripción a una lista de un clic directamente en Adobe Campaign v7/v8:
+* Agregue la siguiente línea de comandos: `List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+* Incluir un vínculo de cancelación de suscripción de URI.
+* Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign. También puede utilizar un servicio externo.
 
-* Añada la siguiente aplicación web &quot;Cancelar la suscripción de destinatarios sin clic&quot; 
-   1. Vaya a Recursos -> En línea -> Aplicaciones web
-   2. Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
+Para admitir la respuesta POST Cancelar la suscripción a una lista de un clic directamente en Adobe Campaign v7/v8, debe agregar en la aplicación web &quot;Cancelar la suscripción de destinatarios sin hacer clic&quot;. Para ello:
 
-Para configurar la cancelación de la suscripción a una lista de un clic, puede:
+1. Ir a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
-* [Añadir una línea de comandos en la plantilla de envíos](#one-click-delivery-template)
-* [Creación de una regla de tipología](#one-click-typology-rule)
+1. Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip) archivo.
 
-### Configuración de la cancelación de la suscripción a una lista con un clic en la plantilla de envíos {#one-click-delivery-template}
+Para configurar **Cancelación de suscripción a una lista con un clic**, puede hacer lo siguiente:
 
-1. Vaya a la sección SMTP de Delivery Properties.
-2. En Encabezados SMTP adicionales, introduzca en las líneas de comandos siguientes. Cada encabezado debe estar en una línea independiente.
+* Añada la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#one-click-delivery-template)
+* Creación de una regla de tipología: [Descubra cómo](#one-click-typology-rule)
 
-   ```
-   List-Unsubscribe-Post: List-Unsubscribe=One-Click
-   List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-   ```
+#### Configuración de la cancelación de la suscripción a una lista con un clic en la entrega o plantilla {#one-click-delivery-template}
 
-El ejemplo anterior habilita la cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que garantiza que los destinatarios que no admiten la cancelación de suscripción a una lista de URL puedan solicitar la cancelación de la suscripción por correo electrónico.
+1. Vaya a la **[!UICONTROL SMTP]** de las propiedades de entrega.
 
-### Creación de una regla de tipología para admitir la cancelación de suscripción a una lista de un clic {#one-click-typology-rule}
+1. En **[!UICONTROL Additional SMTP Headers]**, introduzca las líneas de comandos como en el ejemplo siguiente. Cada encabezado debe estar en una línea independiente.
 
-**1. Cree la nueva regla de tipología:**
-
-<!--Need to check screenshots?-->
-
-* En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
-
-![Imagen](../assets/CreatingTypologyRules1.png)
-
-
-**2. Continúe con la configuración de la regla de tipología:**
-
-* Tipo de regla: Control
-* Fase: al principio del objetivo
-* Canal: correo electrónico
-* Nivel: su elección
-* Activo
-
-
-![Imagen](../assets/CreatingTypologyRules2.png)
-
-
-**Codifique el javascript de la regla de tipología:**
-
-
->[!NOTE]
->
->Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
->Este ejemplo detalla cómo:
->* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>>, https://...
->* Añadir en el encabezado List-Unsubscribe-Post
->El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
->* Puede agregar otros parámetros (como &amp;service = ...)
->
-
+Por ejemplo:
 
 ```
-// Function to add or replace a header in the provided headers 
-function addHeader(headers, header, value)  { 
-    
-  // Create the new header line 
-  var headerLine = header + ": " + value; 
-    
-  // Create a regular expression to find the specified header 
-  var regExp = new RegExp(header + ":(.*)$", "i") 
-    
-  // Split the headers into individual lines 
-  var headerLines = headers.split("\n"); 
-    
-  // Loop through each line 
-  for (var i=0; i < headerLines.length; i++) { 
-      
-    // Check if the specified header exists 
-    var match = headerLines[i].match(regExp) 
-      
-    // If it exists 
-    if ( match != null ) { 
-        
-      // Replace the existing header line 
-      headerLines[i] = headerLine; 
-        
-      // Return the modified headers 
-      return headerLines.join("\n"); 
-    } 
-  } 
-    
-  // If the header does not exist, add the new header line 
-  headerLines.push(headerLine); 
-    
-  // Return the modified headers 
-  return headerLines.join("\n"); 
-} 
-  
-// Function to get the value of a specified header from the provided headers 
-function getHeader(headers, header) { 
-    
-  // Create a regular expression to find the specified header 
-  var regExp = new RegExp(header + ":(.*)$", "i") 
-    
-  // Split the headers into individual lines 
-  var headerLines = headers.split("\n"); 
-    
-  // Loop each line 
-  for each (line in headerLines) { 
-      
-    // Check if the specified header exists 
-    var match = line.match(regExp); 
-      
-    // If it exists 
-    if ( match != null ) { 
-        
-      // Return the header value, removing leading whitespace 
-      return match[1].replace(/^\s*/, ""); 
-    } 
-  } 
-    
-  // If the header does not exist, return an empty string 
-  return ""; 
-} 
-  
-  
-// Define the unsubscribe URL 
-var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
-  
-// Get the value of the List-Unsubscribe header 
-var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
-  
-// If the List-Unsubscribe header does not exist 
-if ( headerUnsub === "" ) { 
-  // Add the List-Unsubscribe header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
-} 
-// If the List-Unsubscribe header exists and contains 'mailto' 
-else if(headerUnsub.search('mailto')){ 
-  // Replace the existing List-Unsubscribe header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
-} 
-  
-// Get the value of the List-Unsubscribe-Post header 
-var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
-  
-// If the List-Unsubscribe-Post header does not exist 
-if ( headerUnsubPost === "" ) { 
-  // Add the List-Unsubscribe-Post header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
-} 
-  
-// Return true to indicate success 
-return true; 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+![Imagen](../assets/List-Unsubscribe-1-click-template-SMTP.png)
+
+El ejemplo anterior habilitará Cancelación de suscripción a una lista de un clic para los ISP que admiten este tipo de cancelación, a la vez que se asegura de que los receptores que no admiten cancelación de suscripción a una lista de &quot;mailto&quot; puedan solicitar la cancelación de la suscripción por correo electrónico.
+
+#### Creación de una regla de tipología para admitir la cancelación de suscripción a una lista de un clic {#one-click-typology-rule}
+
+1. En el árbol de navegación, vaya a **[!UICONTROL Typolgy rules]** y haga clic en **[!UICONTROL New]**.
+
+   ![Imagen](../assets/CreatingTypologyRules1.png)
 
 
-![Imagen](../assets/CreatingTypologyRules3.png)
+1. Configure la nueva regla de tipología como:
+
+   * **[!UICONTROL Rule type]**: **[!UICONTROL Control]**
+   * **[!UICONTROL Phase]**: **[!UICONTROL At the start of targeting]**
+   * **[!UICONTROL Channel]**: **[!UICONTROL Email]**
+   * **[!UICONTROL Level]**: su elección
+   * **[!UICONTROL Active]**
 
 
+   ![Imagen](../assets/CreatingTypologyRules2.png)
 
-**3. Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
+1. Codifique el javascript de la regla de tipología como en el ejemplo siguiente.
 
-![Imagen](../assets/CreatingTypologyRules4.png)
+   >[!NOTE]
+   >
+   >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
+
+   Este ejemplo detalla cómo:
+   * Configure una Lista &quot;mailto&quot;: Cancelar suscripción. Agregará los encabezados o adjuntará los parámetros &quot;mailto:&quot; existentes y los reemplazará por: &lt;mailto..>>, https://...
+   * Agregue en el encabezado Lista-Cancelar suscripción de un solo clic. Utiliza `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
+
+   >[!NOTE]
+   >
+   >Puede agregar otros parámetros (como &amp;service =...).
+
+   ```
+   // Function to add or replace a header in the provided headers 
+   function addHeader(headers, header, value)  { 
+       
+     // Create the new header line 
+     var headerLine = header + ": " + value; 
+       
+     // Create a regular expression to find the specified header 
+     var regExp = new RegExp(header + ":(.*)$", "i") 
+       
+     // Split the headers into individual lines 
+     var headerLines = headers.split("\n"); 
+       
+     // Loop through each line 
+     for (var i=0; i < headerLines.length; i++) { 
+         
+       // Check if the specified header exists 
+       var match = headerLines[i].match(regExp) 
+         
+       // If it exists 
+       if ( match != null ) { 
+           
+         // Replace the existing header line 
+         headerLines[i] = headerLine; 
+           
+         // Return the modified headers 
+         return headerLines.join("\n"); 
+       } 
+     } 
+       
+     // If the header does not exist, add the new header line 
+     headerLines.push(headerLine); 
+       
+     // Return the modified headers 
+     return headerLines.join("\n"); 
+   } 
+     
+   // Function to get the value of a specified header from the provided headers 
+   function getHeader(headers, header) { 
+       
+     // Create a regular expression to find the specified header 
+     var regExp = new RegExp(header + ":(.*)$", "i") 
+       
+     // Split the headers into individual lines 
+     var headerLines = headers.split("\n"); 
+       
+     // Loop each line 
+     for each (line in headerLines) { 
+         
+       // Check if the specified header exists 
+       var match = line.match(regExp); 
+         
+       // If it exists 
+       if ( match != null ) { 
+           
+         // Return the header value, removing leading whitespace 
+         return match[1].replace(/^\s*/, ""); 
+       } 
+     } 
+       
+     // If the header does not exist, return an empty string 
+     return ""; 
+   } 
+     
+     
+   // Define the unsubscribe URL 
+   var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+     
+   // Get the value of the List-Unsubscribe header 
+   var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
+     
+   // If the List-Unsubscribe header does not exist 
+   if ( headerUnsub === "" ) { 
+     // Add the List-Unsubscribe header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+   } 
+   // If the List-Unsubscribe header exists and contains 'mailto' 
+   else if(headerUnsub.search('mailto')){ 
+     // Replace the existing List-Unsubscribe header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+   } 
+     
+   // Get the value of the List-Unsubscribe-Post header 
+   var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
+     
+   // If the List-Unsubscribe-Post header does not exist 
+   if ( headerUnsubPost === "" ) { 
+     // Add the List-Unsubscribe-Post header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
+   } 
+     
+   // Return true to indicate success 
+   return true; 
+   ```
 
 
+   ![Imagen](../assets/CreatingTypologyRules3.png)
 
-**4. Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
+1. Añada la nueva regla a una tipología que se aplique a los correos electrónicos.
 
-![Imagen](../assets/CreatingTypologyRules5.png)
+   >[!NOTE]
+   >
+   >Puede añadirlo a la tipología predeterminada.
 
+   ![Imagen](../assets/CreatingTypologyRules4.png)
 
+1. Preparar un nuevo envío.
 
-**5. Compruebe durante la preparación de la entrega que se ha aplicado la nueva regla de tipología.**
+   >[!CAUTION]
+   >
+   >Compruebe que la variable **[!UICONTROL Additional SMTP headers]** el campo de las propiedades de entrega está vacío.
 
-![Imagen](../assets/CreatingTypologyRules6.png)
+   ![Imagen](../assets/CreatingTypologyRules5.png)
 
+1. Compruebe durante la preparación de la entrega que se aplica la nueva regla de tipología.
 
+   ![Imagen](../assets/CreatingTypologyRules6.png)
 
-**6. Compruebe que la cancelación de la suscripción a una lista esté presente.**
+1. Compruebe que el vínculo Cancelar la suscripción esté presente.
 
-![Imagen](../assets/CreatingTypologyRules7.png)
-
+   ![Imagen](../assets/CreatingTypologyRules7.png)
 
 ## Optimización de correo electrónico {#email-optimization}
 
