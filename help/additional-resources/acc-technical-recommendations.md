@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
+source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 47%
@@ -232,7 +232,7 @@ Para cumplir con este requisito, los remitentes deben:
 * Incluir un vínculo de cancelación de suscripción de URI.
 * Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign. También puede utilizar un servicio externo.
 
-Para admitir la respuesta POST Cancelar la suscripción a una lista de un clic directamente en Adobe Campaign v7/v8, debe agregar en la aplicación web &quot;Cancelar la suscripción de destinatarios sin hacer clic&quot;. Para ello:
+Para admitir la respuesta del POST One-Click List-Unsubscribe directamente en Adobe Campaign v7/v8, debe añadir en la aplicación web &quot;Unsubscribe recipients no-click&quot;. Para ello:
 
 1. Ir a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
