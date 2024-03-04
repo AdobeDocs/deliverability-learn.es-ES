@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 47%
+source-wordcount: '2045'
+ht-degree: 48%
 
 ---
 
@@ -165,9 +165,7 @@ Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
 
 >[!IMPORTANT]
 >
->A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**. [Obtenga más información sobre este cambio](../guidance-around-changes-to-google-and-yahoo.md)
->
->Obtenga información sobre cómo configurar la cancelación de suscripción a una lista de un clic en [esta sección](#one-click-list-unsubscribe).
+>>Obtenga información sobre cómo configurar la cancelación de suscripción a una lista de un clic en [esta sección](#one-click-list-unsubscribe).
 
 ### Cancelación de suscripción a lista &quot;mailto&quot; {#mailto-list-unsubscribe}
 
@@ -223,8 +221,6 @@ Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7
 ### Cancelación de suscripción a una lista con un clic {#one-click-list-unsubscribe}
 
 Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela la suscripción directamente del usuario y solo requiere una única acción para cancelar la suscripción.
-
-A partir del 1 de junio de 2024, Yahoo! y Gmail exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista de un clic. [Obtenga más información sobre este cambio](../guidance-around-changes-to-google-and-yahoo.md)
 
 Para cumplir con este requisito, los remitentes deben:
 
