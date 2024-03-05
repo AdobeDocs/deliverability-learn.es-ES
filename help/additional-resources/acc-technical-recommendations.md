@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2064'
 ht-degree: 48%
 
 ---
@@ -159,13 +159,11 @@ Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
 
 * **Cancelación de suscripción a lista &quot;mailto&quot;** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico. [Más información](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **Cancelación de suscripción a una lista con un clic** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela directamente la suscripción del usuario. [Más información](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->>Obtenga información sobre cómo configurar la cancelación de suscripción a una lista de un clic en [esta sección](#one-click-list-unsubscribe).
+>A partir del 1 de junio de 2024, los principales ISP exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**.
 
 ### Cancelación de suscripción a lista &quot;mailto&quot; {#mailto-list-unsubscribe}
 
@@ -197,17 +195,6 @@ También puede utilizar una dirección dinámica. Por ejemplo, para enviar un co
 
 ![Imagen](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Creación de una regla de tipología {#creating-a-typology-rule}
 
 La regla debe contener la secuencia que genera la línea de comandos y debe incluirse en el encabezado del correo electrónico.
@@ -221,6 +208,8 @@ Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7
 ### Cancelación de suscripción a una lista con un clic {#one-click-list-unsubscribe}
 
 Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela la suscripción directamente del usuario y solo requiere una única acción para cancelar la suscripción.
+
+A partir del 1 de junio de 2024, los principales ISP exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**.
 
 Para cumplir con este requisito, los remitentes deben:
 
