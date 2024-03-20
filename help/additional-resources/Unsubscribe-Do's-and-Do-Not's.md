@@ -1,21 +1,21 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-# Cancelar la suscripción a tareas pendientes y tareas pendientes
+# Cancelar la suscripción de tareas pendientes y tareas pendientes
 
 Las cancelaciones de suscripción son una parte natural del ciclo vital del correo electrónico. Pero a veces es difícil para los especialistas en marketing decir adiós. Trabajas muy duro para crear los correos electrónicos más atractivos y presentar las mejores ofertas en productos y servicios que ofrece tu marca. Sin embargo, es completamente normal, y debería esperarse, que algunos suscriptores decidan seguir adelante. Esto podría deberse a varias razones, pero en definitiva, ya no están interesados en saber de usted.
 
 Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las cancelaciones de suscripción a sus listas de correo electrónico. Siga leyendo para obtener más información.
 
-## Tareas pendientes
+## El Do&#39;s
 
 **HAGA:** Tener un vínculo de cancelación de suscripción colocado de forma destacada. Esto puede ayudar a evitar que los usuarios hagan clic en la queja &quot;esto es spam&quot; (también denominada bucle de comentarios)
 
-+ Algunas ideas sobre cómo resaltar el vínculo de cancelación de suscripción: Centrarlo, subrayarlo y ponerlo en negrita, colocarlo en la parte superior o en la parte inferior del correo electrónico, hacer que tenga un color de fuente diferente. Utilice la palabra &quot;CANCELAR SUSCRIPCIÓN&quot; en la preferencia de idioma del usuario. No use verborrea florida o excesiva.
++ Algunas ideas sobre cómo resaltar el vínculo de cancelación de suscripción: Centrarlo, subrayarlo y ponerlo en negrita, colocarlo en la parte superior o en la parte inferior del correo electrónico, hacer que tenga un color de fuente diferente. Utilice la palabra &quot;CANCELAR SUSCRIPCIÓN&quot; en la preferencia de idioma del usuario. No uses verborrea florida o excesiva.
 
 **HAGA:** Haga que el vínculo de cancelación de suscripción dirija a una página de aterrizaje en la que el usuario pueda confirmar que desea que se le elimine de la lista
 
@@ -46,12 +46,10 @@ Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las 
 
 **HAGA:** Utilice el encabezado Cancelación de suscripción a una lista en las plantillas de correo electrónico para que los clientes de correo electrónico (por ejemplo: gmail.com) que muestran vínculos de cancelación de suscripción en la parte superior del correo electrónico se encuentren fácilmente donde el usuario está acostumbrado a buscar cancelaciones de suscripción.
 
-+ Clic [aquí](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=es) para obtener más información sobre las iniciativas del sector relacionadas con la cancelación de la suscripción en un clic.
-
-## El documento Do Not’s
+## El Do Not&#39;s
 
 
-**NO HACER:** Enterrar el enlace de cancelación de suscripción en su contenido con la esperanza de que los suscriptores &quot;renunciar&quot; a la frustración.
+**NO HACER:** Enterrar el enlace de cancelación de suscripción en su contenido con la esperanza de que los suscriptores se &quot;rindan&quot; por frustración.
 
 + Se trata de una mala experiencia para el usuario final y podría provocar un aumento de las quejas, lo que puede afectar negativamente a su capacidad de entrega y reputación.
 
@@ -72,7 +70,7 @@ Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las 
 
 + Si lo hace, ya ha roto su promesa de no enviarles más correo.
 
-**NO HACER:** Sé sarcástico en tu verborrea. &quot;No me gusta saber de grandes ofertas, ¡cancele la suscripción!&quot;
+**NO HACER:** Sé sarcástico en tu verborrea. &quot;No me gusta saber de grandes ofertas, ¡por favor, cancele la suscripción!&quot;
 
 + Esto puede parecer grosero. Evite un tono negativo.
 
@@ -81,4 +79,4 @@ Hemos creado una lista de cosas que hacer y cosas que evitar al administrar las 
 + Permitir al cliente un lugar donde añadir esta información puede ser útil para usted en cuanto a perspectivas futuras, pero hágalo un campo opcional en la página de aterrizaje de cancelación de suscripción.
 + Un mejor enfoque sería informarles de que se han dado de baja con éxito y luego permitirles un espacio para que opcionalmente ofrezcan los motivos.
 
-Recuerde que las cancelaciones de suscripción son mejores que las quejas. Las personas que no participan positivamente en su programa de correo electrónico pueden tener un efecto negativo en su reputación de capacidad de entrega, así como en sus métricas. Ahora es el momento de que se centre en cultivar relaciones más profundas con sus suscriptores actuales tratándolos con mensajes comprometidos y relevantes que no pueden esperar para abrir, hacer clic y realizar una compra.
+Recuerde que las cancelaciones de suscripción son mejores que las quejas. Las personas que no participan positivamente en su programa de correo electrónico pueden tener un efecto negativo en su reputación de capacidad de entrega, así como en sus métricas. Ahora es el momento de que te concentres en cultivar relaciones más profundas con tus suscriptores actuales al tratarlos con mensajes relevantes y comprometidos que no pueden esperar a abrir, hacer clic y hacer una compra.
