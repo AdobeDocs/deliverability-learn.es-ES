@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ DMARC es opcional y, aunque no es obligatoria, es gratuita y permite a los recep
 
 ## Prácticas recomendadas para implementar DMARC {#best-practice}
 
-Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la directiva de DMARC de p=ninguno a p=cuarentena, a p=rechazar a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
+Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
 
 1. Analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
 1. Determine si SPF y DKIM están alineados y pasa la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=quarantine), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado).
@@ -68,6 +68,10 @@ El uso principal de estos informes es recibir una descripción general de los co
 * [Dmarciano](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
 
+>[!CAUTION]
+>
+>Si las direcciones de correo electrónico que está agregando para recibir informes están fuera del dominio para el que se crea el registro DMARC, debe autorizar su dominio externo para especificar al DNS que posee este dominio. Para ello, siga los pasos detallados en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 ### Ejemplo de registro DMARC {#example}
 
 ```
@@ -80,7 +84,7 @@ Los registros DMARC tienen varios componentes llamados etiquetas DMARC. Cada eti
 
 | Nombre de etiqueta | Obligatorio/Opcional | Función | Ejemplo | Valor predeterminado |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
-| Versión  | Requerido | Esta etiqueta DMARC especifica la versión. De momento, solo hay una versión, por lo que tendrá un valor fijo de v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
+| v | Requerido | Esta etiqueta DMARC especifica la versión. De momento, solo hay una versión, por lo que tendrá un valor fijo de v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Requerido | Muestra la directiva DMARC seleccionada y dirige al receptor a informar, poner en cuarentena o rechazar correo que no supere las comprobaciones de autenticación. | p=ninguno, cuarentena o rechazo | - |
 | fo | Opcional | Permite al propietario del dominio especificar las opciones de creación de informes. | 0: Generar informe si falla todo<br/>1: Generar un informe si algo falla<br/>d: Generar informe si falla DKIM<br/>s: Generar informe si falla el SPF | 1 (recomendado para informes DMARC) |
 | pct | Opcional | Indica el porcentaje de mensajes sujetos al filtrado. | pct=20 | 100 |
