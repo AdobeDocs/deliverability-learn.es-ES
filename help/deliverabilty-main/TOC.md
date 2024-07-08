@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 + [Puesta en práctica](/help/putting-it-in-practice.md)
 + Apéndice: Recursos adicionales {#additional-resources}
    + [Información general](/help/additional-resources/general-resources.md)
-   + [Cancelar la suscripción de tareas pendientes y tareas pendientes](/help/unsubscribe-dos-and-do-nots.md)
+   + [Qué hacer y qué no para cancelar la suscripción](/help/unsubscribe-dos-and-do-nots.md)
    + Recursos genéricos {#generic-resources}
       + [Todo acerca de las trampas de correo no deseado](/help/additional-resources/all-about-spam-traps.md)
       + [Aumente su reputación de correo electrónico con el calentamiento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
