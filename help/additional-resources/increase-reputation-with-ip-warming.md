@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 3%
+source-wordcount: '1582'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Al principio, se le asignarán sus propias direcciones IP dedicadas (Protocolo d
 
 ## Calentamiento de IP: ¿Por qué se hace? {#why-ip-warming}
 
-Los proveedores de servicios de Internet (ISP) o los proveedores de buzones de correo (MBP) toman precauciones cuando detectan una IP y un dominio de envío desconocidos. Es un procedimiento estándar asociado a cualquier nueva dirección IP de envío, independientemente del tipo de remitente. Los ISP/MBP someten la IP y el dominio de envío a un alto escrutinio para determinar si los correos electrónicos que se envían desde esta IP y el dominio son spam o no.  Es un procedimiento estándar asociado a cualquier nueva dirección IP de envío, independientemente del tipo de remitente.
+Los proveedores de servicios de Internet (ISP) o los proveedores de buzones de correo (MBP) toman precauciones cuando detectan una IP y un dominio de envío desconocidos. Los ISP/MBP someten la IP y el dominio de envío a un alto escrutinio para determinar si los correos electrónicos que se envían desde esta IP y el dominio son spam o no. Es un procedimiento estándar asociado a cualquier nueva dirección IP de envío, independientemente del tipo de remitente.
 
 Los ISP examinan cuidadosamente el volumen de envío, la frecuencia de envío, las quejas y las tasas de devolución generadas a partir de estos envíos de correo. Todos estos se comprueban de cerca porque son indicadores de reputación del remitente, ya sea bueno o malo.
 
@@ -50,7 +50,7 @@ Enviar grandes cantidades de correo electrónico desde una IP o IP completamente
 
 Este es el componente más importante para administrar y aumentar una lista de correo electrónico de suscriptores. A medida que las leyes contra el correo no deseado crecen y se vuelven más completas a nivel internacional, el objetivo principal de un experto en marketing debería ser garantizar que haya recibido un consentimiento explícito (o expreso) de cada suscriptor en su lista. Es decir, cada suscriptor ha aceptado activamente recibir correos electrónicos de su marca. Esto difiere del consentimiento implícito en el que una persona se añade a una lista de correo electrónico después de realizar una acción que no incluía la suscripción explícita a un programa de correo electrónico.
 
-Más información sobre [Política de uso aceptable del Adobe](https://www.adobe.com/legal/terms/aup.html).
+Más información sobre la [Política de uso aceptable del Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputación: ¿qué buscan los ISP?
 
@@ -63,7 +63,7 @@ Algunos de los puntos de datos examinados son los siguientes:
 * Rechazos de correo electrónico
 * Participación del suscriptor
 
-Los ISP requieren configuraciones técnicas específicas que se alineen con sus políticas y prácticas recomendadas. El Adobe de configura las direcciones IP y los subdominios delegados para identificarle como un remitente responsable y de confianza. Esto se llama [autenticación por correo electrónico](/help/transition-process/infrastructure.md#authentication). La autenticación ayuda a los receptores a validar si un remitente tiene los derechos para enviar desde esa IP o dominio.
+Los ISP requieren configuraciones técnicas específicas que se alineen con sus políticas y prácticas recomendadas. El Adobe de configura las direcciones IP y los subdominios delegados para identificarle como un remitente responsable y de confianza. Esto se denomina [autenticación por correo electrónico](/help/transition-process/infrastructure.md#authentication). La autenticación ayuda a los receptores a validar si un remitente tiene los derechos para enviar desde esa IP o dominio.
 
 La autenticación permite a los ISP validar que la empresa que envía desde un dominio o IP tiene derecho a hacerlo. Básicamente, se hace para probar tu identidad y para asegurarte de que no pretendas ser otra persona, y de que otra persona no pretenda ser tú.
 
@@ -85,13 +85,13 @@ Recuerde que la coherencia es clave aquí. Los patrones de volumen de envío irr
 
 ### Quejas
 
-[Reclamaciones](/help/metrics/complaints.md) se producen cuando un suscriptor etiqueta un correo electrónico como correo no deseado a través de su programa de correo electrónico. Esto envía un aviso al ISP sobre la actividad de la queja. Si hay suficientes quejas que llegan al ISP, ese ISP actuará para proteger a sus clientes; posiblemente bloquee muchos correos electrónicos para evitar que lleguen a los suscriptores o dirija una parte de los correos electrónicos a la carpeta masiva, en lugar de a las bandejas de entrada de los suscriptores. Si el problema de envío está causado por quejas, es importante determinar por qué los destinatarios se quejan.
+Se producen [quejas](/help/metrics/complaints.md) cuando un suscriptor etiqueta un correo electrónico como correo no deseado a través de su programa de correo electrónico. Esto envía un aviso al ISP sobre la actividad de la queja. Si hay suficientes quejas que llegan al ISP, ese ISP actuará para proteger a sus clientes; posiblemente bloquee muchos correos electrónicos para evitar que lleguen a los suscriptores o dirija una parte de los correos electrónicos a la carpeta masiva, en lugar de a las bandejas de entrada de los suscriptores. Si el problema de envío está causado por quejas, es importante determinar por qué los destinatarios se quejan.
 
 Los suscriptores se quejan por varios motivos. A veces, un suscriptor no quiere recibir más correos electrónicos tuyos, quizá porque cree que está recibiendo demasiados mensajes sobre el mismo tema, porque no esperaba el mensaje o porque no recuerda haberse registrado para recibir sus correos electrónicos.
 
-### Validez de los datos
+### Validez de datos
 
-Las devoluciones duras se producen cuando se envía a una dirección que no se puede enviar  en un ISP. No se puede realizar un envío a una dirección por muchas razones, como un error al escribir la dirección o un correo a una dirección que estaba activa anteriormente, pero que se cerró o terminó después de un período de inactividad.
+Las devoluciones duras se producen cuando se envía a una dirección que no se puede enviar en un ISP. No se puede realizar un envío a una dirección por muchas razones, como un error al escribir la dirección o un correo a una dirección que estaba activa anteriormente, pero que se cerró o terminó después de un período de inactividad.
 
 Si se encuentra con un número sustancial de mensajes devueltos no válidos, es importante comprender por qué. Revise cómo se recopilaron las direcciones y confirme que se concedió el permiso. A veces, las personas cierran su cuenta de correo electrónico y no notifican a quienes tienen esa dirección en su lista de marketing.
 
