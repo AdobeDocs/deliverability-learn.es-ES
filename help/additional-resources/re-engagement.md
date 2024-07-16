@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 53%
+source-wordcount: '913'
+ht-degree: 51%
 
 ---
 
@@ -26,7 +26,7 @@ Al implementar la capacidad de envío, algunas de las prácticas recomendadas co
 
 ## ¿Cómo ven los ISP la actividad sin participación? {#how-do-isps-view-non-engagement-activity-}
 
-Durante años, los ISP han utilizado métricas de comentarios de participación de sus usuarios para decidir dónde colocar los mensajes o si deben enviarlos siquiera. Usuario [participación](/help/engagement.md) consiste en comentarios positivos y negativos, y los ISP monitorizan ambos de forma constante. Una actividad sin participación es probablemente una de las principales causas de la participación negativa. Desde la perspectiva de la capacidad de envío, la entrega constante de campañas a usuarios que no muestran ninguna participación puede reducir la reputación general de su dirección IP y sus dominios.
+Durante años, los ISP han utilizado métricas de comentarios de participación de sus usuarios para decidir dónde colocar los mensajes o si deben enviarlos siquiera. El usuario [engagement](/help/engagement.md) consiste en comentarios positivos y negativos, y los ISP monitorizan ambos de manera constante. Una actividad sin participación es probablemente una de las principales causas de la participación negativa. Desde la perspectiva de la capacidad de envío, la entrega constante de campañas a usuarios que no muestran ninguna participación puede reducir la reputación general de su dirección IP y sus dominios.
 
 Los ISP como Gmail, Microsoft® y OATH consideran la falta de participación como correo electrónico no deseado y empiezan a redirigir los mensajes a la carpeta de correo no deseado. Además, es posible que estos suscriptores ya no tengan la cuenta de correo electrónico, que se puede utilizar como trampa de correo no deseado &quot;reciclada&quot;. Esto significa que la dirección fue inválida durante un tiempo y que se rechazan todos los mensajes. Si el sistema de gestión de suscriptores no elimina las direcciones de &quot;rechazo grave&quot;, es probable que se envíen correos a trampas de correo no deseado que pueden conllevar problemas graves con las entregas.
 
@@ -78,6 +78,6 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 * [Registros de seguimiento en el Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
 * [Registros de seguimiento en el Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe Administración del Recorrido del cliente**
+**Administración del Recorrido del cliente de Adobe**
 
 * [Seguimiento de mensajes](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=es)

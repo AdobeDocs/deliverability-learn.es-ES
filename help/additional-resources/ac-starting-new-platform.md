@@ -8,8 +8,8 @@ team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 67%
+source-wordcount: '549'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ A continuación se enumeran los principios principales que deben seguirse al ini
 * Si tiene esta información, **importe direcciones no válidas en la tabla de cuarentenas**.
 El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcciones por primera vez y puede que no esté completamente cualificada. Si envía a direcciones no válidas o a direcciones de honeypot, esto contribuye a disminuir la reputación de la plataforma.
 
-   * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de la variable **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** Menús (Campaign Standard).
+   * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de los menús **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
 
    * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
 
@@ -54,13 +54,13 @@ Para obtener más información sobre los principios enumerados anteriormente y s
 
 **Adobe Campaign Classic**
 
-* [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
-* [Identificación de direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
+* [Optimizar su envío mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Identificar direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
 * [Envío mediante múltiples olas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
 * [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages)
 
 **Adobe Campaign Standard**
 
-* [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
-* [Identificación de direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es)
+* [Optimizar su envío mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Identificar direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es)
 * [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)

@@ -10,7 +10,7 @@ team: TM
 exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ Estos son algunos elementos clave que se deben tener en cuenta al crear el corre
 **Envíe su mensaje lo antes posible**
 Si ofrece una promoción, es probable que su nuevo suscriptor esté esperando en el sitio web para recibir el correo electrónico antes de realizar su compra. Un retraso de 5-10 minutos aquí puede significar una venta perdida. Incluso si no tiene una promoción, actualmente están expresando interés en su marca. Por lo tanto, es necesario interactuar con ellos mientras su interés es máximo en lugar de arriesgarse más tarde.
 
-**Cree líneas de asunto y encabezados previos sólidos**
+**Crear líneas de asunto y encabezados predeterminados seguros**
 No solo tiene que agradecerles por registrarse, sino que también tiene que captar su atención y darles una razón para querer abrir el correo electrónico. No olvide poner en marcha el espacio adicional del encabezado previo para defender su causa.
 
 **Establecer expectativas**
 Deje claro que se centra en una experiencia positiva para ellos. Declara lo que deberían esperar de ti y cuán a menudo esperarlo. También es aconsejable proporcionar una forma de gestionar fácilmente su experiencia (es decir, un vínculo a un centro de preferencias). Considere también la posibilidad de añadir vínculos a contenido anterior para que los usuarios puedan hacer referencia al contenido al que se están suscribiendo.
 
-**Permita que se hagan una idea de su marca**
+**Déjales que se hagan una idea de tu marca**
 Cada marca tiene una voz. Deje que el suyo se muestre claramente en su correo electrónico de bienvenida. Esto ayuda a su nuevo suscriptor a conectarse más con la marca y evita que se sienta sorprendido por un cambio de estilo con correos electrónicos posteriores.
 
 **Sea conciso**
@@ -45,5 +45,5 @@ Tienes mucho que decir y un oído entusiasta en tu nuevo suscriptor. Pero tu pri
 **Enviar una serie de correos electrónicos**
 Como se ha indicado anteriormente, tiene mucho que decir a una audiencia atenta. La creación de una serie completa de bienvenida (3-5 correos electrónicos) le permite mantener cada uno de ellos al grano mientras sigue cubriendo toda la información que desea compartir. También fomenta el interés continuo del suscriptor, lo que conduce a una participación positiva continua, una mayor reputación y una mejor capacidad de entrega.
 
-**Obtener información personal**
+**Obtener datos personales**
 Si va a enviar una serie de correos electrónicos de bienvenida, utilice uno de ellos para mostrar el toque personal. Utilice la información que haya recopilado al registrarse o al comprar para mostrar cómo puede hacer que su experiencia sea única y más valiosa para ellos. Si todavía no ha recopilado ningún dato, aproveche esta oportunidad para mostrar lo que podría hacer si se le da la oportunidad. A continuación, pídale la información que necesite para enriquecer su experiencia.

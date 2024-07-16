@@ -7,13 +7,13 @@ ht-degree: 8%
 ---
 # Creación de reglas de tipología para admitir la cancelación de suscripción a una lista de un clic:
 
-**1. Cree la nueva regla de tipología:**
+**1. Crear nueva regla de tipología:**
 
 * En el árbol de navegación, haga clic en &quot;nuevo&quot; para crear una nueva tipología
 
 ![Imagen](/help/assets/CreatingTypologyRules1.png)
 
-**2. Continúe con la configuración de la regla de tipología:**
+**2. Continúe configurando la regla de tipología:**
 
 * Tipo de regla: Control
 * Fase: al principio del objetivo
@@ -32,7 +32,7 @@ ht-degree: 8%
 >
 >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
 >Este ejemplo detalla cómo:
->* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>>, https://...
+>* Configure una URL con List-Unsubscribe y añadirá los encabezados o anexará los parámetros mailto: existentes y lo sustituirá por: &lt;mailto..>, https://...
 >* Añadir en el encabezado List-Unsubscribe-Post
 >El ejemplo de la URL de publicación utiliza var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
 >* Puede agregar otros parámetros (como &amp;service = ...)
@@ -137,11 +137,11 @@ return true;
 
 ![Imagen](/help/assets/CreatingTypologyRules3.png)
 
-**3. Añada la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
+**3. Agregar la nueva regla a una tipología a un correo electrónico (la tipología predeterminada es correcta):**
 
 ![Imagen](/help/assets/CreatingTypologyRules4.png)
 
-**4. Preparar un nuevo envío (compruebe que los encabezados SMTP adicionales de la propiedad de envío estén vacíos)**
+**4. Preparar un nuevo envío (comprobar que los encabezados SMTP adicionales de la propiedad de envío están vacíos)**
 
 ![Imagen](/help/assets/CreatingTypologyRules5.png)
 
@@ -151,6 +151,6 @@ return true;
 
 
 
-**6. Compruebe que la cancelación de la suscripción a una lista esté presente.**
+**6. Validar que la cancelación de la suscripción a una lista esté presente.**
 
 ![Imagen](/help/assets/CreatingTypologyRules7.png)

@@ -11,14 +11,14 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
 # Introducción a las prácticas recomendadas de entregabilidad
 
-La entregabilidad de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. Los ISP tienen una necesidad constante de evitar a los remitentes de correo no deseado, por lo que están obligados a desarrollar técnicas de filtrado sofisticadas para proteger a sus clientes. Los remitentes de correo electrónico pueden quedar atrapados involuntariamente en esos esfuerzos. Navegar con éxito por este mundo digital exige un ajuste periódico de la estrategia de correo electrónico, teniendo en cuenta las tendencias clave de entrega para llegar mejor a las audiencias.
+La entregabilidad de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. Los ISP tienen una necesidad constante de evitar a los remitentes de correo no deseado, por lo que están obligados a desarrollar técnicas de filtrado sofisticadas para proteger a sus clientes. Los remitentes de correo electrónico pueden quedar atrapados involuntariamente en esos esfuerzos. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a su público.
 
 Según [!DNL Lifewire], existen más de 3800 millones de direcciones de correo electrónico en la actualidad. Además, los consultores de medios sociales [!DNL Lori Lewis] y [!DNL Chad Callahan] comentan que se envían 188 millones de correos electrónicos al minuto, lo que equivale a más de la mitad de la población mundial. Pero se acabaron los días en los que se enviaba la cantidad máxima de correos electrónicos para conseguir una mínima conversión. La realidad es que la consideración del volumen por sí solo pone en riesgo a los clientes altamente comprometidos de no recibir sus correos electrónicos. Esto puede tener importantes repercusiones en los ingresos que reciba usted como remitente. Ver el correo electrónico como un canal de bajo coste con un potencial ilimitado es complicado y es una idea frágil.
 
@@ -26,7 +26,7 @@ En esta era digital, las personas esperan ser sorprendidas al instante. Quieren 
 
 Seamos realistas. Hoy, más que nunca, hay que destacar ante los demás. Esto significa ofrecer a los clientes experiencias únicas, personalizadas y relevantes. De lo contrario, se arriesga a perder un cliente para siempre. Es imprescindible contar con una estrategia integrada, dinámica y multicanal que motive a su público a seguir participando.
 
-Utilice esta guía para conocer los términos, conceptos y enfoques clave de la entrega que le permitirán adelantarse a la curva. Utilícela para mantener el canal de correo electrónico en la vanguardia de la combinación de marketing, con una alta prioridad en las entregas, la ubicación de la bandeja de entrada y los ingresos.
+Utilice esta guía para conocer los términos, conceptos y enfoques clave de la entrega que le permitirán adelantarse a la curva. Utilícelo para mantener el canal de correo electrónico en la vanguardia de la combinación de marketing, con una alta prioridad en la entrega, la ubicación de la bandeja de entrada y los ingresos.
 
 Esta Guía de prácticas recomendadas de entrega abarca los siguientes temas:
 

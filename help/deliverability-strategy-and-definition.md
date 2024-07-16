@@ -12,12 +12,12 @@ team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 100%
 
 ---
 
-# Estrategia y definición de entregabilidad
+# Estrategia y definición de entrega
 
 El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM, por sus siglas en inglés). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
 
@@ -85,7 +85,7 @@ Estos son algunos factores importantes para la tasa de clics:
 
 * Correo electrónico enviado, aterrizado en la bandeja de entrada y abierto
 * CTA fuerte
-   * Esta es la acción principal que quiere conseguir de su audiencia. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
+   * Esta es la acción principal que quiere conseguir de su público. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
 * Relevancia o valor del contenido
 
 ### Paso 5: Conversión

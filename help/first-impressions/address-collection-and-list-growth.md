@@ -10,8 +10,8 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1594'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ Las mejores fuentes de las nuevas direcciones de correo electrónico son las fue
 
 Algunas notas sobre estos métodos de registro:
 
-**Almacenamiento físico** la colección de listas puede presentar desafíos debido a las entradas de direcciones verbales o escritas que causan errores ortográficos en las direcciones. Se recomienda enviar un correo electrónico de confirmación lo antes posible después de los registros en la tienda.
+La colección de listas **Almacenamiento físico** puede presentar desafíos debido a entradas de direcciones verbales o escritas que causan errores ortográficos en las direcciones. Se recomienda enviar un correo electrónico de confirmación lo antes posible después de los registros en la tienda.
 
-La forma más común de **registro en un sitio web** es &quot;inclusión única&quot;. Es el estándar mínimo absoluto que debe utilizar para adquirir direcciones de correo electrónico. La inclusión única se produce cuando el titular de una dirección de correo electrónico específica concede a un remitente permiso para enviarle correos electrónicos de marketing, normalmente enviando la dirección a través de un formulario web o suscripciones en la tienda. Aunque es posible ejecutar una campaña de correo electrónico correcta mediante este método, puede ser la causa de algunos problemas.
+La forma más común de **registro en un sitio web** es la &quot;inclusión única&quot;. Es el estándar mínimo absoluto que debe utilizar para adquirir direcciones de correo electrónico. La inclusión única se produce cuando el titular de una dirección de correo electrónico específica concede a un remitente permiso para enviarle correos electrónicos de marketing, normalmente enviando la dirección a través de un formulario web o suscripciones en la tienda. Aunque es posible ejecutar una campaña de correo electrónico correcta mediante este método, puede ser la causa de algunos problemas.
 
 * Las direcciones de correo electrónico no confirmadas pueden tener errores tipográficos o estar mal formadas, ser incorrectas o utilizarse de forma malintencionada. Los errores de escritura y las direcciones mal formadas causan altas tasas de devolución, lo que puede provocar y provoca bloqueos emitidos por los ISP o pérdida de reputación de IP.
 
 * El envío malicioso de trampas de correo no deseado conocidas (a veces denominadas &quot;envenenamiento de listas&quot;) puede causar enormes problemas con la entrega y la reputación si el propietario de esa trampa toma medidas. Es imposible saber si el destinatario realmente desea que se le añada a una lista de marketing sin una confirmación. Esto hace que sea igualmente imposible establecer las expectativas del destinatario y puede provocar un aumento de las quejas de correo no deseado, y a veces una inclusión en la lista de bloqueados si el correo electrónico recopilado resulta ser una trampa de correo no deseado.
 
-Para obtener instrucciones sobre cómo minimizar los problemas presentados en el almacén físico y en la opción de inclusión única, vaya a [Calidad e higiene de los datos](#data-quality-and-hygiene) de esta guía para conocer los detalles y las ventajas de la doble inclusión.
+Para obtener instrucciones sobre cómo minimizar los problemas presentados en el almacenamiento físico y en la opción de inclusión única, vaya a la sección [Calidad de los datos e higiene](#data-quality-and-hygiene) de esta guía para ver los detalles y las ventajas de la opción de inclusión doble.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ La recopilación de datos es solo parte del desafío. También debe asegurarse d
 Estas son algunas soluciones a problemas comunes que puede encontrar con los datos de su dirección de correo electrónico:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] La mayoría de los expertos en correo electrónico consideran que la mejor práctica de envío es. Si tiene problemas con trampas de correo no deseado o quejas en sus correos electrónicos de bienvenida, el DOI es una buena manera de asegurarse de que el suscriptor que recibe sus correos electrónicos se haya registrado en su programa de correo electrónico y desee recibir sus correos electrónicos.
+[!DNL Double opt-in (DOI)] está considerada como la mejor práctica de envío por la mayoría de los expertos en correo electrónico. Si tiene problemas con trampas de correo no deseado o quejas en sus correos electrónicos de bienvenida, el DOI es una buena manera de asegurarse de que el suscriptor que recibe sus correos electrónicos se haya registrado en su programa de correo electrónico y desee recibir sus correos electrónicos.
 
 El DOI consiste en enviar un correo electrónico de confirmación a la dirección de correo electrónico del suscriptor que se ha suscrito a su programa de correo electrónico, que contiene un vínculo en el que se debe hacer clic para confirmar el consentimiento. Con este método de adquisición, si el suscriptor no confirma, el remitente no le enviará más correos electrónicos. Informe a los nuevos suscriptores de que está haciendo esto en el sitio web, animándolos a completar la suscripción antes de continuar. Este método sí observa una reducción en el número de inscripciones, pero las personas que sí se inscriben tienden a estar muy comprometidas y a permanecer a largo plazo. Generalmente resulta en un retorno de la inversión mucho mayor para el remitente.
 
@@ -80,13 +80,13 @@ Existen muchos tipos de direcciones de correo electrónico. Correo electrónico 
 
 Si tienes suerte, obtienes cuentas secundarias, donde la gente busca ofertas y ofertas cuando están listos para comprar algo. Esto suele dar como resultado niveles de participación bajos, si los hay. Si no tiene suerte, la lista está llena de correos electrónicos inactivos, que ahora podrían ser trampas de correo no deseado. A menudo, recibe una combinación de correos electrónicos secundarios e inactivos. En general, la calidad de estos tipos de listas hace más daño que bien a un programa de correo electrónico. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Anexar listas**
+**Listas anexadas**
 Estos son clientes que han elegido interactuar con su marca, lo cual es genial. Pero eligieron emplear un método distinto al correo electrónico (en la tienda, en las redes sociales, etc.). No pudieron mostrarse receptivos a recibir un correo electrónico no solicitado de usted y también pueden estar preocupados por cómo obtuvo su dirección de correo electrónico, ya que no la proporcionaron. Este método tiene el riesgo de convertir a un cliente o cliente potencial que se involucra con su marca en un detractor que ya no confía en su marca y va a su competencia en su lugar. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Feria comercial u otra colección de eventos**
 La recopilación de direcciones en un stand o a través de otro método oficial de marca clara puede ser útil. El riesgo es que muchos eventos como este recopilen todas las direcciones y las distribuyan a través del promotor o anfitrión del evento. Lo que significa que los propietarios de estas direcciones de correo electrónico nunca solicitaron recibir correos electrónicos de su marca. Es probable que estos suscriptores se quejen y marquen su correo como correo no deseado y es posible que no hayan proporcionado información de contacto precisa.
 
-**Sorteo**
+**Sorteos**
 
 Los sorteos proporcionan grandes cantidades de direcciones de correo electrónico rápidamente. Pero estos suscriptores quieren el premio, no sus correos electrónicos. Es posible que ni siquiera hayan prestado atención al nombre de quién les contactaría. Es probable que se quejen y marquen su correo como correo no deseado, y es poco probable que se involucren o realicen una compra.
 

@@ -8,11 +8,11 @@ exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Implementación [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
+# Implementar [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
 El propósito de este documento es proporcionar al lector más información sobre el método de autenticación por correo electrónico, DMARC. Al explicar cómo funciona DMARC y sus diversas opciones de política, los lectores entenderán mejor el impacto de DMARC en la capacidad de envío de correo electrónico.
 
@@ -22,9 +22,9 @@ Autenticación de mensajes, creación de informes y conformidad basados en domin
 
 DMARC tiene tres opciones de directiva:
 
-* **Monitor (p=ninguno):** Indica al proveedor del buzón/ISP que haga lo que normalmente haría al mensaje.
-* **Cuarentena (p=cuarentena):** Indica al proveedor/ISP del buzón que envíe el correo que no pasa DMARC a la carpeta de correo no deseado o correo no deseado del destinatario.
-* **Rechazar (p=rechazar):** Indica al proveedor/ISP del buzón que bloquee el correo que no pasa DMARC, lo que provoca un rechazo.
+* **Supervisar (p=ninguno):** Indica al proveedor o ISP del buzón que haga lo que normalmente haría con el mensaje.
+* **Cuarentena (p=cuarentena):** Indica al proveedor/ISP del buzón que debe enviar el correo que no pasa DMARC a la carpeta de correo no deseado o correo no deseado del destinatario.
+* **Rechazar (p=reject):** Indica al proveedor/ISP del buzón que bloquee el correo que no pasa DMARC, lo que provoca un rechazo.
 
 ## ¿Cómo funciona DMARC? {#how}
 
@@ -44,7 +44,8 @@ DMARC es opcional y, aunque no es obligatoria, es gratuita y permite a los recep
 
 ## Prácticas recomendadas para implementar DMARC {#best-practice}
 
-Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
+Como DMARC es opcional, no se configurará de forma predeterminada en ninguna plataforma de ESP. Debe crearse un registro DMARC en DNS para que su dominio funcione. Además, se requiere una dirección de correo electrónico de su elección para indicar a dónde deben ir los informes DMARC dentro de su organización. Como práctica recomendada, lo es
+se recomienda implementar lentamente la implementación de DMARC escalando la política de DMARC de p=none, p=quarantine, p=reject a medida que se obtiene la comprensión de DMARC del impacto potencial de DMARC.
 
 1. Analice los comentarios que recibe y utiliza (p=ninguno), lo que indica al destinatario que no realice ninguna acción contra los mensajes que no se autentican correctamente, pero que envíe informes de correo electrónico al remitente. Además, revise y corrija los problemas con SPF/DKIM si los mensajes legítimos fallan en la autenticación.
 1. Determine si SPF y DKIM están alineados y pasa la autenticación para todo el correo electrónico legítimo y, a continuación, mueva la directiva a (p=quarantine), que indica al servidor de correo electrónico receptor que ponga en cuarentena el correo electrónico que falla en la autenticación (esto generalmente significa colocar esos mensajes en la carpeta de correo no deseado).
@@ -58,19 +59,19 @@ Como DMARC es opcional, no se configurará de forma predeterminada en ninguna pl
 
 DMARC ofrece la capacidad de recibir informes sobre correos electrónicos que fallan en SPF/DKIM. Existen dos informes diferentes generados por los proveedores de servicios de Internet como parte del proceso de autenticación que los remitentes pueden recibir a través de las etiquetas RUA/RUF en su política DMARC:
 
-* **Informes agregados (RUA):** No contiene ninguna PII (información de identificación personal) que sea sensible al RGPD.
-* **Informes forenses (RUF):** Contiene direcciones de correo electrónico que son confidenciales para el RGPD. Antes de utilizar, es mejor comprobar internamente cómo tratar la información que necesita cumplir con el RGPD.
+* **Informes agregados (RUA):** No contiene ninguna PII (información de identificación personal) que pueda ser confidencial con respecto al RGPD.
+* **Informes forenses (RUF):** Contiene direcciones de correo electrónico que distinguen entre RGPD. Antes de utilizar, es mejor comprobar internamente cómo tratar la información que necesita cumplir con el RGPD.
 
 El uso principal de estos informes es recibir una descripción general de los correos electrónicos que se intentan suplantar. Se trata de informes muy técnicos que se digieren mejor con una herramienta de terceros. Algunas empresas especializadas en la monitorización de DMARC son:
 
-* [ValueMail](https://www.valimail.com/products/#automated-delivery)
+* [ValiMail](https://www.valimail.com/products/#automated-delivery)
 * [Agari](https://www.agari.com/)
-* [Dmarciano](https://dmarcian.com/)
-* [Proofpoint](https://www.proofpoint.com/us)
+* [Dmarcian](https://dmarcian.com/)
+* [Punto de revisión](https://www.proofpoint.com/us)
 
 >[!CAUTION]
 >
->Si las direcciones de correo electrónico que está agregando para recibir informes están fuera del dominio para el que se crea el registro DMARC, debe autorizar su dominio externo para especificar al DNS que posee este dominio. Para ello, siga los pasos detallados en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+>Si las direcciones de correo electrónico que está añadiendo para recibir informes se encuentran fuera del dominio para el que se ha creado el registro DMARC, debe autorizar al dominio externo para especificar al DNS que es propietario de este dominio. Para ello, siga los pasos que se detallan en la sección [Documentación de dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Ejemplo de registro DMARC {#example}
 
@@ -86,7 +87,7 @@ Los registros DMARC tienen varios componentes llamados etiquetas DMARC. Cada eti
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Requerido | Esta etiqueta DMARC especifica la versión. De momento, solo hay una versión, por lo que tendrá un valor fijo de v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Requerido | Muestra la directiva DMARC seleccionada y dirige al receptor a informar, poner en cuarentena o rechazar correo que no supere las comprobaciones de autenticación. | p=ninguno, cuarentena o rechazo | - |
-| fo | Opcional | Permite al propietario del dominio especificar las opciones de creación de informes. | 0: Generar informe si falla todo<br/>1: Generar un informe si algo falla<br/>d: Generar informe si falla DKIM<br/>s: Generar informe si falla el SPF | 1 (recomendado para informes DMARC) |
+| fo | Opcional | Permite al propietario del dominio especificar las opciones de creación de informes. | 0: Generar informe si todo falla<br/>1: Generar informe si algo falla<br/>d: Generar informe si DKIM falla<br/>s: Generar informe si SPF falla | 1 (recomendado para informes DMARC) |
 | pct | Opcional | Indica el porcentaje de mensajes sujetos al filtrado. | pct=20 | 100 |
 | rua | Opcional (recomendado) | Identifica dónde se enviarán los informes agregados. | `rua=mailto:aggrep@example.com` | - |
 | tugurio | Opcional (recomendado) | Identifica dónde se enviarán los informes forenses. | `ruf=mailto:authfail@example.com` | - |
@@ -98,7 +99,7 @@ Los registros DMARC tienen varios componentes llamados etiquetas DMARC. Cada eti
 
 >[!NOTE]
 >
->Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Obtenga información sobre cómo implementar registros DMARC mediante Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Aprenda a implementar registros DMARC mediante el Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Un motivo común de los errores de DMARC es la falta de alineación entre las direcciones &quot;De&quot; y &quot;Errores de destino&quot; o &quot;Ruta de retorno&quot;. Para evitarlo, al configurar DMARC, se recomienda comprobar dos veces la configuración de las direcciones &quot;De&quot; y &quot;Errores a&quot; en las plantillas de envío.
 

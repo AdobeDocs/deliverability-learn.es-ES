@@ -8,7 +8,7 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2043'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Este documento describe los requisitos comerciales y técnicos para la configura
 
 Con el Adobe, el marketing digital puede convertirse en el motor contextual que potencia el programa de marketing de participación del cliente de su marca.  El correo electrónico sigue siendo la base de los programas de marketing digital. Sin embargo, llegar a la bandeja de entrada se ha vuelto más difícil que nunca.
 
-La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (marketing o corporativo, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera la [Proceso de calentamiento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) y mejorar la capacidad de entrega en general. Si comparte un dominio y se bloquea o se agrega a la lista de bloqueados, podría afectar a su envío de correo corporativo. Sin embargo, los problemas de reputación o los bloqueos en un dominio específico de las comunicaciones de marketing por correo electrónico afectarán solo a ese flujo de correo electrónico.  El uso del dominio principal como remitente o de la dirección &quot;De&quot; para varios flujos de correo electrónico también podría interrumpir la autenticación del correo electrónico, lo que provocaría que los mensajes se bloquearan o se colocaran en la carpeta de correo no deseado.
+La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (de marketing o corporativo, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera el [proceso de calentamiento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) y mejora la capacidad de envío en general. Si comparte un dominio y se bloquea o se agrega a la lista de bloqueados, podría afectar a su envío de correo corporativo. Sin embargo, los problemas de reputación o los bloqueos en un dominio específico de las comunicaciones de marketing por correo electrónico afectarán solo a ese flujo de correo electrónico.  El uso del dominio principal como remitente o de la dirección &quot;De&quot; para varios flujos de correo electrónico también podría interrumpir la autenticación del correo electrónico, lo que provocaría que los mensajes se bloquearan o se colocaran en la carpeta de correo no deseado.
 
 ### Delegación
 
@@ -35,7 +35,8 @@ Esto significa que los servidores DNS de Adobe Campaign tendrán autoridad total
 
 Al delegar un subdominio para utilizarlo con Adobe Campaign, los clientes pueden confiar en el Adobe para mantener la infraestructura de DNS necesaria para satisfacer los requisitos de capacidad de entrega estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que continúan manteniendo y controlando DNS para sus dominios de correo electrónico internos.  La delegación de subdominios permite:
 
-Los clientes deben conservar su imagen de marca utilizando un alias DNS con su Adobe de nombres de dominio para implementar de forma autónoma todas las prácticas recomendadas técnicas para optimizar completamente la capacidad de envío durante el correo electrónico
+Clientes que deseen conservar su imagen de marca utilizando un alias DNS con sus nombres de dominio
+Adobe de implementar de forma autónoma todas las prácticas recomendadas técnicas para optimizar completamente la capacidad de envío durante el correo electrónico
 
 ## Opciones de configuración de DNS
 
@@ -48,7 +49,7 @@ Para proporcionar un servicio administrado basado en la nube, Adobe recomienda e
 
 ## Registros DNS necesarios
 
-| Tipo de registro | Finalidad | Ejemplos de registro/contenido |
+| Tipo de registro | Objetivo | Ejemplos de registro/contenido |
 |--- |--- |--- |
 | MX | Especificar servidores de correo para mensajes entrantes | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Marco de política de remitentes | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
@@ -103,15 +104,15 @@ Determine los subdominios que se utilizarán para las direcciones URL con marca 
 
 Complete la tabla siguiente, la primera línea es solo un ejemplo.
 
-| Subdomain | Dirección de origen | Nombre de remitente | Dirección de respuesta |
+| Subdomain | Dirección de origen | De nombre | Dirección de respuesta |
 |--- |--- |--- |--- |
-| emails.customer.com | news@emails.customer.com | Customer | customercare@customer.com |
+| emails.customer.com | news@emails.customer.com | Cliente | customercare@customer.com |
 | </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
 >* El propósito del campo &quot;Dirección de respuesta&quot; es cuando desea que el destinatario responda a una dirección diferente a la &quot;Dirección de origen&quot;.  Aunque no es un campo obligatorio, el Adobe recomienda encarecidamente que la &quot;Dirección de respuesta&quot; sea válida y esté vinculada a un buzón supervisado.  El cliente debe alojar este buzón.  Podría ser un buzón de asistencia, por ejemplo, customercare@customer.com, donde se leen y responden los correos electrónicos.
->* Si el cliente no elige ninguna &quot;Dirección de respuesta&quot;, la dirección predeterminada es siempre `<tenant>-<type>-<env>@<subdomain>`.
+>* Si el cliente no elige ninguna &quot;Dirección de respuesta&quot;, la dirección predeterminada siempre es `<tenant>-<type>-<env>@<subdomain>`.
 >* Cuando la &quot;Dirección de respuesta&quot; está configurada de esta manera, las respuestas se envían a un buzón no supervisado.
 >* Al enviar correos electrónicos desde Adobe Campaign, el buzón &quot;Dirección de origen&quot; no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón.
 >* La dirección de origen/remitente de la campaña y la dirección de error no pueden ser &quot;abuse&quot; ni &quot;postmaster&quot;.
@@ -128,7 +129,7 @@ Los subdominios seleccionados para su uso en la plataforma Adobe Campaign deben 
 
 Una vez que los subdominios de envío de correo electrónico se hayan delegado correctamente en Adobe Campaign, el equipo de TechOps de Adobe creará dos o más dominios de nivel inferior para administrar el seguimiento y las páginas espejo de forma independiente.
 
-| Tipo | Domain |
+| Tipo | Dominio |
 |--- |--- |
 | Páginas espejo | m.`<subdomain>` |
 | Seguimiento | t.`<subdomain>` |
@@ -158,7 +159,7 @@ Se requiere una configuración DNS CNAME adicional para implementar componentes 
 
 Los cortafuegos también deberán configurarse para permitir el acceso a la instancia de marketing de Adobe Campaign que aloja estos componentes web (en el puerto 80 o 443).
 
-**Recommendations de prácticas recomendadas:**
+**Práctica recomendada en Recommendations:**
 
 El subdominio para alojar componentes web será visible para los clientes, por lo que asegúrese de que tiene la marca correcta y es fácil de recordar, ya que es posible que deba escribirse manualmente, por ejemplo: https://web.customer.com.
 Si es necesario alojar algún formulario en páginas seguras (HTTPS), se requerirá una configuración técnica adicional, como se describe a continuación.
@@ -204,4 +205,4 @@ Para obtener más información, consulte la [documentación dedicada](https://ex
 
 >[!NOTE]
 >
->[Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) está disponible para los clientes que solo utilizan Adobe Managed Services.
+>El [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) está disponible para los clientes que solamente utilizan Adobe Managed Services.

@@ -8,8 +8,8 @@ team: ACS
 exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 62%
+source-wordcount: '363'
+ht-degree: 60%
 
 ---
 
@@ -37,7 +37,7 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Adobe Campaign Classic**
 
-* [Actividad de anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [Actividad de deduplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
 * [Uso de la funcionalidad Combinar de la actividad de anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es)
 
 **Adobe Campaign Standard**

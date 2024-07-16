@@ -8,14 +8,14 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
 # Todo acerca de las trampas de correo no deseado
 
-A [trampa de spam](/help/metrics/spam-traps.md) es una dirección válida, sin mensaje de error cuando se envían correos electrónicos a. Una trampa de correo no deseado tiene una misión principal: identificar a los remitentes de correo no deseado o a los remitentes sin proceso de higiene de los datos.
+Una [trampa de correo no deseado](/help/metrics/spam-traps.md) es una dirección válida, sin mensaje de error cuando se envían correos electrónicos a. Una trampa de correo no deseado tiene una misión principal: identificar a los remitentes de correo no deseado o a los remitentes sin proceso de higiene de los datos.
 
 ## ¿Quién administra estas direcciones de trampa de correo no deseado?
 
@@ -27,7 +27,7 @@ El segundo tipo de trampa de correo no deseado se basa en las antiguas direccion
 
 **Una dirección de correo electrónico sin usuario final**: estas direcciones no tienen ni tendrán nunca un usuario final que pueda registrarse en boletines informativos o en cualquier otro tipo de comunicación.
 
-**Una dirección de correo electrónico abandonada por un usuario**: Después de un período de inactividad, los ISP desactivan las direcciones. Los mensajes de devolución se envían a los remitentes para informarles sobre este nuevo estado. Los remitentes deben insertar estas direcciones en cuarentena o eliminarlas de futuras comunicaciones. Los ISP utilizan estas direcciones transformadas en &quot;trampa de correo no deseado&quot; para monitorizar a los remitentes con prácticas incorrectas.
+**Una dirección de correo electrónico abandonada por un usuario**: Tras un período de inactividad, los ISP desactivan las direcciones. Los mensajes de devolución se envían a los remitentes para informarles sobre este nuevo estado. Los remitentes deben insertar estas direcciones en cuarentena o eliminarlas de futuras comunicaciones. Los ISP utilizan estas direcciones transformadas en &quot;trampa de correo no deseado&quot; para monitorizar a los remitentes con prácticas incorrectas.
 
 ## ¿Cómo reconocer o identificar una trampa de correo no deseado?
 

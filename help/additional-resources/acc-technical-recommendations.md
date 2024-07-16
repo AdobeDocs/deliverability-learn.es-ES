@@ -29,7 +29,7 @@ La elección de dominio del DNS inverso influye al tratar con determinados ISP. 
 
 >[!NOTE]
 >
->Puede utilizar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para comprobar la configuración de un dominio.
+>Puede usar [esta herramienta externa](https://mxtoolbox.com/SuperTool.aspx) para comprobar la configuración de un dominio.
 
 ### Reglas MX {#mx-rules}
 
@@ -39,7 +39,7 @@ Más concretamente, se utilizan para controlar la velocidad a la que el MTA de A
 
 >[!NOTE]
 >
->Para obtener más información sobre la administración de MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Para obtener más información sobre la administración MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -67,16 +67,16 @@ Actualmente, un registro SPF se puede definir en un servidor DNS como un registr
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~todos** significa que cualquier otra dirección debe interpretarse como SoftFail.
+define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~all** significa que cualquier otra dirección debe interpretarse como SoftFail.
 
 Recommendations para definir un registro SPF:
 
-* Añadir **~todos** (SoftFail) o **-all** (Fallo) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán forjar este dominio (con una evaluación Neutral).
-* No añadir **ptr** (openspf.org recomienda evitar esto por ser costoso y poco fiable).
+* Agregue **~todos** (SoftFail) o **-todos** (Fail) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán forjar este dominio (con una evaluación Neutral).
+* No agregue **ptr** (openspf.org recomienda evitar esto por ser costoso y poco confiable).
 
 >[!NOTE]
 >
->Obtenga más información sobre el SPF en [esta sección](/help/additional-resources/authentication.md#spf).
+>Obtenga más información sobre SPF en [esta sección](/help/additional-resources/authentication.md#spf).
 
 ## Autenticación
 
@@ -90,9 +90,9 @@ Recommendations para definir un registro SPF:
 >
 >Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
-Uso de [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
+El uso de [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
 
-**declaración de opción de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un selector DKIM y un dominio. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
+**declaración de opciones de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un selector DKIM y un dominio. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
 
 * Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Si no es así, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys (que reemplazó a DKIM).
 * No es necesario activar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
@@ -157,9 +157,9 @@ Gmail, Outlook.com, Yahoo! y Microsoft Outlook admiten este método. Un vínculo
 
 Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
 
-* **Cancelación de suscripción a lista &quot;mailto&quot;** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico. [Más información](#mailto-list-unsubscribe)
+* **&quot;mailto&quot; List-Unsubscribe** - Con este método, al hacer clic en el vínculo **Cancelar la suscripción**, se envía un correo electrónico rellenado previamente a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico. [Más información](#mailto-list-unsubscribe)
 
-* **Cancelación de suscripción a una lista con un clic** : Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela directamente la suscripción del usuario. [Más información](#one-click-list-unsubscribe)
+* **&quot;One-Click&quot; List-Unsubscribe** - Con este método, hacer clic en el vínculo **Cancelar la suscripción** cancela directamente la suscripción del usuario. [Más información](#one-click-list-unsubscribe)
 
 >[!NOTE]
 >
@@ -167,9 +167,9 @@ Existen dos versiones de la funcionalidad de encabezado List-Unsubscribe:
 
 ### Cancelación de suscripción a lista &quot;mailto&quot; {#mailto-list-unsubscribe}
 
-Con este método, haga clic en el botón **Cancelar suscripción** El vínculo envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico.
+Con este método, al hacer clic en el vínculo **Cancelar la suscripción**, se envía un correo electrónico precompletado a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico.
 
-Para utilizar &quot;mailto&quot; List-Unsubscribe, debe introducir una línea de comandos donde especifique una dirección de correo electrónico, como: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
+Para usar la cancelación de la suscripción a una lista &quot;mailto&quot;, debe especificar una dirección de correo electrónico, como: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
 
 >[!CAUTION]
 >
@@ -177,21 +177,21 @@ Para utilizar &quot;mailto&quot; List-Unsubscribe, debe introducir una línea de
 
 También puede crear una List-Unsubscribe &quot;mailto&quot; dinámica mediante una línea de comandos como: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
-Para implementar **Cancelación de suscripción a lista &quot;mailto&quot;** en Campaign, puede:
+Para implementar **&quot;mailto&quot; List-Unsubscribe** en Campaign, puede:
 
-* Añada directamente la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#adding-a-command-line-in-a-delivery-template)
+* Agregue directamente la línea de comandos en la entrega o la plantilla de entrega: [Más información](#adding-a-command-line-in-a-delivery-template)
 
-* Creación de una regla de tipología: [Descubra cómo](#creating-a-typology-rule)
+* Crear una regla de tipología: [Más información](#creating-a-typology-rule)
 
 #### Adición de una línea de comandos en una entrega o plantilla {#adding-a-command-line-in-a-delivery-template}
 
-La línea de comandos debe añadirse a **[!UICONTROL Additional SMTP headers]** del encabezado SMTP del correo electrónico.
+La línea de comandos debe agregarse a la sección **[!UICONTROL Additional SMTP headers]** del encabezado SMTP del correo electrónico.
 
 Esta adición se puede realizar en cada correo electrónico o en plantillas de entrega existentes. También puede crear una nueva plantilla de distribución que incluya esta función.
 
-Por ejemplo, introduzca la siguiente secuencia de comandos en la **[!UICONTROL Additional SMTP headers]** campo: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Haciendo clic en **cancelar suscripción** Este vínculo envía un correo electrónico a la dirección unsubscribe@domain.com.
+Por ejemplo, escriba el siguiente script en el campo **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Al hacer clic en el vínculo **cancelar la suscripción**, se enviará un correo electrónico a la dirección unsubscribe@domain.com.
 
-También puede utilizar una dirección dinámica. Por ejemplo, para enviar un correo electrónico a la dirección de error definida para la plataforma, puede utilizar la siguiente secuencia de comandos: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
+También puede utilizar una dirección dinámica. Por ejemplo, para enviar un correo electrónico a la dirección de error definida para la plataforma, puede utilizar el siguiente script: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
 ![Imagen](../assets/List-Unsubscribe-template-SMTP.png)
 
@@ -199,7 +199,7 @@ También puede utilizar una dirección dinámica. Por ejemplo, para enviar un co
 
 La regla debe contener la secuencia que genera la línea de comandos y debe incluirse en el encabezado del correo electrónico.
 
-Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+Aprenda a crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 >[!NOTE]
 >
@@ -207,7 +207,7 @@ Obtenga información sobre cómo crear reglas de tipología en Adobe Campaign v7
 
 ### Cancelación de suscripción a una lista con un clic {#one-click-list-unsubscribe}
 
-Con este método, haga clic en el botón **Cancelar suscripción** El vínculo cancela la suscripción directamente del usuario y solo requiere una única acción para cancelar la suscripción.
+Con este método, al hacer clic en el vínculo **Cancelar la suscripción**, se cancela directamente la suscripción del usuario, lo que requiere una sola acción para cancelar la suscripción.
 
 A partir del 1 de junio de 2024, los principales ISP exigirán a los remitentes que cumplan con **Cancelación de suscripción a una lista con un clic**.
 
@@ -219,22 +219,22 @@ Para cumplir con este requisito, los remitentes deben:
 
 Para admitir la respuesta del POST One-Click List-Unsubscribe directamente en Adobe Campaign v7/v8, debe añadir en la aplicación web &quot;Unsubscribe recipients no-click&quot;. Para ello:
 
-1. Ir a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
+1. Vaya a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
-1. Cargue la variable &quot;Cancelar la suscripción de destinatarios sin clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip) archivo.
+1. Cargue el archivo [XML](/help/assets/WebAppUnsubNoClick.xml.zip) &quot;Cancelar la suscripción de destinatarios sin hacer clic&quot;.
 
-Para configurar **Cancelación de suscripción a una lista con un clic** en Campaign, puede:
+Para configurar **Cancelación de suscripción a una lista con un solo clic** en Campaign, puede:
 
-* Añada la línea de comandos en la entrega o la plantilla de entrega: [Descubra cómo](#one-click-delivery-template)
-* Creación de una regla de tipología: [Descubra cómo](#one-click-typology-rule)
+* Agregar la línea de comandos en el envío o la plantilla de envíos: [Más información](#one-click-delivery-template)
+* Crear una regla de tipología: [Más información](#one-click-typology-rule)
 
 #### Configuración de la cancelación de la suscripción a una lista con un clic en la entrega o plantilla {#one-click-delivery-template}
 
 Para configurar la cancelación de la suscripción a una lista con un solo clic en la entrega o la plantilla de entrega, siga los pasos a continuación.
 
-1. Vaya a la **[!UICONTROL SMTP]** de las propiedades de entrega.
+1. Vaya a la sección **[!UICONTROL SMTP]** de las propiedades de entrega.
 
-1. En **[!UICONTROL Additional SMTP Headers]**, introduzca las líneas de comandos como en el ejemplo siguiente. Cada encabezado debe estar en una línea independiente.
+1. En **[!UICONTROL Additional SMTP Headers]**, escriba las líneas de comandos como en el ejemplo siguiente. Cada encabezado debe estar en una línea independiente.
 
 Por ejemplo:
 
@@ -274,7 +274,7 @@ Para configurar la cancelación de la suscripción a una lista con un solo clic 
    >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
 
    Este ejemplo detalla cómo:
-   * Configure una Lista &quot;mailto&quot;: Cancelar suscripción. Agregará los encabezados o adjuntará los parámetros &quot;mailto:&quot; existentes y los reemplazará por: &lt;mailto..>>, https://...
+   * Configure una Lista &quot;mailto&quot;: Cancelar suscripción. Agregará los encabezados o adjuntará los parámetros &quot;mailto:&quot; existentes y los reemplazará por: &lt;mailto..>, https://...
    * Agregue en el encabezado Lista-Cancelar suscripción de un solo clic. Utiliza `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
 
    >[!NOTE]
@@ -391,7 +391,7 @@ Para configurar la cancelación de la suscripción a una lista con un solo clic 
 
    >[!CAUTION]
    >
-   >Compruebe que la variable **[!UICONTROL Additional SMTP headers]** el campo de las propiedades de entrega está vacío.
+   >Compruebe que el campo **[!UICONTROL Additional SMTP headers]** de las propiedades de entrega esté vacío.
 
    ![Imagen](../assets/CreatingTypologyRules5.png)
 

@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 91%
+source-wordcount: '677'
+ht-degree: 87%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 A continuación se describen algunas prácticas recomendadas que pueden ayudar a identificar y abordar los problemas de envío.
 
-## Identificar un problema de envío {#identify-deliverability-issue}
+## Identificación de un problema de envío {#identify-deliverability-issue}
 
-Para identificar un posible problema, consulte los elementos enumerados en [esa página](/help/ongoing-monitoring.md) Puede llamar su atención.
+Para identificar un posible problema, los elementos enumerados en [esa página](/help/ongoing-monitoring.md) pueden llamar su atención.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -44,7 +44,7 @@ Hágase las siguientes preguntas para identificar las posibles causas del proble
 
 ### Quejas
 
-[](/help/metrics/complaints.md)Las quejas las definen los suscriptores que informan del correo electrónico como correo no deseado pulsando el botón correspondiente de su bandeja de entrada.
+Las [quejas](/help/metrics/complaints.md) las definen los suscriptores que informan el correo electrónico como correo no deseado pulsando el botón correspondiente de su bandeja de entrada.
 
 Si su problema de envío fue causado por quejas:
 * Debe intentar determinar por qué los destinatarios se quejan.
@@ -59,7 +59,7 @@ Las quejas también provienen de suscriptores que ya no quieren recibir correos 
 * También es importante realizar una auditoría para asegurarse de que todos los puntos de recopilación sean claros y de que no hay casillas premarcadas en los puntos de adquisición.
 * También debe enviar un correo electrónico de bienvenida cuando los suscriptores se incluyan para establecer el tono y explicar la frecuencia con la que pueden esperar recibir mensajes de correo electrónico de su parte.
 
-### Validez de los datos
+### Validez de datos
 
 **Las devoluciones duras** se producen cuando se envía a una **dirección que no se puede enviar** en un ISP. No se puede realizar un envío a una dirección por muchas razones, como:
 * Dirección incorrecta. Esto se puede solucionar con un servicio de validación de datos en tiempo real o requiriendo una opción de inclusión confirmada antes de enviar correos electrónicos de marketing a esa dirección.

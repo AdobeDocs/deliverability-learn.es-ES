@@ -8,8 +8,8 @@ team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 57%
+source-wordcount: '757'
+ht-degree: 46%
 
 ---
 
@@ -21,19 +21,19 @@ SPF (Entorno de políticas de remitentes) es un estándar de autenticación de c
 
 >[!NOTE]
 >
->Puede utilizar [esta herramienta externa](https://www.kitterman.com/spf/validate.html) para verificar un registro SPF.
+>Puede usar [esta herramienta externa](https://www.kitterman.com/spf/validate.html) para comprobar un registro SPF.
 
 El SPF es una técnica que, a su vez, permite asegurarse de que el nombre de dominio utilizado en un mensaje de correo electrónico no sea falso. Cuando se recibe un mensaje de un dominio, se consulta el servidor DNS del dominio. La respuesta es un breve registro (el registro SPF) que muestra los servidores autorizados para enviar correos electrónicos desde este dominio. Si asumimos que solo el propietario del dominio tiene la posibilidad de cambiar este registro, podemos considerar que esta técnica no permite que la dirección del remitente sea falsa, al menos no la parte a la derecha de la “@”.
 
-En la final [Especificación RFC 4408](https://www.rfc-editor.org/info/rfc4408), se utilizan dos elementos del mensaje para determinar el dominio considerado como remitente: el dominio especificado por el comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) y el dominio especificado por la dirección del encabezado &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), que también es la dirección de rechazo. Las diferentes consideraciones permiten tener en cuenta solo uno de estos valores; se recomienda que ambos orígenes especifiquen el mismo dominio.
+En la especificación final [RFC 4408](https://www.rfc-editor.org/info/rfc4408), se utilizan dos elementos del mensaje para determinar el dominio considerado como remitente: el dominio especificado por el comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) y el dominio especificado por la dirección del encabezado &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), que también es la dirección de rechazo. Las diferentes consideraciones permiten tener en cuenta solo uno de estos valores; se recomienda que ambos orígenes especifiquen el mismo dominio.
 
 La comprobación del SPF ofrece una evaluación de la validez del dominio del remitente:
 
-* **None**: No se pudo realizar ninguna evaluación.
-* **Neutral**: El dominio que se consulta no activa la evaluación.
-* **Pass**: El dominio se considera auténtico.
-* **Fail**: El dominio es falso y el mensaje se debe rechazar.
-* **SoftFail**: es probable que el dominio sea falso, pero el mensaje no se debe rechazar únicamente en función de este resultado.
+* **Ninguno**: no se pudo realizar ninguna evaluación.
+* **Neutral**: el dominio consultado no habilita la evaluación.
+* **Paso**: el dominio se considera auténtico.
+* **Error**: el dominio es falso y el mensaje se debe rechazar.
+* **SoftFail**: Es probable que el dominio sea falso, pero el mensaje no se debe rechazar únicamente en función de este resultado.
 * **TempError**: Un error temporal detuvo la evaluación. El mensaje se puede rechazar.
 * **PermError**: Los registros del SPF del dominio no son válidos.
 
@@ -41,7 +41,7 @@ Cabe señalar que el proceso para tener en cuenta los registros realizados al ni
 
 ## DKIM {#dkim}
 
-La autenticación DKIM (DomainKeys Identified Mail) es un sucesor de SPF. Utiliza criptografía de clave pública que permite al servidor de recepción de correo electrónico verificar que un mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y &quot;firmado&quot; por DKIM) y la hora en que se recibió. Este estándar suele utilizar el dominio en el encabezado “De” o “Remitente”. 
+La autenticación DKIM (DomainKeys Identified Mail) es un sucesor de SPF. Utiliza criptografía de clave pública que permite al servidor de recepción de correo electrónico verificar que un mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y &quot;firmado&quot; por DKIM) y la hora en que se recibió. Este estándar suele utilizar el dominio en el encabezado &quot;De&quot; o &quot;Remitente&quot;.
 
 DKIM surge a partir de una combinación de los principios de autenticación de DomainKeys, Yahoo! y Cisco Mail, y se utiliza para comprobar la autenticidad del dominio del remitente y garantizar la integridad del mensaje.
 
@@ -52,7 +52,7 @@ El uso de DKIM requiere algunos requisitos previos:
 * **Seguridad**: el cifrado es un elemento clave del DKIM. Para garantizar el nivel de seguridad del DKIM, el tamaño de codificación recomendado es 1024b. La mayoría de los proveedores de acceso no consideran válidas las claves DKIM menores.
 * **Reputación**: la reputación se basa en la dirección IP o en el dominio, pero el selector menos transparente de DKIM también es un elemento clave a tener en cuenta. La elección del selector es importante: evite mantener el &quot;predeterminado&quot; que podría utilizar cualquier persona y, por lo tanto, tiene una reputación débil. Debe implementar un selector diferente para las **retention vs. acquisition communications** y para la autenticación.
 
-Obtenga más información sobre los requisitos previos de DKIM al utilizar Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Obtenga más información sobre el requisito previo de DKIM al usar el Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
