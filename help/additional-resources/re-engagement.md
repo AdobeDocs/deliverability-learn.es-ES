@@ -75,8 +75,8 @@ Los suscriptores que se relacionan con la campaña mediante la actividad de aper
 
 **Adobe Campaign**
 
-* [Registros de seguimiento en el Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Registros de seguimiento en el Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [Registros de seguimiento en el Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=es#tracking-logs)
+* [Registros de seguimiento en el Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=es#tracking-logs)
 
 **Administración del Recorrido del cliente de Adobe**
 

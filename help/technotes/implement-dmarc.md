@@ -99,7 +99,7 @@ Los registros DMARC tienen varios componentes llamados etiquetas DMARC. Cada eti
 
 >[!NOTE]
 >
->Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Aprenda a implementar registros DMARC mediante el Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Aprenda a implementar registros DMARC mediante el Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=es).
 
 Un motivo común de los errores de DMARC es la falta de alineación entre las direcciones &quot;De&quot; y &quot;Errores de destino&quot; o &quot;Ruta de retorno&quot;. Para evitarlo, al configurar DMARC, se recomienda comprobar dos veces la configuración de las direcciones &quot;De&quot; y &quot;Errores a&quot; en las plantillas de envío.
 

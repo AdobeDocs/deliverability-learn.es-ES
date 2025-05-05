@@ -66,8 +66,8 @@ La autenticación es el proceso que utilizan los ISP para validar la identidad d
 **Campaign**
 
 * Aprenda a delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/additional-resources/ac-domain-name-setup.md).
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
 * Obtenga más información sobre cómo implementar un bucle de comentarios para una instancia de Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Recursos adicionales

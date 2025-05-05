@@ -37,9 +37,9 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Adobe Campaign Classic**
 
-* [Actividad de deduplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [Actividad de deduplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html?lang=es)
 * [Uso de la funcionalidad Combinar de la actividad de anulación de duplicación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es)
 
 **Adobe Campaign Standard**
 
-* [Deduplicación de datos de un archivo importado](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html)
+* [Deduplicación de datos de un archivo importado](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html?lang=es)

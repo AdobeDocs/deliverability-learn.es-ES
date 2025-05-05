@@ -59,13 +59,13 @@ Una parte clave final de la estrategia de respuesta es que, si tiene una direcci
 
 **Adobe Campaign Classic**
 
-* [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
-* [Reglas de presión](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=es#communication-channels)
+* [Reglas de presión](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=es)
 
 **Adobe Campaign Standard**
 
-* [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Reglas de fatiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Definición de la audiencia correcta](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=es)
+* [Reglas de fatiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=es)
 
 ## Recursos adicionales
 

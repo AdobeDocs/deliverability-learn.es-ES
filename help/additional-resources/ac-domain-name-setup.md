@@ -19,7 +19,7 @@ Este documento describe los requisitos comerciales y técnicos para la configura
 
 >[!NOTE]
 >
->También puede configurar nuevos subdominios mediante el Panel de control de Campaign (disponible como beta). Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+>También puede configurar nuevos subdominios mediante el Panel de control de Campaign (disponible como beta). Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es#must-read).
 
 ## Subdominios
 
@@ -201,7 +201,7 @@ Una vez configurados los subdominios para la instancia, puede monitorizarlos con
 
 Esto le permite ver todos los subdominios que delegó en Adobe Campaign, así como solicitar la renovación de sus certificados SSL.
 
-Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html#subdomains-and-certificates).
+Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es#subdomains-and-certificates).
 
 >[!NOTE]
 >

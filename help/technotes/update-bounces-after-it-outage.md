@@ -45,8 +45,8 @@ Por lógica de gestión de devoluciones estándar, Adobe Campaign añadió autom
 
 Para encontrar los destinatarios afectados por este problema, o en caso de que esto vuelva a suceder con cualquier otro ISP, consulte las instrucciones a continuación:
 
-* Para Campaign Classic v7 y Campaign v8, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Para el Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Para Campaign Classic v7 y Campaign v8, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=es#unquarantine-bulk){_blank}.
+* Para el Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ Por lógica de gestión de devoluciones estándar, Adobe Journey Optimizer agreg
 
 Una vez identificadas, estas direcciones se pueden eliminar manualmente de la lista de supresión con el botón **[!UICONTROL Delete]**. Estas direcciones se pueden incluir en futuras campañas de correo electrónico.
 
-Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=es#remove-from-suppression-list){_blank}.
 
