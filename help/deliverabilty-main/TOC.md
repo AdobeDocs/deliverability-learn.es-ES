@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Proceso de solicitud de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Inicio de una nueva plataforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: recomendaciones técnicas](/help/additional-resources/acc-technical-recommendations.md)
-   + Notas técnicas {#technotes}
+   + Notas técnicas{#technotes}
       + [Implementación de DMARC](/help/technotes/implement-dmarc.md)
       + [Implementación de BIMI](/help/technotes/implement-bimi.md)
       + [Actualizar devoluciones después de la interrupción en línea de Italia](/help/technotes/update-bounces-after-it-outage.md)
