@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 90%
+source-wordcount: '423'
+ht-degree: 91%
 
 ---
 
@@ -53,6 +53,8 @@ A continuación se muestra una lista de los RBL más utilizados. Para obtener un
 
   Se trata de una lista de IP y se utiliza ampliamente en Alemania. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
-<!--* SORBS
+<!--
+* SORBS
 
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
+-->
