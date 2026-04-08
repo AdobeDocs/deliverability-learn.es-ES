@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '429'
+workflow-type: ht
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -51,12 +51,12 @@ Las devoluciones leves de mensajes son errores temporales que los ISP generan cu
 
 **Adobe Campaign Classic**
 
-* [Tipos y motivos de errores de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#delivery-failure-types-and-reasons)
+* [Tipos y motivos de errores de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#delivery-failure-types-and-reasons)
 * [Gestión de correos rechazados](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#bounce-mail-management)
-* [Informe de rechazos y correos no entregables](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=es#non-deliverables-and-bounces)
+* [Informe de rechazos y correos que no se pueden entregar](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=es#non-deliverables-and-bounces)
 
 **Adobe Campaign Standard**
 
-* [Tipos y motivos de errores de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=es#delivery-failure-types-and-reasons)
-* [Clasificación del correo rechazado](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=es#bounce-mail-qualification)
+* [Tipos y motivos de errores de envío](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=es#delivery-failure-types-and-reasons)
+* [Calificación del correo rechazado](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=es#bounce-mail-qualification)
 * [Informe de resumen de rechazos](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=es#reporting)

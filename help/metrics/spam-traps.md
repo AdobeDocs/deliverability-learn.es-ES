@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '416'
+workflow-type: ht
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Existen trampas de correo no deseado para identificar el correo de remitentes fr
 
 Las trampas de correo no deseado recicladas son direcciones que una vez fueron válidas, pero que ya no se utilizan. Una forma clave de mantener las listas lo más limpias posible es enviar con regularidad correos electrónicos a toda la lista y suprimir correctamente los correos electrónicos devueltos. Esto ayuda a que las direcciones de correo electrónico abandonadas se pongan en cuarentena y no se sigan usando.
 
-En algunos casos, una dirección puede reciclarse en un plazo de 30 días. El envío regular es un aspecto vital del buen mantenimiento de las listas, junto con la supresión regular de los usuarios inactivos. **Las campañas de renovación de participación** suelen formar parte de programas de marketing por correo electrónico sofisticados. Este estilo de campaña permite al remitente intentar recuperar usuarios a los que, de otro modo, ya no se les enviarían correos.
+En algunos casos, una dirección puede reciclarse en un plazo de 30 días. El envío regular es un aspecto vital para el mantenimiento correcto de las listas, junto con la supresión regular de los usuarios inactivos. **Las campañas de renovación de participación** suelen formar parte de programas de marketing por correo electrónico sofisticados. Este estilo de campaña permite al remitente intentar recuperar usuarios a los que, de otro modo, ya no se les enviarían correos.
 
 ## Error tipográfico
 
@@ -43,9 +43,9 @@ Una trampa de correo no deseado pura es una dirección que no tiene usuario fina
 **Adobe Campaign Classic**
 
 * [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=es#using-spamassassin)
-* [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in)
+* [Creación de un formulario de suscripción con inclusión doble](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Previsualización del análisis de correo electrónico y antispam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=es#designing-content)
+* [Previsualizar el análisis de correo electrónico y antispam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=es#designing-content)
 * [Proceso de inclusión doble](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=es#communication-channels)

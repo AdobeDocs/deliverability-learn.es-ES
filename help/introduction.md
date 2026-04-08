@@ -10,9 +10,9 @@ level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
-workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ En esta era digital, las personas esperan ser sorprendidas al instante. Quieren 
 
 Seamos realistas. Hoy, más que nunca, hay que destacar ante los demás. Esto significa ofrecer a los clientes experiencias únicas, personalizadas y relevantes. De lo contrario, se arriesga a perder un cliente para siempre. Es imprescindible contar con una estrategia integrada, dinámica y multicanal que motive a su público a seguir participando.
 
-Utilice esta guía para conocer los términos, conceptos y enfoques clave de la entrega que le permitirán adelantarse a la curva. Utilícelo para mantener el canal de correo electrónico en la vanguardia de la combinación de marketing, con una alta prioridad en la entrega, la ubicación de la bandeja de entrada y los ingresos.
+Utilice esta guía para conocer los términos, conceptos y enfoques clave de la entrega que le permitirán adelantarse a la curva. Utilícelo para mantener el canal de correo electrónico en la vanguardia de la combinación de marketing, con una alta prioridad en la entregabilidad, la ubicación de la bandeja de entrada y los ingresos.
 
 Esta Guía de prácticas recomendadas de entrega abarca los siguientes temas:
 
@@ -47,9 +47,9 @@ Esta Guía de prácticas recomendadas de entrega abarca los siguientes temas:
 
 ## Fuentes
 
-[!DNL Heinz Tschabitscher], [&quot;¿Cuántas personas utilizan correo electrónico en todo el mundo?&quot;](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 de junio de 2019.
+[!DNL Heinz Tschabitscher], [“¿Cuántas personas utilizan correo electrónico en todo el mundo?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 de junio de 2019.
 
-[!DNL Lori Lewis], [&quot;2019: Esto es lo que sucede en un minuto de Internet&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5 de marzo de 2019.
+[!DNL Lori Lewis], [&quot;2019: Esto es lo que sucede en un minuto de Internet&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Combinar, 5 de marzo de 2019.
 
 ## Recursos adicionales
 
