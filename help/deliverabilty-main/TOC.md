@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: ht
+source-git-commit: 1c1e1b673fbc640fec84948878060b8bc0354ba2
+workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -63,5 +63,4 @@ ht-degree: 100%
    + Notas técnicas{#technotes}
       + [Implementación de DMARC](/help/technotes/implement-dmarc.md)
       + [Implementación de BIMI](/help/technotes/implement-bimi.md)
-      + [Actualizar devoluciones después de la interrupción en línea de Italia](/help/technotes/update-bounces-after-it-outage.md)
-
+      + {hide-from-toc}[Rebotes de actualización después de la interrupción de Italia Online](/help/technotes/update-bounces-after-it-outage.md)
