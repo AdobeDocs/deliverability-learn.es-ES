@@ -6,10 +6,27 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
+TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 1%
+source-wordcount: 2374
+ht-degree: 4%
 
 ---
 
@@ -47,7 +64,7 @@ Para instalar certificados SSL en estos subdominios, el proceso implica solicita
 | Certificado de baja garantía | Un certificado de baja seguridad, también denominado certificado validado de dominio, incluye solo el nombre de dominio en el certificado (y no el nombre de empresa/organización). |
 | PEM (correo mejorado de privacidad) | Certificado con una extensión .pem que contiene datos ASCII (Base64). Estos certificados comienzan con una línea &quot; - - - - - BEGIN CERTIFICATE - - - - -&quot;. |
 | Certificado raíz | Una entidad emisora de certificados emite certificados en forma de estructura de árbol. El certificado raíz es el certificado superior del árbol. |
-| SAN (nombre alternativo del sujeto) | Los nombres alternativos del sujeto son nombres de host adicionales (sitios, direcciones IP, nombres comunes, etc.) que deben firmarse como parte de un único certificado SSL. |
+| SAN (nombre alternativo del sujeto) | Los nombres alternativos del asunto son nombres de host adicionales (sitios, direcciones IP, nombres comunes, etc.) que deben firmarse como parte de un único certificado SSL. |
 | Certificado firmado automáticamente | Certificado firmado por la persona que lo crea en lugar de por una autoridad de certificación de confianza. Los certificados autofirmados pueden habilitar el mismo nivel de cifrado que un certificado firmado por una CA, pero existen dos inconvenientes principales:<ul><li>La conexión de un visitante podría ser secuestrada permitiendo que un atacante vea todos los datos enviados (con lo que se frustra el propósito de cifrar la conexión)</li><li> El certificado no se puede revocar como un certificado de confianza.</li></ul> |
 | SSL (capa de sockets seguros) | La tecnología de seguridad estándar para establecer un vínculo cifrado entre un servidor web y un explorador. |
 | Certificado comodín | Un certificado comodín puede proteger un número ilimitado de subdominios de primer nivel en un solo nombre de dominio, como *.adobe.com. |
@@ -67,7 +84,7 @@ Para instalar certificados SSL en estos subdominios, el proceso implica solicita
 
 ### Requisitos previos
 
-Debe identificar los nombres de dominio y las funciones (seguimiento, páginas espejo, aplicaciones web, etc.) que desea proteger.
+Debe identificar los nombres de dominio y las funciones (seguimiento, páginas espejo, aplicaciones web, etc.) para asegurar.
 >[!NOTE]
 >
 >Adobe puede ayudar a definir los nombres de dominio y las funciones que deben implicarse. Para obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
@@ -107,7 +124,7 @@ Deberá proporcionar la siguiente información.
 
 | Información que se debe proporcionar | Valor de ejemplo | Nota |
 |--- |--- |--- |
-| País [C] | EE. UU. | Debe ser un código de dos letras. Acceda a la lista completa de países [aquí](https://www.ssl.com/csrs/country_codes/).</br>*Nota: para el Reino Unido, use GB (no el Reino Unido).* |
+| País [C] | EE. UU. | Debe ser un código de dos letras. Obtenga acceso a la lista completa de países [aquí](https://www.ssl.com/csrs/country_codes/).</br>*Nota: para el Reino Unido, use GB (no el Reino Unido).* |
 | Estado (o nombre de provincia) [ST] | Illinois | Si procede. El valor debe ser un nombre completo, no abreviado. |
 | Nombre de ciudad/localidad [L] | Chicago | |
 | Nombre De Organización [O] | ACME | |

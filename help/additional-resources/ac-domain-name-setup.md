@@ -6,9 +6,33 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
+TQID: https://experienceleague.adobe.com/ZSfcx8FGb6eAHVK-PVAjd1354b55o5n3oRfWg4A5vrg
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: 2107
 ht-degree: 2%
 
 ---
@@ -23,7 +47,7 @@ Este documento describe los requisitos comerciales y técnicos para la configura
 
 ## Subdominios
 
-Con el Adobe, el marketing digital puede convertirse en el motor contextual que potencia el programa de marketing de participación del cliente de su marca.  El correo electrónico sigue siendo la base de los programas de marketing digital. Sin embargo, llegar a la bandeja de entrada se ha vuelto más difícil que nunca.
+Con Adobe, el marketing digital puede convertirse en el motor contextual que potencia el programa de marketing de participación del cliente de su marca.  El correo electrónico sigue siendo la base de los programas de marketing digital. Sin embargo, llegar a la bandeja de entrada se ha vuelto más difícil que nunca.
 
 La creación de un subdominio para campañas de correo electrónico permite a las marcas aislar distintos tipos de tráfico (de marketing o corporativo, por ejemplo) en grupos de IP específicos y con dominios específicos, lo que acelera el [proceso de calentamiento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) y mejora la capacidad de envío en general. Si comparte un dominio y se bloquea o se agrega a la lista de bloqueados, podría afectar a su envío de correo corporativo. Sin embargo, los problemas de reputación o los bloqueos en un dominio específico de las comunicaciones de marketing por correo electrónico afectarán solo a ese flujo de correo electrónico.  El uso del dominio principal como remitente o de la dirección &quot;De&quot; para varios flujos de correo electrónico también podría interrumpir la autenticación del correo electrónico, lo que provocaría que los mensajes se bloquearan o se colocaran en la carpeta de correo no deseado.
 
@@ -33,19 +57,19 @@ La delegación de nombres de dominio es un método que permite al propietario de
 
 Esto significa que los servidores DNS de Adobe Campaign tendrán autoridad total solo en esa zona y no en el dominio de nivel superior. Los servidores DNS de Adobe Campaign proporcionarán respuestas autorizadas a consultas sobre nombres de dominio en esa zona, como &quot;t.marketing.example.com&quot;, pero no &quot;www.example.com&quot;.
 
-Al delegar un subdominio para utilizarlo con Adobe Campaign, los clientes pueden confiar en el Adobe para mantener la infraestructura de DNS necesaria para satisfacer los requisitos de capacidad de entrega estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que continúan manteniendo y controlando DNS para sus dominios de correo electrónico internos.  La delegación de subdominios permite:
+Al delegar un subdominio para utilizarlo con Adobe Campaign, los clientes pueden confiar en Adobe para mantener la infraestructura de DNS necesaria para satisfacer los requisitos de capacidad de entrega estándar del sector para sus dominios de envío de marketing por correo electrónico, a la vez que mantienen y controlan el DNS para sus dominios de correo electrónico internos.  La delegación de subdominios permite:
 
 Clientes que deseen conservar su imagen de marca utilizando un alias DNS con sus nombres de dominio
-Adobe de implementar de forma autónoma todas las prácticas recomendadas técnicas para optimizar completamente la capacidad de envío durante el correo electrónico
+Adobe debe implementar de forma autónoma todas las prácticas recomendadas técnicas para optimizar completamente la capacidad de envío durante el envío de correos electrónicos
 
 ## Opciones de configuración de DNS
 
 Para proporcionar un servicio administrado basado en la nube, Adobe recomienda encarecidamente a los clientes que utilicen la delegación de subdominios al implementar Adobe Campaign.  Sin embargo, Adobe ofrece a los clientes una opción alternativa (configuración CNAME) para configurar DNS.
 
-| Opción | Descripción | Responsabilidades del Adobe | Responsabilidades del cliente |
+| Opción | Descripción | Responsabilidades de Adobe | Responsabilidades del cliente |
 |--- |------- |--- |--- |
-| Delegación de subdominios a Adobe Campaign | El cliente delega un subdominio (email.example.com) en el Adobe. En esta situación, Adobe puede ofrecer Campaign como servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para la entrega, el procesamiento y el seguimiento de campañas de correo electrónico. | Administración completa del subdominio y todos los registros DNS necesarios para Adobe Campaign. | Delegación adecuada del subdominio al Adobe |
-| Uso de CNAME | El cliente crea un subdominio y utiliza CNAME para señalar registros específicos del Adobe.  Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS. | Administración de los registros DNS necesarios para Adobe Campaign. | Creación y control del subdominio y creación/administración de los registros CNAME necesarios para Adobe Campaign. |
+| Delegación de subdominios a Adobe Campaign | El cliente delega un subdominio (email.example.com) en Adobe. En esta situación, Adobe puede ofrecer Campaign como servicio administrado controlando y manteniendo todos los aspectos de DNS necesarios para entregar, procesar y rastrear campañas de correo electrónico. | Administración completa del subdominio y todos los registros DNS necesarios para Adobe Campaign. | Delegación adecuada del subdominio a Adobe |
+| Uso de CNAME | El cliente crea un subdominio y utiliza CNAME para señalar registros específicos de Adobe.  Con esta configuración, tanto Adobe como el cliente comparten la responsabilidad de mantener DNS. | Administración de los registros DNS necesarios para Adobe Campaign. | Creación y control del subdominio y creación/administración de los registros CNAME necesarios para Adobe Campaign. |
 
 ## Registros DNS necesarios
 
@@ -53,15 +77,15 @@ Para proporcionar un servicio administrado basado en la nube, Adobe recomienda e
 |--- |--- |--- |
 | MX | Especificar servidores de correo para mensajes entrantes | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Marco de política de remitentes | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
-| DKIM (TXT) | DomainKeys Identified Mail | <i>cliente._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| Hosts Registros (A) | Páginas espejo, alojamiento de imágenes y vínculos de seguimiento, todos los dominios de envío | m.email.example.com EN A 123.111.100.99</br>t.email.example.com EN A 123.111.100.98</br>email.example.com EN A 123.111.100.97 |
+| DKIM (TXT) | DomainKeys Identified Mail | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
+| Hosts Registros (A) | Páginas espejo, alojamiento de imágenes y vínculos de seguimiento, todos los dominios de envío | m.email.example.com EN UN 123.111.100.99</br>t.email.example.com EN UN 123.111.100.98</br>email.example.com EN UN 123.111.100.97 |
 | DNS inverso (PTR) | Asigna las direcciones IP del cliente a un nombre de host de marca del cliente | Puntero de nombre de dominio 18.101.100.192.in-addr.arpa r18.email.example.com |
 | CNAME | Proporciona un alias a otro nombre de dominio | t1.email.example.com es un alias para t1.email.example.campaign.adobe.com |
 
 
-Se recomienda Autenticación de mensajes, creación de informes y conformidad basados en dominio (DMARC) para autenticar a los remitentes de correo y garantizar que los sistemas de correo electrónico de destino confíen en los mensajes enviados desde su dominio.
+Se recomienda la autenticación de mensajes, creación de informes y conformidad (DMARC) basadas en dominio para autenticar a los remitentes de correo y garantizar que los sistemas de correo electrónico de destino confíen en los mensajes enviados desde su dominio.
 
-Ejemplo de registro TXT DMARC:
+Ejemplo de registro TXT de DMARC:
 
 ```
 _dmarc.email.example.com
@@ -69,13 +93,13 @@ _dmarc.email.example.com
 “v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
 ```
 
-Puede implementar DMARC manualmente o ponerse en contacto con el Adobe para que le ayude a configurar DMARC para su marca.
+Puede implementar DMARC manualmente o ponerse en contacto con Adobe para que le ayude a configurar DMARC para su marca.
 
 ## Requisitos de configuración
 
 ### Delegación de subdominios
 
-Esto requiere que el cliente cree un subdominio en sus servidores DNS y defina los servidores de nombres para este subdominio como los que mantiene el Adobe.  Por ejemplo, un cliente cuyo nombre de dominio principal sea &quot;example.com&quot; y que desee delegar la administración de &quot;marketing.example.com&quot; al Adobe para sus envíos de correo electrónico tendrá que materializar esta delegación para agregar los siguientes registros de tipo a su DNS:
+Esto requiere que el cliente cree un subdominio en sus servidores DNS y defina los servidores de nombres para este subdominio como los que mantiene Adobe.  Por ejemplo, un cliente cuyo nombre de dominio principal sea &quot;example.com&quot; y que desee delegar la administración de &quot;marketing.example.com&quot; a Adobe para sus envíos de correo electrónico tendrá que materializar esta delegación para agregar los siguientes registros de tipo a su DNS:
 
 ```
 marketing.example.com. NS a.ns.campaign.adobe.com.
@@ -86,17 +110,17 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 La delegación de un nombre de dominio implica que este dominio estará dedicado a enviar correo electrónico a través de la plataforma Adobe Campaign y, por lo tanto, no se puede utilizar para otros medios (por ejemplo, enviar correo electrónico desde otra infraestructura de correo electrónico).
 
-Durante el proceso de configuración, el Adobe se asegurará de que el dominio esté adjunto a la infraestructura de correo electrónico entrante de Adobe para administrar y procesar los correos electrónicos de rebote que regresan a estos dominios (configuración de registro DNS de tipo MX).
+Durante el proceso de configuración, Adobe se asegurará de que el dominio esté conectado a la infraestructura de correo electrónico entrante de Adobe para administrar y procesar los correos electrónicos de rebote que regresan a estos dominios (configuración de registro DNS de tipo MX).
 
 ### Uso de CNAME
 
-Si el cliente decide utilizar CNAME en lugar de delegar un subdominio al Adobe, durante la fase de configuración, el Adobe proporcionará los registros que se colocarán en los servidores DNS del cliente y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.
+Si el cliente decide utilizar CNAME en lugar de delegar un subdominio a Adobe, durante la fase de configuración, Adobe proporcionará los registros que se colocarán en los servidores DNS del cliente y configurará los valores correspondientes en los servidores DNS de Adobe Campaign.
 
 ## Requisitos generales para la implementación
 
 Al implementar una nueva solución de marketing empresarial, existen requisitos para los componentes externos.  Estos incluyen el alojamiento de páginas de destino y formularios web, la configuración de vínculos y páginas web para rastrear, la visualización de páginas espejo y la configuración de una página de exclusión.
 
-Aunque estos requisitos se administran mediante componentes alojados por el Adobe y el cliente, incluyen direcciones URL que pueden ver los destinatarios de los correos electrónicos.  Para evitar tener direcciones URL que indiquen la solución técnica subyacente o el proveedor de alojamiento, se pueden configurar subdominios para que esto sea transparente para los destinatarios de los correos electrónicos.  Por ejemplo, cuando se mira una dirección URL como, http://www.customer.com/, el dominio sería &quot;www.customer.com&quot;.  El subdominio de esto sería &quot;www&quot;.
+Aunque estos requisitos se administran mediante componentes alojados por Adobe y el cliente, incluyen direcciones URL que pueden ver los destinatarios de los correos electrónicos.  Para evitar tener direcciones URL que indiquen la solución técnica subyacente o el proveedor de alojamiento, se pueden configurar subdominios para que esto sea transparente para los destinatarios de los correos electrónicos.  Por ejemplo, cuando se mira una dirección URL como, http://www.customer.com/, el dominio sería &quot;www.customer.com&quot;.  El subdominio de esto sería &quot;www&quot;.
 
 ### Requisitos de subdominio
 
@@ -104,14 +128,14 @@ Determine los subdominios que se utilizarán para las direcciones URL con marca 
 
 Complete la tabla siguiente, la primera línea es solo un ejemplo.
 
-| Subdomain | Dirección de origen | De nombre | Dirección de respuesta |
+| Subdominio | Dirección de origen | Nombre de remitente | Dirección de respuesta |
 |--- |--- |--- |--- |
 | emails.customer.com | news@emails.customer.com | Cliente | customercare@customer.com |
 | </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
->* El propósito del campo &quot;Dirección de respuesta&quot; es cuando desea que el destinatario responda a una dirección diferente a la &quot;Dirección de origen&quot;.  Aunque no es un campo obligatorio, el Adobe recomienda encarecidamente que la &quot;Dirección de respuesta&quot; sea válida y esté vinculada a un buzón supervisado.  El cliente debe alojar este buzón.  Podría ser un buzón de asistencia, por ejemplo, customercare@customer.com, donde se leen y responden los correos electrónicos.
+>* El propósito del campo &quot;Dirección de respuesta&quot; es cuando desea que el destinatario responda a una dirección diferente a la &quot;Dirección de origen&quot;.  Aunque no es un campo obligatorio, Adobe recomienda encarecidamente que la &quot;Dirección de respuesta&quot; sea válida y esté vinculada a un buzón supervisado.  El cliente debe alojar este buzón.  Podría ser un buzón de asistencia, por ejemplo, customercare@customer.com, donde se leen y responden los correos electrónicos.
 >* Si el cliente no elige ninguna &quot;Dirección de respuesta&quot;, la dirección predeterminada siempre es `<tenant>-<type>-<env>@<subdomain>`.
 >* Cuando la &quot;Dirección de respuesta&quot; está configurada de esta manera, las respuestas se envían a un buzón no supervisado.
 >* Al enviar correos electrónicos desde Adobe Campaign, el buzón &quot;Dirección de origen&quot; no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón.
@@ -119,7 +143,7 @@ Complete la tabla siguiente, la primera línea es solo un ejemplo.
 
 ## Delegación de subdominios
 
-Los subdominios seleccionados para su uso en la plataforma Adobe Campaign deben delegarse creando cuatro registros de servidor de nombres (NS).  Esto permite delegar correctamente el subdominio al Adobe.  A continuación se muestra un ejemplo de una delegación de subdominios y las instrucciones DNS correspondientes.  Sustituya &quot;emails.customer.com&quot; por el subdominio que desee delegar.  Tenga en cuenta que el subdominio debe ser único y no puede estar siendo utilizado por otra parte (por ejemplo, un ESP o MSP existente).
+Los subdominios seleccionados para su uso en la plataforma Adobe Campaign deben delegarse creando cuatro registros de servidor de nombres (NS).  Esto permite delegar correctamente el subdominio a Adobe.  A continuación se muestra un ejemplo de una delegación de subdominios y las instrucciones DNS correspondientes.  Sustituya &quot;emails.customer.com&quot; por el subdominio que desee delegar.  Tenga en cuenta que el subdominio debe ser único y no puede estar siendo utilizado por otra parte (por ejemplo, un ESP o MSP existente).
 
 | Subdominio delegado | Instrucciones DNS |
 |--- |--- |
@@ -139,7 +163,7 @@ Una vez que los subdominios de envío de correo electrónico se hayan delegado c
 
 Esto solo se aplica si Adobe Campaign Classic está completamente alojado en la nube por Adobe.  Es una configuración opcional.
 
-Cualquier encuesta, formulario web y página de aterrizaje que se vaya a desarrollar se administra mediante Adobe Campaign totalmente alojado en la nube.  Si es necesario, se puede delegar un subdominio adicional al Adobe (por ejemplo, web.customer.com) para utilizarlo con cualquier componente web dentro de la herramienta.  Tenga en cuenta que el subdominio debe ser único y no puede ser utilizado por otra parte (por ejemplo, un ESP o MSP existente).
+Cualquier encuesta, formulario web y página de aterrizaje que se vaya a desarrollar se administra mediante Adobe Campaign totalmente alojado en la nube.  Si es necesario, se puede delegar un subdominio adicional a Adobe (por ejemplo, web.customer.com) para utilizarlo con cualquier componente web dentro de la herramienta.  Tenga en cuenta que el subdominio debe ser único y no puede ser utilizado por otra parte (por ejemplo, un ESP o MSP existente).
 
 | Subdominio delegado | Instrucciones DNS |
 |--- |--- |
@@ -159,7 +183,7 @@ Se requiere una configuración DNS CNAME adicional para implementar componentes 
 
 Los cortafuegos también deberán configurarse para permitir el acceso a la instancia de marketing de Adobe Campaign que aloja estos componentes web (en el puerto 80 o 443).
 
-**Práctica recomendada en Recommendations:**
+**Recomendaciones de prácticas recomendadas:**
 
 El subdominio para alojar componentes web será visible para los clientes, por lo que asegúrese de que tiene la marca correcta y es fácil de recordar, ya que es posible que deba escribirse manualmente, por ejemplo: https://web.customer.com.
 Si es necesario alojar algún formulario en páginas seguras (HTTPS), se requerirá una configuración técnica adicional, como se describe a continuación.
@@ -170,12 +194,12 @@ Si es necesario alojar algún formulario en páginas seguras (HTTPS), se requeri
 
 ## Servicios representados
 
-Después de estas delegaciones, la infraestructura puesta en marcha por el Adobe garantiza que se realicen los siguientes servicios para cada dominio de envío delegado o con alias CNAME:
+Después de estas delegaciones, la infraestructura configurada por Adobe garantiza que se realicen los siguientes servicios para cada dominio de envío delegado o con alias CNAME:
 
 * Creación de las bandejas de entrada postmaster@ y abuse@
 * Configuración de bucles de comentarios para el dominio delegado
-* Si se solicita, el Adobe también configurará un registro DMARC como se especifica. Su consultor de capacidad de entrega puede ayudarle a diseñar una política DMARC a largo plazo y a planificar sus dominios de envío.
-Los parámetros definidos por el Adobe solo son válidos desde el momento en que se completó la delegación y luego se verificaron mediante el Adobe, y siguen funcionando.  Todas las ofertas de Adobe Campaign Cloud incluyen la delegación de nombres de dominio como estándar.
+* Si se solicita, Adobe también configurará un registro de DMARC según se haya especificado. Su consultor de capacidad de entrega puede ayudarle a diseñar una política de DMARC a largo plazo y a planificar sus dominios de envío.
+Los parámetros establecidos por Adobe solo son válidos desde el momento en que se completó la delegación y luego Adobe los verificó, y siguen funcionando.  Todas las ofertas de Adobe Campaign Cloud incluyen la delegación de nombres de dominio como estándar.
 
 ## Condiciones de facturación e implementación
 
@@ -189,11 +213,11 @@ Estas delegaciones serán aceptadas siempre que el CLIENTE elija los nombres de 
 
 En cualquier momento, el CLIENTE podrá realizar una petición por escrito para no seguir beneficiándose de los servicios de delegación y asumir por sí mismo las configuraciones de DNS necesarias.
 
-Si esto sucede, Adobe proporcionará al CLIENTE una estimación que detalla el número de días de servicio necesarios para volver al modo de delegación de dominios no permitidos.
+Si esto sucede, Adobe proporciona al CLIENTE una estimación que detalla la cantidad de días de servicio necesarios para volver al modo de delegación de dominios no permitidos.
 
-El Adobe quedará exento de cualquier responsabilidad por la contratación de la citada Tasa de Entrega si el Cliente no cumple con los compromisos establecidos anteriormente.
+Adobe se exonerará de cualquier responsabilidad por la participación de la tasa de entrega mencionada anteriormente si el cliente no cumple con los compromisos establecidos anteriormente.
 
-La terminación del servicio de Marketing Cloud llevará automáticamente al final de las delegaciones de dominio y al mantenimiento de DNS para esos dominios por Adobe.
+La finalización del servicio de Marketing Cloud llevará automáticamente al fin de las delegaciones de dominio y al mantenimiento de DNS para esos dominios por parte de Adobe.
 
 ## Supervisión de subdominios mediante el Panel de control de Campaign
 
@@ -205,4 +229,4 @@ Para obtener más información, consulte la [documentación dedicada](https://ex
 
 >[!NOTE]
 >
->El [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) está disponible para los clientes que solamente utilizan Adobe Managed Services.
+>El [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) está disponible para los clientes que solo usan Adobe Managed Services.

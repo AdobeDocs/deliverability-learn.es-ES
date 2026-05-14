@@ -10,16 +10,27 @@ role: Admin
 level: Beginner
 team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/d-g20BCwyBJuEoiyccvHXRWxoEKSsxAkUPYV2Dw6OPw
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 16%
+source-wordcount: 161
+ht-degree: 17%
 
 ---
 
 # Consideraciones específicas del ISP durante el calentamiento de la IP
 
-Los ISP tienen diferentes reglas y diferentes formas de ver el tráfico. Por ejemplo, Gmail es uno de los ISP más sofisticados porque examinan la participación de forma muy estricta (aperturas y clics), además de todas las demás medidas de reputación. Esto requiere un plan personalizado que solo se dirija a los usuarios con mayor participación al principio. Otros ISP también pueden requerir lo mismo. Póngase en contacto con el consultor del equipo de entrega de Adobes para obtener un plan específico.
+Los ISP tienen diferentes reglas y diferentes formas de ver el tráfico. Por ejemplo, Gmail es uno de los ISP más sofisticados porque examinan la participación de forma muy estricta (aperturas y clics), además de todas las demás medidas de reputación. Esto requiere un plan personalizado que solo se dirija a los usuarios con mayor participación al principio. Otros ISP también pueden requerir lo mismo. Póngase en contacto con su consultor del equipo de entrega de Adobe para obtener un plan específico.
 
 Consulte la sección [Detalles del proveedor de servicios de Internet](/help/internet-service-provider-specifics/overview.md) para obtener más información sobre las diferencias importantes entre los siguientes grupos de proveedores seleccionados:
 

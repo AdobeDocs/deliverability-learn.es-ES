@@ -6,9 +6,26 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
+TQID: https://experienceleague.adobe.com/dPuoipUKH36RSGUfhzOV1Xhu9qQTLYV4zu6Vw0Be-xY
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: 1162
 ht-degree: 0%
 
 ---
@@ -25,7 +42,7 @@ BIMI no mejora directamente la capacidad de envío ni su reputación. Puede ayud
 
 ## ¿Cómo se ve?
 
-Puede encontrar algunos ejemplos de implementaciones de diferentes proveedores y más detalles sobre los proveedores que muestran el logotipo en la página del [Grupo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
+Puede encontrar algunos ejemplos de implementaciones de diferentes proveedores y más detalles sobre qué proveedores muestran el logotipo en la página de [BIMI Group](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## ¿Quién es el Grupo BIMI?
 
@@ -47,11 +64,11 @@ La implementación de BIMI viene en varios pasos:
 
 1. Implementación de DMARC (Autenticación de mensajes, creación de informes y conformidad basados en dominio) en el nivel de aplicación tanto para el dominio de envío como para su dominio organizativo: [Más información](#dmarc)
 
-1. Creación del logotipo de su marca en el formato TinyPS de SVG: [Más información](#create-brand-logo)
+1. Creación del logotipo de su marca en el formato SVG TinyPS - [Más información](#create-brand-logo)
 
 1. Suscribirse a un certificado de marca verificada (solo se necesita para algunos proveedores) - [Más información](#vmc)
 
-1. Publish crea un registro DNS BIMI con el logotipo y el certificado: [Más información](#publish-bimi-record)
+1. Publicar un registro DNS BIMI con el logotipo y el certificado: [Más información](#publish-bimi-record)
 
 1. Tener una buena reputación - [Más información](#good-reputation)
 
@@ -62,9 +79,9 @@ La implementación de BIMI viene en varios pasos:
 
 ### DMARC {#dmarc}
 
-DMARC es un estándar que permite a la marca decidir qué debe hacer un proveedor de buzones de correo con un correo electrónico que no supera la [autenticación](../additional-resources/authentication.md). Las llamadas políticas van desde &quot;ninguno&quot; sobre &quot;cuarentena&quot; (ubicación de carpetas de spam) a &quot;rechazado&quot; (bloqueo directo del correo). Solo estas dos últimas políticas se denominan &quot;cumplimiento&quot; y cumplen los requisitos para BIMI. El correo enviado por Adobe pasa la autenticación, ya que SPF (Marco de políticas del remitente) y DKIM (Correo identificado por claves de dominio) están configurados de forma predeterminada. El Adobe está configurando DMARC en su dominio de envío si se solicita.
+DMARC es un estándar que permite a la marca decidir qué debe hacer un proveedor de buzones de correo con un correo electrónico que no supera la [autenticación](../additional-resources/authentication.md). Las llamadas políticas van desde &quot;ninguno&quot; sobre &quot;cuarentena&quot; (ubicación de carpetas de spam) a &quot;rechazado&quot; (bloqueo directo del correo). Solo estas dos últimas políticas se denominan &quot;cumplimiento&quot; y cumplen los requisitos para BIMI. El correo enviado por Adobe pasa la autenticación, ya que SPF (Entorno de políticas de remitentes) y DKIM (Domain Keys Identified Mail) están configurados de forma predeterminada. Adobe está configurando DMARC en su dominio de envío si se solicita.
 
-Además de DMARC en el dominio de envío, DMARC también debe emplearse en el nivel de aplicación para el dominio organizativo (si el dominio de envío es news.example.com, example.com es el dominio organizativo).
+Además de DMARC en el dominio de envío, DMARC también debe emplearse en el nivel de aplicación para el dominio de organización (si el dominio de envío es news.example.com, example.com es el dominio de organización).
 
 ### Creación del logotipo de su marca {#create-brand-logo}
 
@@ -72,7 +89,7 @@ La creación del logotipo debe seguir los requisitos al 100%. Consulte siempre l
 
 El logotipo debe almacenarse en una ubicación segura (HTTPS), en caso de que se utilice una red de distribución de contenido (CDN), debe desactivarse cualquier protección que impida que los proveedores de buzones de correo obtengan el logotipo (por ejemplo, protección de bots).
 
-Además de los requisitos técnicos, hay algunas recomendaciones prácticas como tener un logotipo cuadrado, tener un color sólido como fondo y otros. Estas recomendaciones sirven para una mejor visualización. Algunos proveedores tienen sus propios requisitos, que son adicionales a los del grupo de trabajo BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} por ejemplo requiere que el logotipo tenga al menos 96 x 96 píxeles.
+Además de los requisitos técnicos, hay algunas recomendaciones prácticas como tener un logotipo cuadrado, tener un color sólido como fondo y otros. Estas recomendaciones sirven para una mejor visualización. Algunos proveedores tienen sus propios requisitos, que son adicionales a los del grupo de trabajo BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}, por ejemplo, requiere que el logotipo tenga al menos 96 x 96 píxeles.
 Tenga en cuenta que el incumplimiento puede hacer que no se muestre el logotipo.
 
 ### Certificado de marca verificada (VMC) {#vmc}
@@ -97,7 +114,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 &quot;PEM URL&quot; es la ubicación de archivo del certificado de marca verificada.
 
-Para el dominio de envío, esto debe hacerse por Adobe.
+Para el dominio de envío, esto debe hacerlo Adobe.
 
 ### Buena reputación {#good-reputation}
 
@@ -105,12 +122,12 @@ La confianza es clave para BIMI. El usuario confía en que su proveedor de buzon
 
 Incluso pasar por el esfuerzo y los gastos de un VMC no quita esta parte. Si el proveedor del buzón no confía en la marca, no se mostrará el logotipo.
 
-## Sugerencias y trucos
+## Pestaña Sugerencias y trucos
 
 * El Grupo BIMI ofrece una práctica herramienta de validación para BIMI. Si desea comprobar si todo está configurado y listo, o solo desea ver si el logotipo es compatible, vaya a [este vínculo](https://bimigroup.org/bimi-generator/){target="_blank"}. Para este último solo haga clic en **[!UICONTROL Generate BIMI]** e introduzca un dominio de marcador de posición, pero la dirección URL del logotipo sea correcta. El inspector le dirá si el logotipo es compatible.
 
 * Puede comenzar con seguridad sin un VMC, no hay daño en su reputación si su registro BIMI no incluye una URL de VMC, pero el logotipo ya se puede mostrar en Yahoo.
 
-* La implementación de DMARC a nivel organizativo es una empresa grande. Algunas empresas están especializadas en ayudar a las marcas a lograr una adopción completa de DMARC.
+* La implementación de DMARC a nivel organizativo es una empresa grande. Algunas empresas están especializadas en ayudar a las marcas a lograr una adopción total de DMARC.
 
-* Se ha publicado [aquí](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"} una lista exhaustiva de las preguntas más frecuentes.
+* Se publica [aquí](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"} una lista extensa de las preguntas más frecuentes.

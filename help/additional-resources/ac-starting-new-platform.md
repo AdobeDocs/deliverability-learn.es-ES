@@ -6,10 +6,31 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/cQa5nOTSJwxDGX-QkXGez5dpm5N-8I7QZ-LsEW0FRLo
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 57%
+source-wordcount: 666
+ht-degree: 53%
 
 ---
 
@@ -29,7 +50,7 @@ No se puede esperar alcanzar la velocidad operativa en términos de salida al in
 
 A continuación se enumeran los principios principales que deben seguirse al iniciar una nueva plataforma.
 
-* Configure un subdominio específico para las campañas de correo electrónico enviadas desde el Adobe.
+* Configure un subdominio específico para las campañas de correo electrónico enviadas desde Adobe.
 
 * Si tiene esta información, **importe direcciones no válidas en la tabla de cuarentenas**.
 El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcciones por primera vez y puede que no esté completamente cualificada. Si envía a direcciones no válidas o a direcciones de honeypot, esto contribuye a disminuir la reputación de la plataforma.
@@ -54,13 +75,13 @@ Para obtener más información sobre los principios enumerados anteriormente y s
 
 **Adobe Campaign Classic**
 
-* [Optimizar su envío mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=es#optimizing-your-delivery-through-quarantines)
-* [Identificar direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=es#identifying-quarantined-addresses-for-the-entire-platform)
+* [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Identificación de direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
 * [Envío mediante múltiples olas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#sending-using-multiple-waves)
-* [Supervisión de entregas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages)
+* [Monitorización de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages)
 
 **Adobe Campaign Standard**
 
-* [Optimizar su envío mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es#optimizing-your-delivery-through-quarantines)
-* [Identificar direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es)
+* [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es#optimizing-your-delivery-through-quarantines)
+* [Identificación de direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es)
 * [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)

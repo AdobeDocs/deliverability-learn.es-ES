@@ -8,9 +8,19 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/KG0GoucZ5XT-U2VHzaH1DschMaYb62EJvYzordlrw1E
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 576
 ht-degree: 0%
 
 ---
@@ -30,7 +40,7 @@ Estos son algunos elementos clave que se deben tener en cuenta al crear el corre
 **Envíe su mensaje lo antes posible**
 Si ofrece una promoción, es probable que su nuevo suscriptor esté esperando en el sitio web para recibir el correo electrónico antes de realizar su compra. Un retraso de 5-10 minutos aquí puede significar una venta perdida. Incluso si no tiene una promoción, actualmente están expresando interés en su marca. Por lo tanto, es necesario interactuar con ellos mientras su interés es máximo en lugar de arriesgarse más tarde.
 
-**Crear líneas de asunto y encabezados predeterminados seguros**
+**Crear líneas de asunto y encabezados previos sólidos**
 No solo tiene que agradecerles por registrarse, sino que también tiene que captar su atención y darles una razón para querer abrir el correo electrónico. No olvide poner en marcha el espacio adicional del encabezado previo para defender su causa.
 
 **Establecer expectativas**
@@ -45,5 +55,5 @@ Tienes mucho que decir y un oído entusiasta en tu nuevo suscriptor. Pero tu pri
 **Enviar una serie de correos electrónicos**
 Como se ha indicado anteriormente, tiene mucho que decir a una audiencia atenta. La creación de una serie completa de bienvenida (3-5 correos electrónicos) le permite mantener cada uno de ellos al grano mientras sigue cubriendo toda la información que desea compartir. También fomenta el interés continuo del suscriptor, lo que conduce a una participación positiva continua, una mayor reputación y una mejor capacidad de entrega.
 
-**Obtener datos personales**
+**Obtener información personal**
 Si va a enviar una serie de correos electrónicos de bienvenida, utilice uno de ellos para mostrar el toque personal. Utilice la información que haya recopilado al registrarse o al comprar para mostrar cómo puede hacer que su experiencia sea única y más valiosa para ellos. Si todavía no ha recopilado ningún dato, aproveche esta oportunidad para mostrar lo que podría hacer si se le da la oportunidad. A continuación, pídale la información que necesite para enriquecer su experiencia.

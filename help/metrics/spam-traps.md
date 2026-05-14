@@ -8,9 +8,26 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: ht
-source-wordcount: '495'
+TQID: https://experienceleague.adobe.com/qandgsfuAA4E9uHfZ0jrgpkjs-kt9Izs8k-HvtgDF7A
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -23,7 +40,7 @@ Existen trampas de correo no deseado para identificar el correo de remitentes fr
 
 Las trampas de correo no deseado recicladas son direcciones que una vez fueron válidas, pero que ya no se utilizan. Una forma clave de mantener las listas lo más limpias posible es enviar con regularidad correos electrónicos a toda la lista y suprimir correctamente los correos electrónicos devueltos. Esto ayuda a que las direcciones de correo electrónico abandonadas se pongan en cuarentena y no se sigan usando.
 
-En algunos casos, una dirección puede reciclarse en un plazo de 30 días. El envío regular es un aspecto vital para el mantenimiento correcto de las listas, junto con la supresión regular de los usuarios inactivos. **Las campañas de renovación de participación** suelen formar parte de programas de marketing por correo electrónico sofisticados. Este estilo de campaña permite al remitente intentar recuperar usuarios a los que, de otro modo, ya no se les enviarían correos.
+En algunos casos, una dirección puede reciclarse en un plazo de 30 días. El envío regular es un aspecto vital del buen mantenimiento de las listas, junto con la supresión regular de los usuarios inactivos. **Las campañas de renovación de participación** suelen formar parte de programas de marketing por correo electrónico sofisticados. Este estilo de campaña permite al remitente intentar recuperar usuarios a los que, de otro modo, ya no se les enviarían correos.
 
 ## Error tipográfico
 
