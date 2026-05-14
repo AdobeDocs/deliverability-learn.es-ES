@@ -10,9 +10,15 @@ role: Admin, Leader
 level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27id: c5f60233-d5ea-4453-a799-0ad258b4d399id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 923
 ht-degree: 2%
 
 ---
@@ -25,7 +31,7 @@ La capacidad de envío exitosa depende de una base sólida. La infraestructura d
 
 Los tiempos han cambiado, y algunos ISP (como Gmail y Yahoo) ahora incorporan la reputación de dominio como un punto adicional a la hora de adjuntar la reputación de correo electrónico a un remitente. Su reputación de dominio se basa en el dominio de envío, en lugar de en la dirección IP. Esto significa que su marca tiene prioridad cuando se trata de decisiones de filtrado de ISP.
 
-Parte del proceso de incorporación de nuevos remitentes en las plataformas de Adobe incluye la configuración de los dominios de envío y garantizar que la infraestructura se establezca correctamente. Debe trabajar con un experto en los dominios que planea utilizar a largo plazo. A continuación se ofrecen algunas sugerencias para definir una buena estrategia de dominio:
+Parte del proceso de incorporación de nuevos remitentes a las plataformas de Adobe incluye la configuración de los dominios de envío y garantizar que la infraestructura de se establezca correctamente. Debe trabajar con un experto en los dominios que planea utilizar a largo plazo. A continuación se ofrecen algunas sugerencias para definir una buena estrategia de dominio:
 
 * Sea lo más claro y reflexivo posible de la marca con el dominio que elija, de modo que los usuarios no identifiquen incorrectamente el correo como correo no deseado. Algunos ejemplos son newsletter.foo.com, receipts.foo.com, etc.
 * No debe utilizar su dominio principal o corporativo, ya que podría afectar al envío de correo de su organización a los ISP.
@@ -36,18 +42,18 @@ Parte del proceso de incorporación de nuevos remitentes en las plataformas de A
 
 Es importante formar una estrategia de PI bien estructurada que ayude a establecer una reputación positiva. El número de direcciones IP y la configuración varían según el modelo empresarial y los objetivos de marketing. Trabaje con un experto para desarrollar una estrategia clara para comenzar bien. Tenga en cuenta lo siguiente:
 
-* déclencheur **Demasiadas direcciones IP** pueden causar problemas de reputación, ya que es una táctica común de los remitentes de correo no deseado para **snowshoe**, que es una táctica utilizada por los remitentes de correo no deseado en la que el tráfico se propaga a través de muchas direcciones IP para maximizar el envío de correo no deseado. Aunque no sea un remitente de spam, podría parecer uno si utiliza demasiadas direcciones IP, especialmente si esas direcciones IP no han tenido tráfico anterior.
+* **Demasiadas direcciones IP** pueden causar problemas de reputación, ya que es una táctica común de los remitentes de correo no deseado para **snowshoe**, que es una táctica utilizada por los remitentes de correo no deseado en la que el tráfico se propaga a través de muchas direcciones IP para maximizar el envío de correo no deseado. Aunque no sea un remitente de spam, podría parecer uno si utiliza demasiadas direcciones IP, especialmente si esas direcciones IP no han tenido tráfico anterior.
 * **Muy pocas direcciones IP** pueden causar problemas de rendimiento y potencialmente problemas de reputación de déclencheur. El rendimiento varía según el ISP. La cantidad y la rapidez con que un ISP está dispuesto a aceptar suelen basarse en su infraestructura y en el envío de umbrales de reputación.
 * La separación del tráfico para los tipos de mensajería es clave. Es importante, como mínimo, separar el marketing y el correo transaccional en grupos de IP independientes.
 * En función de su estrategia de correo electrónico, también puede ser aconsejable separar diferentes productos o flujos de marketing en diferentes grupos de IP si su reputación es drásticamente diferente. Algunos especialistas en marketing también segmentan por región. La separación de la IP para el tráfico con una reputación más baja no corregirá el problema de reputación, pero evitará problemas con las entregas de correo electrónico de &quot;buena&quot; reputación. Después de todo, no quieres sacrificar tu buena audiencia por una más riesgosa.
 
 ## Bucles de comentarios {#feedback-loops}
 
-Entre bastidores, las plataformas de Adobe están procesando datos con respecto a devoluciones, quejas, cancelaciones de suscripción y más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante señalar que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
+Entre bastidores, las plataformas Adobe están procesando datos sobre devoluciones, quejas, cancelaciones de suscripción y mucho más. La configuración de estos bucles de comentarios es un aspecto importante para la capacidad de envío. Las quejas pueden dañar una reputación, por lo que debe enviar direcciones de correo electrónico que registren quejas de la audiencia de destino. Es importante señalar que Gmail no devuelve estos datos. Los encabezados de cancelación de suscripción a listas y el filtrado de participación son especialmente importantes para los suscriptores de Gmail, que ahora comprenden la mayoría de las bases de datos de suscriptores.
 
 ## Autenticación {#authentication}
 
-La autenticación es el proceso que utilizan los ISP para validar la identidad de un remitente. Los dos protocolos de autenticación más comunes son [!DNL Sender Policy Framework] (SPF) y [!DNL DomainKeys Identified Mail] (DKIM). No son visibles para el usuario final, pero ayudan a los ISP a filtrar el correo electrónico de los remitentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) está ganando popularidad, aunque todos los ISP aún no han incorporado sus directivas en sus sistemas de reputación.
+La autenticación es el proceso que utilizan los ISP para validar la identidad de un remitente. Los dos protocolos de autenticación más comunes son [!DNL Sender Policy Framework] (SPF) y [!DNL DomainKeys Identified Mail] (DKIM). No son visibles para el usuario final, pero ayudan a los ISP a filtrar el correo electrónico de los remitentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) está ganando popularidad, aunque sus políticas aún no han sido incorporadas por todos los ISP en sus sistemas de reputación.
 
 ### SPF
 
@@ -55,7 +61,7 @@ La autenticación es el proceso que utilizan los ISP para validar la identidad d
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM) es un método de autenticación que se usa para detectar direcciones de remitente falsificadas (comúnmente llamado suplantación de identidad). Si DKIM está habilitado, permite al destinatario confirmar si el remitente está autorizado para enviar correo desde ese dominio.
+[!DNL Domain Keys Identified Mail] (DKIM) es un método de autenticación que se usa para detectar direcciones de remitente falsificadas (comúnmente denominado suplantación de identidad). Si DKIM está habilitado, permite al destinatario confirmar si el remitente está autorizado para enviar correo desde ese dominio.
 
 ### DMARC
 
@@ -66,8 +72,8 @@ La autenticación es el proceso que utilizan los ISP para validar la identidad d
 **Campaign**
 
 * Aprenda a delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/additional-resources/ac-domain-name-setup.md).
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
 * Obtenga más información sobre cómo implementar un bucle de comentarios para una instancia de Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Recursos adicionales

@@ -8,10 +8,16 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 3%
+source-wordcount: 1670
+ht-degree: 5%
 
 ---
 
@@ -49,7 +55,7 @@ Además de añadir los campos para los datos que desea recopilar sobre sus nuevo
 
 ## Calidad e higiene de los datos
 
-La recopilación de datos es solo parte del desafío. También debe asegurarse de que los datos sean precisos y se puedan utilizar. Debe disponer de filtros de formato básicos. Una dirección de correo electrónico no es válida si no incluye &quot;@&quot; o &quot;&quot;. por ejemplo. Asegúrese de no permitir direcciones de alias comunes, que también se denominan cuentas de funciones (como &quot;información&quot;, &quot;administrador&quot;, &quot;ventas&quot;, &quot;asistencia&quot;, etc.). Las cuentas de funciones pueden presentar riesgos porque, por su naturaleza, el destinatario contiene un grupo de personas en lugar de un único suscriptor. Las expectativas y la tolerancia pueden variar dentro de un grupo, lo que conlleva el riesgo de quejas, participación variable, cancelaciones de suscripción y confusión general.
+La recopilación de datos es solo parte del desafío. También debe asegurarse de que los datos sean precisos y se puedan utilizar. Debe disponer de filtros de formato básicos. Una dirección de correo electrónico no es válida si no incluye &quot;@&quot; o &quot;.&quot;, por ejemplo. Asegúrese de no permitir direcciones de alias comunes, que también se denominan cuentas de funciones (como &quot;información&quot;, &quot;administrador&quot;, &quot;ventas&quot;, &quot;asistencia&quot;, etc.). Las cuentas de funciones pueden presentar riesgos porque, por su naturaleza, el destinatario contiene un grupo de personas en lugar de un único suscriptor. Las expectativas y la tolerancia pueden variar dentro de un grupo, lo que conlleva el riesgo de quejas, participación variable, cancelaciones de suscripción y confusión general.
 
 Estas son algunas soluciones a problemas comunes que puede encontrar con los datos de su dirección de correo electrónico:
 
@@ -59,7 +65,7 @@ Estas son algunas soluciones a problemas comunes que puede encontrar con los dat
 El DOI consiste en enviar un correo electrónico de confirmación a la dirección de correo electrónico del suscriptor que se ha suscrito a su programa de correo electrónico, que contiene un vínculo en el que se debe hacer clic para confirmar el consentimiento. Con este método de adquisición, si el suscriptor no confirma, el remitente no le enviará más correos electrónicos. Informe a los nuevos suscriptores de que está haciendo esto en el sitio web, animándolos a completar la suscripción antes de continuar. Este método sí observa una reducción en el número de inscripciones, pero las personas que sí se inscriben tienden a estar muy comprometidas y a permanecer a largo plazo. Generalmente resulta en un retorno de la inversión mucho mayor para el remitente.
 
 **Campo oculto**
-La aplicación de un campo oculto en el formulario de registro es una buena manera de diferenciar los registros de bots automatizados de los suscriptores humanos reales. Dado que el campo de datos no está visible ni oculto en el código del HTML, un bot introducirá datos en los que un humano no lo haría. Con este método, puede generar reglas para suprimir cualquier registro que incluya datos rellenados en ese campo oculto.
+La aplicación de un campo oculto en el formulario de registro es una buena manera de diferenciar los registros de bots automatizados de los suscriptores humanos reales. Como el campo de datos no está visible ni oculto en el código HTML, un bot introducirá datos en los que un ser humano no lo haría. Con este método, puede generar reglas para suprimir cualquier registro que incluya datos rellenados en ese campo oculto.
 
 **[!DNL re-CAPTCHA] es un método de validación que puede utilizar para reducir las posibilidades de que el suscriptor sea un bot y no una persona real. Existen varias versiones, algunas de las cuales contienen identificación de palabras clave o imágenes. Algunas versiones son más efectivas que otras y lo que se obtiene en seguridad y prevención de problemas de capacidad de entrega es mucho más alto que cualquier impacto negativo en las conversiones.
 
@@ -73,7 +79,7 @@ Consulte a sus abogados para interpretar las leyes locales y nacionales relativa
 
 ## Otros métodos de colección de listas no recomendados
 
-Existen muchas otras formas de recopilar direcciones, cada una con sus propias oportunidades, desafíos e inconvenientes. El Adobe no recomienda estos métodos en general, ya que el uso a menudo se restringe a través de políticas de uso aceptables del proveedor. Veamos algunos ejemplos comunes, para que pueda conocer los peligros que le ayudarán a limitar o evitar los riesgos:
+Existen muchas otras formas de recopilar direcciones, cada una con sus propias oportunidades, desafíos e inconvenientes. Adobe no recomienda estos elementos en general, ya que el uso suele restringirse mediante directivas de uso aceptables del proveedor. Veamos algunos ejemplos comunes, para que pueda conocer los peligros que le ayudarán a limitar o evitar los riesgos:
 
 **Comprar o alquilar una lista**
 Existen muchos tipos de direcciones de correo electrónico. Correo electrónico principal, correos electrónicos de trabajo, correos electrónicos escolares, correos electrónicos secundarios y correos electrónicos inactivos, por nombrar algunos. Los tipos de direcciones recopiladas y compartidas a través de listas compradas o alquiladas rara vez son cuentas de correo electrónico principales, que son donde se produce casi toda la participación y la actividad de compra.
@@ -94,7 +100,7 @@ Los sorteos proporcionan grandes cantidades de direcciones de correo electrónic
 
 **Adobe Campaign Classic**
 
-* [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in)
+* [Creación de un formulario de suscripción con inclusión doble](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 

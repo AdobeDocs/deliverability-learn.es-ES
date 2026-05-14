@@ -6,10 +6,17 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
+TQID: https://experienceleague.adobe.com/Y58eIzSpKUV-B-MiQ-6KNkk31tg1M6Bg27ZqGv-DESc
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b0bb9048-d951-48d8-8232-45cf248a7e27id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: c5f60233-d5ea-4453-a799-0ad258b4d399id: d1d0a9cd-295d-4976-8c39-ddae266f240eid: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdbid: f82558ea-6af5-44eb-a424-5b3389abb0a3id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 48%
+source-wordcount: 2168
+ht-degree: 46%
 
 ---
 
@@ -39,11 +46,11 @@ Más concretamente, se utilizan para controlar la velocidad a la que el MTA de A
 
 >[!NOTE]
 >
->Para obtener más información sobre la administración MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=es#mx-configuration).
+>Para obtener más información sobre la administración MX en Adobe Campaign Classic, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
-TLS (Transport Layer Security) es un protocolo de codificación que se puede utilizar para asegurar la conexión entre dos servidores de correo electrónico y proteger el contenido de un correo electrónico evitar que lo lean destinatarios no previstos.
+TLS (Transport Layer Security) es un protocolo de cifrado que se puede utilizar para asegurar la conexión entre dos servidores de correo electrónico y proteger el contenido de un correo electrónico evitar que lo lean destinatarios no previstos.
 
 ### Dominio del remitente {#sender-domain}
 
@@ -69,7 +76,7 @@ v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 
 define las dos direcciones IP, 12.34.56.78 y 12.34.56.79, como autorizadas para enviar correos electrónicos para el dominio. **~all** significa que cualquier otra dirección debe interpretarse como SoftFail.
 
-Recommendations para definir un registro SPF:
+Recomendaciones para definir un registro SPF:
 
 * Agregue **~todos** (SoftFail) o **-todos** (Fail) al final para rechazar todos los servidores que no sean los definidos. Sin esto, los servidores podrán forjar este dominio (con una evaluación Neutral).
 * No agregue **ptr** (openspf.org recomienda evitar esto por ser costoso y poco confiable).
@@ -88,14 +95,14 @@ Recommendations para definir un registro SPF:
 
 >[!NOTE]
 >
->Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=es#sending-messages), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
+>Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), este crea la firma de autenticación de correo electrónico DKIM para todos los mensajes con todos los dominios.
 
-El uso de [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
+Usar [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic requiere el siguiente requisito previo:
 
-**declaración de opciones de Adobe Campaign**: en Adobe Campaign, la clave privada DKIM se basa en un selector DKIM y un dominio. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
+**declaración de opciones de Adobe Campaign**: en Adobe Campaign, la clave privada de DKIM se basa en un selector de DKIM y un dominio. Actualmente no es posible crear múltiples claves privadas para el mismo dominio/subdominio con distintos selectores. No se puede definir qué dominio/subdominio de selector se debe utilizar para la autenticación en ninguna plataforma o en el correo electrónico. La plataforma selecciona una de las claves privadas, lo que significa que la autenticación tiene una mayor probabilidad de fallo.
 
-* Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#email-management-rules). Si no es así, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys (que reemplazó a DKIM).
-* No es necesario activar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
+* Si ha configurado DomainKeys para la instancia de Adobe Campaign, solo debe seleccionar **dkim** en las [Reglas de administración de dominios](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Si no es así, siga los mismos pasos de configuración (clave privada/pública) que para DomainKeys (que reemplazó a DKIM).
+* No es necesario habilitar DomainKeys y DKIM para el mismo dominio, ya que DKIM es una versión mejorada de DomainKeys.
 * Los siguientes dominios actualmente validan DKIM: AOL, Gmail.
 
 ## Bucle de comentarios {#feedback-loop-acc}
@@ -195,11 +202,11 @@ También puede utilizar una dirección dinámica. Por ejemplo, para enviar un co
 
 ![Imagen](../assets/List-Unsubscribe-template-SMTP.png)
 
-#### Creación de una regla de tipología {#creating-a-typology-rule}
+#### Crear una regla de tipología {#creating-a-typology-rule}
 
 La regla debe contener la secuencia que genera la línea de comandos y debe incluirse en el encabezado del correo electrónico.
 
-Aprenda a crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es#typology-rules).
+Aprenda a crear reglas de tipología en Adobe Campaign v7/v8 en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 >[!NOTE]
 >
@@ -215,9 +222,9 @@ Para cumplir con este requisito, los remitentes deben:
 
 * Agregue la siguiente línea de comandos: `List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 * Incluir un vínculo de cancelación de suscripción de URI.
-* Compatibilidad con la recepción de la respuesta del POST HTTP del receptor, compatible con Adobe Campaign. También puede utilizar un servicio externo.
+* Compatibilidad con la recepción de la respuesta HTTP POST del receptor, compatible con Adobe Campaign. También puede utilizar un servicio externo.
 
-Para admitir la respuesta del POST One-Click List-Unsubscribe directamente en Adobe Campaign v7/v8, debe añadir en la aplicación web &quot;Unsubscribe recipients no-click&quot;. Para ello:
+Para admitir la respuesta POST Cancelar la suscripción a una lista de un clic directamente en Adobe Campaign v7/v8, debe agregar en la aplicación web &quot;Cancelar la suscripción de destinatarios sin hacer clic&quot;. Para ello:
 
 1. Vaya a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
@@ -274,7 +281,7 @@ Para configurar la cancelación de la suscripción a una lista con un solo clic 
    >Se debe hacer referencia al código que se describe a continuación solo como ejemplo.
 
    Este ejemplo detalla cómo:
-   * Configure una Lista &quot;mailto&quot;: Cancelar suscripción. Agregará los encabezados o adjuntará los parámetros &quot;mailto:&quot; existentes y los reemplazará por: &lt;mailto..>, https://...
+   * Configure una Lista &quot;mailto&quot;: Cancelar suscripción. Agregará los encabezados o adjuntará los parámetros &quot;mailto:&quot; existentes y los reemplazará con: &lt;mailto..>, https://...
    * Agregue en el encabezado Lista-Cancelar suscripción de un solo clic. Utiliza `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
 
    >[!NOTE]
