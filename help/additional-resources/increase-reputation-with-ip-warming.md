@@ -73,7 +73,7 @@ Enviar grandes cantidades de correo electrónico desde una IP o IP completamente
 
 Este es el componente más importante para administrar y aumentar una lista de correo electrónico de suscriptores. A medida que las leyes antispam crecen y se vuelven más completas a nivel internacional, debería ser el objetivo principal de un experto en marketing garantizar que haya recibido un consentimiento explícito (o expreso) de cada suscriptor en su lista. Es decir, cada suscriptor ha aceptado activamente recibir correos electrónicos de su marca. Esto difiere del consentimiento implícito en el que una persona se añade a una lista de correo electrónico después de realizar una acción que no incluía la suscripción explícita a un programa de correo electrónico.
 
-Más información sobre la [Política de uso aceptable de Adobe](https://www.adobe.com/legal/terms/aup.html).
+Más información sobre la [Política de uso aceptable de Adobe](https://www.adobe.com/es/legal/terms/aup.html).
 
 ## Métricas de reputación: ¿qué buscan los ISP?
 
