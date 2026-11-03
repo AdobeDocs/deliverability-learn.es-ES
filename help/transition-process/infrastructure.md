@@ -12,12 +12,12 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: '923'
 ht-degree: 2%
-
 ---
-
 # Infraestructura
 
 La capacidad de envío exitosa depende de una base sólida. La infraestructura de correo electrónico es un elemento central. Una infraestructura de correo electrónico construida correctamente incluye varios componentes, a saber, dominios y direcciones IP. Estos componentes son como la maquinaria detrás de los correos electrónicos que envía y a menudo son el ancla del envío de reputación. Los consultores en capacidad de envío garantizan que estos elementos se configuren correctamente durante la implementación, pero debido al elemento de reputación, es importante que tenga esta comprensión básica.
@@ -98,8 +96,8 @@ La autenticación es el proceso que utilizan los ISP para validar la identidad d
 **Campaign**
 
 * Aprenda a delegar completamente un subdominio a Adobe Campaign Classic o Standard en [esta sección](/help/additional-resources/ac-domain-name-setup.md).
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
-* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=es) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Classic.*
+* [Panel de control de Campaign: delegación de subdominios completa (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Aprenda a delegar completamente un subdominio a Adobe Campaign Standard.*
 * Obtenga más información sobre cómo implementar un bucle de comentarios para una instancia de Campaign Classic en [esta sección](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Recursos adicionales

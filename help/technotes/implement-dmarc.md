@@ -7,12 +7,12 @@ level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 TQID: https://experienceleague.adobe.com/gvO7rHqY-Dm6nUq9ssccY7Kt1xobV-pqLc26iITgmRA
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: e2290edd-b061-4880-9d79-dee306cf5aa9
     internal-label: Implementation
@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1326'
 ht-degree: 9%
-
 ---
-
 # Implementar [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
 El propósito de este documento es proporcionar al lector más información sobre el método de autenticación de correo electrónico, DMARC. Al explicar cómo funciona DMARC y sus distintas opciones de directiva, los lectores entenderán mejor el impacto de DMARC en la capacidad de envío de correo electrónico.
@@ -127,7 +125,7 @@ Los registros de DMARC tienen varios componentes denominados etiquetas de DMARC.
 
 >[!NOTE]
 >
->Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Obtenga información sobre cómo implementar registros de DMARC mediante el Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=es).
+>Si la instancia de Campaign está alojada en AWS, puede implementar DMARC para los subdominios con el Panel de control de Campaign. [Obtenga información sobre cómo implementar registros de DMARC mediante el Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Un motivo común de los errores de DMARC es la falta de alineación entre las direcciones &quot;De&quot; y &quot;Errores a&quot; o &quot;Ruta de retorno&quot;. Para evitarlo, al configurar DMARC, se recomienda comprobar la configuración de las direcciones &quot;De&quot; y &quot;Errores a&quot; en las plantillas de envío.
 

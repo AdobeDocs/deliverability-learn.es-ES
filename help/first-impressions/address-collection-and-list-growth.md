@@ -10,10 +10,10 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 5%
@@ -104,10 +104,10 @@ Existen muchas otras formas de recopilar direcciones, cada una con sus propias o
 **Comprar o alquilar una lista**
 Existen muchos tipos de direcciones de correo electrónico. Correo electrónico principal, correos electrónicos de trabajo, correos electrónicos escolares, correos electrónicos secundarios y correos electrónicos inactivos, por nombrar algunos. Los tipos de direcciones recopiladas y compartidas a través de listas compradas o alquiladas rara vez son cuentas de correo electrónico principales, que son donde se produce casi toda la participación y la actividad de compra.
 
-Si tienes suerte, obtienes cuentas secundarias, donde la gente busca ofertas y ofertas cuando están listos para comprar algo. Esto suele dar como resultado niveles de participación bajos, si los hay. Si no tiene suerte, la lista está llena de correos electrónicos inactivos, que ahora podrían ser trampas de correo no deseado. A menudo, recibe una combinación de correos electrónicos secundarios e inactivos. En general, la calidad de estos tipos de listas hace más daño que bien a un programa de correo electrónico. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/es/legal/terms/aup.html).
+Si tienes suerte, obtienes cuentas secundarias, donde la gente busca ofertas y ofertas cuando están listos para comprar algo. Esto suele dar como resultado niveles de participación bajos, si los hay. Si no tiene suerte, la lista está llena de correos electrónicos inactivos, que ahora podrían ser trampas de correo no deseado. A menudo, recibe una combinación de correos electrónicos secundarios e inactivos. En general, la calidad de estos tipos de listas hace más daño que bien a un programa de correo electrónico. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Listas anexadas**
-Estos son clientes que han elegido interactuar con su marca, lo cual es genial. Pero eligieron emplear un método distinto al correo electrónico (en la tienda, en las redes sociales, etc.). No pudieron ser receptivos a recibir un correo electrónico no solicitado de usted y también pueden estar preocupados por cómo obtuvo su dirección de correo electrónico, ya que no la proporcionaron. Este método tiene el riesgo de convertir a un cliente o cliente potencial que se involucra con su marca en un detractor que ya no confía en su marca y va a su competencia en su lugar. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/es/legal/terms/aup.html).
+Estos son clientes que han elegido interactuar con su marca, lo cual es genial. Pero eligieron emplear un método distinto al correo electrónico (en la tienda, en las redes sociales, etc.). No pudieron ser receptivos a recibir un correo electrónico no solicitado de usted y también pueden estar preocupados por cómo obtuvo su dirección de correo electrónico, ya que no la proporcionaron. Este método tiene el riesgo de convertir a un cliente o cliente potencial que se involucra con su marca en un detractor que ya no confía en su marca y va a su competencia en su lugar. Esta práctica está prohibida por la [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Feria comercial u otra colección de eventos**
 La recopilación de direcciones en un stand o a través de otro método oficial de marca clara puede ser útil. El riesgo es que muchos eventos como este recopilen todas las direcciones y las distribuyan a través del promotor o anfitrión del evento. Lo que significa que los propietarios de estas direcciones de correo electrónico nunca solicitaron recibir correos electrónicos de su marca. Es probable que estos suscriptores se quejen y marquen su correo como correo no deseado y es posible que no hayan proporcionado información de contacto precisa.

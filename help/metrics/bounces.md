@@ -10,12 +10,12 @@ team: ACS
 exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 TQID: https://experienceleague.adobe.com/0Gly4dAgTpfrmnFD3N-RphZf9vmctJ57fMi1hSmfMTg
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
     internal-label: Reporting
@@ -32,13 +32,11 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 100%
-
 ---
-
 # Devoluciones
 
 Las devoluciones son el resultado de un intento de entrega y un error en el que el ISP proporciona avisos de error de devolución. El procesamiento de la manipulación de devoluciones es una parte esencial del estado de la lista. Una vez que un correo electrónico determinado ha rebotado varias veces, este proceso indica su supresión. La cantidad y el tipo de devoluciones necesarios para activar la supresión varían de un sistema a otro. Este proceso evita que los sistemas continúen enviando a direcciones de correo electrónico no válidas. Las devoluciones son uno de los datos clave que los ISP utilizan para determinar la reputación de la IP. Es muy importante vigilar esta métrica. &quot;Entregado&quot; frente a &quot;devuelto&quot; es probablemente la forma más común de medir el envío de mensajes de marketing: cuanto mayor sea el porcentaje de entrega, mejor.

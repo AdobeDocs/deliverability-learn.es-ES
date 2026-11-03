@@ -12,12 +12,12 @@ team: TM
 exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
 TQID: https://experienceleague.adobe.com/6RrdVnQp69iMHQ6tcdB7peoGqC6FqHH8v4dQDXrAPqY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
     internal-label: Resources
@@ -29,13 +29,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: '210'
 ht-degree: 10%
-
 ---
-
 # Prácticas recomendadas de contenido para una entrega óptima
 
 El contenido es clave. Ya ha leído nuestra perspectiva sobre la relevancia, pero aquí hay algunas sugerencias adicionales para optimizar la capacidad de envío en cuanto a contenido:
@@ -48,8 +46,8 @@ El contenido es clave. Ya ha leído nuestra perspectiva sobre la relevancia, per
 
 **Campaign Classic**
 
-* [Control del contenido del mensaje](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=es)
+* [Control del contenido del mensaje](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
 
 **Campaign Standard**
 
-* [Control del contenido del correo electrónico](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=es#testing-and-sending)
+* [Control del contenido del correo electrónico](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)

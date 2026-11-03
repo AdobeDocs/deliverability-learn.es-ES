@@ -8,12 +8,12 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 TQID: https://experienceleague.adobe.com/ZSfcx8FGb6eAHVK-PVAjd1354b55o5n3oRfWg4A5vrg
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -48,20 +48,18 @@ topic_v2:
     internal-label: Email marketing
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 2107
+source-wordcount: '2119'
 ht-degree: 2%
-
 ---
-
 # Configuración del nombre de dominio
 
 Este documento describe los requisitos comerciales y técnicos para la configuración y delegación de nombres de dominio. Debe seleccionar un subdominio de envío de correo electrónico y, opcionalmente, un subdominio externo para alojar componentes web (páginas de aterrizaje, página de exclusión) para la plataforma de Adobe que esté utilizando.
 
 >[!NOTE]
 >
->También puede configurar nuevos subdominios mediante el Panel de control de Campaign (disponible como beta). Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es#must-read).
+>También puede configurar nuevos subdominios mediante el Panel de control de Campaign (disponible como beta). Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
 
 ## Subdominios
 
@@ -243,7 +241,7 @@ Una vez configurados los subdominios para la instancia, puede monitorizarlos con
 
 Esto le permite ver todos los subdominios que delegó en Adobe Campaign, así como solicitar la renovación de sus certificados SSL.
 
-Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es#subdomains-and-certificates).
+Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html#subdomains-and-certificates).
 
 >[!NOTE]
 >

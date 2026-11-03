@@ -11,12 +11,12 @@ team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
 TQID: https://experienceleague.adobe.com/JU2Mswl8hi0LmTN9XQAUn2n0I4Ye4xpdKK5PnPuL9dY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: '473'
 ht-degree: 0%
-
 ---
-
 # [!DNL Gmail]
 
 [!DNL Gmail] constituye la mayor parte de las listas de correo electrónico de la mayoría de los remitentes. También tienden a tratar el correo electrónico de forma un poco diferente a todos los demás.
@@ -59,7 +57,7 @@ A continuación se muestran algunos aspectos destacados:
 
 [!DNL Gmail] rastrea la reputación de la IP, el dominio e incluso la marca. Cambiar su IP o dominio (o ambos) no le permitirá sacudirse fácilmente una mala reputación. Una solución rápida o creativa puede ser tentadora, pero es mucho más eficaz asignar tiempo y esfuerzo a corregir la raíz de un problema de reputación para obtener ganancias de ubicación en la bandeja de entrada.
 
-## Insights
+## Datos
 
 [!DNL Gmail] ve a los suscriptores comprometidos de manera diferente a como lo hacen tradicionalmente la mayoría de los remitentes. Un remitente puede definir una lista activa o comprometida como alguien que ha abierto un correo electrónico en un plazo de 30, 90 o 180 días (según el modelo empresarial). [!DNL Gmail], por otro lado, observa la frecuencia con la que sus usuarios interactúan con sus mensajes.
 

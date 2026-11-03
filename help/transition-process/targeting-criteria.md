@@ -12,12 +12,12 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 TQID: https://experienceleague.adobe.com/TPAHWvztP0NQNBYnixqOpIoWXdhb6ak1ypeTZJvSSHs
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -31,13 +31,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 13%
-
 ---
-
 # Criterios de segmentación
 
 Al enviar nuevo tráfico, solo se dirige a los usuarios con mayor participación durante las fases iniciales del calentamiento de la IP. Esto ayuda a establecer una reputación positiva desde el principio para generar confianza de forma eficaz antes de llegar a sus audiencias menos comprometidas. Esta es una fórmula básica para la participación:
@@ -50,8 +48,8 @@ Normalmente, una tasa de participación se basa en un período de tiempo especí
 
 **Analytics**
 
-* [Cómo aumentar las tasas de participación y retención (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=es#mobile-app-analytics): *Identifique las audiencias que interactúan mediante su comportamiento con cohortes y conozca las causas subyacentes que generan problemas en las aplicaciones móviles. Utilice algoritmos de ciencia de datos en Segment IQ para conocer las diferencias y similitudes entre los segmentos.*
+* [Cómo aumentar las tasas de participación y retención (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique las audiencias que interactúan mediante su comportamiento con cohortes y conozca las causas subyacentes que generan problemas en las aplicaciones móviles. Utilice algoritmos de ciencia de datos en Segment IQ para conocer las diferencias y similitudes entre los segmentos.*
 
 **Campaign Standard**
 
-* [Correos electrónicos con tecnología de IA: puntuación de participación predictiva](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=es#predictive-scoring)
+* [Correos electrónicos con tecnología de IA: puntuación de participación predictiva](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
