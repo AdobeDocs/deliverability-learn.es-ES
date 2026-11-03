@@ -12,12 +12,12 @@ team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 TQID: https://experienceleague.adobe.com/0cwY27ArgkAVUOuF8aE4-qwaGpCq1dv-5S8mkdLQXhg
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -44,13 +44,11 @@ topic_v2:
     internal-label: Email marketing
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '855'
 ht-degree: 100%
-
 ---
-
 # Estrategia y definición de entrega
 
 El diseño de campañas de marketing por correo electrónico exitosas depende de tener una comprensión clara de los objetivos de marketing, ya sean para iniciativas de clientes potenciales o de administración de la relación con los clientes (CRM, por sus siglas en inglés). Esto ayuda a determinar a quién dirigirse, qué promover y cuándo enviar.
@@ -119,7 +117,7 @@ Estos son algunos factores importantes para la tasa de clics:
 
 * Correo electrónico enviado, aterrizado en la bandeja de entrada y abierto
 * CTA fuerte
-   * Esta es la acción principal que quiere conseguir de su público. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
+  * Esta es la acción principal que quiere conseguir de su público. Suele ser un clic en una dirección URL. Asegúrese de que sea claro y fácil de encontrar para el usuario.
 * Relevancia o valor del contenido
 
 ### Paso 5: Conversión

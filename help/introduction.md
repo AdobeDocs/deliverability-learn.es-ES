@@ -11,12 +11,12 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 TQID: https://experienceleague.adobe.com/DJri5ynJJTd6RG2MDH4EqamoEnjT1Jg3-ilM9fZqA0M
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '461'
 ht-degree: 100%
-
 ---
-
 # Introducción a las prácticas recomendadas de entregabilidad
 
 La entregabilidad de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. Los ISP tienen una necesidad constante de evitar a los remitentes de correo no deseado, por lo que están obligados a desarrollar técnicas de filtrado sofisticadas para proteger a sus clientes. Los remitentes de correo electrónico pueden quedar atrapados involuntariamente en esos esfuerzos. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a su público.

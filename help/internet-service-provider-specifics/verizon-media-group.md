@@ -11,12 +11,12 @@ team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
 TQID: https://experienceleague.adobe.com/ycELLXdqC1E3EIxywp-I1HWnSyWayRHcwkNOzmzSBvY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 3%
-
 ---
-
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon, etc.)
 
 [!DNL Verizon Media Group] suele ser uno de los tres dominios principales de la mayoría de las listas B2C. Se comportan de forma única, ya que generalmente limitan o envían correos masivos si surgen problemas de reputación.
@@ -55,6 +53,6 @@ VMG tiene un FBL utilizado para enviar información de quejas a los remitentes. 
 
 La reputación de un remitente está formada por una combinación de dirección IP, dominio y dirección remitente. La reputación se calcula mediante los componentes tradicionales, que incluyen quejas, trampas de correo no deseado, direcciones inactivas o mal formadas y participación. VMG utiliza la limitación de velocidad (también conocida como limitación) junto con la carpeta masiva para defenderse del spam. Complementan sus sistemas de filtrado internos con algunas listas negras de [!DNL Spamhaus], incluidas la PBL, SBL y XBL para proteger a sus usuarios.
 
-## Insights
+## Datos
 
 VMG tiene períodos de mantenimiento regulares para direcciones de correo electrónico antiguas, inactivas últimamente. Esto significa que es común observar un aumento significativo de devoluciones de direcciones no válidas, lo que puede afectar a la tasa de entrega durante un corto período de tiempo. También son sensibles a las altas tasas de devoluciones de direcciones no válidas de un remitente, lo que indica una necesidad de endurecer las políticas de adquisición o participación. Los remitentes a menudo pueden experimentar un impacto negativo en alrededor del 1 por ciento de direcciones no válidas.

@@ -12,12 +12,12 @@ team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 TQID: https://experienceleague.adobe.com/piIfp9yQkAa1F1bkO9zM7PcOConZhTrwARo4Y8wtMsQ
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
     internal-label: Programs
@@ -31,13 +31,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # Volumen
 
 El volumen de correo que está enviando es crítico para establecer una reputación positiva. Póngase en el lugar de un ISP: si empieza a ver mucho tráfico de alguien que no conoce, sería alarmante. Enviar un gran volumen de correo de inmediato es arriesgado y seguro que causará problemas de reputación que a menudo son difíciles de resolver. Puede resultar frustrante, laborioso y costoso salir de una mala reputación y de los problemas de bloqueo y envío masivo resultantes de enviar demasiado pronto.
@@ -54,7 +52,7 @@ Esta es una lista de sugerencias para realizar la transición sin problemas:
 * **Supervise su cuenta de correo electrónico de respuesta**. Es una mala experiencia para el cliente usar noreply@xyz.com o no responder.
 * Las direcciones inactivas pueden tener un impacto negativo en la capacidad de entrega. **Reactiva y vuelve a autorizar tu plataforma actual**, no tus nuevas IP.
 * **Dominios**: use un dominio de envío que sea un subdominio del dominio real de su compañía
-   * Por ejemplo, si el dominio de la empresa es xyz.com, email.xyz.com proporciona más credibilidad a los ISP que xyzemail.com
+  * Por ejemplo, si el dominio de la empresa es xyz.com, email.xyz.com proporciona más credibilidad a los ISP que xyzemail.com
 * **Transparencia**: los detalles de registro de tu dominio de correo electrónico deben estar disponibles de manera pública y no deben ser privados.
 
 En muchas circunstancias, el correo transaccional no sigue el enfoque tradicional de calentamiento promocional. Obviamente, es difícil controlar el volumen del correo transaccional debido a su naturaleza, ya que generalmente requiere la interacción del usuario para almacenar en déclencheur el contacto del correo electrónico. En algunos casos, el correo transaccional simplemente se puede transferir sin un plan formal. En otros casos, puede ser mejor realizar la transición de cada tipo de mensaje con el tiempo para aumentar lentamente el volumen. Por ejemplo, es posible que desee realizar la transición de la siguiente manera:

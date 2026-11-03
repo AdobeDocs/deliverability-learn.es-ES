@@ -8,12 +8,12 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 TQID: https://experienceleague.adobe.com/NsX4YXwncyoIMoPbzNY2YA0bwTmOccNt19GaBFVT4qk
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: c5f60233-d5ea-4453-a799-0ad258b4d399
     internal-label: Database
@@ -27,13 +27,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '442'
 ht-degree: 1%
-
 ---
-
 # Todo acerca de las trampas de correo no deseado
 
 Una [trampa de correo no deseado](/help/metrics/spam-traps.md) es una dirección válida, sin mensaje de error cuando se envían correos electrónicos a. Una trampa de correo no deseado tiene una misión principal: identificar a los remitentes de correo no deseado o a los remitentes sin proceso de higiene de los datos.
@@ -61,13 +59,13 @@ La base de datos de direcciones de correo electrónico contiene una trampa de co
 Estos pocos puntos le ayudan a comprobar sus procesos:
 
 * Disfunción de recolección:
-   * ¿De dónde provienen sus direcciones de correo electrónico? ¿Cuántas fuentes se utilizan para recopilar estas direcciones? ¿Es usted capaz de identificarlos? ¿Interno/registro?
-   * ¿Funciona correctamente su sistema de inclusión?
-   * ¿Ha comprobado los dominios y el alias de sus direcciones? ¡Hazlo con la tabla de abajo!
+  * ¿De dónde provienen sus direcciones de correo electrónico? ¿Cuántas fuentes se utilizan para recopilar estas direcciones? ¿Es usted capaz de identificarlos? ¿Interno/registro?
+  * ¿Funciona correctamente su sistema de inclusión?
+  * ¿Ha comprobado los dominios y el alias de sus direcciones? ¡Hazlo con la tabla de abajo!
 * Proceso de higiene de base de datos:
-   * ¿Cuál es su proceso con respecto a la dirección inactiva en los últimos 12 meses?
-   * ¿Está procesando una cuarentena de rechazos leves como &quot;usuario inactivo&quot;?
-   * ¿Cuándo fue la última vez que cuidó la base de datos e intentó limpiarla? Hágalo con regularidad.
+  * ¿Cuál es su proceso con respecto a la dirección inactiva en los últimos 12 meses?
+  * ¿Está procesando una cuarentena de rechazos leves como &quot;usuario inactivo&quot;?
+  * ¿Cuándo fue la última vez que cuidó la base de datos e intentó limpiarla? Hágalo con regularidad.
 
 ## Alias y dominios que se deben evitar
 

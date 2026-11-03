@@ -8,12 +8,12 @@ team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
     internal-label: Configuration
@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: '2377'
 ht-degree: 4%
-
 ---
-
 # Proceso de solicitud de certificado SSL
 
 Una vez que haya delegado un dominio a Adobe para enviar correo electrónico (consulte [Configuración de nombres de dominio](/help/additional-resources/ac-domain-name-setup.md)), Adobe creará y utilizará ciertos subdominios para funciones específicas.
@@ -164,10 +162,10 @@ También puede usar el comando *OpenSSL* localmente en un equipo Linux.
 Una vez proporcionado el archivo CSR, debe adquirir y generar un certificado SSL para los dominios adecuados mediante el archivo CSR.
 
 * El certificado SSL:
-   * debe estar en formato Apache PEM;
-   * no debe superar los 2048 bits;
-   * debe estar firmado por una CA (entidad de certificación) válida;
-   * debe incluir todas las SAN (nombres alternativos del sujeto) como se menciona en el archivo CSR.
+  * debe estar en formato Apache PEM;
+  * no debe superar los 2048 bits;
+  * debe estar firmado por una CA (entidad de certificación) válida;
+  * debe incluir todas las SAN (nombres alternativos del sujeto) como se menciona en el archivo CSR.
 * Si hay uno o más certificados intermedios, debe proporcionar el certificado raíz y todos los certificados intermedios a Adobe.
 * Puede establecer cualquier período de validez del certificado, pero Adobe recomienda elegirlo el tiempo suficiente (por ejemplo, dos años).
 

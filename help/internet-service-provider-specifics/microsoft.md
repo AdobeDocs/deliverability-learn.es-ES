@@ -11,12 +11,12 @@ team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
 TQID: https://experienceleague.adobe.com/pbp5vbHUIHSL9zL9gQf4LpIhEYZI1umEesy3czbJx-4
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
     internal-label: Reporting
@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: '335'
 ht-degree: 2%
-
 ---
-
 # [!DNL Microsoft] ([!DNL Hotmail], [!DNL Outlook], [!DNL Windows Live], etc.)
 
 [!DNL Microsoft] es generalmente el segundo o tercer proveedor más grande según la composición de la lista y gestiona el tráfico de forma ligeramente diferente a otros ISP.
@@ -60,7 +58,7 @@ La herramienta de informe de remitente registrada de [!DNL Microsoft], [!DNL Sma
 
 [!DNL Microsoft] se ha centrado tradicionalmente en enviar direcciones IP en sus evaluaciones de reputación y decisiones de filtrado. También están trabajando activamente en ampliar sus capacidades de dominio de envío. Ambos están impulsados en gran medida por los influenciadores de reputación tradicionales, como quejas y trampas de correo no deseado. La capacidad de entrega también puede verse fuertemente influida por el programa Return Path Certification, que tiene requisitos cuantitativos y cualitativos específicos del programa.
 
-## Insights
+## Datos
 
 [!DNL Microsoft] combina todos sus dominios de recepción para establecer y rastrear la reputación de envío. Esto incluye [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live], etc., así como cualquier correo electrónico alojado en Office 365 corporativo. [!DNL Microsoft] puede ser especialmente sensible a las fluctuaciones en el volumen, así que considere la posibilidad de aplicar estrategias específicas para aumentar y reducir desde envíos grandes en lugar de permitir cambios repentinos basados en el volumen.
 

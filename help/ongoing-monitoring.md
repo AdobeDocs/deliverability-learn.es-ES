@@ -12,12 +12,12 @@ team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
 TQID: https://experienceleague.adobe.com/zrkCpEjnQyXA2znBkobiIWDWmw9UbatiRhDxBn6T2D0
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
     internal-label: Reporting
@@ -38,13 +38,11 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: '232'
 ht-degree: 41%
-
 ---
-
 # Monitorización continua
 
 A continuación se indican algunas formas de identificar un posible problema en el que podría necesitar asistencia de expertos:
@@ -60,13 +58,13 @@ A continuación se indican algunas formas de identificar un posible problema en 
 
 * [Monitorización de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es)
 * [Informes de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=es)
-* [Supervisión de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es)
+* [Monitorización de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=es)
 
 **Adobe Campaign Standard**
 
-* [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)
+* [Monitorización de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)
 * [Resumen de envíos](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html?lang=es)
-* [Supervisión de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=es#testing-and-sending)
+* [Monitorización de la entregabilidad](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=es#testing-and-sending)
 
 ## Recursos adicionales
 

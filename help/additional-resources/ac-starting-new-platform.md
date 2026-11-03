@@ -8,12 +8,12 @@ team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
 TQID: https://experienceleague.adobe.com/cQa5nOTSJwxDGX-QkXGez5dpm5N-8I7QZ-LsEW0FRLo
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '668'
 ht-degree: 53%
-
 ---
-
 # Inicio de una nueva plataforma {#starting-new-platform}
 
 Mantener la reputación de su dominio y dirección IP es esencial al configurar una nueva plataforma para utilizarla con Adobe Campaign.
@@ -70,9 +68,9 @@ A continuación se enumeran los principios principales que deben seguirse al ini
 * Si tiene esta información, **importe direcciones no válidas en la tabla de cuarentenas**.
 El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcciones por primera vez y puede que no esté completamente cualificada. Si envía a direcciones no válidas o a direcciones de honeypot, esto contribuye a disminuir la reputación de la plataforma.
 
-   * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de los menús **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
+  * Si tiene una lista de direcciones no válidas, lo mejor es importarla a la tabla de cuarentena antes de enviarla por primera vez. La tabla de cuarentena está disponible a través de los menús **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) y **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
 
-   * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
+  * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
 
 * **Limite la velocidad de rendimiento** limitando el número de equipos. Para obtener más información sobre cómo ajustar esta configuración técnica, póngase en contacto con el administrador de Adobe Campaign.
 
@@ -99,4 +97,4 @@ Para obtener más información sobre los principios enumerados anteriormente y s
 
 * [Optimización de la entrega mediante cuarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es#optimizing-your-delivery-through-quarantines)
 * [Identificación de direcciones en cuarentena para toda la plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=es)
-* [Seguimiento de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)
+* [Monitorización de una entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es)
